@@ -1,0 +1,192 @@
+(kicad_symbol_lib
+  (version 20211014)
+  (generator https://github.com/uPesy/easyeda2kicad.py)
+
+  (symbol "CH32X033F8P6"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (id 0)
+      (at 0 16.51 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "CH32X033F8P6"
+      (id 1)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "CH32X033F8P6:TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL"
+      (id 2)
+      (at 0 -19.05 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://www.lcsc.com/datasheet/C19268290.pdf"
+      (id 3)
+      (at 0 -21.59 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "WCH(南京沁恒)"
+      (id 4)
+      (at 0 -24.13 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "MPN"
+      "CH32X033F8P6"
+      (id 5)
+      (at 0 -26.67 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C19268290"
+      (id 6)
+      (at 0 -29.21 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "CH32X033F8P6_0_1"
+      (rectangle
+        (start -74.93 13.97)
+        (end 74.93 -13.97)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (circle
+        (center -73.66 12.70)
+        (radius 0.38)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at -77.47 11.43 0)
+        (length 2.54)
+        (name "PA6/MISO/T3C1/T1BK_/O1N0/A6" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -77.47 8.89 0)
+        (length 2.54)
+        (name "PA7/MOSI/T3C2/T1C1N_/O2P0/PB0/TX4/T1C2N_/O1P0/A8" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -77.47 6.35 0)
+        (length 2.54)
+        (name "PB1/T1C3N_/RX4/O2N1/A9" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -77.47 3.81 0)
+        (length 2.54)
+        (name "PB7/RST/T1C2N/O2P2" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -77.47 1.27 0)
+        (length 2.54)
+        (name "PC16/UDM/T1C4/TX4_2/I2C_/RX4_5/PC11" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -77.47 -1.27 0)
+        (length 2.54)
+        (name "PC17/UDP/TX4_5/I2C_/RX4_2/T1ET/PC10" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -77.47 -3.81 0)
+        (length 2.54)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -77.47 -6.35 0)
+        (length 2.54)
+        (name "PC18/DIO/TX3_/T2C1N_/T3C2_/I2C_/T1ET_" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -77.47 -8.89 0)
+        (length 2.54)
+        (name "VDD" (effects (font (size 1.27 1.27))))
+        (number "9" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -77.47 -11.43 0)
+        (length 2.54)
+        (name "PA9/MISO_/RX4_1/T2BK_" (effects (font (size 1.27 1.27))))
+        (number "10" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 77.47 -11.43 180)
+        (length 2.54)
+        (name "PA11/SDA/SCK_/RX1_/C2P1" (effects (font (size 1.27 1.27))))
+        (number "11" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 77.47 -8.89 180)
+        (length 2.54)
+        (name "PA10/SCL/TX1_/MOSI_" (effects (font (size 1.27 1.27))))
+        (number "12" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 77.47 -6.35 180)
+        (length 2.54)
+        (name "PC3/T1C4_/T2C1N_/C1N0/C2N1/A13" (effects (font (size 1.27 1.27))))
+        (number "13" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 77.47 -3.81 180)
+        (length 2.54)
+        (name "PA0/T2C1/C1P1/A0" (effects (font (size 1.27 1.27))))
+        (number "14" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 77.47 -1.27 180)
+        (length 2.54)
+        (name "PA1/T2C2/C1O/O1N2/O2N2/A1" (effects (font (size 1.27 1.27))))
+        (number "15" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 77.47 1.27 180)
+        (length 2.54)
+        (name "PA2/TX2/T2C3/O2O1/T2ET_/A2" (effects (font (size 1.27 1.27))))
+        (number "16" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 77.47 3.81 180)
+        (length 2.54)
+        (name "PA3/T2C4/T3C1_/RX2/O1O0/A3" (effects (font (size 1.27 1.27))))
+        (number "17" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 77.47 6.35 180)
+        (length 2.54)
+        (name "PC19/DCK/T2C1_/T3C1_/I2C_/RX3_/C1P0" (effects (font (size 1.27 1.27))))
+        (number "18" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 77.47 8.89 180)
+        (length 2.54)
+        (name "PA4/CS/O2O0/T3C2_/A4" (effects (font (size 1.27 1.27))))
+        (number "19" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 77.47 11.43 180)
+        (length 2.54)
+        (name "PA5/SCK/TX4_1/O2N0/A5" (effects (font (size 1.27 1.27))))
+        (number "20" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+)

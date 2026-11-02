@@ -1,0 +1,6 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "CH32X033F8P6") (type "KiCad") (uri "C:/Users/Anton/Documents/projects/gf180ws2rbz/kicad_libs/CH32X033F8P6.kicad_sym") (options "") (descr ""))
+	(lib (name "MS7210") (type "KiCad") (uri "C:/Users/Anton/Documents/projects/gf180ws2rbz/kicad_libs/MS7210.kicad_sym") (options "") (descr ""))
+	(lib (name "AMS1117-1") (type "KiCad") (uri "C:/Users/Anton/Documents/projects/gf180ws2rbz/kicad_libs/AMS1117-1.kicad_sym") (options "") (descr ""))
+)

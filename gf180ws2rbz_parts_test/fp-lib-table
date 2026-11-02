@@ -1,0 +1,10 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "AMS1117-1") (type "KiCad") (uri "C:/Users/Anton/Documents/projects/gf180ws2rbz/kicad_libs/AMS1117-1.pretty") (options "") (descr ""))
+	(lib (name "AMS1117-3") (type "KiCad") (uri "C:/Users/Anton/Documents/projects/gf180ws2rbz/kicad_libs/AMS1117-3.pretty") (options "") (descr ""))
+	(lib (name "CH32X033F8P6") (type "KiCad") (uri "C:/Users/Anton/Documents/projects/gf180ws2rbz/kicad_libs/CH32X033F8P6.pretty") (options "") (descr ""))
+	(lib (name "HYC06-HDR15B-060") (type "KiCad") (uri "C:/Users/Anton/Documents/projects/gf180ws2rbz/kicad_libs/HYC06-HDR15B-060.pretty") (options "") (descr ""))
+	(lib (name "MS9288C") (type "KiCad") (uri "C:/Users/Anton/Documents/projects/gf180ws2rbz/kicad_libs/MS9288C.pretty") (options "") (descr ""))
+	(lib (name "HDMI-216") (type "KiCad") (uri "C:/Users/Anton/Documents/projects/gf180ws2rbz/kicad_libs/HDMI-216.pretty") (options "") (descr ""))
+	(lib (name "MS7210") (type "KiCad") (uri "C:/Users/Anton/Documents/projects/gf180ws2rbz/kicad_libs/MS7210.pretty") (options "") (descr ""))
+)
