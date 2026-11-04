@@ -7,4 +7,5 @@
 	(lib (name "MS9288C") (type "KiCad") (uri "C:/Users/Anton/Documents/projects/gf180ws2rbz/kicad_libs/MS9288C.pretty") (options "") (descr ""))
 	(lib (name "HDMI-216") (type "KiCad") (uri "C:/Users/Anton/Documents/projects/gf180ws2rbz/kicad_libs/HDMI-216.pretty") (options "") (descr ""))
 	(lib (name "MS7210") (type "KiCad") (uri "C:/Users/Anton/Documents/projects/gf180ws2rbz/kicad_libs/MS7210.pretty") (options "") (descr ""))
+	(lib (name "Anton") (type "KiCad") (uri "C:/Users/Anton/Documents/projects/gf180ws2rbz/kicad_libs/Anton.pretty") (options "") (descr ""))
 )
