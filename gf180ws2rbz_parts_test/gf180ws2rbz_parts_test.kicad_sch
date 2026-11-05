@@ -720,135 +720,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x01"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x01_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -7055,6 +6926,17 @@
 		)
 		(uuid "6ddaed96-a812-4b7a-8e7c-175d05d586f3")
 	)
+	(text "Sensitive\ncrystal pins"
+		(exclude_from_sim no)
+		(at 369.316 241.046 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9842ccb1-8401-4615-a393-1479c6046691")
+	)
 	(text "Optional?"
 		(exclude_from_sim no)
 		(at 39.37 125.984 0)
@@ -7504,6 +7386,10 @@
 		(uuid "0a04d34b-a1b8-4fe0-ac59-03725d97ee6b")
 	)
 	(no_connect
+		(at 367.03 240.03)
+		(uuid "2447a091-7785-4f2e-8509-5e8644a5f159")
+	)
+	(no_connect
 		(at 411.48 124.46)
 		(uuid "5cd2886f-27f5-4177-b31e-758626ea8579")
 	)
@@ -7514,6 +7400,10 @@
 	(no_connect
 		(at 411.48 116.84)
 		(uuid "8cf27a95-2075-4209-b92c-5f74c15f8e6c")
+	)
+	(no_connect
+		(at 367.03 242.57)
+		(uuid "a62ed3de-c0cd-48ff-8425-5799fac7d9ca")
 	)
 	(no_connect
 		(at 411.48 147.32)
@@ -12365,16 +12255,6 @@
 		)
 		(uuid "2b69b390-391f-4f04-b1f6-c62fb6a6f936")
 	)
-	(label "XTALI"
-		(at 367.03 242.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2c143ecb-0458-4114-b1a3-75da54e3ee2a")
-	)
 	(label "HDMI_HPD"
 		(at 274.32 123.19 0)
 		(effects
@@ -13246,7 +13126,7 @@
 		(uuid "dac8e228-4e1b-42ca-899a-386ab607339f")
 	)
 	(label "MCUSEL"
-		(at 236.22 99.06 0)
+		(at 242.57 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13444,16 +13324,6 @@
 			(justify left bottom)
 		)
 		(uuid "fe6f53d2-374a-4b86-97ba-415c11f2d581")
-	)
-	(label "XTALO"
-		(at 367.03 240.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fec61bb5-95bc-4cc3-b0f2-cc289e38e686")
 	)
 	(symbol
 		(lib_id "power:+1V8")
@@ -15788,85 +15658,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 255.27 99.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "412e3802-0de7-4fb2-ad97-88b3197da633")
-		(property "Reference" "J2"
-			(at 257.81 97.7899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MCUSEL"
-			(at 257.81 100.3299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 255.27 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 255.27 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "81beb41c-a9ce-4eb2-99dc-85638a4e89e4")
-		)
-		(instances
-			(project "gf180ws2rbz_parts_test"
-				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V8")
 		(at 350.52 128.27 270)
 		(mirror x)
@@ -16577,7 +16368,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 72.39 135.89 180)
+		(at 55.88 135.89 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16587,7 +16379,7 @@
 		(dnp no)
 		(uuid "511f78f2-ae61-4ce2-b242-cfaa7cc6dcb8")
 		(property "Reference" "C18"
-			(at 73.914 138.684 90)
+			(at 54.356 138.684 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16597,7 +16389,7 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 73.914 132.08 90)
+			(at 54.356 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16607,7 +16399,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 71.4248 132.08 0)
+			(at 56.8452 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16618,7 +16410,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 135.89 0)
+			(at 55.88 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16629,7 +16421,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 72.39 135.89 0)
+			(at 55.88 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17856,7 +17648,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
-		(at 83.82 121.92 0)
+		(at 86.36 121.92 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17864,7 +17657,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "787b37d9-5f74-4d9d-aeac-56b6bdd0f2e4")
 		(property "Reference" "J13"
 			(at 85.09 115.57 0)
@@ -17886,8 +17678,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical"
-			(at 83.82 121.92 0)
+		(property "Footprint" "Anton:Anton-PinSocket_2x02_P2.54mm_Vertical-SolderJumper"
+			(at 86.36 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17898,7 +17690,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 121.92 0)
+			(at 86.36 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17909,7 +17701,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 83.82 121.92 0)
+			(at 86.36 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18843,7 +18635,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 55.88 135.89 180)
+		(at 72.39 135.89 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18853,7 +18646,7 @@
 		(dnp no)
 		(uuid "94fa6240-3cf0-4494-bd38-0f5b4b6355ec")
 		(property "Reference" "C17"
-			(at 57.404 138.684 90)
+			(at 70.866 138.684 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18863,7 +18656,7 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 57.404 132.08 90)
+			(at 70.866 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18873,7 +18666,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 54.9148 132.08 0)
+			(at 73.3552 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18884,7 +18677,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 135.89 0)
+			(at 72.39 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18895,7 +18688,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 55.88 135.89 0)
+			(at 72.39 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23294,6 +23087,7 @@
 	(symbol
 		(lib_id "Device:Crystal_GND24_Small")
 		(at 64.77 128.27 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23301,7 +23095,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e010e443-24ae-40bf-a425-ad2a6b784166")
 		(property "Reference" "Y1"
 			(at 64.77 121.92 0)
