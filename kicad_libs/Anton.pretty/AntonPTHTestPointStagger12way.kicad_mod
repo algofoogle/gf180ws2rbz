@@ -3,11 +3,12 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
+	(descr "Staggered (zig-zag) 12-way test points, 0.7mm diameter pad with 0.2mm through hole, 0.6mm pitch, 1.1mm spacing")
 	(property "Reference" "REF**"
 		(at 0 -2.35 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "fbdd645b-d51f-4938-b7c9-6b7eb658cd83")
+		(uuid "672f286b-3341-4dcf-ab04-1407c3bd25f9")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +20,7 @@
 		(at 0 2.35 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a4c0f83b-59e6-47dd-8830-5f5b418d1145")
+		(uuid "5c949ff2-38e4-43f0-b56f-eec4c067e081")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a1c7fde3-0816-4d21-a1d3-29d055fe3167")
+		(uuid "d71cc41e-b49a-4625-a369-d388dd7b96ec")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7ebea376-3d29-4849-a844-d2c496a9d8b8")
+		(uuid "40c619b0-6d86-43a4-aede-910a6c4d7652")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,7 +55,7 @@
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "42b9a96b-3608-4476-a727-a1582448226c")
+		(uuid "1a80e3d5-aba4-47bb-ae20-c56a04b92aae")
 		(effects
 			(font
 				(size 1 1)
@@ -68,7 +69,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
-		(uuid "c04a0cc5-a2e0-414d-8427-14a6c17acf04")
+		(uuid "e9a01f2f-c2db-42bb-bc39-8896cfd555dc")
 	)
 	(pad "2" thru_hole oval
 		(at -2.7 -0.6)
@@ -77,7 +78,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
-		(uuid "5b7ad3bc-e17d-4de0-9967-57e454f8f01e")
+		(uuid "9c2e2259-f3f4-4efd-8182-51e7efbab71d")
 	)
 	(pad "3" thru_hole oval
 		(at -2.1 0.5)
@@ -86,7 +87,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
-		(uuid "d65473c8-48f2-4840-9fb7-6356b4973a0e")
+		(uuid "14b08174-cf15-40df-8931-9e2b4fa3a1a4")
 	)
 	(pad "4" thru_hole oval
 		(at -1.5 -0.6)
@@ -95,7 +96,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
-		(uuid "6c6152db-c906-4c4c-adec-74e01559fb30")
+		(uuid "a8aaa94b-6f59-4d88-ad17-10f0566ed615")
 	)
 	(pad "5" thru_hole oval
 		(at -0.9 0.5)
@@ -104,7 +105,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
-		(uuid "f893ea71-de94-4983-b6dc-34a007deeb17")
+		(uuid "7f097736-5f57-4cf7-805c-d20cdde07b9f")
 	)
 	(pad "6" thru_hole oval
 		(at -0.3 -0.6)
@@ -113,7 +114,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
-		(uuid "bb910805-10eb-41d1-b2d6-36ade0eb859e")
+		(uuid "e0ff121d-6cd0-4233-950c-e3951a0fd092")
 	)
 	(pad "7" thru_hole oval
 		(at 0.3 0.5)
@@ -122,7 +123,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
-		(uuid "9f79f220-22ee-4928-91b8-0439be645571")
+		(uuid "45e5d28a-4019-4da1-b97d-cdb5915e8317")
 	)
 	(pad "8" thru_hole oval
 		(at 0.9 -0.6)
@@ -131,7 +132,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
-		(uuid "a01e9e61-6d97-4e49-a9f7-9c9e11dfbfee")
+		(uuid "b7f48205-2b0c-4e3f-bbe0-1bbd5107e86e")
 	)
 	(pad "9" thru_hole oval
 		(at 1.5 0.5)
@@ -140,7 +141,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
-		(uuid "bd1d4bf9-2091-470f-9a49-332b1c4f165f")
+		(uuid "c7a87b40-1614-4773-aea7-34625fd1f7ad")
 	)
 	(pad "10" thru_hole oval
 		(at 2.1 -0.6)
@@ -149,7 +150,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
-		(uuid "58716af0-d37c-43c3-b190-2ae5bfe2e2fe")
+		(uuid "b68e7ba6-b32c-4602-94b4-58402a797045")
 	)
 	(pad "11" thru_hole oval
 		(at 2.7 0.5)
@@ -158,7 +159,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
-		(uuid "3756a499-8724-44f2-9073-fd87137a3bf3")
+		(uuid "8232b763-addf-4b3a-9163-2584c5ac4934")
 	)
 	(pad "12" thru_hole oval
 		(at 3.3 -0.6)
@@ -167,7 +168,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
-		(uuid "0eae633f-4cf3-429d-b2f1-ee9a2fa31036")
+		(uuid "2ba54d2a-161a-40a7-bb48-5985883fcbf4")
 	)
 	(embedded_fonts no)
 )

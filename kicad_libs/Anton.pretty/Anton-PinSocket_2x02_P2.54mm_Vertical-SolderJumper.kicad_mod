@@ -3,12 +3,12 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "Through hole straight socket strip, 2x02, 2.54mm pitch, double rows (from Kicad 4.0.7), script generated")
+	(descr "Through hole straight socket strip, 2x02, 2.54mm pitch, solder-jumperable")
 	(tags "Through hole socket strip THT 2x02 2.54mm double row")
 	(property "Reference" "REF**"
 		(at -5 2.6 270)
 		(layer "F.SilkS")
-		(uuid "73f52e30-f7b5-429d-96c6-7e9e5a7459fe")
+		(uuid "0e705e40-d2cd-44ca-b615-eaca95da243f")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "Conn_02x02_Odd_Even"
 		(at -1.27 5.31 0)
 		(layer "F.Fab")
-		(uuid "03ddceae-b091-4ee1-8c7e-f600d54caed9")
+		(uuid "f50dfc9b-3de9-4e71-aceb-587d452a0cff")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7818fbce-3c82-4adb-a617-61fe4fa0235c")
+		(uuid "83ada763-1bbd-4611-bbf0-85e88f97b440")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "998c280f-7a1a-46b3-a7cd-f184b1cbf751")
+		(uuid "7cd83dd7-22a8-4a4a-b1ed-201c639d2346")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,7 +53,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "bc195d8e-81f3-4fba-a5a0-0d04e5080bc9")
+		(uuid "1bf8281f-b6ec-40c0-9c33-3e12237283ce")
 		(effects
 			(font
 				(size 1 1)
@@ -75,7 +75,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "33086207-8ece-44d5-b58e-ec1521e828c3")
+		(uuid "ba425453-4849-436f-85e5-b783e5ade0cb")
 	)
 	(fp_rect
 		(start -1.524 1.902261)
@@ -86,7 +86,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "c76563d9-e0c8-441c-a10f-f01fa127621b")
+		(uuid "9e367469-cc79-4012-a726-125b17896e47")
 	)
 	(fp_line
 		(start -3.87 -1.33)
@@ -96,7 +96,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "017ac552-936e-4761-8f65-629cd9375a9c")
+		(uuid "ffc21a0d-3b97-41a8-8dad-33a5d2510817")
 	)
 	(fp_line
 		(start -3.87 -1.33)
@@ -106,7 +106,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "06b9d6eb-e640-4aa0-b3c1-75bf98460505")
+		(uuid "5cec46ef-1e2f-492b-b796-e2c4bae5e6a0")
 	)
 	(fp_line
 		(start -3.87 3.87)
@@ -116,7 +116,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "afee78c7-8035-4804-8674-5f67991163d2")
+		(uuid "3da00562-c9b1-4d2a-9344-6f8de2e27580")
 	)
 	(fp_line
 		(start 0 -1.33)
@@ -126,7 +126,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4c465832-4763-4f51-b5c8-e692c88a4d19")
+		(uuid "ead30fb0-79bc-48ef-8a60-e429d4943729")
 	)
 	(fp_line
 		(start 1.33 -1.33)
@@ -136,7 +136,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "1793a3f8-d1aa-4555-a79a-8f6982d7676e")
+		(uuid "41ce707f-37a1-408b-b4d0-5ce35c033fb9")
 	)
 	(fp_line
 		(start 1.33 1.27)
@@ -146,7 +146,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3bd17dfa-07f6-431f-adcf-aafdff77438c")
+		(uuid "e16dbb26-1cc1-4216-8d16-59a3a5c45f0f")
 	)
 	(fp_rect
 		(start 1 -1.33)
@@ -157,7 +157,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "2d6ea387-1d2b-4c7d-9310-969f2343d9c2")
+		(uuid "9ba6ae48-104d-431c-97b7-9e876b5e2419")
 	)
 	(fp_line
 		(start -4.31 -1.77)
@@ -167,7 +167,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "d9d55bad-5998-4626-96f3-b8ce8f73c612")
+		(uuid "0490ab9a-43cd-4cf6-9049-4b18ce8a4037")
 	)
 	(fp_line
 		(start -4.31 4.31)
@@ -177,7 +177,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "5e1526de-46af-4257-b4b5-166e3ebc9209")
+		(uuid "99e0f79a-0a90-46dd-9c89-0a50bb9c8458")
 	)
 	(fp_line
 		(start 1.77 -1.77)
@@ -187,7 +187,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "b2ac9ef8-16d8-4420-9cbb-c30dd92167f1")
+		(uuid "a270285f-d7ce-43df-9032-1484f36b8757")
 	)
 	(fp_line
 		(start 1.77 4.31)
@@ -197,7 +197,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "b33fefdb-5e69-4ab6-a738-e44e3580d721")
+		(uuid "4891308a-d4de-41a3-9409-a9c36538a7c2")
 	)
 	(fp_line
 		(start -3.81 -1.27)
@@ -207,7 +207,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "2929874b-aa97-4bfc-9ee8-bfd38bb208f7")
+		(uuid "5cc00dff-cfff-4e90-9f66-adfce4adcb5b")
 	)
 	(fp_line
 		(start -3.81 3.81)
@@ -217,7 +217,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "8ec225b2-0899-4b76-9509-2a8f7131453b")
+		(uuid "a2e36c48-8e13-458b-8649-8beabca82d45")
 	)
 	(fp_line
 		(start 0.27 -1.27)
@@ -227,7 +227,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "fa3c7884-7ac6-4fd3-bd76-d3a9d431d433")
+		(uuid "5c30d185-7f61-4548-999f-bef1a709ed76")
 	)
 	(fp_line
 		(start 1.27 -0.27)
@@ -237,7 +237,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "b66ccd91-d997-4cb5-a8f9-3c8b8ee50a9e")
+		(uuid "7b139407-fed0-46fe-bea7-ad8eb913e8b1")
 	)
 	(fp_line
 		(start 1.27 3.81)
@@ -247,12 +247,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "857f62f6-345f-4630-ae3e-75d1c3d9dad3")
+		(uuid "4c58d6e9-fd97-4fc2-b21b-fc59daa226c1")
 	)
 	(fp_text user "${REFERENCE}"
 		(at -1.27 1.27 90)
 		(layer "F.Fab")
-		(uuid "57ac045c-2261-46c2-b2e2-eaea34d45b14")
+		(uuid "002972c0-e34b-40f1-9845-0674fd7fcc7d")
 		(effects
 			(font
 				(size 1 1)
@@ -271,7 +271,7 @@
 		(roundrect_rratio 0)
 		(chamfer_ratio 0)
 		(chamfer top_left bottom_left)
-		(uuid "81d4301a-3bd2-4214-80b4-e65e80c55e06")
+		(uuid "52424560-2c32-4951-9668-7e2bfb089274")
 	)
 	(pad "2" thru_hole roundrect
 		(at -2.54 0)
@@ -284,7 +284,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer top_right bottom_right)
-		(uuid "32bedb9d-50ea-4d5e-b8b2-3bc54acb2c40")
+		(uuid "f70e8e25-624e-4021-bc95-d6ace8a1f46c")
 	)
 	(pad "3" thru_hole roundrect
 		(at 0 2.54)
@@ -297,7 +297,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer top_left bottom_left)
-		(uuid "7753bd44-105b-4e80-b5ee-f91a1597534c")
+		(uuid "e842a9df-c2e5-4c78-8e30-c2c105ace646")
 	)
 	(pad "4" thru_hole roundrect
 		(at -2.54 2.54)
@@ -310,7 +310,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer top_right bottom_right)
-		(uuid "3c85cea0-b542-4ec8-8057-56b6a262459c")
+		(uuid "2a6e5bd8-1a8a-49d3-9136-d84f7a560fbd")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x02_P2.54mm_Vertical.step"

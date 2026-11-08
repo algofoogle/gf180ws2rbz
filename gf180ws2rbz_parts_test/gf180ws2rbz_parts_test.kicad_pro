@@ -579,6 +579,10 @@
       {
         "netclass": "PWR",
         "pattern": "*1V2"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "*5V"
       }
     ]
   },
@@ -765,7 +769,7 @@
         "uuid": "cbe4b09b-ac9b-4c43-99cc-da49643f678e"
       }
     ],
-    "used_designators": "#PWR1-73,Y1,C1-24,CN1,J1-13,JP1-9,R1-17,TP1-5,U1-5",
+    "used_designators": "#PWR1-79,Y1,C1-24,CN1,J1-16,JP1-9,R1-17,TP1-5,U1-5",
     "variants": []
   },
   "sheets": [
