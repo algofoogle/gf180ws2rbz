@@ -1,0 +1,885 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2600" height="1480" viewBox="0 0 2600 1480">
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<style>
+text{font-family:Inter,Arial,sans-serif} .pin{stroke-width:2.3} .hair{stroke:#cbd5e1;stroke-width:1}
+</style>
+<defs>
+ <pattern id="hatch-green" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="9" height="9" fill="#dcfce7"/><rect width="3" height="9" fill="#22c55e"/></pattern>
+</defs>
+<text x="730" y="58" text-anchor="middle" font-size="48" font-weight="800" fill="#0f172a">RAYBOX ZERO — CARAVEL QFN64 PINOUT</text>
+<text x="730" y="101" text-anchor="middle" font-size="25" fill="#475569">Top view · GF180 multi-project implementation · mux design ID 0 or 1</text>
+<rect x="400" y="350" width="600" height="600" rx="13" fill="#dbe3ec" stroke="#0f172a" stroke-width="5"/>
+<path d="M 400 392 L 442 350 L 400 350" fill="#f8fafc" stroke="#0f172a" stroke-width="3"/>
+<text x="700" y="610" text-anchor="middle" font-size="45" font-weight="800" fill="#0f172a">CARAVEL</text>
+<text x="700" y="650" text-anchor="middle" font-size="28" font-weight="700" fill="#334155">RAYBOX ZERO</text>
+<text x="700" y="690" text-anchor="middle" font-size="20" fill="#475569">QFN-64-1EP · 9 × 9 mm · 0.5 mm pitch</text>
+<rect x="575" y="735" width="250" height="150" rx="8" fill="#1d4ed8" stroke="#173a8a" stroke-width="3"/>
+<text x="700" y="795" text-anchor="middle" font-size="27" font-weight="800" fill="white">65</text>
+<text x="700" y="829" text-anchor="middle" font-size="21" font-weight="750" fill="white">THERMAL PAD</text>
+<text x="700" y="859" text-anchor="middle" font-size="19" fill="white">GND · 7.65 × 7.65 mm</text>
+
+<rect class="pin" x="342.0" y="366.0" width="58" height="28" rx="3" fill="#1d4ed8" stroke="#334155"/>
+<circle cx="371.0" cy="380.0" r="11.5" fill="#0f172a" stroke="white" stroke-width="2"/>
+<text x="371.0" y="385.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">1</text>
+<text x="331.0" y="377.0" text-anchor="end" font-size="18" font-weight="800" fill="#111827">GND</text>
+<text x="331.0" y="394.0" text-anchor="end" font-size="13" font-weight="500" fill="#64748b">vssa2</text>
+<rect class="pin" x="342.0" y="402.0" width="58" height="28" rx="3" fill="#22c55e" stroke="#334155"/>
+<text x="371.0" y="421.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">2</text>
+<text x="331.0" y="413.0" text-anchor="end" font-size="18" font-weight="800" fill="#111827">reg_cs_n</text>
+<text x="331.0" y="430.0" text-anchor="end" font-size="13" font-weight="500" fill="#64748b">mprj_io[25]</text>
+<rect class="pin" x="342.0" y="438.0" width="58" height="28" rx="3" fill="#22c55e" stroke="#334155"/>
+<text x="371.0" y="457.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">3</text>
+<text x="331.0" y="449.0" text-anchor="end" font-size="18" font-weight="800" fill="#111827">reg_sclk</text>
+<text x="331.0" y="466.0" text-anchor="end" font-size="13" font-weight="500" fill="#64748b">mprj_io[26]</text>
+<rect class="pin" x="342.0" y="474.0" width="58" height="28" rx="3" fill="#22c55e" stroke="#334155"/>
+<text x="371.0" y="493.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">4</text>
+<text x="331.0" y="485.0" text-anchor="end" font-size="18" font-weight="800" fill="#111827">reg_mosi</text>
+<text x="331.0" y="502.0" text-anchor="end" font-size="13" font-weight="500" fill="#64748b">mprj_io[27]</text>
+<rect class="pin" x="342.0" y="510.0" width="58" height="28" rx="3" fill="#22c55e" stroke="#334155"/>
+<text x="371.0" y="529.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">5</text>
+<text x="331.0" y="521.0" text-anchor="end" font-size="18" font-weight="800" fill="#111827">debug_vec</text>
+<text x="331.0" y="538.0" text-anchor="end" font-size="13" font-weight="500" fill="#64748b">mprj_io[28]</text>
+<rect class="pin" x="342.0" y="546.0" width="58" height="28" rx="3" fill="#22c55e" stroke="#334155"/>
+<text x="371.0" y="565.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">6</text>
+<text x="331.0" y="557.0" text-anchor="end" font-size="18" font-weight="800" fill="#111827">debug_map</text>
+<text x="331.0" y="574.0" text-anchor="end" font-size="13" font-weight="500" fill="#64748b">mprj_io[29]</text>
+<rect class="pin" x="342.0" y="582.0" width="58" height="28" rx="3" fill="#22c55e" stroke="#334155"/>
+<text x="371.0" y="601.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">7</text>
+<text x="331.0" y="593.0" text-anchor="end" font-size="18" font-weight="800" fill="#111827">debug_trace</text>
+<text x="331.0" y="610.0" text-anchor="end" font-size="13" font-weight="500" fill="#64748b">mprj_io[30]</text>
+<rect class="pin" x="342.0" y="618.0" width="58" height="28" rx="3" fill="#22c55e" stroke="#334155"/>
+<text x="371.0" y="637.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">8</text>
+<text x="331.0" y="629.0" text-anchor="end" font-size="18" font-weight="800" fill="#111827">reg_outs_enb</text>
+<text x="331.0" y="646.0" text-anchor="end" font-size="13" font-weight="500" fill="#64748b">mprj_io[31]</text>
+<rect class="pin" x="342.0" y="654.0" width="58" height="28" rx="3" fill="#ef4444" stroke="#334155"/>
+<text x="371.0" y="673.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">9</text>
+<text x="331.0" y="665.0" text-anchor="end" font-size="18" font-weight="800" fill="#111827">VDD</text>
+<text x="331.0" y="682.0" text-anchor="end" font-size="13" font-weight="500" fill="#64748b">vdda2</text>
+<rect class="pin" x="342.0" y="690.0" width="58" height="28" rx="3" fill="#1d4ed8" stroke="#334155"/>
+<text x="371.0" y="709.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">10</text>
+<text x="331.0" y="701.0" text-anchor="end" font-size="18" font-weight="800" fill="#111827">GND</text>
+<text x="331.0" y="718.0" text-anchor="end" font-size="13" font-weight="500" fill="#64748b">vssd2</text>
+<rect class="pin" x="342.0" y="726.0" width="58" height="28" rx="3" fill="#22c55e" stroke="#334155"/>
+<text x="371.0" y="745.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">11</text>
+<text x="331.0" y="737.0" text-anchor="end" font-size="18" font-weight="800" fill="#111827">mode0_inc_px</text>
+<text x="331.0" y="754.0" text-anchor="end" font-size="13" font-weight="500" fill="#64748b">mprj_io[32]</text>
+<rect class="pin" x="342.0" y="762.0" width="58" height="28" rx="3" fill="#22c55e" stroke="#334155"/>
+<text x="371.0" y="781.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">12</text>
+<text x="331.0" y="773.0" text-anchor="end" font-size="18" font-weight="800" fill="#111827">mode1_inc_py</text>
+<text x="331.0" y="790.0" text-anchor="end" font-size="13" font-weight="500" fill="#64748b">mprj_io[33]</text>
+<rect class="pin" x="342.0" y="798.0" width="58" height="28" rx="3" fill="#22c55e" stroke="#334155"/>
+<text x="371.0" y="817.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">13</text>
+<text x="331.0" y="809.0" text-anchor="end" font-size="18" font-weight="800" fill="#111827">mode2_gen_tex</text>
+<text x="331.0" y="826.0" text-anchor="end" font-size="13" font-weight="500" fill="#64748b">mprj_io[34]</text>
+<rect class="pin" x="342.0" y="834.0" width="58" height="28" rx="3" fill="#f59e0b" stroke="#334155"/>
+<text x="371.0" y="853.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">14</text>
+<text x="331.0" y="845.0" text-anchor="end" font-size="18" font-weight="800" fill="#111827">gpout[0]</text>
+<text x="331.0" y="862.0" text-anchor="end" font-size="13" font-weight="500" fill="#64748b">mprj_io[35]</text>
+<rect class="pin" x="342.0" y="870.0" width="58" height="28" rx="3" fill="#f59e0b" stroke="#334155"/>
+<text x="371.0" y="889.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">15</text>
+<text x="331.0" y="881.0" text-anchor="end" font-size="18" font-weight="800" fill="#111827">gpout[1]</text>
+<text x="331.0" y="898.0" text-anchor="end" font-size="13" font-weight="500" fill="#64748b">mprj_io[36]</text>
+<rect class="pin" x="342.0" y="906.0" width="58" height="28" rx="3" fill="#f59e0b" stroke="#334155"/>
+<text x="371.0" y="925.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">16</text>
+<text x="331.0" y="917.0" text-anchor="end" font-size="18" font-weight="800" fill="#111827">gpout[2]</text>
+<text x="331.0" y="934.0" text-anchor="end" font-size="13" font-weight="500" fill="#64748b">mprj_io[37]</text>
+<rect class="pin" x="416.0" y="950.0" width="28" height="58" rx="3" fill="#ef4444" stroke="#334155"/>
+<text x="430.0" y="984.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">17</text>
+<text x="430.0" y="1017.0" text-anchor="end" font-size="17" font-weight="800" fill="#111827" transform="rotate(-90 430.0 1020.0)">VDD</text>
+<text x="430.0" y="1033.0" text-anchor="end" font-size="12.5" font-weight="500" fill="#64748b" transform="rotate(-90 430.0 1020.0)">vddio</text>
+<rect class="pin" x="452.0" y="950.0" width="28" height="58" rx="3" fill="#ef4444" stroke="#334155"/>
+<text x="466.0" y="984.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">18</text>
+<text x="466.0" y="1017.0" text-anchor="end" font-size="17" font-weight="800" fill="#111827" transform="rotate(-90 466.0 1020.0)">VDD</text>
+<text x="466.0" y="1033.0" text-anchor="end" font-size="12.5" font-weight="500" fill="#64748b" transform="rotate(-90 466.0 1020.0)">vccd</text>
+<rect class="pin" x="488.0" y="950.0" width="28" height="58" rx="3" fill="white" stroke="#334155"/>
+<text x="502.0" y="984.0" text-anchor="middle" font-size="14" font-weight="800" fill="#0f172a">19</text>
+<text x="502.0" y="1024.0" text-anchor="end" font-size="14" font-weight="600" fill="#475569" transform="rotate(-90 502.0 1020.0)">N/C</text>
+<rect class="pin" x="524.0" y="950.0" width="28" height="58" rx="3" fill="#1d4ed8" stroke="#334155"/>
+<text x="538.0" y="984.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">20</text>
+<text x="538.0" y="1017.0" text-anchor="end" font-size="17" font-weight="800" fill="#111827" transform="rotate(-90 538.0 1020.0)">GND</text>
+<text x="538.0" y="1033.0" text-anchor="end" font-size="12.5" font-weight="500" fill="#64748b" transform="rotate(-90 538.0 1020.0)">vssa</text>
+<rect class="pin" x="560.0" y="950.0" width="28" height="58" rx="3" fill="#ffff00" stroke="#334155"/>
+<path d="M 588.0 950.0 L 588.0 1008.0 L 560.0 1008.0 Z" fill="#86efac"/>
+<rect x="560.0" y="950.0" width="28" height="58" rx="3" fill="none" stroke="#334155" stroke-width="2.3"/>
+<text x="568.0" y="963.0" text-anchor="middle" font-size="15" font-weight="900" fill="#0f172a">†</text>
+<text x="574.0" y="984.0" text-anchor="middle" font-size="14" font-weight="800" fill="#0f172a" stroke="white" stroke-width="3" paint-order="stroke">21</text>
+<text x="574.0" y="1017.0" text-anchor="end" font-size="17" font-weight="800" fill="#111827" transform="rotate(-90 574.0 1020.0)">RESETb</text>
+<text x="574.0" y="1033.0" text-anchor="end" font-size="12.5" font-weight="500" fill="#64748b" transform="rotate(-90 574.0 1020.0)">resetb</text>
+<rect class="pin" x="596.0" y="950.0" width="28" height="58" rx="3" fill="#86efac" stroke="#334155"/>
+<text x="610.0" y="984.0" text-anchor="middle" font-size="14" font-weight="800" fill="#0f172a">22</text>
+<text x="610.0" y="1017.0" text-anchor="end" font-size="17" font-weight="800" fill="#111827" transform="rotate(-90 610.0 1020.0)">system_clk</text>
+<text x="610.0" y="1033.0" text-anchor="end" font-size="12.5" font-weight="500" fill="#64748b" transform="rotate(-90 610.0 1020.0)">clock</text>
+<rect class="pin" x="632.0" y="950.0" width="28" height="58" rx="3" fill="#1d4ed8" stroke="#334155"/>
+<text x="646.0" y="984.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">23</text>
+<text x="646.0" y="1017.0" text-anchor="end" font-size="17" font-weight="800" fill="#111827" transform="rotate(-90 646.0 1020.0)">GND</text>
+<text x="646.0" y="1033.0" text-anchor="end" font-size="12.5" font-weight="500" fill="#64748b" transform="rotate(-90 646.0 1020.0)">vssd</text>
+<rect class="pin" x="668.0" y="950.0" width="28" height="58" rx="3" fill="white" stroke="#334155"/>
+<circle cx="682.0" cy="979.0" r="10.5" fill="#f59e0b"/>
+<text x="682.0" y="984.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">24</text>
+<text x="682.0" y="1024.0" text-anchor="end" font-size="14" font-weight="600" fill="#475569" transform="rotate(-90 682.0 1020.0)">flash_csb</text>
+<rect class="pin" x="704.0" y="950.0" width="28" height="58" rx="3" fill="white" stroke="#334155"/>
+<circle cx="718.0" cy="979.0" r="10.5" fill="#f59e0b"/>
+<text x="718.0" y="984.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">25</text>
+<text x="718.0" y="1024.0" text-anchor="end" font-size="14" font-weight="600" fill="#475569" transform="rotate(-90 718.0 1020.0)">flash_clk</text>
+<rect class="pin" x="740.0" y="950.0" width="28" height="58" rx="3" fill="white" stroke="#334155"/>
+<circle cx="754.0" cy="979.0" r="10.5" fill="#d946ef"/>
+<text x="754.0" y="984.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">26</text>
+<text x="754.0" y="1024.0" text-anchor="end" font-size="14" font-weight="600" fill="#475569" transform="rotate(-90 754.0 1020.0)">flash_io0</text>
+<rect class="pin" x="776.0" y="950.0" width="28" height="58" rx="3" fill="white" stroke="#334155"/>
+<circle cx="790.0" cy="979.0" r="10.5" fill="#d946ef"/>
+<text x="790.0" y="984.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">27</text>
+<text x="790.0" y="1024.0" text-anchor="end" font-size="14" font-weight="600" fill="#475569" transform="rotate(-90 790.0 1020.0)">flash_io1</text>
+<rect class="pin" x="812.0" y="950.0" width="28" height="58" rx="3" fill="white" stroke="#334155"/>
+<circle cx="826.0" cy="979.0" r="10.5" fill="#d946ef"/>
+<text x="826.0" y="984.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">28</text>
+<text x="826.0" y="1024.0" text-anchor="end" font-size="14" font-weight="600" fill="#475569" transform="rotate(-90 826.0 1020.0)">gpio</text>
+<rect class="pin" x="848.0" y="950.0" width="28" height="58" rx="3" fill="#1d4ed8" stroke="#334155"/>
+<text x="862.0" y="984.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">29</text>
+<text x="862.0" y="1017.0" text-anchor="end" font-size="17" font-weight="800" fill="#111827" transform="rotate(-90 862.0 1020.0)">GND</text>
+<text x="862.0" y="1033.0" text-anchor="end" font-size="12.5" font-weight="500" fill="#64748b" transform="rotate(-90 862.0 1020.0)">vssio</text>
+<rect class="pin" x="884.0" y="950.0" width="28" height="58" rx="3" fill="#ef4444" stroke="#334155"/>
+<text x="898.0" y="984.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">30</text>
+<text x="898.0" y="1017.0" text-anchor="end" font-size="17" font-weight="800" fill="#111827" transform="rotate(-90 898.0 1020.0)">VDD</text>
+<text x="898.0" y="1033.0" text-anchor="end" font-size="12.5" font-weight="500" fill="#64748b" transform="rotate(-90 898.0 1020.0)">vdda</text>
+<rect class="pin" x="920.0" y="950.0" width="28" height="58" rx="3" fill="white" stroke="#334155"/>
+<path d="M 948.0 950.0 L 948.0 1008.0 L 920.0 1008.0 Z" fill="#22c55e"/>
+<rect x="920.0" y="950.0" width="28" height="58" rx="3" fill="none" stroke="#334155" stroke-width="2.3"/>
+<text x="934.0" y="984.0" text-anchor="middle" font-size="14" font-weight="800" fill="#0f172a" stroke="white" stroke-width="3" paint-order="stroke">31</text>
+<text x="934.0" y="1024.0" text-anchor="end" font-size="14" font-weight="600" fill="#475569" transform="rotate(-90 934.0 1020.0)">mprj_io[0]_JTAG</text>
+<rect class="pin" x="956.0" y="950.0" width="28" height="58" rx="3" fill="white" stroke="#334155"/>
+<path d="M 984.0 950.0 L 984.0 1008.0 L 956.0 1008.0 Z" fill="#f59e0b"/>
+<rect x="956.0" y="950.0" width="28" height="58" rx="3" fill="none" stroke="#334155" stroke-width="2.3"/>
+<text x="970.0" y="984.0" text-anchor="middle" font-size="14" font-weight="800" fill="#0f172a" stroke="white" stroke-width="3" paint-order="stroke">32</text>
+<text x="970.0" y="1024.0" text-anchor="end" font-size="14" font-weight="600" fill="#475569" transform="rotate(-90 970.0 1020.0)">mprj_io[1]_SDO</text>
+<rect class="pin" x="1000.0" y="906.0" width="58" height="28" rx="3" fill="white" stroke="#334155"/>
+<path d="M 1058.0 906.0 L 1058.0 934.0 L 1000.0 934.0 Z" fill="#22c55e"/>
+<rect x="1000.0" y="906.0" width="58" height="28" rx="3" fill="none" stroke="#334155" stroke-width="2.3"/>
+<text x="1029.0" y="925.0" text-anchor="middle" font-size="14" font-weight="800" fill="#0f172a" stroke="white" stroke-width="3" paint-order="stroke">33</text>
+<text x="1069.0" y="925.0" text-anchor="start" font-size="15" font-weight="600" fill="#475569">mprj_io[2]_SDI</text>
+<rect class="pin" x="1000.0" y="870.0" width="58" height="28" rx="3" fill="white" stroke="#334155"/>
+<path d="M 1058.0 870.0 L 1058.0 898.0 L 1000.0 898.0 Z" fill="#22c55e"/>
+<rect x="1000.0" y="870.0" width="58" height="28" rx="3" fill="none" stroke="#334155" stroke-width="2.3"/>
+<text x="1029.0" y="889.0" text-anchor="middle" font-size="14" font-weight="800" fill="#0f172a" stroke="white" stroke-width="3" paint-order="stroke">34</text>
+<text x="1069.0" y="889.0" text-anchor="start" font-size="15" font-weight="600" fill="#475569">mprj_io[3]_CSB</text>
+<rect class="pin" x="1000.0" y="834.0" width="58" height="28" rx="3" fill="white" stroke="#334155"/>
+<path d="M 1058.0 834.0 L 1058.0 862.0 L 1000.0 862.0 Z" fill="#22c55e"/>
+<rect x="1000.0" y="834.0" width="58" height="28" rx="3" fill="none" stroke="#334155" stroke-width="2.3"/>
+<text x="1029.0" y="853.0" text-anchor="middle" font-size="14" font-weight="800" fill="#0f172a" stroke="white" stroke-width="3" paint-order="stroke">35</text>
+<text x="1069.0" y="853.0" text-anchor="start" font-size="15" font-weight="600" fill="#475569">mprj_io[4]_SCK</text>
+<rect class="pin" x="1000.0" y="798.0" width="58" height="28" rx="3" fill="#ffff00" stroke="#334155"/>
+<path d="M 1058.0 798.0 L 1058.0 826.0 L 1000.0 826.0 Z" fill="#22c55e"/>
+<rect x="1000.0" y="798.0" width="58" height="28" rx="3" fill="none" stroke="#334155" stroke-width="2.3"/>
+<text x="1008.0" y="811.0" text-anchor="middle" font-size="17" font-weight="900" fill="#0f172a">*</text>
+<text x="1029.0" y="817.0" text-anchor="middle" font-size="14" font-weight="800" fill="#0f172a" stroke="white" stroke-width="3" paint-order="stroke">36</text>
+<text x="1069.0" y="809.0" text-anchor="start" font-size="18" font-weight="800" fill="#111827">opt_user_reset</text>
+<text x="1069.0" y="826.0" text-anchor="start" font-size="13" font-weight="500" fill="#64748b">mprj_io[5]_ser_rx</text>
+<rect class="pin" x="1000.0" y="762.0" width="58" height="28" rx="3" fill="white" stroke="#334155"/>
+<path d="M 1058.0 762.0 L 1058.0 790.0 L 1000.0 790.0 Z" fill="#f59e0b"/>
+<rect x="1000.0" y="762.0" width="58" height="28" rx="3" fill="none" stroke="#334155" stroke-width="2.3"/>
+<text x="1029.0" y="781.0" text-anchor="middle" font-size="14" font-weight="800" fill="#0f172a" stroke="white" stroke-width="3" paint-order="stroke">37</text>
+<text x="1069.0" y="781.0" text-anchor="start" font-size="15" font-weight="600" fill="#475569">mprj_io[6]_ser_tx</text>
+<rect class="pin" x="1000.0" y="726.0" width="58" height="28" rx="3" fill="#1d4ed8" stroke="#334155"/>
+<text x="1029.0" y="745.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">38</text>
+<text x="1069.0" y="737.0" text-anchor="start" font-size="18" font-weight="800" fill="#111827">GND</text>
+<text x="1069.0" y="754.0" text-anchor="start" font-size="13" font-weight="500" fill="#64748b">vssa1</text>
+<rect class="pin" x="1000.0" y="690.0" width="58" height="28" rx="3" fill="#1d4ed8" stroke="#334155"/>
+<text x="1029.0" y="709.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">39</text>
+<text x="1069.0" y="701.0" text-anchor="start" font-size="18" font-weight="800" fill="#111827">GND</text>
+<text x="1069.0" y="718.0" text-anchor="start" font-size="13" font-weight="500" fill="#64748b">vssd1</text>
+<rect class="pin" x="1000.0" y="654.0" width="58" height="28" rx="3" fill="#ef4444" stroke="#334155"/>
+<text x="1029.0" y="673.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">40</text>
+<text x="1069.0" y="665.0" text-anchor="start" font-size="18" font-weight="800" fill="#111827">VDD</text>
+<text x="1069.0" y="682.0" text-anchor="start" font-size="13" font-weight="500" fill="#64748b">vdda1</text>
+<rect class="pin" x="1000.0" y="618.0" width="58" height="28" rx="3" fill="url(#hatch-green)" stroke="#22c55e"/>
+<text x="1029.0" y="637.0" text-anchor="middle" font-size="14" font-weight="800" fill="#0f172a">41</text>
+<text x="1069.0" y="629.0" text-anchor="start" font-size="18" font-weight="800" fill="#4b5563">n/c</text>
+<text x="1069.0" y="646.0" text-anchor="start" font-size="13" font-weight="500" fill="#64748b">mprj_io[7]</text>
+<rect class="pin" x="1000.0" y="582.0" width="58" height="28" rx="3" fill="#f59e0b" stroke="#334155"/>
+<text x="1029.0" y="601.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">42</text>
+<text x="1069.0" y="593.0" text-anchor="start" font-size="18" font-weight="800" fill="#111827">hsync_n</text>
+<text x="1069.0" y="610.0" text-anchor="start" font-size="13" font-weight="500" fill="#64748b">mprj_io[8]</text>
+<rect class="pin" x="1000.0" y="546.0" width="58" height="28" rx="3" fill="#f59e0b" stroke="#334155"/>
+<text x="1029.0" y="565.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">43</text>
+<text x="1069.0" y="557.0" text-anchor="start" font-size="18" font-weight="800" fill="#111827">vsync_n</text>
+<text x="1069.0" y="574.0" text-anchor="start" font-size="13" font-weight="500" fill="#64748b">mprj_io[9]</text>
+<rect class="pin" x="1000.0" y="510.0" width="58" height="28" rx="3" fill="#f59e0b" stroke="#334155"/>
+<text x="1029.0" y="529.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">44</text>
+<text x="1069.0" y="521.0" text-anchor="start" font-size="18" font-weight="800" fill="#111827">rgb[0]</text>
+<text x="1069.0" y="538.0" text-anchor="start" font-size="13" font-weight="500" fill="#64748b">mprj_io[10]</text>
+<rect class="pin" x="1000.0" y="474.0" width="58" height="28" rx="3" fill="#f59e0b" stroke="#334155"/>
+<text x="1029.0" y="493.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">45</text>
+<text x="1069.0" y="485.0" text-anchor="start" font-size="18" font-weight="800" fill="#111827">rgb[1]</text>
+<text x="1069.0" y="502.0" text-anchor="start" font-size="13" font-weight="500" fill="#64748b">mprj_io[11]</text>
+<rect class="pin" x="1000.0" y="438.0" width="58" height="28" rx="3" fill="#f59e0b" stroke="#334155"/>
+<text x="1029.0" y="457.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">46</text>
+<text x="1069.0" y="449.0" text-anchor="start" font-size="18" font-weight="800" fill="#111827">rgb[2]</text>
+<text x="1069.0" y="466.0" text-anchor="start" font-size="13" font-weight="500" fill="#64748b">mprj_io[12]</text>
+<rect class="pin" x="1000.0" y="402.0" width="58" height="28" rx="3" fill="#ef4444" stroke="#334155"/>
+<text x="1029.0" y="421.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">47</text>
+<text x="1069.0" y="413.0" text-anchor="start" font-size="18" font-weight="800" fill="#111827">VDD</text>
+<text x="1069.0" y="430.0" text-anchor="start" font-size="13" font-weight="500" fill="#64748b">vdda1</text>
+<rect class="pin" x="1000.0" y="366.0" width="58" height="28" rx="3" fill="#f59e0b" stroke="#334155"/>
+<text x="1029.0" y="385.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">48</text>
+<text x="1069.0" y="377.0" text-anchor="start" font-size="18" font-weight="800" fill="#111827">rgb[3]</text>
+<text x="1069.0" y="394.0" text-anchor="start" font-size="13" font-weight="500" fill="#64748b">mprj_io[13]</text>
+<rect class="pin" x="956.0" y="292.0" width="28" height="58" rx="3" fill="#ef4444" stroke="#334155"/>
+<text x="970.0" y="326.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">49</text>
+<text x="970.0" y="277.0" text-anchor="start" font-size="17" font-weight="800" fill="#111827" transform="rotate(-90 970.0 280.0)">VDD</text>
+<text x="970.0" y="293.0" text-anchor="start" font-size="12.5" font-weight="500" fill="#64748b" transform="rotate(-90 970.0 280.0)">vccd1</text>
+<rect class="pin" x="920.0" y="292.0" width="28" height="58" rx="3" fill="#f59e0b" stroke="#334155"/>
+<text x="934.0" y="326.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">50</text>
+<text x="934.0" y="277.0" text-anchor="start" font-size="17" font-weight="800" fill="#111827" transform="rotate(-90 934.0 280.0)">rgb[4]</text>
+<text x="934.0" y="293.0" text-anchor="start" font-size="12.5" font-weight="500" fill="#64748b" transform="rotate(-90 934.0 280.0)">mprj_io[14]</text>
+<rect class="pin" x="884.0" y="292.0" width="28" height="58" rx="3" fill="#f59e0b" stroke="#334155"/>
+<text x="898.0" y="326.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">51</text>
+<text x="898.0" y="277.0" text-anchor="start" font-size="17" font-weight="800" fill="#111827" transform="rotate(-90 898.0 280.0)">rgb[5]</text>
+<text x="898.0" y="293.0" text-anchor="start" font-size="12.5" font-weight="500" fill="#64748b" transform="rotate(-90 898.0 280.0)">mprj_io[15]</text>
+<rect class="pin" x="848.0" y="292.0" width="28" height="58" rx="3" fill="#1d4ed8" stroke="#334155"/>
+<text x="862.0" y="326.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">52</text>
+<text x="862.0" y="277.0" text-anchor="start" font-size="17" font-weight="800" fill="#111827" transform="rotate(-90 862.0 280.0)">GND</text>
+<text x="862.0" y="293.0" text-anchor="start" font-size="12.5" font-weight="500" fill="#64748b" transform="rotate(-90 862.0 280.0)">vssa1</text>
+<rect class="pin" x="812.0" y="292.0" width="28" height="58" rx="3" fill="#f59e0b" stroke="#334155"/>
+<text x="826.0" y="326.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">53</text>
+<text x="826.0" y="277.0" text-anchor="start" font-size="17" font-weight="800" fill="#111827" transform="rotate(-90 826.0 280.0)">tex_cs_n</text>
+<text x="826.0" y="293.0" text-anchor="start" font-size="12.5" font-weight="500" fill="#64748b" transform="rotate(-90 826.0 280.0)">mprj_io[16]</text>
+<rect class="pin" x="776.0" y="292.0" width="28" height="58" rx="3" fill="#f59e0b" stroke="#334155"/>
+<text x="790.0" y="326.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">54</text>
+<text x="790.0" y="277.0" text-anchor="start" font-size="17" font-weight="800" fill="#111827" transform="rotate(-90 790.0 280.0)">tex_sclk</text>
+<text x="790.0" y="293.0" text-anchor="start" font-size="12.5" font-weight="500" fill="#64748b" transform="rotate(-90 790.0 280.0)">mprj_io[17]</text>
+<rect class="pin" x="740.0" y="292.0" width="28" height="58" rx="3" fill="#d946ef" stroke="#334155"/>
+<text x="754.0" y="326.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">55</text>
+<text x="754.0" y="277.0" text-anchor="start" font-size="17" font-weight="800" fill="#111827" transform="rotate(-90 754.0 280.0)">tex_io0</text>
+<text x="754.0" y="293.0" text-anchor="start" font-size="12.5" font-weight="500" fill="#64748b" transform="rotate(-90 754.0 280.0)">mprj_io[18]</text>
+<rect class="pin" x="704.0" y="292.0" width="28" height="58" rx="3" fill="#1d4ed8" stroke="#334155"/>
+<text x="718.0" y="326.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">56</text>
+<text x="718.0" y="277.0" text-anchor="start" font-size="17" font-weight="800" fill="#111827" transform="rotate(-90 718.0 280.0)">GND</text>
+<text x="718.0" y="293.0" text-anchor="start" font-size="12.5" font-weight="500" fill="#64748b" transform="rotate(-90 718.0 280.0)">vssio</text>
+<rect class="pin" x="668.0" y="292.0" width="28" height="58" rx="3" fill="#22c55e" stroke="#334155"/>
+<text x="682.0" y="326.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">57</text>
+<text x="682.0" y="277.0" text-anchor="start" font-size="17" font-weight="800" fill="#111827" transform="rotate(-90 682.0 280.0)">tex_io1</text>
+<text x="682.0" y="293.0" text-anchor="start" font-size="12.5" font-weight="500" fill="#64748b" transform="rotate(-90 682.0 280.0)">mprj_io[19]</text>
+<rect class="pin" x="632.0" y="292.0" width="28" height="58" rx="3" fill="#22c55e" stroke="#334155"/>
+<text x="646.0" y="326.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">58</text>
+<text x="646.0" y="277.0" text-anchor="start" font-size="17" font-weight="800" fill="#111827" transform="rotate(-90 646.0 280.0)">tex_io2</text>
+<text x="646.0" y="293.0" text-anchor="start" font-size="12.5" font-weight="500" fill="#64748b" transform="rotate(-90 646.0 280.0)">mprj_io[20]</text>
+<rect class="pin" x="596.0" y="292.0" width="28" height="58" rx="3" fill="#22c55e" stroke="#334155"/>
+<text x="610.0" y="326.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">59</text>
+<text x="610.0" y="277.0" text-anchor="start" font-size="17" font-weight="800" fill="#111827" transform="rotate(-90 610.0 280.0)">tex_io3</text>
+<text x="610.0" y="293.0" text-anchor="start" font-size="12.5" font-weight="500" fill="#64748b" transform="rotate(-90 610.0 280.0)">mprj_io[21]</text>
+<rect class="pin" x="560.0" y="292.0" width="28" height="58" rx="3" fill="#22c55e" stroke="#334155"/>
+<text x="574.0" y="326.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">60</text>
+<text x="574.0" y="277.0" text-anchor="start" font-size="17" font-weight="800" fill="#111827" transform="rotate(-90 574.0 280.0)">vec_cs_n</text>
+<text x="574.0" y="293.0" text-anchor="start" font-size="12.5" font-weight="500" fill="#64748b" transform="rotate(-90 574.0 280.0)">mprj_io[22]</text>
+<rect class="pin" x="524.0" y="292.0" width="28" height="58" rx="3" fill="#22c55e" stroke="#334155"/>
+<text x="538.0" y="326.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">61</text>
+<text x="538.0" y="277.0" text-anchor="start" font-size="17" font-weight="800" fill="#111827" transform="rotate(-90 538.0 280.0)">vec_sclk</text>
+<text x="538.0" y="293.0" text-anchor="start" font-size="12.5" font-weight="500" fill="#64748b" transform="rotate(-90 538.0 280.0)">mprj_io[23]</text>
+<rect class="pin" x="488.0" y="292.0" width="28" height="58" rx="3" fill="#22c55e" stroke="#334155"/>
+<text x="502.0" y="326.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">62</text>
+<text x="502.0" y="277.0" text-anchor="start" font-size="17" font-weight="800" fill="#111827" transform="rotate(-90 502.0 280.0)">vec_mosi</text>
+<text x="502.0" y="293.0" text-anchor="start" font-size="12.5" font-weight="500" fill="#64748b" transform="rotate(-90 502.0 280.0)">mprj_io[24]</text>
+<rect class="pin" x="452.0" y="292.0" width="28" height="58" rx="3" fill="#ef4444" stroke="#334155"/>
+<text x="466.0" y="326.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">63</text>
+<text x="466.0" y="277.0" text-anchor="start" font-size="17" font-weight="800" fill="#111827" transform="rotate(-90 466.0 280.0)">VDD</text>
+<text x="466.0" y="293.0" text-anchor="start" font-size="12.5" font-weight="500" fill="#64748b" transform="rotate(-90 466.0 280.0)">vccd2</text>
+<rect class="pin" x="416.0" y="292.0" width="28" height="58" rx="3" fill="#ef4444" stroke="#334155"/>
+<text x="430.0" y="326.0" text-anchor="middle" font-size="14" font-weight="800" fill="white">64</text>
+<text x="430.0" y="277.0" text-anchor="start" font-size="17" font-weight="800" fill="#111827" transform="rotate(-90 430.0 280.0)">VDD</text>
+<text x="430.0" y="293.0" text-anchor="start" font-size="12.5" font-weight="500" fill="#64748b" transform="rotate(-90 430.0 280.0)">vddio</text>
+<rect x="70" y="1204" width="1320" height="150" rx="12" fill="white" stroke="#cbd5e1" stroke-width="2"/>
+<rect x="105" y="1213" width="48" height="27" rx="3" fill="#ef4444" stroke="#334155" stroke-width="2"/>
+<text x="165.0" y="1234.0" text-anchor="start" font-size="17" font-weight="650" fill="#334155">Power</text>
+<rect x="535" y="1213" width="48" height="27" rx="3" fill="#1d4ed8" stroke="#334155" stroke-width="2"/>
+<text x="595.0" y="1234.0" text-anchor="start" font-size="17" font-weight="650" fill="#334155">GND</text>
+<rect x="965" y="1213" width="48" height="27" rx="3" fill="#22c55e" stroke="#334155" stroke-width="2"/>
+<text x="1025.0" y="1234.0" text-anchor="start" font-size="17" font-weight="650" fill="#334155">Raybox input</text>
+<rect x="105" y="1259" width="48" height="27" rx="3" fill="#f59e0b" stroke="#334155" stroke-width="2"/>
+<text x="165.0" y="1280.0" text-anchor="start" font-size="17" font-weight="650" fill="#334155">Raybox output</text>
+<rect x="535" y="1259" width="48" height="27" rx="3" fill="#d946ef" stroke="#334155" stroke-width="2"/>
+<text x="595.0" y="1280.0" text-anchor="start" font-size="17" font-weight="650" fill="#334155">Raybox bidir</text>
+<rect x="965" y="1259" width="48" height="27" rx="3" fill="#86efac" stroke="#334155" stroke-width="2"/>
+<text x="1025.0" y="1280.0" text-anchor="start" font-size="17" font-weight="650" fill="#334155">Shared system clock</text>
+<rect x="105" y="1305" width="48" height="27" rx="3" fill="url(#hatch-green)" stroke="#22c55e" stroke-width="2"/>
+<text x="165.0" y="1326.0" text-anchor="start" font-size="17" font-weight="650" fill="#334155">Unused mprj_io</text>
+<rect x="535" y="1305" width="48" height="27" rx="3" fill="white" stroke="#334155" stroke-width="2"/>
+<circle cx="559" cy="1318.5" r="8" fill="#f59e0b"/>
+<text x="595.0" y="1326.0" text-anchor="start" font-size="17" font-weight="650" fill="#334155">Caravel-only function</text>
+<rect x="965" y="1305" width="48" height="27" rx="3" fill="white" stroke="#334155" stroke-width="2"/>
+<path d="M 1013 1305 L 1013 1332 L 965 1332 Z" fill="#22c55e"/>
+<rect x="965" y="1305" width="48" height="27" rx="3" fill="none" stroke="#334155" stroke-width="2"/>
+<text x="1025.0" y="1326.0" text-anchor="start" font-size="17" font-weight="650" fill="#334155">mprj_io / Caravel function</text>
+<rect x="1500" y="128" width="488" height="1124" fill="white" stroke="#94a3b8" stroke-width="2"/>
+<rect x="1500" y="128" width="488" height="36" fill="#1e293b"/>
+<text x="1521.0" y="152.0" text-anchor="middle" font-size="15" font-weight="750" fill="white">Pin</text>
+<text x="1630.0" y="152.0" text-anchor="middle" font-size="15" font-weight="750" fill="white">Caravel / U1</text>
+<text x="1824.0" y="152.0" text-anchor="middle" font-size="15" font-weight="750" fill="white">Raybox Zero</text>
+<text x="1959.0" y="152.0" text-anchor="middle" font-size="15" font-weight="750" fill="white">Dir</text>
+<text x="1534.0" y="187.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">1</text>
+<text x="1549.0" y="187.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">vssa2</text>
+<text x="1725.0" y="187.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#1d4ed8">GND</text>
+<text x="1978.0" y="187.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">GND</text>
+<line class="hair" x1="1542" y1="164" x2="1542" y2="198"/>
+<line class="hair" x1="1718" y1="164" x2="1718" y2="198"/>
+<line class="hair" x1="1930" y1="164" x2="1930" y2="198"/>
+<line class="hair" x1="1500" y1="198" x2="1988" y2="198"/>
+<rect x="1500" y="198" width="488" height="34" fill="#f1f5f9"/>
+<text x="1534.0" y="221.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">2</text>
+<text x="1549.0" y="221.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[25]</text>
+<text x="1725.0" y="221.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">reg_cs_n</text>
+<text x="1978.0" y="221.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">IN</text>
+<line class="hair" x1="1542" y1="198" x2="1542" y2="232"/>
+<line class="hair" x1="1718" y1="198" x2="1718" y2="232"/>
+<line class="hair" x1="1930" y1="198" x2="1930" y2="232"/>
+<line class="hair" x1="1500" y1="232" x2="1988" y2="232"/>
+<text x="1534.0" y="255.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">3</text>
+<text x="1549.0" y="255.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[26]</text>
+<text x="1725.0" y="255.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">reg_sclk</text>
+<text x="1978.0" y="255.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">IN</text>
+<line class="hair" x1="1542" y1="232" x2="1542" y2="266"/>
+<line class="hair" x1="1718" y1="232" x2="1718" y2="266"/>
+<line class="hair" x1="1930" y1="232" x2="1930" y2="266"/>
+<line class="hair" x1="1500" y1="266" x2="1988" y2="266"/>
+<rect x="1500" y="266" width="488" height="34" fill="#f1f5f9"/>
+<text x="1534.0" y="289.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">4</text>
+<text x="1549.0" y="289.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[27]</text>
+<text x="1725.0" y="289.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">reg_mosi</text>
+<text x="1978.0" y="289.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">IN</text>
+<line class="hair" x1="1542" y1="266" x2="1542" y2="300"/>
+<line class="hair" x1="1718" y1="266" x2="1718" y2="300"/>
+<line class="hair" x1="1930" y1="266" x2="1930" y2="300"/>
+<line class="hair" x1="1500" y1="300" x2="1988" y2="300"/>
+<text x="1534.0" y="323.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">5</text>
+<text x="1549.0" y="323.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[28]</text>
+<text x="1725.0" y="323.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">debug_vec</text>
+<text x="1978.0" y="323.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">IN</text>
+<line class="hair" x1="1542" y1="300" x2="1542" y2="334"/>
+<line class="hair" x1="1718" y1="300" x2="1718" y2="334"/>
+<line class="hair" x1="1930" y1="300" x2="1930" y2="334"/>
+<line class="hair" x1="1500" y1="334" x2="1988" y2="334"/>
+<rect x="1500" y="334" width="488" height="34" fill="#f1f5f9"/>
+<text x="1534.0" y="357.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">6</text>
+<text x="1549.0" y="357.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[29]</text>
+<text x="1725.0" y="357.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">debug_map</text>
+<text x="1978.0" y="357.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">IN</text>
+<line class="hair" x1="1542" y1="334" x2="1542" y2="368"/>
+<line class="hair" x1="1718" y1="334" x2="1718" y2="368"/>
+<line class="hair" x1="1930" y1="334" x2="1930" y2="368"/>
+<line class="hair" x1="1500" y1="368" x2="1988" y2="368"/>
+<text x="1534.0" y="391.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">7</text>
+<text x="1549.0" y="391.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[30]</text>
+<text x="1725.0" y="391.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">debug_trace</text>
+<text x="1978.0" y="391.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">IN</text>
+<line class="hair" x1="1542" y1="368" x2="1542" y2="402"/>
+<line class="hair" x1="1718" y1="368" x2="1718" y2="402"/>
+<line class="hair" x1="1930" y1="368" x2="1930" y2="402"/>
+<line class="hair" x1="1500" y1="402" x2="1988" y2="402"/>
+<rect x="1500" y="402" width="488" height="34" fill="#f1f5f9"/>
+<text x="1534.0" y="425.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">8</text>
+<text x="1549.0" y="425.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[31]</text>
+<text x="1725.0" y="425.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">reg_outs_enb</text>
+<text x="1978.0" y="425.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">IN</text>
+<line class="hair" x1="1542" y1="402" x2="1542" y2="436"/>
+<line class="hair" x1="1718" y1="402" x2="1718" y2="436"/>
+<line class="hair" x1="1930" y1="402" x2="1930" y2="436"/>
+<line class="hair" x1="1500" y1="436" x2="1988" y2="436"/>
+<text x="1534.0" y="459.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">9</text>
+<text x="1549.0" y="459.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">vdda2</text>
+<text x="1725.0" y="459.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#ef4444">VDD</text>
+<text x="1978.0" y="459.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">PWR</text>
+<line class="hair" x1="1542" y1="436" x2="1542" y2="470"/>
+<line class="hair" x1="1718" y1="436" x2="1718" y2="470"/>
+<line class="hair" x1="1930" y1="436" x2="1930" y2="470"/>
+<line class="hair" x1="1500" y1="470" x2="1988" y2="470"/>
+<rect x="1500" y="470" width="488" height="34" fill="#f1f5f9"/>
+<text x="1534.0" y="493.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">10</text>
+<text x="1549.0" y="493.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">vssd2</text>
+<text x="1725.0" y="493.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#1d4ed8">GND</text>
+<text x="1978.0" y="493.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">GND</text>
+<line class="hair" x1="1542" y1="470" x2="1542" y2="504"/>
+<line class="hair" x1="1718" y1="470" x2="1718" y2="504"/>
+<line class="hair" x1="1930" y1="470" x2="1930" y2="504"/>
+<line class="hair" x1="1500" y1="504" x2="1988" y2="504"/>
+<text x="1534.0" y="527.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">11</text>
+<text x="1549.0" y="527.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[32]</text>
+<text x="1725.0" y="527.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">mode0_inc_px</text>
+<text x="1978.0" y="527.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">IN</text>
+<line class="hair" x1="1542" y1="504" x2="1542" y2="538"/>
+<line class="hair" x1="1718" y1="504" x2="1718" y2="538"/>
+<line class="hair" x1="1930" y1="504" x2="1930" y2="538"/>
+<line class="hair" x1="1500" y1="538" x2="1988" y2="538"/>
+<rect x="1500" y="538" width="488" height="34" fill="#f1f5f9"/>
+<text x="1534.0" y="561.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">12</text>
+<text x="1549.0" y="561.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[33]</text>
+<text x="1725.0" y="561.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">mode1_inc_py</text>
+<text x="1978.0" y="561.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">IN</text>
+<line class="hair" x1="1542" y1="538" x2="1542" y2="572"/>
+<line class="hair" x1="1718" y1="538" x2="1718" y2="572"/>
+<line class="hair" x1="1930" y1="538" x2="1930" y2="572"/>
+<line class="hair" x1="1500" y1="572" x2="1988" y2="572"/>
+<text x="1534.0" y="595.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">13</text>
+<text x="1549.0" y="595.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[34]</text>
+<text x="1725.0" y="595.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">mode2_gen_tex</text>
+<text x="1978.0" y="595.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">IN</text>
+<line class="hair" x1="1542" y1="572" x2="1542" y2="606"/>
+<line class="hair" x1="1718" y1="572" x2="1718" y2="606"/>
+<line class="hair" x1="1930" y1="572" x2="1930" y2="606"/>
+<line class="hair" x1="1500" y1="606" x2="1988" y2="606"/>
+<rect x="1500" y="606" width="488" height="34" fill="#f1f5f9"/>
+<text x="1534.0" y="629.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">14</text>
+<text x="1549.0" y="629.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[35]</text>
+<text x="1725.0" y="629.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">gpout[0]</text>
+<text x="1978.0" y="629.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">OUT</text>
+<line class="hair" x1="1542" y1="606" x2="1542" y2="640"/>
+<line class="hair" x1="1718" y1="606" x2="1718" y2="640"/>
+<line class="hair" x1="1930" y1="606" x2="1930" y2="640"/>
+<line class="hair" x1="1500" y1="640" x2="1988" y2="640"/>
+<text x="1534.0" y="663.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">15</text>
+<text x="1549.0" y="663.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[36]</text>
+<text x="1725.0" y="663.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">gpout[1]</text>
+<text x="1978.0" y="663.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">OUT</text>
+<line class="hair" x1="1542" y1="640" x2="1542" y2="674"/>
+<line class="hair" x1="1718" y1="640" x2="1718" y2="674"/>
+<line class="hair" x1="1930" y1="640" x2="1930" y2="674"/>
+<line class="hair" x1="1500" y1="674" x2="1988" y2="674"/>
+<rect x="1500" y="674" width="488" height="34" fill="#f1f5f9"/>
+<text x="1534.0" y="697.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">16</text>
+<text x="1549.0" y="697.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[37]</text>
+<text x="1725.0" y="697.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">gpout[2]</text>
+<text x="1978.0" y="697.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">OUT</text>
+<line class="hair" x1="1542" y1="674" x2="1542" y2="708"/>
+<line class="hair" x1="1718" y1="674" x2="1718" y2="708"/>
+<line class="hair" x1="1930" y1="674" x2="1930" y2="708"/>
+<line class="hair" x1="1500" y1="708" x2="1988" y2="708"/>
+<text x="1534.0" y="731.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">17</text>
+<text x="1549.0" y="731.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">vddio</text>
+<text x="1725.0" y="731.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#ef4444">VDD</text>
+<text x="1978.0" y="731.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">PWR</text>
+<line class="hair" x1="1542" y1="708" x2="1542" y2="742"/>
+<line class="hair" x1="1718" y1="708" x2="1718" y2="742"/>
+<line class="hair" x1="1930" y1="708" x2="1930" y2="742"/>
+<line class="hair" x1="1500" y1="742" x2="1988" y2="742"/>
+<rect x="1500" y="742" width="488" height="34" fill="#f1f5f9"/>
+<text x="1534.0" y="765.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">18</text>
+<text x="1549.0" y="765.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">vccd</text>
+<text x="1725.0" y="765.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#ef4444">VDD</text>
+<text x="1978.0" y="765.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">PWR</text>
+<line class="hair" x1="1542" y1="742" x2="1542" y2="776"/>
+<line class="hair" x1="1718" y1="742" x2="1718" y2="776"/>
+<line class="hair" x1="1930" y1="742" x2="1930" y2="776"/>
+<line class="hair" x1="1500" y1="776" x2="1988" y2="776"/>
+<text x="1534.0" y="799.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">19</text>
+<text x="1549.0" y="799.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">N/C</text>
+<text x="1725.0" y="799.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">—</text>
+<text x="1978.0" y="799.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">—</text>
+<line class="hair" x1="1542" y1="776" x2="1542" y2="810"/>
+<line class="hair" x1="1718" y1="776" x2="1718" y2="810"/>
+<line class="hair" x1="1930" y1="776" x2="1930" y2="810"/>
+<line class="hair" x1="1500" y1="810" x2="1988" y2="810"/>
+<rect x="1500" y="810" width="488" height="34" fill="#f1f5f9"/>
+<text x="1534.0" y="833.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">20</text>
+<text x="1549.0" y="833.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">vssa</text>
+<text x="1725.0" y="833.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#1d4ed8">GND</text>
+<text x="1978.0" y="833.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">GND</text>
+<line class="hair" x1="1542" y1="810" x2="1542" y2="844"/>
+<line class="hair" x1="1718" y1="810" x2="1718" y2="844"/>
+<line class="hair" x1="1930" y1="810" x2="1930" y2="844"/>
+<line class="hair" x1="1500" y1="844" x2="1988" y2="844"/>
+<text x="1534.0" y="867.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">21</text>
+<text x="1549.0" y="867.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">resetb</text>
+<text x="1725.0" y="867.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">RESETb</text>
+<text x="1978.0" y="867.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">IN</text>
+<line class="hair" x1="1542" y1="844" x2="1542" y2="878"/>
+<line class="hair" x1="1718" y1="844" x2="1718" y2="878"/>
+<line class="hair" x1="1930" y1="844" x2="1930" y2="878"/>
+<line class="hair" x1="1500" y1="878" x2="1988" y2="878"/>
+<rect x="1500" y="878" width="488" height="34" fill="#f1f5f9"/>
+<text x="1534.0" y="901.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">22</text>
+<text x="1549.0" y="901.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">clock</text>
+<text x="1725.0" y="901.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">system_clk</text>
+<text x="1978.0" y="901.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">IN</text>
+<line class="hair" x1="1542" y1="878" x2="1542" y2="912"/>
+<line class="hair" x1="1718" y1="878" x2="1718" y2="912"/>
+<line class="hair" x1="1930" y1="878" x2="1930" y2="912"/>
+<line class="hair" x1="1500" y1="912" x2="1988" y2="912"/>
+<text x="1534.0" y="935.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">23</text>
+<text x="1549.0" y="935.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">vssd</text>
+<text x="1725.0" y="935.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#1d4ed8">GND</text>
+<text x="1978.0" y="935.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">GND</text>
+<line class="hair" x1="1542" y1="912" x2="1542" y2="946"/>
+<line class="hair" x1="1718" y1="912" x2="1718" y2="946"/>
+<line class="hair" x1="1930" y1="912" x2="1930" y2="946"/>
+<line class="hair" x1="1500" y1="946" x2="1988" y2="946"/>
+<rect x="1500" y="946" width="488" height="34" fill="#f1f5f9"/>
+<text x="1534.0" y="969.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">24</text>
+<text x="1549.0" y="969.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">flash_csb</text>
+<text x="1725.0" y="969.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">—</text>
+<text x="1978.0" y="969.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">OUT</text>
+<line class="hair" x1="1542" y1="946" x2="1542" y2="980"/>
+<line class="hair" x1="1718" y1="946" x2="1718" y2="980"/>
+<line class="hair" x1="1930" y1="946" x2="1930" y2="980"/>
+<line class="hair" x1="1500" y1="980" x2="1988" y2="980"/>
+<text x="1534.0" y="1003.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">25</text>
+<text x="1549.0" y="1003.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">flash_clk</text>
+<text x="1725.0" y="1003.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">—</text>
+<text x="1978.0" y="1003.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">OUT</text>
+<line class="hair" x1="1542" y1="980" x2="1542" y2="1014"/>
+<line class="hair" x1="1718" y1="980" x2="1718" y2="1014"/>
+<line class="hair" x1="1930" y1="980" x2="1930" y2="1014"/>
+<line class="hair" x1="1500" y1="1014" x2="1988" y2="1014"/>
+<rect x="1500" y="1014" width="488" height="34" fill="#f1f5f9"/>
+<text x="1534.0" y="1037.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">26</text>
+<text x="1549.0" y="1037.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">flash_io0</text>
+<text x="1725.0" y="1037.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">—</text>
+<text x="1978.0" y="1037.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">I/O</text>
+<line class="hair" x1="1542" y1="1014" x2="1542" y2="1048"/>
+<line class="hair" x1="1718" y1="1014" x2="1718" y2="1048"/>
+<line class="hair" x1="1930" y1="1014" x2="1930" y2="1048"/>
+<line class="hair" x1="1500" y1="1048" x2="1988" y2="1048"/>
+<text x="1534.0" y="1071.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">27</text>
+<text x="1549.0" y="1071.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">flash_io1</text>
+<text x="1725.0" y="1071.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">—</text>
+<text x="1978.0" y="1071.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">I/O</text>
+<line class="hair" x1="1542" y1="1048" x2="1542" y2="1082"/>
+<line class="hair" x1="1718" y1="1048" x2="1718" y2="1082"/>
+<line class="hair" x1="1930" y1="1048" x2="1930" y2="1082"/>
+<line class="hair" x1="1500" y1="1082" x2="1988" y2="1082"/>
+<rect x="1500" y="1082" width="488" height="34" fill="#f1f5f9"/>
+<text x="1534.0" y="1105.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">28</text>
+<text x="1549.0" y="1105.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">gpio</text>
+<text x="1725.0" y="1105.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">—</text>
+<text x="1978.0" y="1105.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">I/O</text>
+<line class="hair" x1="1542" y1="1082" x2="1542" y2="1116"/>
+<line class="hair" x1="1718" y1="1082" x2="1718" y2="1116"/>
+<line class="hair" x1="1930" y1="1082" x2="1930" y2="1116"/>
+<line class="hair" x1="1500" y1="1116" x2="1988" y2="1116"/>
+<text x="1534.0" y="1139.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">29</text>
+<text x="1549.0" y="1139.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">vssio</text>
+<text x="1725.0" y="1139.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#1d4ed8">GND</text>
+<text x="1978.0" y="1139.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">GND</text>
+<line class="hair" x1="1542" y1="1116" x2="1542" y2="1150"/>
+<line class="hair" x1="1718" y1="1116" x2="1718" y2="1150"/>
+<line class="hair" x1="1930" y1="1116" x2="1930" y2="1150"/>
+<line class="hair" x1="1500" y1="1150" x2="1988" y2="1150"/>
+<rect x="1500" y="1150" width="488" height="34" fill="#f1f5f9"/>
+<text x="1534.0" y="1173.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">30</text>
+<text x="1549.0" y="1173.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">vdda</text>
+<text x="1725.0" y="1173.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#ef4444">VDD</text>
+<text x="1978.0" y="1173.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">PWR</text>
+<line class="hair" x1="1542" y1="1150" x2="1542" y2="1184"/>
+<line class="hair" x1="1718" y1="1150" x2="1718" y2="1184"/>
+<line class="hair" x1="1930" y1="1150" x2="1930" y2="1184"/>
+<line class="hair" x1="1500" y1="1184" x2="1988" y2="1184"/>
+<text x="1534.0" y="1207.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">31</text>
+<text x="1549.0" y="1207.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[0]_JTAG</text>
+<text x="1725.0" y="1207.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">—</text>
+<text x="1978.0" y="1207.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">IN</text>
+<line class="hair" x1="1542" y1="1184" x2="1542" y2="1218"/>
+<line class="hair" x1="1718" y1="1184" x2="1718" y2="1218"/>
+<line class="hair" x1="1930" y1="1184" x2="1930" y2="1218"/>
+<line class="hair" x1="1500" y1="1218" x2="1988" y2="1218"/>
+<rect x="1500" y="1218" width="488" height="34" fill="#f1f5f9"/>
+<text x="1534.0" y="1241.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">32</text>
+<text x="1549.0" y="1241.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[1]_SDO</text>
+<text x="1725.0" y="1241.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">—</text>
+<text x="1978.0" y="1241.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">OUT</text>
+<line class="hair" x1="1542" y1="1218" x2="1542" y2="1252"/>
+<line class="hair" x1="1718" y1="1218" x2="1718" y2="1252"/>
+<line class="hair" x1="1930" y1="1218" x2="1930" y2="1252"/>
+<line class="hair" x1="1500" y1="1252" x2="1988" y2="1252"/>
+<rect x="2002" y="128" width="488" height="1158" fill="white" stroke="#94a3b8" stroke-width="2"/>
+<rect x="2002" y="128" width="488" height="36" fill="#1e293b"/>
+<text x="2023.0" y="152.0" text-anchor="middle" font-size="15" font-weight="750" fill="white">Pin</text>
+<text x="2132.0" y="152.0" text-anchor="middle" font-size="15" font-weight="750" fill="white">Caravel / U1</text>
+<text x="2326.0" y="152.0" text-anchor="middle" font-size="15" font-weight="750" fill="white">Raybox Zero</text>
+<text x="2461.0" y="152.0" text-anchor="middle" font-size="15" font-weight="750" fill="white">Dir</text>
+<text x="2036.0" y="187.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">33</text>
+<text x="2051.0" y="187.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[2]_SDI</text>
+<text x="2227.0" y="187.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">—</text>
+<text x="2480.0" y="187.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">IN</text>
+<line class="hair" x1="2044" y1="164" x2="2044" y2="198"/>
+<line class="hair" x1="2220" y1="164" x2="2220" y2="198"/>
+<line class="hair" x1="2432" y1="164" x2="2432" y2="198"/>
+<line class="hair" x1="2002" y1="198" x2="2490" y2="198"/>
+<rect x="2002" y="198" width="488" height="34" fill="#f1f5f9"/>
+<text x="2036.0" y="221.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">34</text>
+<text x="2051.0" y="221.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[3]_CSB</text>
+<text x="2227.0" y="221.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">—</text>
+<text x="2480.0" y="221.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">IN</text>
+<line class="hair" x1="2044" y1="198" x2="2044" y2="232"/>
+<line class="hair" x1="2220" y1="198" x2="2220" y2="232"/>
+<line class="hair" x1="2432" y1="198" x2="2432" y2="232"/>
+<line class="hair" x1="2002" y1="232" x2="2490" y2="232"/>
+<text x="2036.0" y="255.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">35</text>
+<text x="2051.0" y="255.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[4]_SCK</text>
+<text x="2227.0" y="255.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">—</text>
+<text x="2480.0" y="255.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">IN</text>
+<line class="hair" x1="2044" y1="232" x2="2044" y2="266"/>
+<line class="hair" x1="2220" y1="232" x2="2220" y2="266"/>
+<line class="hair" x1="2432" y1="232" x2="2432" y2="266"/>
+<line class="hair" x1="2002" y1="266" x2="2490" y2="266"/>
+<rect x="2002" y="266" width="488" height="34" fill="#f1f5f9"/>
+<text x="2036.0" y="289.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">36</text>
+<text x="2051.0" y="289.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[5]_ser_rx</text>
+<text x="2227.0" y="289.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">opt_user_reset</text>
+<text x="2480.0" y="289.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">IN</text>
+<line class="hair" x1="2044" y1="266" x2="2044" y2="300"/>
+<line class="hair" x1="2220" y1="266" x2="2220" y2="300"/>
+<line class="hair" x1="2432" y1="266" x2="2432" y2="300"/>
+<line class="hair" x1="2002" y1="300" x2="2490" y2="300"/>
+<text x="2036.0" y="323.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">37</text>
+<text x="2051.0" y="323.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[6]_ser_tx</text>
+<text x="2227.0" y="323.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">—</text>
+<text x="2480.0" y="323.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">OUT</text>
+<line class="hair" x1="2044" y1="300" x2="2044" y2="334"/>
+<line class="hair" x1="2220" y1="300" x2="2220" y2="334"/>
+<line class="hair" x1="2432" y1="300" x2="2432" y2="334"/>
+<line class="hair" x1="2002" y1="334" x2="2490" y2="334"/>
+<rect x="2002" y="334" width="488" height="34" fill="#f1f5f9"/>
+<text x="2036.0" y="357.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">38</text>
+<text x="2051.0" y="357.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">vssa1</text>
+<text x="2227.0" y="357.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#1d4ed8">GND</text>
+<text x="2480.0" y="357.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">GND</text>
+<line class="hair" x1="2044" y1="334" x2="2044" y2="368"/>
+<line class="hair" x1="2220" y1="334" x2="2220" y2="368"/>
+<line class="hair" x1="2432" y1="334" x2="2432" y2="368"/>
+<line class="hair" x1="2002" y1="368" x2="2490" y2="368"/>
+<text x="2036.0" y="391.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">39</text>
+<text x="2051.0" y="391.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">vssd1</text>
+<text x="2227.0" y="391.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#1d4ed8">GND</text>
+<text x="2480.0" y="391.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">GND</text>
+<line class="hair" x1="2044" y1="368" x2="2044" y2="402"/>
+<line class="hair" x1="2220" y1="368" x2="2220" y2="402"/>
+<line class="hair" x1="2432" y1="368" x2="2432" y2="402"/>
+<line class="hair" x1="2002" y1="402" x2="2490" y2="402"/>
+<rect x="2002" y="402" width="488" height="34" fill="#f1f5f9"/>
+<text x="2036.0" y="425.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">40</text>
+<text x="2051.0" y="425.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">vdda1</text>
+<text x="2227.0" y="425.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#ef4444">VDD</text>
+<text x="2480.0" y="425.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">PWR</text>
+<line class="hair" x1="2044" y1="402" x2="2044" y2="436"/>
+<line class="hair" x1="2220" y1="402" x2="2220" y2="436"/>
+<line class="hair" x1="2432" y1="402" x2="2432" y2="436"/>
+<line class="hair" x1="2002" y1="436" x2="2490" y2="436"/>
+<text x="2036.0" y="459.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">41</text>
+<text x="2051.0" y="459.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[7]</text>
+<text x="2227.0" y="459.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#4b5563">n/c</text>
+<text x="2480.0" y="459.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">—</text>
+<line class="hair" x1="2044" y1="436" x2="2044" y2="470"/>
+<line class="hair" x1="2220" y1="436" x2="2220" y2="470"/>
+<line class="hair" x1="2432" y1="436" x2="2432" y2="470"/>
+<line class="hair" x1="2002" y1="470" x2="2490" y2="470"/>
+<rect x="2002" y="470" width="488" height="34" fill="#f1f5f9"/>
+<text x="2036.0" y="493.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">42</text>
+<text x="2051.0" y="493.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[8]</text>
+<text x="2227.0" y="493.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">hsync_n</text>
+<text x="2480.0" y="493.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">OUT</text>
+<line class="hair" x1="2044" y1="470" x2="2044" y2="504"/>
+<line class="hair" x1="2220" y1="470" x2="2220" y2="504"/>
+<line class="hair" x1="2432" y1="470" x2="2432" y2="504"/>
+<line class="hair" x1="2002" y1="504" x2="2490" y2="504"/>
+<text x="2036.0" y="527.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">43</text>
+<text x="2051.0" y="527.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[9]</text>
+<text x="2227.0" y="527.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">vsync_n</text>
+<text x="2480.0" y="527.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">OUT</text>
+<line class="hair" x1="2044" y1="504" x2="2044" y2="538"/>
+<line class="hair" x1="2220" y1="504" x2="2220" y2="538"/>
+<line class="hair" x1="2432" y1="504" x2="2432" y2="538"/>
+<line class="hair" x1="2002" y1="538" x2="2490" y2="538"/>
+<rect x="2002" y="538" width="488" height="34" fill="#f1f5f9"/>
+<text x="2036.0" y="561.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">44</text>
+<text x="2051.0" y="561.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[10]</text>
+<text x="2227.0" y="561.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">rgb[0]</text>
+<text x="2480.0" y="561.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">OUT</text>
+<line class="hair" x1="2044" y1="538" x2="2044" y2="572"/>
+<line class="hair" x1="2220" y1="538" x2="2220" y2="572"/>
+<line class="hair" x1="2432" y1="538" x2="2432" y2="572"/>
+<line class="hair" x1="2002" y1="572" x2="2490" y2="572"/>
+<text x="2036.0" y="595.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">45</text>
+<text x="2051.0" y="595.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[11]</text>
+<text x="2227.0" y="595.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">rgb[1]</text>
+<text x="2480.0" y="595.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">OUT</text>
+<line class="hair" x1="2044" y1="572" x2="2044" y2="606"/>
+<line class="hair" x1="2220" y1="572" x2="2220" y2="606"/>
+<line class="hair" x1="2432" y1="572" x2="2432" y2="606"/>
+<line class="hair" x1="2002" y1="606" x2="2490" y2="606"/>
+<rect x="2002" y="606" width="488" height="34" fill="#f1f5f9"/>
+<text x="2036.0" y="629.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">46</text>
+<text x="2051.0" y="629.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[12]</text>
+<text x="2227.0" y="629.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">rgb[2]</text>
+<text x="2480.0" y="629.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">OUT</text>
+<line class="hair" x1="2044" y1="606" x2="2044" y2="640"/>
+<line class="hair" x1="2220" y1="606" x2="2220" y2="640"/>
+<line class="hair" x1="2432" y1="606" x2="2432" y2="640"/>
+<line class="hair" x1="2002" y1="640" x2="2490" y2="640"/>
+<text x="2036.0" y="663.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">47</text>
+<text x="2051.0" y="663.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">vdda1</text>
+<text x="2227.0" y="663.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#ef4444">VDD</text>
+<text x="2480.0" y="663.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">PWR</text>
+<line class="hair" x1="2044" y1="640" x2="2044" y2="674"/>
+<line class="hair" x1="2220" y1="640" x2="2220" y2="674"/>
+<line class="hair" x1="2432" y1="640" x2="2432" y2="674"/>
+<line class="hair" x1="2002" y1="674" x2="2490" y2="674"/>
+<rect x="2002" y="674" width="488" height="34" fill="#f1f5f9"/>
+<text x="2036.0" y="697.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">48</text>
+<text x="2051.0" y="697.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[13]</text>
+<text x="2227.0" y="697.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">rgb[3]</text>
+<text x="2480.0" y="697.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">OUT</text>
+<line class="hair" x1="2044" y1="674" x2="2044" y2="708"/>
+<line class="hair" x1="2220" y1="674" x2="2220" y2="708"/>
+<line class="hair" x1="2432" y1="674" x2="2432" y2="708"/>
+<line class="hair" x1="2002" y1="708" x2="2490" y2="708"/>
+<text x="2036.0" y="731.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">49</text>
+<text x="2051.0" y="731.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">vccd1</text>
+<text x="2227.0" y="731.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#ef4444">VDD</text>
+<text x="2480.0" y="731.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">PWR</text>
+<line class="hair" x1="2044" y1="708" x2="2044" y2="742"/>
+<line class="hair" x1="2220" y1="708" x2="2220" y2="742"/>
+<line class="hair" x1="2432" y1="708" x2="2432" y2="742"/>
+<line class="hair" x1="2002" y1="742" x2="2490" y2="742"/>
+<rect x="2002" y="742" width="488" height="34" fill="#f1f5f9"/>
+<text x="2036.0" y="765.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">50</text>
+<text x="2051.0" y="765.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[14]</text>
+<text x="2227.0" y="765.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">rgb[4]</text>
+<text x="2480.0" y="765.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">OUT</text>
+<line class="hair" x1="2044" y1="742" x2="2044" y2="776"/>
+<line class="hair" x1="2220" y1="742" x2="2220" y2="776"/>
+<line class="hair" x1="2432" y1="742" x2="2432" y2="776"/>
+<line class="hair" x1="2002" y1="776" x2="2490" y2="776"/>
+<text x="2036.0" y="799.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">51</text>
+<text x="2051.0" y="799.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[15]</text>
+<text x="2227.0" y="799.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">rgb[5]</text>
+<text x="2480.0" y="799.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">OUT</text>
+<line class="hair" x1="2044" y1="776" x2="2044" y2="810"/>
+<line class="hair" x1="2220" y1="776" x2="2220" y2="810"/>
+<line class="hair" x1="2432" y1="776" x2="2432" y2="810"/>
+<line class="hair" x1="2002" y1="810" x2="2490" y2="810"/>
+<rect x="2002" y="810" width="488" height="34" fill="#f1f5f9"/>
+<text x="2036.0" y="833.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">52</text>
+<text x="2051.0" y="833.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">vssa1</text>
+<text x="2227.0" y="833.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#1d4ed8">GND</text>
+<text x="2480.0" y="833.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">GND</text>
+<line class="hair" x1="2044" y1="810" x2="2044" y2="844"/>
+<line class="hair" x1="2220" y1="810" x2="2220" y2="844"/>
+<line class="hair" x1="2432" y1="810" x2="2432" y2="844"/>
+<line class="hair" x1="2002" y1="844" x2="2490" y2="844"/>
+<text x="2036.0" y="867.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">53</text>
+<text x="2051.0" y="867.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[16]</text>
+<text x="2227.0" y="867.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">tex_cs_n</text>
+<text x="2480.0" y="867.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">OUT</text>
+<line class="hair" x1="2044" y1="844" x2="2044" y2="878"/>
+<line class="hair" x1="2220" y1="844" x2="2220" y2="878"/>
+<line class="hair" x1="2432" y1="844" x2="2432" y2="878"/>
+<line class="hair" x1="2002" y1="878" x2="2490" y2="878"/>
+<rect x="2002" y="878" width="488" height="34" fill="#f1f5f9"/>
+<text x="2036.0" y="901.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">54</text>
+<text x="2051.0" y="901.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[17]</text>
+<text x="2227.0" y="901.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">tex_sclk</text>
+<text x="2480.0" y="901.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">OUT</text>
+<line class="hair" x1="2044" y1="878" x2="2044" y2="912"/>
+<line class="hair" x1="2220" y1="878" x2="2220" y2="912"/>
+<line class="hair" x1="2432" y1="878" x2="2432" y2="912"/>
+<line class="hair" x1="2002" y1="912" x2="2490" y2="912"/>
+<text x="2036.0" y="935.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">55</text>
+<text x="2051.0" y="935.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[18]</text>
+<text x="2227.0" y="935.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">tex_io0</text>
+<text x="2480.0" y="935.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">I/O</text>
+<line class="hair" x1="2044" y1="912" x2="2044" y2="946"/>
+<line class="hair" x1="2220" y1="912" x2="2220" y2="946"/>
+<line class="hair" x1="2432" y1="912" x2="2432" y2="946"/>
+<line class="hair" x1="2002" y1="946" x2="2490" y2="946"/>
+<rect x="2002" y="946" width="488" height="34" fill="#f1f5f9"/>
+<text x="2036.0" y="969.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">56</text>
+<text x="2051.0" y="969.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">vssio</text>
+<text x="2227.0" y="969.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#1d4ed8">GND</text>
+<text x="2480.0" y="969.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">GND</text>
+<line class="hair" x1="2044" y1="946" x2="2044" y2="980"/>
+<line class="hair" x1="2220" y1="946" x2="2220" y2="980"/>
+<line class="hair" x1="2432" y1="946" x2="2432" y2="980"/>
+<line class="hair" x1="2002" y1="980" x2="2490" y2="980"/>
+<text x="2036.0" y="1003.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">57</text>
+<text x="2051.0" y="1003.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[19]</text>
+<text x="2227.0" y="1003.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">tex_io1</text>
+<text x="2480.0" y="1003.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">IN</text>
+<line class="hair" x1="2044" y1="980" x2="2044" y2="1014"/>
+<line class="hair" x1="2220" y1="980" x2="2220" y2="1014"/>
+<line class="hair" x1="2432" y1="980" x2="2432" y2="1014"/>
+<line class="hair" x1="2002" y1="1014" x2="2490" y2="1014"/>
+<rect x="2002" y="1014" width="488" height="34" fill="#f1f5f9"/>
+<text x="2036.0" y="1037.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">58</text>
+<text x="2051.0" y="1037.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[20]</text>
+<text x="2227.0" y="1037.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">tex_io2</text>
+<text x="2480.0" y="1037.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">IN</text>
+<line class="hair" x1="2044" y1="1014" x2="2044" y2="1048"/>
+<line class="hair" x1="2220" y1="1014" x2="2220" y2="1048"/>
+<line class="hair" x1="2432" y1="1014" x2="2432" y2="1048"/>
+<line class="hair" x1="2002" y1="1048" x2="2490" y2="1048"/>
+<text x="2036.0" y="1071.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">59</text>
+<text x="2051.0" y="1071.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[21]</text>
+<text x="2227.0" y="1071.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">tex_io3</text>
+<text x="2480.0" y="1071.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">IN</text>
+<line class="hair" x1="2044" y1="1048" x2="2044" y2="1082"/>
+<line class="hair" x1="2220" y1="1048" x2="2220" y2="1082"/>
+<line class="hair" x1="2432" y1="1048" x2="2432" y2="1082"/>
+<line class="hair" x1="2002" y1="1082" x2="2490" y2="1082"/>
+<rect x="2002" y="1082" width="488" height="34" fill="#f1f5f9"/>
+<text x="2036.0" y="1105.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">60</text>
+<text x="2051.0" y="1105.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[22]</text>
+<text x="2227.0" y="1105.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">vec_cs_n</text>
+<text x="2480.0" y="1105.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">IN</text>
+<line class="hair" x1="2044" y1="1082" x2="2044" y2="1116"/>
+<line class="hair" x1="2220" y1="1082" x2="2220" y2="1116"/>
+<line class="hair" x1="2432" y1="1082" x2="2432" y2="1116"/>
+<line class="hair" x1="2002" y1="1116" x2="2490" y2="1116"/>
+<text x="2036.0" y="1139.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">61</text>
+<text x="2051.0" y="1139.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[23]</text>
+<text x="2227.0" y="1139.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">vec_sclk</text>
+<text x="2480.0" y="1139.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">IN</text>
+<line class="hair" x1="2044" y1="1116" x2="2044" y2="1150"/>
+<line class="hair" x1="2220" y1="1116" x2="2220" y2="1150"/>
+<line class="hair" x1="2432" y1="1116" x2="2432" y2="1150"/>
+<line class="hair" x1="2002" y1="1150" x2="2490" y2="1150"/>
+<rect x="2002" y="1150" width="488" height="34" fill="#f1f5f9"/>
+<text x="2036.0" y="1173.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">62</text>
+<text x="2051.0" y="1173.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">mprj_io[24]</text>
+<text x="2227.0" y="1173.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#111827">vec_mosi</text>
+<text x="2480.0" y="1173.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">IN</text>
+<line class="hair" x1="2044" y1="1150" x2="2044" y2="1184"/>
+<line class="hair" x1="2220" y1="1150" x2="2220" y2="1184"/>
+<line class="hair" x1="2432" y1="1150" x2="2432" y2="1184"/>
+<line class="hair" x1="2002" y1="1184" x2="2490" y2="1184"/>
+<text x="2036.0" y="1207.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">63</text>
+<text x="2051.0" y="1207.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">vccd2</text>
+<text x="2227.0" y="1207.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#ef4444">VDD</text>
+<text x="2480.0" y="1207.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">PWR</text>
+<line class="hair" x1="2044" y1="1184" x2="2044" y2="1218"/>
+<line class="hair" x1="2220" y1="1184" x2="2220" y2="1218"/>
+<line class="hair" x1="2432" y1="1184" x2="2432" y2="1218"/>
+<line class="hair" x1="2002" y1="1218" x2="2490" y2="1218"/>
+<rect x="2002" y="1218" width="488" height="34" fill="#f1f5f9"/>
+<text x="2036.0" y="1241.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">64</text>
+<text x="2051.0" y="1241.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">vddio</text>
+<text x="2227.0" y="1241.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#ef4444">VDD</text>
+<text x="2480.0" y="1241.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">PWR</text>
+<line class="hair" x1="2044" y1="1218" x2="2044" y2="1252"/>
+<line class="hair" x1="2220" y1="1218" x2="2220" y2="1252"/>
+<line class="hair" x1="2432" y1="1218" x2="2432" y2="1252"/>
+<line class="hair" x1="2002" y1="1252" x2="2490" y2="1252"/>
+<text x="2036.0" y="1275.0" text-anchor="end" font-size="15" font-weight="750" fill="#334155">65</text>
+<text x="2051.0" y="1275.0" text-anchor="start" font-size="14.5" font-weight="500" fill="#475569">ThermalPad</text>
+<text x="2227.0" y="1275.0" text-anchor="start" font-size="14.5" font-weight="750" fill="#1d4ed8">GND</text>
+<text x="2480.0" y="1275.0" text-anchor="end" font-size="14" font-weight="700" fill="#475569">GND</text>
+<line class="hair" x1="2044" y1="1252" x2="2044" y2="1286"/>
+<line class="hair" x1="2220" y1="1252" x2="2220" y2="1286"/>
+<line class="hair" x1="2432" y1="1252" x2="2432" y2="1286"/>
+<line class="hair" x1="2002" y1="1286" x2="2490" y2="1286"/>
+<rect x="70" y="1359" width="25" height="18" rx="2" fill="#ffff00" stroke="#334155" stroke-width="1.8"/>
+<path d="M 95 1359 L 95 1377 L 70 1377 Z" fill="#86efac"/>
+<rect x="70" y="1359" width="25" height="18" rx="2" fill="none" stroke="#334155" stroke-width="1.8"/>
+<text x="82.5" y="1374.0" text-anchor="middle" font-size="13" font-weight="900" fill="#0f172a">†</text>
+<text x="105.0" y="1374.0" text-anchor="start" font-size="15" font-weight="600" fill="#334155">Pin 21 / RESETb: always resets Caravel; it directly resets the muxed user designs only when wb_rst_i propagation is enabled. Otherwise, restarted management firmware may reset them; mux/LA configuration selects the behaviour.</text>
+<rect x="70" y="1389" width="25" height="18" rx="2" fill="#ffff00" stroke="#334155" stroke-width="1.8"/>
+<text x="82.5" y="1404.0" text-anchor="middle" font-size="14" font-weight="900" fill="#0f172a">*</text>
+<text x="105.0" y="1404.0" text-anchor="start" font-size="15" font-weight="600" fill="#334155">Pin 36 / mprj_io[5] — opt_user_reset: optional active-high reset of all muxed user designs when LA[48]=0 and GPIO5 is a user input. Supplied Raybox firmware disables it; Caravel SER_RX shares the pad.</text>
+<text x="70.0" y="1450.0" text-anchor="start" font-size="18" font-weight="550" fill="#475569">U1/footprint: QFN-64-1EP_9×9mm_P0.5mm_EP7.65×7.65mm. Pin 65 is the exposed thermal pad, tied to GND on the reference board.</text>
+<text x="2535.0" y="1450.0" text-anchor="end" font-size="15" font-weight="500" fill="#64748b">Physical pin order from efabless/caravel_board · Project mapping from algofoogle-multi-caravel (gf180)</text>
+</svg>
