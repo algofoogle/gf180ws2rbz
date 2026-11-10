@@ -14884,6 +14884,16 @@
 		)
 		(uuid "0d51068d-2fb6-4a1d-9d14-41b68194eecd")
 	)
+	(label "debug_vec"
+		(at 468.63 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0ee8bf6c-baa2-4c2e-a145-e55e04d68f29")
+	)
 	(label "G_IN"
 		(at 223.52 96.52 0)
 		(effects
@@ -14924,6 +14934,16 @@
 		)
 		(uuid "13094bb6-3f28-4e34-806b-a9b54ae89f0d")
 	)
+	(label "reg_sclk"
+		(at 468.63 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "14615995-4155-4645-821e-9c86b142e02c")
+	)
 	(label "HDMI_CP"
 		(at 274.32 146.05 0)
 		(effects
@@ -14933,6 +14953,16 @@
 			(justify left bottom)
 		)
 		(uuid "15c4a871-130e-4547-b62e-63b23bc66114")
+	)
+	(label "reg_outs_enb"
+		(at 468.63 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "176c5a90-1e2a-4a56-aebc-738c2ecdfe32")
 	)
 	(label "NC32"
 		(at 367.03 224.79 0)
@@ -15124,6 +15154,16 @@
 		)
 		(uuid "34ef2cfc-d84d-407d-9b25-f3527d714b44")
 	)
+	(label "debug_trace"
+		(at 468.63 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3630187c-bc97-448f-81da-fe311a39fb7a")
+	)
 	(label "HDMI_0N"
 		(at 167.64 109.22 0)
 		(effects
@@ -15244,6 +15284,16 @@
 		)
 		(uuid "54df71e1-5d6a-4255-afe4-869c379e8ae2")
 	)
+	(label "debug_map"
+		(at 468.63 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5539d549-e599-4609-b107-f36b6ca24414")
+	)
 	(label "R_IN"
 		(at 223.52 101.6 0)
 		(effects
@@ -15314,6 +15364,26 @@
 		)
 		(uuid "5fdded7c-8e4d-4384-91fe-b9c623d8e1a6")
 	)
+	(label "mode2_gen_tex"
+		(at 468.63 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "632ae22c-a756-4613-b563-f918d9dd37ee")
+	)
+	(label "mode0_inc_px"
+		(at 468.63 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "651a0f5b-fd07-452d-9768-1c939386dc43")
+	)
 	(label "HDMI_0N"
 		(at 274.32 148.59 0)
 		(effects
@@ -15343,6 +15413,16 @@
 			(justify left bottom)
 		)
 		(uuid "6e76a866-3f25-4dba-a9ed-435c733af421")
+	)
+	(label "vssd2"
+		(at 468.63 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "70de8f50-da0b-4550-9f0c-4591e6c03701")
 	)
 	(label "VREF"
 		(at 359.41 207.01 90)
@@ -15494,6 +15574,26 @@
 		)
 		(uuid "7d9d6b8c-8cc2-46ad-b649-dd2a5ea95f8f")
 	)
+	(label "reg_mosi"
+		(at 468.63 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7fecd47e-b26f-41d4-9377-13a0fa31cc70")
+	)
+	(label "vdda2"
+		(at 468.63 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "80f92c36-8220-4a83-8dfc-b34f7ce97fbf")
+	)
 	(label "L_AUDIO"
 		(at 350.52 120.65 0)
 		(effects
@@ -15513,6 +15613,26 @@
 			(justify left bottom)
 		)
 		(uuid "8762b84e-f2ac-4797-bf60-36a328c2a78d")
+	)
+	(label "reg_cs_n"
+		(at 468.63 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "87e03960-93c2-4ff3-b6cb-22b0afd5e908")
+	)
+	(label "mode1_inc_py"
+		(at 468.63 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8b55bd19-5ce1-49b9-a874-69516ae0a67b")
 	)
 	(label "tGIN"
 		(at 341.63 207.01 90)
@@ -15564,6 +15684,16 @@
 		)
 		(uuid "9562e75b-5d92-43b8-a720-ad035c622e94")
 	)
+	(label "gpout0"
+		(at 468.63 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "95c6fdeb-0572-48f1-b21c-bfde4289b2d3")
+	)
 	(label "R_AUDIO"
 		(at 317.5 118.11 180)
 		(effects
@@ -15583,6 +15713,16 @@
 			(justify left bottom)
 		)
 		(uuid "99df1a8b-e157-4365-b44d-34c1db86ce64")
+	)
+	(label "vssa2"
+		(at 468.63 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9bd27b27-0003-4bab-9ab9-dadce31a9730")
 	)
 	(label "+3V3"
 		(at 334.01 207.01 90)
@@ -15654,6 +15794,16 @@
 		)
 		(uuid "a345c190-adf2-4890-9473-b75d3d3de2a1")
 	)
+	(label "gpout2"
+		(at 468.63 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a5466719-e960-4cb8-baa7-7c957db531cb")
+	)
 	(label "ARIN"
 		(at 107.95 83.82 180)
 		(effects
@@ -15683,6 +15833,16 @@
 			(justify right bottom)
 		)
 		(uuid "a690ee27-cf29-4dab-a6be-f65809d7bbea")
+	)
+	(label "gpout1"
+		(at 468.63 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a69d453f-ca9e-4c86-9195-d6ad72f2e7e2")
 	)
 	(label "ARIN"
 		(at 367.03 222.25 0)
@@ -19219,6 +19379,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 566.42 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "494df9dc-30ed-4e99-bc66-6548caa3a01d")
+		(property "Reference" "#PWR078"
+			(at 566.42 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 566.42 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 566.42 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 566.42 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 566.42 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e13a7446-e41b-4913-86b6-fe5d549e21bc")
+		)
+		(instances
+			(project "gf180ws2rbz_parts_test"
+				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 34.29 83.82 90)
 		(unit 1)
@@ -19805,7 +20043,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Anton:Anton_Pads_01x16_1.27mm_SMD"
+		(property "Footprint" "Anton:Anton_Pads_01x16_1.27mm_Compact_SMD"
 			(at 449.58 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -20087,7 +20325,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Anton:Anton_Pads_01x16_1.27mm_SMD"
+		(property "Footprint" "Anton:Anton_Pads_01x16_1.27mm_Compact_SMD"
 			(at 519.43 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -23696,7 +23934,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Anton:Anton_Pads_01x16_1.27mm_SMD"
+		(property "Footprint" "Anton:Anton_Pads_01x16_1.27mm_Compact_SMD"
 			(at 589.28 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -27333,7 +27571,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Anton:Anton_Pads_01x16_1.27mm_SMD"
+		(property "Footprint" "Anton:Anton_Pads_01x16_1.27mm_Compact_SMD"
 			(at 516.89 190.5 0)
 			(hide yes)
 			(show_name no)
