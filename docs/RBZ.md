@@ -177,3 +177,29 @@ See [`src/chip_core.sv`](https://github.com/algofoogle/gf180ws2-raybox-zero/blob
 ## MISC
 
 https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2Fwafer-space%2Fchip-on-board-wire-bonded-pcbs%2Fblob%2Fmain%2Frun-2%2F1x0p5-cob%2Fmezzanine-1x0p5.kicad_sch
+
+GPT says TXB0104 needs a drive strength of at least 2mA either end in order to work correctly. What is the hardened drive strength of the GFMPW1 & gf180ws2-rbz?
+
+If TXB doesn't properly sense initial command write, it might be possible to make a one-way booster that operates on /CS falling edge.
+
+In an extreme case, explicit direction control (LVC245) could work if tuned to land perfectly in the turn-around zone: We know exactly how many clocks it is from /CS falling to turn-around zone, so either use a counter (clocked by same system clock) or a passively timed circuit (even a 555).
+
+APX803S-46SA-7 or MCP1319MT-29LE-OT as a power/reset supervisor.
+
+RBZ may need its reset properly _syncronously_ clocked because otherwise a `rst_n` rising edge could occur on a clock edge & propagation (setup) delays would mean some parts come out of reset and start sequencing 1 clock before others do. Maybe a reset supervisor would help, or a 2xDFF external synchroniser, or MCU control over reset.
+
+
+
+## RBZ improvements for ttsky26d (that will feed future full-chip versions)
+
+* SPI regs for selecting gpouts: They can override 
+* Fix SDC for FSM
+* On-chip CORDIC?
+* tnt's regfile for "stuff": 32x32 is 1024b = 128 bytes. Only 384 bits are needed for texture line (but might need 50MHz or 75MHz clock for reads); rest could be sprites?
+* Video overlay memory region
+* Framebuffer PSRAM test
+* Instant-on SPI regs (don't double-buffer regs)
+* Tri-state all pins during reset (especially Q/SPI), or SPI pass-through method so a host MCU can reprogram SPI chip easily
+* Option to expose direction control
+* Option to expose `visible` & control polarity
+* Ensure proper io0 turn-around at the right time (if not already done), i.e. go Hi-Z when switching from command/address to data-in.
