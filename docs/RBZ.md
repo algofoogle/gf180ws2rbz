@@ -196,10 +196,25 @@ RBZ may need its reset properly _syncronously_ clocked because otherwise a `rst_
 * Fix SDC for FSM
 * On-chip CORDIC?
 * tnt's regfile for "stuff": 32x32 is 1024b = 128 bytes. Only 384 bits are needed for texture line (but might need 50MHz or 75MHz clock for reads); rest could be sprites?
+* "Dumb" sprites: Just specify the screen actual X/Y location, scaling, and whether to use depth-buffer-occlusion (and actual equivalent depth) and whether the wall occludes the whole column (sky/floor too) or just the wall-strip.
 * Video overlay memory region
+* Sky colour bands
 * Framebuffer PSRAM test
 * Instant-on SPI regs (don't double-buffer regs)
 * Tri-state all pins during reset (especially Q/SPI), or SPI pass-through method so a host MCU can reprogram SPI chip easily
 * Option to expose direction control
 * Option to expose `visible` & control polarity
+* Screen flip (anti/clockwise rotation support)
 * Ensure proper io0 turn-around at the right time (if not already done), i.e. go Hi-Z when switching from command/address to data-in.
+* Programmable FSM wait state count?
+* Configurable interrupts (line number, pixel, ...?)
+* Lots of additional signals that would be exposed on the ASIC version, but in TT include a layer configured by SPI that selects which of these are wired to what TT pins.
+    * Example inputs:
+        * Different debug overlays
+        * incx/y + other demo control modes
+    * Example outputs:
+        * Visible
+        * HMAX/VMAX
+        * Other gpout-style stuff
+        * tex_io0_oeb
+        * other register states
