@@ -4,4 +4,5 @@
 	(lib (name "MS7210") (type "KiCad") (uri "${KIPRJMOD}/../kicad_libs/MS7210.kicad_sym") (options "") (descr ""))
 	(lib (name "AMS1117-1") (type "KiCad") (uri "${KIPRJMOD}/../kicad_libs/AMS1117-1.kicad_sym") (options "") (descr ""))
 	(lib (name "RBZM") (type "KiCad") (uri "${KIPRJMOD}/../kicad_libs/RBZM.kicad_sym") (options "") (descr ""))
+	(lib (name "Anton") (type "KiCad") (uri "${KIPRJMOD}/../kicad_libs/Anton.kicad_sym") (options "") (descr ""))
 )
