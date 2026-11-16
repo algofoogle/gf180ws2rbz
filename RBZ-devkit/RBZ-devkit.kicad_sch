@@ -10788,7 +10788,7 @@
 		(uuid "13064c48-f6ad-4e24-8ef2-17095629fbb2")
 	)
 	(junction
-		(at 595.63 90.17)
+		(at 595.63 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13953633-97c0-4d17-9c68-6838cb09fbb2")
@@ -10920,7 +10920,7 @@
 		(uuid "4996ec1c-1e58-496f-9b55-ba6b241e9a4a")
 	)
 	(junction
-		(at 595.63 69.85)
+		(at 595.63 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e47e3f1-6383-4bba-93d3-6858c495b0b0")
@@ -11004,7 +11004,7 @@
 		(uuid "7138559d-2e4e-4861-adda-7e70c5647a08")
 	)
 	(junction
-		(at 595.63 80.01)
+		(at 595.63 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "727d8358-2756-4199-ab28-040e92e79688")
@@ -11052,7 +11052,7 @@
 		(uuid "79c4cad8-e31f-4a97-9ab6-1694f74d55d4")
 	)
 	(junction
-		(at 595.63 64.77)
+		(at 595.63 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ac78fc5-b566-4f3c-b8ac-1c9de2fb128c")
@@ -11190,7 +11190,7 @@
 		(uuid "bb2412b1-f0b5-469a-807c-414fceee0e56")
 	)
 	(junction
-		(at 595.63 85.09)
+		(at 595.63 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bbf81b2b-4363-4e5c-b4a5-8c6931d89b03")
@@ -11250,7 +11250,7 @@
 		(uuid "d6b699f0-8232-48ff-812d-fe83efc0ceaa")
 	)
 	(junction
-		(at 595.63 74.93)
+		(at 595.63 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9c68342-5c60-478a-9f21-a596cbbf1788")
@@ -11395,7 +11395,7 @@
 	)
 	(wire
 		(pts
-			(xy 618.49 80.01) (xy 613.41 80.01)
+			(xy 618.49 86.36) (xy 613.41 86.36)
 		)
 		(stroke
 			(width 0)
@@ -11525,7 +11525,7 @@
 	)
 	(wire
 		(pts
-			(xy 595.63 74.93) (xy 603.25 74.93)
+			(xy 595.63 81.28) (xy 603.25 81.28)
 		)
 		(stroke
 			(width 0)
@@ -11645,7 +11645,7 @@
 	)
 	(wire
 		(pts
-			(xy 618.49 90.17) (xy 613.41 90.17)
+			(xy 618.49 96.52) (xy 613.41 96.52)
 		)
 		(stroke
 			(width 0)
@@ -11885,7 +11885,7 @@
 	)
 	(wire
 		(pts
-			(xy 618.49 69.85) (xy 613.41 69.85)
+			(xy 618.49 76.2) (xy 613.41 76.2)
 		)
 		(stroke
 			(width 0)
@@ -12065,7 +12065,7 @@
 	)
 	(wire
 		(pts
-			(xy 618.49 95.25) (xy 613.41 95.25)
+			(xy 618.49 101.6) (xy 613.41 101.6)
 		)
 		(stroke
 			(width 0)
@@ -12185,7 +12185,7 @@
 	)
 	(wire
 		(pts
-			(xy 595.63 95.25) (xy 603.25 95.25)
+			(xy 595.63 101.6) (xy 603.25 101.6)
 		)
 		(stroke
 			(width 0)
@@ -12195,7 +12195,7 @@
 	)
 	(wire
 		(pts
-			(xy 595.63 69.85) (xy 595.63 74.93)
+			(xy 595.63 76.2) (xy 595.63 81.28)
 		)
 		(stroke
 			(width 0)
@@ -12455,7 +12455,7 @@
 	)
 	(wire
 		(pts
-			(xy 618.49 64.77) (xy 613.41 64.77)
+			(xy 618.49 71.12) (xy 613.41 71.12)
 		)
 		(stroke
 			(width 0)
@@ -12475,7 +12475,7 @@
 	)
 	(wire
 		(pts
-			(xy 595.63 64.77) (xy 603.25 64.77)
+			(xy 595.63 71.12) (xy 603.25 71.12)
 		)
 		(stroke
 			(width 0)
@@ -12555,7 +12555,7 @@
 	)
 	(wire
 		(pts
-			(xy 595.63 80.01) (xy 603.25 80.01)
+			(xy 595.63 86.36) (xy 603.25 86.36)
 		)
 		(stroke
 			(width 0)
@@ -13125,7 +13125,7 @@
 	)
 	(wire
 		(pts
-			(xy 595.63 90.17) (xy 603.25 90.17)
+			(xy 595.63 96.52) (xy 603.25 96.52)
 		)
 		(stroke
 			(width 0)
@@ -13245,7 +13245,7 @@
 	)
 	(wire
 		(pts
-			(xy 595.63 69.85) (xy 603.25 69.85)
+			(xy 595.63 76.2) (xy 603.25 76.2)
 		)
 		(stroke
 			(width 0)
@@ -13425,7 +13425,7 @@
 	)
 	(wire
 		(pts
-			(xy 595.63 85.09) (xy 603.25 85.09)
+			(xy 595.63 91.44) (xy 603.25 91.44)
 		)
 		(stroke
 			(width 0)
@@ -13625,7 +13625,7 @@
 	)
 	(wire
 		(pts
-			(xy 595.63 64.77) (xy 595.63 69.85)
+			(xy 595.63 71.12) (xy 595.63 76.2)
 		)
 		(stroke
 			(width 0)
@@ -13635,7 +13635,7 @@
 	)
 	(wire
 		(pts
-			(xy 595.63 74.93) (xy 595.63 80.01)
+			(xy 595.63 81.28) (xy 595.63 86.36)
 		)
 		(stroke
 			(width 0)
@@ -13705,7 +13705,7 @@
 	)
 	(wire
 		(pts
-			(xy 618.49 85.09) (xy 613.41 85.09)
+			(xy 618.49 91.44) (xy 613.41 91.44)
 		)
 		(stroke
 			(width 0)
@@ -14205,7 +14205,7 @@
 	)
 	(wire
 		(pts
-			(xy 595.63 85.09) (xy 595.63 90.17)
+			(xy 595.63 91.44) (xy 595.63 96.52)
 		)
 		(stroke
 			(width 0)
@@ -14275,7 +14275,7 @@
 	)
 	(wire
 		(pts
-			(xy 595.63 57.15) (xy 595.63 64.77)
+			(xy 595.63 63.5) (xy 595.63 71.12)
 		)
 		(stroke
 			(width 0)
@@ -14315,7 +14315,7 @@
 	)
 	(wire
 		(pts
-			(xy 595.63 80.01) (xy 595.63 85.09)
+			(xy 595.63 86.36) (xy 595.63 91.44)
 		)
 		(stroke
 			(width 0)
@@ -14635,7 +14635,7 @@
 	)
 	(wire
 		(pts
-			(xy 618.49 74.93) (xy 613.41 74.93)
+			(xy 618.49 81.28) (xy 613.41 81.28)
 		)
 		(stroke
 			(width 0)
@@ -15055,7 +15055,7 @@
 	)
 	(wire
 		(pts
-			(xy 595.63 90.17) (xy 595.63 95.25)
+			(xy 595.63 96.52) (xy 595.63 101.6)
 		)
 		(stroke
 			(width 0)
@@ -17330,7 +17330,7 @@
 		(uuid "1a8e52a0-19c4-40dd-a01b-2b97c2a0df39")
 	)
 	(label "vccd1"
-		(at 618.49 69.85 0)
+		(at 618.49 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17460,7 +17460,7 @@
 		(uuid "28bce08f-7f70-4d6a-8450-287829fe876b")
 	)
 	(label "vddio"
-		(at 618.49 95.25 0)
+		(at 618.49 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17490,7 +17490,7 @@
 		(uuid "2a159c9e-78ac-4721-8dee-15e88718913f")
 	)
 	(label "vdda2"
-		(at 618.49 90.17 0)
+		(at 618.49 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17830,7 +17830,7 @@
 		(uuid "5c187a7d-9152-4814-a4c1-2beb8ea10194")
 	)
 	(label "vdda1"
-		(at 618.49 85.09 0)
+		(at 618.49 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18140,7 +18140,7 @@
 		(uuid "80f92c36-8220-4a83-8dfc-b34f7ce97fbf")
 	)
 	(label "vdda"
-		(at 618.49 80.01 0)
+		(at 618.49 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18840,7 +18840,7 @@
 		(uuid "e6ebfef7-b38a-452c-ba2e-919d48f7654e")
 	)
 	(label "vccd"
-		(at 618.49 64.77 0)
+		(at 618.49 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18960,7 +18960,7 @@
 		(uuid "f4f7fb6d-983f-46e8-b00a-7d84173171bd")
 	)
 	(label "vccd2"
-		(at 618.49 74.93 0)
+		(at 618.49 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19159,7 +19159,7 @@
 			(uuid "a1405fa2-9742-4115-b593-02a13f444d48")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR013")
 					(unit 1)
@@ -19237,7 +19237,7 @@
 			(uuid "4e3e8ca1-f487-48b9-951e-3368f7b9d2de")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR010")
 					(unit 1)
@@ -19316,7 +19316,7 @@
 			(uuid "1b349234-05b8-476f-a125-32a63b965df1")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "C8")
 					(unit 1)
@@ -19398,7 +19398,7 @@
 			(uuid "27ae7089-bf11-48f1-bc00-62e1b6ac5fd8")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "R1")
 					(unit 1)
@@ -19477,7 +19477,7 @@
 			(uuid "ceea514a-1659-441f-93a6-bc020b4d916f")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "C12")
 					(unit 1)
@@ -19555,7 +19555,7 @@
 			(uuid "7cbdf981-898c-4c6c-951b-2ddf8a58a527")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR08")
 					(unit 1)
@@ -19633,7 +19633,7 @@
 			(uuid "c9d3d87b-e988-4827-ad3d-4820803746fe")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR020")
 					(unit 1)
@@ -19712,7 +19712,7 @@
 			(uuid "37abc83b-aa86-434d-bb53-640546e12784")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "R9")
 					(unit 1)
@@ -19722,7 +19722,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 608.33 95.25 180)
+		(at 608.33 101.6 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19732,7 +19732,7 @@
 		(dnp no)
 		(uuid "0cced61e-3e08-44f7-84a1-76ba57fe0266")
 		(property "Reference" "JP15"
-			(at 613.41 92.8684 0)
+			(at 613.41 99.2184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19743,7 +19743,7 @@
 			)
 		)
 		(property "Value" "vddio"
-			(at 606.298 93.472 0)
+			(at 606.298 99.822 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19754,7 +19754,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 608.33 95.25 0)
+			(at 608.33 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19765,7 +19765,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 608.33 87.63 0)
+			(at 608.33 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19776,7 +19776,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 608.33 90.17 0)
+			(at 608.33 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19793,7 +19793,7 @@
 			(uuid "478f8cb7-9cc2-44d7-be8a-4c8f12bb6b8a")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "JP15")
 					(unit 1)
@@ -19875,7 +19875,7 @@
 			(uuid "85896286-a8ba-42d2-9d28-bc2e702586b8")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "JP1")
 					(unit 1)
@@ -19957,7 +19957,7 @@
 			(uuid "feb7332e-6dff-44d7-896c-5e538a2b231a")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "JP3")
 					(unit 1)
@@ -20037,7 +20037,7 @@
 			(uuid "b7e9d2b3-191b-45d5-8503-a783ce62e5c6")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR059")
 					(unit 1)
@@ -20115,7 +20115,7 @@
 			(uuid "52d8686d-6559-4129-a1b6-6e36563af994")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR031")
 					(unit 1)
@@ -20194,7 +20194,7 @@
 			(uuid "0e6624ad-4eff-4278-85a5-0941fdec345e")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR071")
 					(unit 1)
@@ -20304,7 +20304,7 @@
 			(uuid "6ed77af5-abad-488d-9c2d-7f68e7eb8b4f")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "J10")
 					(unit 1)
@@ -20382,7 +20382,7 @@
 			(uuid "5f9a8bd2-a8b3-4db5-b1b5-56eee95b573d")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR034")
 					(unit 1)
@@ -20501,7 +20501,7 @@
 			(uuid "455be4ce-260d-4499-9ecf-0b2877569b52")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "U3")
 					(unit 1)
@@ -20579,7 +20579,7 @@
 			(uuid "fbf78cfa-fb9f-49c0-a784-ec5c2bfe166e")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR033")
 					(unit 1)
@@ -20658,7 +20658,7 @@
 			(uuid "d82686d4-9ae3-4386-8adf-6a8840ed4d19")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "C6")
 					(unit 1)
@@ -20737,7 +20737,7 @@
 			(uuid "b21f9bc4-f240-4750-b02d-dbd8444f24a3")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "C9")
 					(unit 1)
@@ -20897,7 +20897,7 @@
 			(uuid "0e182842-966e-407b-a6a4-7680d02a7842")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "CN1")
 					(unit 1)
@@ -20977,7 +20977,7 @@
 			(uuid "cb7fada4-8bd8-4f78-a350-4e5417c9738f")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "JP5")
 					(unit 1)
@@ -21056,7 +21056,7 @@
 			(uuid "633376e6-42eb-4908-831d-8546e0b7917f")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "C15")
 					(unit 1)
@@ -21135,7 +21135,7 @@
 			(uuid "66d7900f-bf52-44c8-9cb4-f5d4d508e614")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR073")
 					(unit 1)
@@ -21227,7 +21227,7 @@
 			(uuid "743e5b57-ad7b-40e5-89ec-b3e4cc9467fb")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "J3")
 					(unit 1)
@@ -21306,7 +21306,7 @@
 			(uuid "31ae3184-f337-4275-b84a-eb3c5600c070")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR011")
 					(unit 1)
@@ -21385,7 +21385,7 @@
 			(uuid "9985ef28-e883-4e5c-8055-6f5b0931296b")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR046")
 					(unit 1)
@@ -21495,7 +21495,7 @@
 			(uuid "7c9c7437-f88c-434a-b53d-76125c2cb5ae")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "J12")
 					(unit 1)
@@ -21766,7 +21766,7 @@
 			(uuid "4f691bc2-d4e9-41ff-b114-dff3a6d55128")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "U6")
 					(unit 1)
@@ -21845,7 +21845,7 @@
 			(uuid "7ae38d15-9a9e-42ec-a8b8-f5c4e134602c")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "C11")
 					(unit 1)
@@ -21924,7 +21924,7 @@
 			(uuid "b0d9b40e-d268-4094-abff-cf2afc4e846d")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR055")
 					(unit 1)
@@ -22002,7 +22002,7 @@
 			(uuid "db081ab1-5adc-41b0-b830-ac4397a06d97")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR058")
 					(unit 1)
@@ -22080,7 +22080,7 @@
 			(uuid "320e573c-5ac1-4915-acb4-6d15ccff3163")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR074")
 					(unit 1)
@@ -22249,7 +22249,7 @@
 			(uuid "4924edc4-674c-4ffb-afff-1bd35e6ad92f")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "JP16")
 					(unit 1)
@@ -22327,7 +22327,7 @@
 			(uuid "e7c673d0-702f-4e2f-8124-2019ae0a3a26")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR02")
 					(unit 1)
@@ -22405,7 +22405,7 @@
 			(uuid "a4a65dc3-071b-41f3-986e-c5ff7bede898")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR028")
 					(unit 1)
@@ -22483,7 +22483,7 @@
 			(uuid "e13a7446-e41b-4913-86b6-fe5d549e21bc")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR078")
 					(unit 1)
@@ -22562,7 +22562,7 @@
 			(uuid "fe0cfd6d-99fb-4e01-92e5-96816326ab1c")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "R7")
 					(unit 1)
@@ -22641,7 +22641,7 @@
 			(uuid "eb6dee17-54a5-4d57-a049-26ef0d92bd00")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "C19")
 					(unit 1)
@@ -22718,7 +22718,7 @@
 			(uuid "179a786d-eb86-4684-ba2b-4dd88b0c9435")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR061")
 					(unit 1)
@@ -22800,7 +22800,7 @@
 			(uuid "510d8fc0-8206-45f1-ba75-e071629bd9ee")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "R3")
 					(unit 1)
@@ -22879,7 +22879,7 @@
 			(uuid "478d46b6-b72e-4b89-a75c-a04311ff24ab")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR051")
 					(unit 1)
@@ -22959,7 +22959,7 @@
 			(uuid "66c22da0-13ab-43a6-92e7-eb0285af9bda")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "C18")
 					(unit 1)
@@ -23037,7 +23037,7 @@
 			(uuid "71fa7a0c-63ff-40ce-8207-18be931c4d62")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR09")
 					(unit 1)
@@ -23160,7 +23160,7 @@
 			(uuid "a3a7c4f6-e550-47c2-899f-d75cd53f85e6")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "J16")
 					(unit 1)
@@ -23239,7 +23239,7 @@
 			(uuid "290744bd-46bf-42af-9ac5-6309e9dc6521")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR067")
 					(unit 1)
@@ -23319,7 +23319,7 @@
 			(uuid "eeafe1a2-5d5f-4732-a03b-c262163e5038")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "R11")
 					(unit 1)
@@ -23442,7 +23442,7 @@
 			(uuid "3b0dd640-9578-45ab-bb18-1cbd688acf62")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "J19")
 					(unit 1)
@@ -23520,7 +23520,7 @@
 			(uuid "7c3b2a25-32ec-45a2-91ed-7b59292eef75")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR077")
 					(unit 1)
@@ -23598,7 +23598,7 @@
 			(uuid "797c42a1-14cc-48fd-a2fd-9e7f5f033c8f")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR048")
 					(unit 1)
@@ -23676,7 +23676,7 @@
 			(uuid "bf1fa9ce-6193-4ee1-b6ad-839373ec1ec1")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR014")
 					(unit 1)
@@ -23755,7 +23755,7 @@
 			(uuid "7475d817-de05-4817-a6df-a960fd403dcc")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "C4")
 					(unit 1)
@@ -23837,7 +23837,7 @@
 			(uuid "76392f6e-e88c-4229-aaac-47c211e9a2bc")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "J1")
 					(unit 1)
@@ -23916,7 +23916,7 @@
 			(uuid "b8f6c038-bd68-474f-b475-a278856b8128")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "C24")
 					(unit 1)
@@ -23995,7 +23995,7 @@
 			(uuid "c5655238-3e96-4569-8c49-75b564779a64")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR072")
 					(unit 1)
@@ -24073,7 +24073,7 @@
 			(uuid "e208810e-15df-4af8-86a3-5fa6c74bdcb7")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR065")
 					(unit 1)
@@ -24152,7 +24152,7 @@
 			(uuid "7cccab33-6ae1-4cb4-9c95-d2646748d590")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR026")
 					(unit 1)
@@ -24244,7 +24244,7 @@
 			(uuid "5c3e97c7-2516-4626-bc60-6eb03ee1d0ee")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "J6")
 					(unit 1)
@@ -24323,7 +24323,7 @@
 			(uuid "cb95f07b-03a4-42f6-9c9e-6a528c1ca2ff")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR037")
 					(unit 1)
@@ -24333,7 +24333,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 608.33 69.85 180)
+		(at 608.33 76.2 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24343,7 +24343,7 @@
 		(dnp no)
 		(uuid "6d525346-b0e7-4f57-8b83-45febe49239f")
 		(property "Reference" "JP10"
-			(at 613.41 67.4684 0)
+			(at 613.41 73.8184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24354,7 +24354,7 @@
 			)
 		)
 		(property "Value" "vccd1"
-			(at 606.298 68.072 0)
+			(at 606.298 74.422 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24365,7 +24365,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 608.33 69.85 0)
+			(at 608.33 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24376,7 +24376,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 608.33 62.23 0)
+			(at 608.33 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24387,7 +24387,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 608.33 64.77 0)
+			(at 608.33 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24404,7 +24404,7 @@
 			(uuid "478f8cb7-9cc2-44d7-be8a-4c8f12bb6b8b")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "JP10")
 					(unit 1)
@@ -24483,7 +24483,7 @@
 			(uuid "2c6f6bd2-4a07-418a-8a67-821cabe0d76f")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR043")
 					(unit 1)
@@ -24562,7 +24562,7 @@
 			(uuid "a2ebb860-f1cc-422e-9d42-ef04b15c1ef9")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR052")
 					(unit 1)
@@ -24640,7 +24640,7 @@
 			(uuid "6342e08f-6284-40f8-a01a-3b8d6386d59b")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR021")
 					(unit 1)
@@ -24722,7 +24722,7 @@
 			(uuid "d593a7f7-d898-4567-861b-f7a106193f84")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "R2")
 					(unit 1)
@@ -24808,7 +24808,7 @@
 			(uuid "3f4e9ab2-d638-4038-b254-83f622e1b36b")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "J13")
 					(unit 1)
@@ -24890,7 +24890,7 @@
 			(uuid "d9e57df2-d498-456a-bbe7-a598d5f89f16")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "R15")
 					(unit 1)
@@ -24968,7 +24968,7 @@
 			(uuid "211fe5be-ee62-442d-9561-3da629100c3b")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR023")
 					(unit 1)
@@ -25047,7 +25047,7 @@
 			(uuid "d06e8b44-6f38-4d8f-a263-a3d76f306435")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR066")
 					(unit 1)
@@ -25126,7 +25126,7 @@
 			(uuid "cb332963-564c-4d82-b947-d944ef9f22fa")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR050")
 					(unit 1)
@@ -25204,7 +25204,7 @@
 			(uuid "f9abd92b-b850-47ea-ab4a-fa4699c475ee")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR04")
 					(unit 1)
@@ -25287,7 +25287,7 @@
 			(uuid "56d4b935-5a1c-4d3a-9f38-5e8d47b7c95f")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "R13")
 					(unit 1)
@@ -25297,7 +25297,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 608.33 90.17 180)
+		(at 608.33 96.52 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25307,7 +25307,7 @@
 		(dnp no)
 		(uuid "89a16541-27d5-4f4b-9478-140e69657bbc")
 		(property "Reference" "JP14"
-			(at 613.41 87.7884 0)
+			(at 613.41 94.1384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25318,7 +25318,7 @@
 			)
 		)
 		(property "Value" "vdda2"
-			(at 606.298 88.392 0)
+			(at 606.298 94.742 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25329,7 +25329,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 608.33 90.17 0)
+			(at 608.33 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25340,7 +25340,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 608.33 82.55 0)
+			(at 608.33 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25351,7 +25351,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 608.33 85.09 0)
+			(at 608.33 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25368,7 +25368,7 @@
 			(uuid "478f8cb7-9cc2-44d7-be8a-4c8f12bb6b8c")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "JP14")
 					(unit 1)
@@ -25378,7 +25378,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 608.33 80.01 180)
+		(at 608.33 86.36 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25388,7 +25388,7 @@
 		(dnp no)
 		(uuid "8c21d69c-6530-42f8-91f5-3d104d283a7c")
 		(property "Reference" "JP12"
-			(at 613.41 77.6284 0)
+			(at 613.41 83.9784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25399,7 +25399,7 @@
 			)
 		)
 		(property "Value" "vdda"
-			(at 606.298 78.232 0)
+			(at 606.298 84.582 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25410,7 +25410,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 608.33 80.01 0)
+			(at 608.33 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25421,7 +25421,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 608.33 72.39 0)
+			(at 608.33 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25432,7 +25432,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 608.33 74.93 0)
+			(at 608.33 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25449,7 +25449,7 @@
 			(uuid "478f8cb7-9cc2-44d7-be8a-4c8f12bb6b8d")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "JP12")
 					(unit 1)
@@ -25559,7 +25559,7 @@
 			(uuid "fb9b1928-5e3a-44a0-997a-842668528d05")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "J11")
 					(unit 1)
@@ -25641,7 +25641,7 @@
 			(uuid "e20c9ea3-84ef-48ec-848e-57a3a08bed20")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "JP6")
 					(unit 1)
@@ -25720,7 +25720,7 @@
 			(uuid "d15be2f7-5cbb-41cd-ad3b-24d973716bd5")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "C14")
 					(unit 1)
@@ -25798,7 +25798,7 @@
 			(uuid "dfbe223e-a8fa-4892-ba98-c1260445e09d")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR076")
 					(unit 1)
@@ -25876,7 +25876,7 @@
 			(uuid "4a9c2c2a-21eb-4e41-b1d6-ffeeb4504827")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR05")
 					(unit 1)
@@ -25886,7 +25886,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 608.33 64.77 180)
+		(at 608.33 71.12 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25896,7 +25896,7 @@
 		(dnp no)
 		(uuid "90c041de-de3b-46f5-8244-3c1a3821e178")
 		(property "Reference" "JP7"
-			(at 613.41 62.3884 0)
+			(at 613.41 68.7384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25907,7 +25907,7 @@
 			)
 		)
 		(property "Value" "vccd"
-			(at 606.298 62.992 0)
+			(at 606.298 69.342 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25918,7 +25918,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 608.33 64.77 0)
+			(at 608.33 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25929,7 +25929,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 608.33 57.15 0)
+			(at 608.33 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25940,7 +25940,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 608.33 59.69 0)
+			(at 608.33 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25957,7 +25957,7 @@
 			(uuid "9c564996-21f3-48e2-8c1e-87bf5428fe8d")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "JP7")
 					(unit 1)
@@ -26036,7 +26036,7 @@
 			(uuid "1ef82349-ef9a-4a16-b12f-67777b69e644")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR069")
 					(unit 1)
@@ -26115,7 +26115,7 @@
 			(uuid "8b88af18-0a4e-49c5-8ff7-4f6c75df026a")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "C22")
 					(unit 1)
@@ -26193,7 +26193,7 @@
 			(uuid "89894629-f823-42a4-8ca9-fd6472bfa356")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR030")
 					(unit 1)
@@ -26273,7 +26273,7 @@
 			(uuid "dbfcf326-128b-4f66-b12c-c478838cc387")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "C17")
 					(unit 1)
@@ -26352,7 +26352,7 @@
 			(uuid "b32b5a38-ea89-423a-ba9a-eb7f224261fe")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR025")
 					(unit 1)
@@ -26432,7 +26432,7 @@
 			(uuid "76d264cf-3eb0-46fc-b458-d5f6bfff366b")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "R6")
 					(unit 1)
@@ -26511,7 +26511,7 @@
 			(uuid "dd4040d4-1a03-403d-9391-a8e8bc025da1")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "C16")
 					(unit 1)
@@ -26591,7 +26591,7 @@
 			(uuid "0a390a53-4254-4e08-9b63-3746a699a285")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "JP2")
 					(unit 1)
@@ -26669,7 +26669,7 @@
 			(uuid "36fe749a-412f-4eee-acce-ad2458a55ebd")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR042")
 					(unit 1)
@@ -26747,7 +26747,7 @@
 			(uuid "e1103cf4-eb53-4c01-84d6-fd4ddb8e47f2")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR079")
 					(unit 1)
@@ -26826,7 +26826,7 @@
 			(uuid "9397b6f2-cb79-4a53-b065-dd28fb262402")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "C1")
 					(unit 1)
@@ -26904,7 +26904,7 @@
 			(uuid "c76fb34b-f017-491f-8f08-afd44aa26bf9")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR075")
 					(unit 1)
@@ -26984,7 +26984,7 @@
 			(uuid "7fdafe03-b0ea-4f0d-af99-0d41b20e8165")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "R12")
 					(unit 1)
@@ -27062,7 +27062,7 @@
 			(uuid "cf038bba-4265-41d0-8dd1-4e6eafc4150e")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR017")
 					(unit 1)
@@ -27072,7 +27072,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 608.33 85.09 180)
+		(at 608.33 91.44 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27082,7 +27082,7 @@
 		(dnp no)
 		(uuid "a3d0bfb0-910d-4227-96d6-e02e1c03b39d")
 		(property "Reference" "JP13"
-			(at 613.41 82.7084 0)
+			(at 613.41 89.0584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27093,7 +27093,7 @@
 			)
 		)
 		(property "Value" "vdda1"
-			(at 606.298 83.312 0)
+			(at 606.298 89.662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27104,7 +27104,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 608.33 85.09 0)
+			(at 608.33 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27115,7 +27115,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 608.33 77.47 0)
+			(at 608.33 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27126,7 +27126,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 608.33 80.01 0)
+			(at 608.33 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27143,7 +27143,7 @@
 			(uuid "478f8cb7-9cc2-44d7-be8a-4c8f12bb6b8e")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "JP13")
 					(unit 1)
@@ -27221,7 +27221,7 @@
 			(uuid "53b42182-4cbb-4bdf-be98-cbe4c942876f")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR036")
 					(unit 1)
@@ -27333,7 +27333,7 @@
 			(uuid "32cbd973-12bc-4982-8a92-f60aecdb298a")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "J9")
 					(unit 1)
@@ -27411,7 +27411,7 @@
 			(uuid "c6139a06-b991-4b78-b170-c3d461af004a")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR080")
 					(unit 1)
@@ -27489,7 +27489,7 @@
 			(uuid "b91220b4-ae0b-4608-a367-5cfed5de80f7")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR035")
 					(unit 1)
@@ -27499,7 +27499,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 595.63 57.15 0)
+		(at 595.63 63.5 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -27511,7 +27511,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8a59293-5343-4d93-b784-764c57a29b3b")
 		(property "Reference" "#PWR082"
-			(at 595.63 60.96 0)
+			(at 595.63 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27522,7 +27522,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 595.63 52.07 0)
+			(at 595.63 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27532,7 +27532,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 595.63 57.15 0)
+			(at 595.63 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27543,7 +27543,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 595.63 57.15 0)
+			(at 595.63 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27554,7 +27554,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 595.63 57.15 0)
+			(at 595.63 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27568,7 +27568,7 @@
 			(uuid "e33b869e-02c5-4871-aff1-bad19c70a177")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR082")
 					(unit 1)
@@ -27647,7 +27647,7 @@
 			(uuid "7e9080cb-c77d-4434-8bac-99174e688614")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR068")
 					(unit 1)
@@ -27729,7 +27729,7 @@
 			(uuid "9f0ba3c3-7436-49a6-a43c-e0575a35a9c6")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "R16")
 					(unit 1)
@@ -27811,7 +27811,7 @@
 			(uuid "272d8349-1572-4e76-9b6c-bf1b167e7c82")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "R4")
 					(unit 1)
@@ -27930,7 +27930,7 @@
 			(uuid "364ffe90-93f5-4de0-a629-79ceab5c4335")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "U4")
 					(unit 1)
@@ -28009,7 +28009,7 @@
 			(uuid "acab02be-2057-408a-ab1e-a68694d01cbc")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR045")
 					(unit 1)
@@ -28101,7 +28101,7 @@
 			(uuid "b0d87848-c2e5-4a2f-9b37-35766fec4d17")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "J4")
 					(unit 1)
@@ -28179,7 +28179,7 @@
 			(uuid "0428d2e0-9769-4817-bd8c-1f466bc6e5f9")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR019")
 					(unit 1)
@@ -28258,7 +28258,7 @@
 			(uuid "6f2810e4-b0dc-465c-87ab-7a04bb1eaee0")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "C5")
 					(unit 1)
@@ -28338,7 +28338,7 @@
 			(uuid "3aa87877-fa8e-489d-938b-c669eeaabbb8")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR024")
 					(unit 1)
@@ -28417,7 +28417,7 @@
 			(uuid "85d12da4-5470-472d-b091-dc02f98f11ce")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "C3")
 					(unit 1)
@@ -28495,7 +28495,7 @@
 			(uuid "0bea41be-354e-408d-90a0-9c4b7329dfe8")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR039")
 					(unit 1)
@@ -28573,7 +28573,7 @@
 			(uuid "3b0f868d-e2f6-4e67-a926-f2a4765bf382")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR032")
 					(unit 1)
@@ -28651,7 +28651,7 @@
 			(uuid "20f1f73a-123f-40de-9b64-34dd6cfbd0e9")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR01")
 					(unit 1)
@@ -28730,7 +28730,7 @@
 			(uuid "1b3071b9-39f3-41d3-a0b7-caea59dcd003")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "C10")
 					(unit 1)
@@ -28813,7 +28813,7 @@
 			(uuid "ba7451fd-9b85-438a-a3ad-a42e3306d00e")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "R14")
 					(unit 1)
@@ -28893,7 +28893,7 @@
 			(uuid "02d5b172-8404-4564-89a6-3306a544b60d")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "JP4")
 					(unit 1)
@@ -28971,7 +28971,7 @@
 			(uuid "05e08ee8-c196-4e39-8c51-39de5b6789aa")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR038")
 					(unit 1)
@@ -29053,7 +29053,7 @@
 			(uuid "84e3ea18-27a5-4a40-aa9b-3e793569ae2d")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "R5")
 					(unit 1)
@@ -29131,7 +29131,7 @@
 			(uuid "349c552a-c866-4141-9297-a0c99e69a194")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR063")
 					(unit 1)
@@ -29209,7 +29209,7 @@
 			(uuid "fb8c98c8-13fd-4aaf-85ee-59fca49646d7")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR03")
 					(unit 1)
@@ -29288,7 +29288,7 @@
 			(uuid "d516e276-38fe-43dc-9f82-72254140b2bd")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR044")
 					(unit 1)
@@ -29366,7 +29366,7 @@
 			(uuid "e880c10e-c773-4861-887a-191a5177fc70")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR015")
 					(unit 1)
@@ -29445,7 +29445,7 @@
 			(uuid "ec342eed-43ec-4ae3-88e2-3b98205fc27b")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "R10")
 					(unit 1)
@@ -29523,7 +29523,7 @@
 			(uuid "55531eba-65bf-47fc-8234-0b18a68dfbc7")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR027")
 					(unit 1)
@@ -29605,7 +29605,7 @@
 			(uuid "6c1f9451-bc8a-4bb8-8ce9-61c3ac3aff6d")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "JP9")
 					(unit 1)
@@ -29684,7 +29684,7 @@
 			(uuid "5627349a-63b8-4768-983a-2b623560f814")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "C20")
 					(unit 1)
@@ -29763,7 +29763,7 @@
 			(uuid "baf5cf6e-dad1-426e-a650-e7f44a4b4ebf")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "C13")
 					(unit 1)
@@ -29773,7 +29773,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 608.33 74.93 180)
+		(at 608.33 81.28 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29783,7 +29783,7 @@
 		(dnp no)
 		(uuid "caff04a1-49f9-4bb7-83e1-3599993b1775")
 		(property "Reference" "JP11"
-			(at 613.41 72.5484 0)
+			(at 613.41 78.8984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29794,7 +29794,7 @@
 			)
 		)
 		(property "Value" "vccd2"
-			(at 606.298 73.152 0)
+			(at 606.298 79.502 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29805,7 +29805,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 608.33 74.93 0)
+			(at 608.33 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29816,7 +29816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 608.33 67.31 0)
+			(at 608.33 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29827,7 +29827,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 608.33 69.85 0)
+			(at 608.33 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29844,7 +29844,7 @@
 			(uuid "478f8cb7-9cc2-44d7-be8a-4c8f12bb6b8f")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "JP11")
 					(unit 1)
@@ -29926,7 +29926,7 @@
 			(uuid "758bf8eb-05d1-4a6b-ac80-3ab9aa358710")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "J2")
 					(unit 1)
@@ -30006,7 +30006,7 @@
 			(uuid "edc67c42-d655-4d00-9d98-0e90f4e017da")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR053")
 					(unit 1)
@@ -30084,7 +30084,7 @@
 			(uuid "006ce1a4-20f6-4ad2-95c1-31efdfee9dbe")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR022")
 					(unit 1)
@@ -30278,7 +30278,7 @@
 			(uuid "755bfe52-41f8-4355-942a-a66f5fba0e85")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "J7")
 					(unit 1)
@@ -30356,7 +30356,7 @@
 			(uuid "1c98fca7-6135-418c-bcc7-0685c0a8c78e")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR041")
 					(unit 1)
@@ -30434,7 +30434,7 @@
 			(uuid "cb1eb36e-107b-4de8-8397-a0d23cb8fc51")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR062")
 					(unit 1)
@@ -30512,7 +30512,7 @@
 			(uuid "440ce488-6562-40fb-9b86-cb9ba3f239c0")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR081")
 					(unit 1)
@@ -30590,7 +30590,7 @@
 			(uuid "fcc88427-23e8-4391-a2d3-edf66ae8dc74")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR06")
 					(unit 1)
@@ -30846,7 +30846,7 @@
 			(uuid "689bd2c8-4496-4670-9c0e-644bf2570da9")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "U1")
 					(unit 1)
@@ -30925,7 +30925,7 @@
 			(uuid "ee52ca62-468e-45c7-b612-ca2ca4ac61e2")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR070")
 					(unit 1)
@@ -31003,7 +31003,7 @@
 			(uuid "20fb6067-2479-4a79-a01b-0205a71da85d")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR016")
 					(unit 1)
@@ -31083,7 +31083,7 @@
 			(uuid "755e78ef-5a77-4871-88d6-efe982dad2a6")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR057")
 					(unit 1)
@@ -31161,7 +31161,7 @@
 			(uuid "a7bfcaf2-0f7c-4234-858d-a4d2fcfafe05")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR018")
 					(unit 1)
@@ -31243,7 +31243,7 @@
 			(uuid "aed72ccf-0982-4dec-95f9-0563a1d82840")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "JP8")
 					(unit 1)
@@ -31366,7 +31366,7 @@
 			(uuid "f0b97d07-0ad5-47b5-8454-af15fc87f66b")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "J17")
 					(unit 1)
@@ -31485,7 +31485,7 @@
 			(uuid "55e42c3e-7fa1-4cb1-bec9-eeb5ba1b179c")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "U2")
 					(unit 1)
@@ -31577,7 +31577,7 @@
 			(uuid "18a35fa5-b130-4eaa-9ac4-141c72503825")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "J5")
 					(unit 1)
@@ -31753,7 +31753,7 @@
 			(uuid "becb6a72-16b4-4f1e-bc54-551affa9bbc9")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "U5")
 					(unit 1)
@@ -31883,7 +31883,7 @@
 			(uuid "8150be8b-092c-420c-96ea-ccb0860bd233")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "Y1")
 					(unit 1)
@@ -31962,7 +31962,7 @@
 			(uuid "1949e29d-4d4d-47a1-8243-5338ffa3ae44")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "C2")
 					(unit 1)
@@ -32041,7 +32041,7 @@
 			(uuid "a2eafc89-e91c-42df-a608-2539dc5c4b6e")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR012")
 					(unit 1)
@@ -32123,7 +32123,7 @@
 			(uuid "0550d422-b8cc-44bb-b30a-07c1aa990f28")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "R17")
 					(unit 1)
@@ -32215,7 +32215,7 @@
 			(uuid "06e99d0c-ea6a-44ad-abb9-f7e50dc6fc5c")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "J15")
 					(unit 1)
@@ -32293,7 +32293,7 @@
 			(uuid "8a2bbc6e-3675-4545-b5e3-04efc00e5fc1")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR040")
 					(unit 1)
@@ -32372,7 +32372,7 @@
 			(uuid "dd895403-ed34-4a40-aff0-7d3df2183534")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR056")
 					(unit 1)
@@ -32450,7 +32450,7 @@
 			(uuid "976affc9-a83a-4d2a-9e78-4310757cefcd")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR07")
 					(unit 1)
@@ -32529,7 +32529,7 @@
 			(uuid "1d54e555-cdce-44a0-9e26-f32eef6cba42")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "C7")
 					(unit 1)
@@ -32608,7 +32608,7 @@
 			(uuid "6e01847f-49d0-430b-96b0-5550bebd35e5")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "R8")
 					(unit 1)
@@ -32718,7 +32718,7 @@
 			(uuid "4541f0aa-1c5b-4baa-a91d-7e5d68e249b0")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "J8")
 					(unit 1)
@@ -32796,7 +32796,7 @@
 			(uuid "c54b17fb-6323-417c-9265-2e544df96528")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR029")
 					(unit 1)
@@ -32875,7 +32875,7 @@
 			(uuid "31115813-fd1e-4105-9b6f-31f385e9f034")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "C23")
 					(unit 1)
@@ -32953,7 +32953,7 @@
 			(uuid "0e039ca9-0423-46db-b9dc-62f32944774a")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR064")
 					(unit 1)
@@ -33045,7 +33045,7 @@
 			(uuid "b44bd182-1f56-4552-93d2-4c40639eec30")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "J14")
 					(unit 1)
@@ -33123,7 +33123,7 @@
 			(uuid "83f04b95-187e-4d76-a01d-5ae8df93100f")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR054")
 					(unit 1)
@@ -33201,7 +33201,7 @@
 			(uuid "a627de0d-a764-46be-af15-1ecc87f6fd69")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR060")
 					(unit 1)
@@ -33280,7 +33280,7 @@
 			(uuid "94a83abd-4808-42be-9f7c-16b2eaaa1ccd")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "C21")
 					(unit 1)
@@ -33359,7 +33359,7 @@
 			(uuid "4d69dca2-df6a-4abf-ac3b-a757c4f2ef72")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR047")
 					(unit 1)
@@ -33437,7 +33437,7 @@
 			(uuid "60bc47c8-80cc-4caf-bf66-e89314bd6164")
 		)
 		(instances
-			(project "gf180ws2rbz_parts_test"
+			(project "RBZ-devkit"
 				(path "/cbe4b09b-ac9b-4c43-99cc-da49643f678e"
 					(reference "#PWR049")
 					(unit 1)

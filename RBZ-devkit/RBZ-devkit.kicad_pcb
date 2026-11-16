@@ -191,7 +191,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/511f78f2-ae61-4ce2-b242-cfaa7cc6dcb8")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -339,7 +339,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a5cfaf68-7b8d-4cdd-a10a-ce99f8c85dce")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -558,7 +558,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/5881c3ee-7fc5-4ea2-ab88-6bfcc38a83ab")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -814,7 +814,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/f43c7d39-6f28-4237-9e24-10eaea23155c")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1136,7 +1136,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/8c4cbe71-1d3d-421e-a79a-55e8df140016")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1356,7 +1356,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/caff04a1-49f9-4bb7-83e1-3599993b1775")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1652,7 +1652,7 @@
 		)
 		(path "/de3e23ff-5daf-402f-9b65-56305fadf618")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1911,7 +1911,7 @@
 		)
 		(path "/1d4bf8ed-fe96-4ef3-8bde-a86fb49e342b")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2170,7 +2170,7 @@
 		)
 		(path "/258275b1-212f-4da3-8038-4b53056b6670")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2698,7 +2698,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/bf5a78e5-045a-449c-8a99-7c636c2f9bd3")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2858,7 +2858,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/94fa6240-3cf0-4494-bd38-0f5b4b6355ec")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3018,7 +3018,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/decee6cd-9b52-48c9-a471-2f6082537de1")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3323,7 +3323,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/03ededdf-0d75-4bb8-a9ea-762abf7352ab")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3483,7 +3483,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/33dadd83-362b-4083-b103-e18cd52ecc5a")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3788,7 +3788,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/5e328da4-133a-4b7b-848d-dcebd34f0cc3")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3946,7 +3946,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/ab85e2b1-b282-4889-a23c-24b93439fe9c")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4241,7 +4241,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/cc84fb75-9a4f-4eb2-882f-893700e40acd")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4449,7 +4449,7 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "38847724-559e-4e45-8ef7-814c3b0969e0")
-		(at 62.875 141.925)
+		(at 65.415 141.925)
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP12"
@@ -4503,7 +4503,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/8c21d69c-6530-42f8-91f5-3d104d283a7c")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4779,7 +4779,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/96cb5fa0-2046-4f47-9cde-2791512f7276")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5086,7 +5086,7 @@
 		)
 		(path "/aaa949ef-a645-40ac-87c8-ee4ff0ca10c1")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5312,7 +5312,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/6d525346-b0e7-4f57-8b83-45febe49239f")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5574,7 +5574,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/57755921-5bc8-4f94-a4c2-77357001de8f")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5830,7 +5830,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/e9d90e44-1ad2-412c-8d77-8d911c5c8d85")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6154,7 +6154,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/c847d59d-b123-4d7b-b258-14d87ea07982")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6365,7 +6365,7 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "44503c56-e742-4f93-acb1-e36c3b92f54c")
-		(at 62.875 134.825)
+		(at 65.415 134.825)
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP10"
@@ -6703,7 +6703,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c6a22206-e09e-4dc5-b2bb-eec032f39401")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6863,7 +6863,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/918c2712-248a-4825-a23d-b2dd3f16d97c")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7021,7 +7021,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/50d4ca01-97ae-4c1e-943e-47968ab9e780")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7181,7 +7181,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/4e2a6980-0db8-453b-9ae5-bf235d163a26")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7339,7 +7339,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a8ee46b6-f731-43fe-ad8c-0d1dea941680")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7497,7 +7497,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/efbaed1d-a352-4d98-9a3c-68b69faba1bc")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7657,7 +7657,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e0d6cd00-0265-4939-b098-1e92707b8014")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7817,7 +7817,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/86324d3e-048b-4b2c-99ac-244f21677f13")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7977,7 +7977,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a99dd2b0-80ca-4180-8729-cf359c657ad9")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8129,7 +8129,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/1167373f-dbe1-450e-8e34-c78bddd2d6b6")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8675,7 +8675,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e87185b4-9263-482a-aaaf-a900e88c1675")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8773,7 +8773,7 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "5ea89f22-ab7c-4d3f-8888-650a0921f7ae")
-		(at 62.875 149.025)
+		(at 65.415 149.025)
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP14"
@@ -8827,7 +8827,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/89a16541-27d5-4f4b-9478-140e69657bbc")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9111,7 +9111,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f9a72c52-1656-4c0b-b9d1-cf4e99493dd4")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9269,7 +9269,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/4adedb8c-dc0b-4f2b-b9a0-ec55b40dfff8")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9429,7 +9429,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f1193d4e-9fa4-4b55-b2fa-d4a393d207da")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9577,7 +9577,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/90c041de-de3b-46f5-8244-3c1a3821e178")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9850,7 +9850,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/5df646a3-90da-48e6-81ef-d1615d08777d")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10030,7 +10030,7 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "7961b9b1-0519-44d9-8a64-3ee2410151c3")
-		(at 62.875 145.475)
+		(at 65.415 145.475)
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP13"
@@ -10084,7 +10084,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/a3d0bfb0-910d-4227-96d6-e02e1c03b39d")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10306,7 +10306,7 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "79c890a9-e1fa-4d67-ae56-fc9f08c55ac5")
-		(at 62.875 138.375)
+		(at 65.415 138.375)
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP11"
@@ -10644,7 +10644,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/95c23abe-b8b2-402c-8f21-613d24357d18")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10804,7 +10804,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/069f81a3-1594-46fa-857b-b2bcee85bc8a")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10964,7 +10964,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/eb58e334-03ac-4dac-abd9-840bd3f802ee")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11114,7 +11114,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/8d086565-f2d9-461f-ab7a-7066f4f50039")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11379,7 +11379,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/bb9dea16-af53-4139-952f-920089a05d72")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11686,7 +11686,7 @@
 		)
 		(path "/dfb9be51-e34a-4b4b-a36b-10db22ecd929")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12173,7 +12173,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/787b37d9-5f74-4d9d-aeac-56b6bdd0f2e4")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12521,7 +12521,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ace2d7f1-af58-4a4f-9c48-75f30a254f6e")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12669,7 +12669,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/1b9a0025-a903-4885-975c-ac234dfbd859")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13003,7 +13003,7 @@
 		)
 		(path "/d3f59720-705f-4d2a-bce0-62c81fe74d6b")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13845,7 +13845,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a18ac49a-6db1-40f9-95a1-06b79295b64f")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14003,7 +14003,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ba40208d-eef5-4ad3-9268-312aff82be4c")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14163,7 +14163,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/efe801a6-eebe-4c33-8420-c29b6acde0a9")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14535,7 +14535,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/2e70f2cd-affe-436c-a815-929e5c67d125")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14944,7 +14944,7 @@
 		)
 		(path "/3b4af71e-0c85-4e9c-ac83-4f35fa18738c")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16108,7 +16108,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/68cdaa2b-8215-434d-b6df-2e46725b6990")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16413,7 +16413,7 @@
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/263b4cb6-ff59-4e3c-85bb-54c2d5299980")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16693,7 +16693,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/44326df2-57bc-4c5e-ab83-0b03047c62c1")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17392,7 +17392,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b242e9e6-42b1-4cad-b237-0a9b65f787bb")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17490,7 +17490,7 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "c437146a-8231-46a6-8cf2-b290d847edda")
-		(at 62.875 131.275)
+		(at 65.415 131.275)
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP7"
@@ -17828,7 +17828,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/1fcd9b20-9428-45b1-9ce9-cefd3626a79d")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17988,7 +17988,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9be342d3-921c-45d2-8ff2-d556bac34054")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18148,7 +18148,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0c48fa59-b6e9-4a0a-b35f-8c06cff6af39")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18308,7 +18308,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/964efa66-7ebe-4b04-b2f7-8ac316dbb6cb")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18493,7 +18493,7 @@
 		(property ki_fp_filters "Crystal*")
 		(path "/e010e443-24ae-40bf-a425-ad2a6b784166")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18663,7 +18663,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/381e6a93-649a-4804-9f69-e9d9d3514ca3")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18893,7 +18893,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/78622fda-755c-4a90-adb7-1993c61b3e5d")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19053,7 +19053,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/5bd317f5-a230-4a30-b9c5-81cf78d0947f")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19213,7 +19213,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/3cefaad8-2ce4-4296-bbd1-d129b9ac96b1")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19373,7 +19373,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0a481cc1-9145-42a6-8669-a3031a8160d1")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19523,7 +19523,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/d09488b8-d378-499e-9c68-9022fc8db315")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20234,7 +20234,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7a06d3cf-0833-4fef-9df3-523e2114cfcb")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20392,7 +20392,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c86e1d0d-d748-476e-9e15-733c1d061b40")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20539,7 +20539,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/db4d9a8b-42c4-4393-92f8-311f0ce16f36")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20805,7 +20805,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/585fbd12-6f52-4c58-8bd2-ae6ebf9e430c")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20953,7 +20953,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/daf387aa-b409-4246-b967-8686fc6c895f")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21164,7 +21164,7 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "f8fc94dd-7639-496d-a084-03dccb3fabf3")
-		(at 62.875 152.575)
+		(at 65.415 152.575)
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP15"
@@ -21218,7 +21218,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/0cced61e-3e08-44f7-84a1-76ba57fe0266")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21498,7 +21498,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/10e12510-8e64-4d50-b7fb-aacc78e36161")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21626,7 +21626,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/23242d23-fe5c-4b4b-a180-e893aa184622")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21792,7 +21792,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ca646690-ec28-4a8e-b03a-aa11a0e7ebe2")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21958,7 +21958,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8dc48681-6103-43ef-8943-46f4a44e730b")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -22124,7 +22124,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ba12e32d-24eb-4e90-aa57-a4322a0bf6f5")
 		(sheetname "/")
-		(sheetfile "gf180ws2rbz_parts_test.kicad_sch")
+		(sheetfile "RBZ-devkit.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -28370,374 +28370,6 @@
 		(uuid "fe09b9e9-15e5-43ee-ab56-9bd033df0903")
 	)
 	(segment
-		(start 136.645 82.130001)
-		(end 136.645 76.215)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "/VGA_B")
-		(uuid "752c7fbb-5eb2-47ea-9c95-ceec7e030003")
-	)
-	(segment
-		(start 136.645 76.215)
-		(end 136.66 76.2)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "/VGA_B")
-		(uuid "8c2acd03-ccf3-458f-ad20-9109c63b9b57")
-	)
-	(segment
-		(start 111.76 73.660001)
-		(end 111.760001 73.66)
-		(width 0.15)
-		(layer "B.Cu")
-		(net "/VGA_B")
-		(uuid "070f9792-4930-462d-8051-8baec95ddc27")
-	)
-	(segment
-		(start 115.57 80.01)
-		(end 111.76 76.2)
-		(width 0.15)
-		(layer "B.Cu")
-		(net "/VGA_B")
-		(uuid "341ef030-5ada-4bc0-98b2-7f835ba9616e")
-	)
-	(segment
-		(start 111.76 76.2)
-		(end 111.76 73.660001)
-		(width 0.15)
-		(layer "B.Cu")
-		(net "/VGA_B")
-		(uuid "3dc2d845-aaad-4ab9-8320-f7f23359029b")
-	)
-	(segment
-		(start 136.66 76.2)
-		(end 132.85 80.01)
-		(width 0.15)
-		(layer "B.Cu")
-		(net "/VGA_B")
-		(uuid "6e085244-a98a-4d9d-a67b-fdc37b412e16")
-	)
-	(segment
-		(start 132.85 80.01)
-		(end 115.57 80.01)
-		(width 0.15)
-		(layer "B.Cu")
-		(net "/VGA_B")
-		(uuid "c8a97a5b-0db8-41dd-9303-4b40cb04f9d4")
-	)
-	(segment
-		(start 139.7 100.076)
-		(end 139.7 93.979999)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "/B_IN")
-		(uuid "3122e15f-4ba3-4bb1-9793-671b9680eea3")
-	)
-	(segment
-		(start 136.645 83.429999)
-		(end 135.518001 83.429999)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "/B_IN")
-		(uuid "34a464f0-f941-4800-bbec-d0183a26599c")
-	)
-	(segment
-		(start 134.239 105.537)
-		(end 139.7 100.076)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "/B_IN")
-		(uuid "47033b20-0c1c-42f7-9c57-38a97126b465")
-	)
-	(segment
-		(start 133.1275 114.115501)
-		(end 134.239 113.004001)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "/B_IN")
-		(uuid "64200bec-16c4-4ec2-9f66-5ee17bd115ee")
-	)
-	(segment
-		(start 134.239 113.004001)
-		(end 134.239 105.537)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "/B_IN")
-		(uuid "6b96c46a-72f4-4b32-92d4-457f4d7b1227")
-	)
-	(segment
-		(start 135.518001 83.429999)
-		(end 135.128 83.82)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "/B_IN")
-		(uuid "cb333ca4-c9f7-4b6e-ad70-f16a299323a7")
-	)
-	(segment
-		(start 133.1275 115.840499)
-		(end 133.1275 114.115501)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "/B_IN")
-		(uuid "cce6c257-e46e-4ca6-8ba4-9f084748f418")
-	)
-	(via
-		(at 135.128 83.82)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "/B_IN")
-		(uuid "ae9b6115-c43b-429a-b8fd-7e858ceb3ff4")
-	)
-	(segment
-		(start 135.128 83.82)
-		(end 135.128 89.407999)
-		(width 0.15)
-		(layer "B.Cu")
-		(net "/B_IN")
-		(uuid "45bad98a-0a3a-4e1a-86f0-fa57f92783ca")
-	)
-	(segment
-		(start 135.128 89.407999)
-		(end 139.7 93.979999)
-		(width 0.15)
-		(layer "B.Cu")
-		(net "/B_IN")
-		(uuid "a565d22d-63db-45e2-ac91-d9b6d314129c")
-	)
-	(segment
-		(start 82.55 110.363)
-		(end 82.55 108.66)
-		(width 0.8)
-		(layer "F.Cu")
-		(net "Net-(JP2-A)")
-		(uuid "4107e72d-b2a8-4bd7-a80a-a2f397370503")
-	)
-	(segment
-		(start 84.328 104.267)
-		(end 82.55 106.045)
-		(width 0.8)
-		(layer "F.Cu")
-		(net "Net-(JP2-A)")
-		(uuid "6fbb7fb2-906a-4c81-98eb-9beacbf01fd9")
-	)
-	(segment
-		(start 84.8625 104.267)
-		(end 84.328 104.267)
-		(width 0.8)
-		(layer "F.Cu")
-		(net "Net-(JP2-A)")
-		(uuid "8c22422d-0e9c-4fae-b0f1-ada1903c0f3b")
-	)
-	(segment
-		(start 85.852 111.76)
-		(end 83.947 111.76)
-		(width 0.8)
-		(layer "F.Cu")
-		(net "Net-(JP2-A)")
-		(uuid "95689bf9-da0c-4a7d-bdba-cdbaafd0fa8c")
-	)
-	(segment
-		(start 87.137 115.443)
-		(end 87.137 113.045)
-		(width 0.8)
-		(layer "F.Cu")
-		(net "Net-(JP2-A)")
-		(uuid "9f387bb8-6885-4684-af08-7a743ad79ff6")
-	)
-	(segment
-		(start 87.137 113.045)
-		(end 85.852 111.76)
-		(width 0.8)
-		(layer "F.Cu")
-		(net "Net-(JP2-A)")
-		(uuid "aedd61c4-5b0b-4498-b75f-023adc685b77")
-	)
-	(segment
-		(start 85.217 100.076)
-		(end 83.2 100.076)
-		(width 0.8)
-		(layer "F.Cu")
-		(net "Net-(JP2-A)")
-		(uuid "bb0c2c7e-0cf9-40fe-8857-df3d7c0bddc8")
-	)
-	(segment
-		(start 83.947 111.76)
-		(end 82.55 110.363)
-		(width 0.8)
-		(layer "F.Cu")
-		(net "Net-(JP2-A)")
-		(uuid "e2fcb4fb-c2be-46b3-9535-4b734ca8837f")
-	)
-	(segment
-		(start 82.55 108.66)
-		(end 82.55 106.045)
-		(width 0.8)
-		(layer "F.Cu")
-		(net "Net-(JP2-A)")
-		(uuid "ebcfe309-9ede-4f9f-9f2a-762fa424823a")
-	)
-	(via
-		(at 85.217 100.076)
-		(size 1.2)
-		(drill 0.6)
-		(layers "F.Cu" "B.Cu")
-		(net "Net-(JP2-A)")
-		(uuid "9a3a6359-11c2-4b12-aa58-b284282e351c")
-	)
-	(via
-		(at 82.55 106.045)
-		(size 1.2)
-		(drill 0.6)
-		(layers "F.Cu" "B.Cu")
-		(net "Net-(JP2-A)")
-		(uuid "fc537a0e-15a9-426d-b835-c03a5d26aac8")
-	)
-	(segment
-		(start 85.217 103.378)
-		(end 85.217 100.076)
-		(width 0.8)
-		(layer "B.Cu")
-		(net "Net-(JP2-A)")
-		(uuid "8ef75418-5599-41b5-bb3a-efb16a4e50ec")
-	)
-	(segment
-		(start 82.55 106.045)
-		(end 85.217 103.378)
-		(width 0.8)
-		(layer "B.Cu")
-		(net "Net-(JP2-A)")
-		(uuid "b39c59aa-d3b4-4363-becf-322d0a568e3a")
-	)
-	(segment
-		(start 82.55 114.86)
-		(end 85.254 114.86)
-		(width 0.8)
-		(layer "F.Cu")
-		(net "Net-(JP2-B)")
-		(uuid "2494cb57-21a9-4e52-bf63-7d30c54d29e1")
-	)
-	(segment
-		(start 85.254 114.86)
-		(end 85.837 115.443)
-		(width 0.8)
-		(layer "F.Cu")
-		(net "Net-(JP2-B)")
-		(uuid "42ba748c-4b99-4ddf-a6d1-b61ebecced92")
-	)
-	(segment
-		(start 92.71 110.617)
-		(end 92.71 108.93)
-		(width 0.8)
-		(layer "F.Cu")
-		(net "Net-(JP3-A)")
-		(uuid "00b6886e-6287-4574-ba4c-dc35e4e40338")
-	)
-	(segment
-		(start 97.297 112.537)
-		(end 96.52 111.76)
-		(width 0.8)
-		(layer "F.Cu")
-		(net "Net-(JP3-A)")
-		(uuid "06be821c-5ff7-4f1f-8dca-e4fc0cac7708")
-	)
-	(segment
-		(start 93.98 104.775)
-		(end 96.4935 104.775)
-		(width 0.8)
-		(layer "F.Cu")
-		(net "Net-(JP3-A)")
-		(uuid "126ca9a9-cd7d-4cb0-8790-110c144b3432")
-	)
-	(segment
-		(start 92.71 106.045)
-		(end 93.98 104.775)
-		(width 0.8)
-		(layer "F.Cu")
-		(net "Net-(JP3-A)")
-		(uuid "17ccf185-9a76-48fd-85dc-02c591feadff")
-	)
-	(segment
-		(start 92.71 108.93)
-		(end 92.71 106.045)
-		(width 0.8)
-		(layer "F.Cu")
-		(net "Net-(JP3-A)")
-		(uuid "42ef40d9-4a3a-4426-a054-cd284a2588be")
-	)
-	(segment
-		(start 96.4935 104.775)
-		(end 96.901 105.1825)
-		(width 0.8)
-		(layer "F.Cu")
-		(net "Net-(JP3-A)")
-		(uuid "96dfa13d-d4f7-471a-a0b1-5cba5b8d091a")
-	)
-	(segment
-		(start 93.36 100.076)
-		(end 95.25 100.076)
-		(width 0.8)
-		(layer "F.Cu")
-		(net "Net-(JP3-A)")
-		(uuid "a6ce56b1-2110-4853-845b-a48c47468113")
-	)
-	(segment
-		(start 97.297 115.443)
-		(end 97.297 112.537)
-		(width 0.8)
-		(layer "F.Cu")
-		(net "Net-(JP3-A)")
-		(uuid "b5945aed-6b9c-42d0-943d-2d6c60bf99d9")
-	)
-	(segment
-		(start 96.52 111.76)
-		(end 93.853 111.76)
-		(width 0.8)
-		(layer "F.Cu")
-		(net "Net-(JP3-A)")
-		(uuid "d92b8486-3845-4183-ab80-42537c617d2f")
-	)
-	(segment
-		(start 93.853 111.76)
-		(end 92.71 110.617)
-		(width 0.8)
-		(layer "F.Cu")
-		(net "Net-(JP3-A)")
-		(uuid "e7b9f3cd-320c-4f3a-b2e6-4d154601089e")
-	)
-	(via
-		(at 95.25 100.076)
-		(size 1.2)
-		(drill 0.6)
-		(layers "F.Cu" "B.Cu")
-		(net "Net-(JP3-A)")
-		(uuid "3023328d-4622-4c36-b0af-d210cd5c18d4")
-	)
-	(via
-		(at 92.71 106.045)
-		(size 1.2)
-		(drill 0.6)
-		(layers "F.Cu" "B.Cu")
-		(net "Net-(JP3-A)")
-		(uuid "bf59fbd5-8f79-423e-a2bd-906414ab498a")
-	)
-	(segment
-		(start 92.71 106.045)
-		(end 95.25 103.505)
-		(width 0.8)
-		(layer "B.Cu")
-		(net "Net-(JP3-A)")
-		(uuid "18adb26e-a7d2-484e-b1a0-7a8418e4e682")
-	)
-	(segment
-		(start 95.25 103.505)
-		(end 95.25 100.076)
-		(width 0.8)
-		(layer "B.Cu")
-		(net "Net-(JP3-A)")
-		(uuid "c49f7cf9-2028-4200-8aea-2af89b106246")
-	)
-	(segment
 		(start 161.798 90.677999)
 		(end 165.1 93.979999)
 		(width 0.8)
@@ -29002,6 +28634,238 @@
 		(uuid "dd702c09-6248-401f-94c1-b55eb88eea33")
 	)
 	(segment
+		(start 82.55 110.363)
+		(end 82.55 108.66)
+		(width 0.8)
+		(layer "F.Cu")
+		(net "Net-(JP2-A)")
+		(uuid "4107e72d-b2a8-4bd7-a80a-a2f397370503")
+	)
+	(segment
+		(start 84.328 104.267)
+		(end 82.55 106.045)
+		(width 0.8)
+		(layer "F.Cu")
+		(net "Net-(JP2-A)")
+		(uuid "6fbb7fb2-906a-4c81-98eb-9beacbf01fd9")
+	)
+	(segment
+		(start 84.8625 104.267)
+		(end 84.328 104.267)
+		(width 0.8)
+		(layer "F.Cu")
+		(net "Net-(JP2-A)")
+		(uuid "8c22422d-0e9c-4fae-b0f1-ada1903c0f3b")
+	)
+	(segment
+		(start 85.852 111.76)
+		(end 83.947 111.76)
+		(width 0.8)
+		(layer "F.Cu")
+		(net "Net-(JP2-A)")
+		(uuid "95689bf9-da0c-4a7d-bdba-cdbaafd0fa8c")
+	)
+	(segment
+		(start 87.137 115.443)
+		(end 87.137 113.045)
+		(width 0.8)
+		(layer "F.Cu")
+		(net "Net-(JP2-A)")
+		(uuid "9f387bb8-6885-4684-af08-7a743ad79ff6")
+	)
+	(segment
+		(start 87.137 113.045)
+		(end 85.852 111.76)
+		(width 0.8)
+		(layer "F.Cu")
+		(net "Net-(JP2-A)")
+		(uuid "aedd61c4-5b0b-4498-b75f-023adc685b77")
+	)
+	(segment
+		(start 85.217 100.076)
+		(end 83.2 100.076)
+		(width 0.8)
+		(layer "F.Cu")
+		(net "Net-(JP2-A)")
+		(uuid "bb0c2c7e-0cf9-40fe-8857-df3d7c0bddc8")
+	)
+	(segment
+		(start 83.947 111.76)
+		(end 82.55 110.363)
+		(width 0.8)
+		(layer "F.Cu")
+		(net "Net-(JP2-A)")
+		(uuid "e2fcb4fb-c2be-46b3-9535-4b734ca8837f")
+	)
+	(segment
+		(start 82.55 108.66)
+		(end 82.55 106.045)
+		(width 0.8)
+		(layer "F.Cu")
+		(net "Net-(JP2-A)")
+		(uuid "ebcfe309-9ede-4f9f-9f2a-762fa424823a")
+	)
+	(via
+		(at 85.217 100.076)
+		(size 1.2)
+		(drill 0.6)
+		(layers "F.Cu" "B.Cu")
+		(net "Net-(JP2-A)")
+		(uuid "9a3a6359-11c2-4b12-aa58-b284282e351c")
+	)
+	(via
+		(at 82.55 106.045)
+		(size 1.2)
+		(drill 0.6)
+		(layers "F.Cu" "B.Cu")
+		(net "Net-(JP2-A)")
+		(uuid "fc537a0e-15a9-426d-b835-c03a5d26aac8")
+	)
+	(segment
+		(start 85.217 103.378)
+		(end 85.217 100.076)
+		(width 0.8)
+		(layer "B.Cu")
+		(net "Net-(JP2-A)")
+		(uuid "8ef75418-5599-41b5-bb3a-efb16a4e50ec")
+	)
+	(segment
+		(start 82.55 106.045)
+		(end 85.217 103.378)
+		(width 0.8)
+		(layer "B.Cu")
+		(net "Net-(JP2-A)")
+		(uuid "b39c59aa-d3b4-4363-becf-322d0a568e3a")
+	)
+	(segment
+		(start 82.55 114.86)
+		(end 85.254 114.86)
+		(width 0.8)
+		(layer "F.Cu")
+		(net "Net-(JP2-B)")
+		(uuid "2494cb57-21a9-4e52-bf63-7d30c54d29e1")
+	)
+	(segment
+		(start 85.254 114.86)
+		(end 85.837 115.443)
+		(width 0.8)
+		(layer "F.Cu")
+		(net "Net-(JP2-B)")
+		(uuid "42ba748c-4b99-4ddf-a6d1-b61ebecced92")
+	)
+	(segment
+		(start 92.71 110.617)
+		(end 92.71 108.93)
+		(width 0.8)
+		(layer "F.Cu")
+		(net "Net-(JP3-A)")
+		(uuid "00b6886e-6287-4574-ba4c-dc35e4e40338")
+	)
+	(segment
+		(start 97.297 112.537)
+		(end 96.52 111.76)
+		(width 0.8)
+		(layer "F.Cu")
+		(net "Net-(JP3-A)")
+		(uuid "06be821c-5ff7-4f1f-8dca-e4fc0cac7708")
+	)
+	(segment
+		(start 93.98 104.775)
+		(end 96.4935 104.775)
+		(width 0.8)
+		(layer "F.Cu")
+		(net "Net-(JP3-A)")
+		(uuid "126ca9a9-cd7d-4cb0-8790-110c144b3432")
+	)
+	(segment
+		(start 92.71 106.045)
+		(end 93.98 104.775)
+		(width 0.8)
+		(layer "F.Cu")
+		(net "Net-(JP3-A)")
+		(uuid "17ccf185-9a76-48fd-85dc-02c591feadff")
+	)
+	(segment
+		(start 92.71 108.93)
+		(end 92.71 106.045)
+		(width 0.8)
+		(layer "F.Cu")
+		(net "Net-(JP3-A)")
+		(uuid "42ef40d9-4a3a-4426-a054-cd284a2588be")
+	)
+	(segment
+		(start 96.4935 104.775)
+		(end 96.901 105.1825)
+		(width 0.8)
+		(layer "F.Cu")
+		(net "Net-(JP3-A)")
+		(uuid "96dfa13d-d4f7-471a-a0b1-5cba5b8d091a")
+	)
+	(segment
+		(start 93.36 100.076)
+		(end 95.25 100.076)
+		(width 0.8)
+		(layer "F.Cu")
+		(net "Net-(JP3-A)")
+		(uuid "a6ce56b1-2110-4853-845b-a48c47468113")
+	)
+	(segment
+		(start 97.297 115.443)
+		(end 97.297 112.537)
+		(width 0.8)
+		(layer "F.Cu")
+		(net "Net-(JP3-A)")
+		(uuid "b5945aed-6b9c-42d0-943d-2d6c60bf99d9")
+	)
+	(segment
+		(start 96.52 111.76)
+		(end 93.853 111.76)
+		(width 0.8)
+		(layer "F.Cu")
+		(net "Net-(JP3-A)")
+		(uuid "d92b8486-3845-4183-ab80-42537c617d2f")
+	)
+	(segment
+		(start 93.853 111.76)
+		(end 92.71 110.617)
+		(width 0.8)
+		(layer "F.Cu")
+		(net "Net-(JP3-A)")
+		(uuid "e7b9f3cd-320c-4f3a-b2e6-4d154601089e")
+	)
+	(via
+		(at 95.25 100.076)
+		(size 1.2)
+		(drill 0.6)
+		(layers "F.Cu" "B.Cu")
+		(net "Net-(JP3-A)")
+		(uuid "3023328d-4622-4c36-b0af-d210cd5c18d4")
+	)
+	(via
+		(at 92.71 106.045)
+		(size 1.2)
+		(drill 0.6)
+		(layers "F.Cu" "B.Cu")
+		(net "Net-(JP3-A)")
+		(uuid "bf59fbd5-8f79-423e-a2bd-906414ab498a")
+	)
+	(segment
+		(start 92.71 106.045)
+		(end 95.25 103.505)
+		(width 0.8)
+		(layer "B.Cu")
+		(net "Net-(JP3-A)")
+		(uuid "18adb26e-a7d2-484e-b1a0-7a8418e4e682")
+	)
+	(segment
+		(start 95.25 103.505)
+		(end 95.25 100.076)
+		(width 0.8)
+		(layer "B.Cu")
+		(net "Net-(JP3-A)")
+		(uuid "c49f7cf9-2028-4200-8aea-2af89b106246")
+	)
+	(segment
 		(start 95.997 115.316)
 		(end 95.997 115.443)
 		(width 0.8)
@@ -29120,6 +28984,62 @@
 		(layer "B.Cu")
 		(net "/VGA_G")
 		(uuid "8c8b7a12-3dc3-4b16-8d90-2ca4fb38560e")
+	)
+	(segment
+		(start 136.645 82.130001)
+		(end 136.645 76.215)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "/VGA_B")
+		(uuid "752c7fbb-5eb2-47ea-9c95-ceec7e030003")
+	)
+	(segment
+		(start 136.645 76.215)
+		(end 136.66 76.2)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "/VGA_B")
+		(uuid "8c2acd03-ccf3-458f-ad20-9109c63b9b57")
+	)
+	(segment
+		(start 111.76 73.660001)
+		(end 111.760001 73.66)
+		(width 0.15)
+		(layer "B.Cu")
+		(net "/VGA_B")
+		(uuid "070f9792-4930-462d-8051-8baec95ddc27")
+	)
+	(segment
+		(start 115.57 80.01)
+		(end 111.76 76.2)
+		(width 0.15)
+		(layer "B.Cu")
+		(net "/VGA_B")
+		(uuid "341ef030-5ada-4bc0-98b2-7f835ba9616e")
+	)
+	(segment
+		(start 111.76 76.2)
+		(end 111.76 73.660001)
+		(width 0.15)
+		(layer "B.Cu")
+		(net "/VGA_B")
+		(uuid "3dc2d845-aaad-4ab9-8320-f7f23359029b")
+	)
+	(segment
+		(start 136.66 76.2)
+		(end 132.85 80.01)
+		(width 0.15)
+		(layer "B.Cu")
+		(net "/VGA_B")
+		(uuid "6e085244-a98a-4d9d-a67b-fdc37b412e16")
+	)
+	(segment
+		(start 132.85 80.01)
+		(end 115.57 80.01)
+		(width 0.15)
+		(layer "B.Cu")
+		(net "/VGA_B")
+		(uuid "c8a97a5b-0db8-41dd-9303-4b40cb04f9d4")
 	)
 	(segment
 		(start 142.24 70.104)
@@ -29714,86 +29634,6 @@
 		(uuid "cf4fd1ad-3779-47bf-9db0-1cb7febc888e")
 	)
 	(segment
-		(start 130.7275 115.8405)
-		(end 130.727499 114.115501)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "/G_IN")
-		(uuid "2b4159e7-7186-4c0a-abcd-4d6e0f7079d1")
-	)
-	(segment
-		(start 133.095 83.429999)
-		(end 131.962001 83.429999)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "/G_IN")
-		(uuid "32fa6218-aa37-4038-a2ec-a5db51e1f68c")
-	)
-	(segment
-		(start 131.962001 83.429999)
-		(end 131.572 83.82)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "/G_IN")
-		(uuid "39e06a8e-7604-4fa9-8c8e-f3a632e22d9c")
-	)
-	(segment
-		(start 134.62 100.838)
-		(end 134.62 93.979999)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "/G_IN")
-		(uuid "87014d6d-314d-44ba-834c-bbdd03516866")
-	)
-	(segment
-		(start 130.727499 114.115501)
-		(end 131.8775 112.965502)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "/G_IN")
-		(uuid "b329da5e-cb75-4e92-9b9c-6f3d2b1666fb")
-	)
-	(segment
-		(start 131.8775 112.965502)
-		(end 131.8775 103.5805)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "/G_IN")
-		(uuid "d2a9f9b4-73fc-4cae-bc27-aac10643d622")
-	)
-	(segment
-		(start 131.8775 103.5805)
-		(end 134.62 100.838)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "/G_IN")
-		(uuid "eee9f245-77e3-45b3-9876-cb039cab3862")
-	)
-	(via
-		(at 131.572 83.82)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "/G_IN")
-		(uuid "6e5d9764-6bb2-4459-bdbc-23929ac6b6fa")
-	)
-	(segment
-		(start 131.572 83.82)
-		(end 131.572 90.931999)
-		(width 0.15)
-		(layer "B.Cu")
-		(net "/G_IN")
-		(uuid "95f05ef4-1989-4004-b663-0a32091c9bb7")
-	)
-	(segment
-		(start 131.572 90.931999)
-		(end 134.62 93.979999)
-		(width 0.15)
-		(layer "B.Cu")
-		(net "/G_IN")
-		(uuid "9723ec15-228f-4700-a98b-494bf89e4b1f")
-	)
-	(segment
 		(start 89.698 141)
 		(end 91.8 141)
 		(width 0.2)
@@ -30266,6 +30106,86 @@
 		(uuid "fdefb38c-c59c-490b-a991-18e54bde806e")
 	)
 	(segment
+		(start 139.7 100.076)
+		(end 139.7 93.979999)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "/B_IN")
+		(uuid "3122e15f-4ba3-4bb1-9793-671b9680eea3")
+	)
+	(segment
+		(start 136.645 83.429999)
+		(end 135.518001 83.429999)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "/B_IN")
+		(uuid "34a464f0-f941-4800-bbec-d0183a26599c")
+	)
+	(segment
+		(start 134.239 105.537)
+		(end 139.7 100.076)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "/B_IN")
+		(uuid "47033b20-0c1c-42f7-9c57-38a97126b465")
+	)
+	(segment
+		(start 133.1275 114.115501)
+		(end 134.239 113.004001)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "/B_IN")
+		(uuid "64200bec-16c4-4ec2-9f66-5ee17bd115ee")
+	)
+	(segment
+		(start 134.239 113.004001)
+		(end 134.239 105.537)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "/B_IN")
+		(uuid "6b96c46a-72f4-4b32-92d4-457f4d7b1227")
+	)
+	(segment
+		(start 135.518001 83.429999)
+		(end 135.128 83.82)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "/B_IN")
+		(uuid "cb333ca4-c9f7-4b6e-ad70-f16a299323a7")
+	)
+	(segment
+		(start 133.1275 115.840499)
+		(end 133.1275 114.115501)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "/B_IN")
+		(uuid "cce6c257-e46e-4ca6-8ba4-9f084748f418")
+	)
+	(via
+		(at 135.128 83.82)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "/B_IN")
+		(uuid "ae9b6115-c43b-429a-b8fd-7e858ceb3ff4")
+	)
+	(segment
+		(start 135.128 83.82)
+		(end 135.128 89.407999)
+		(width 0.15)
+		(layer "B.Cu")
+		(net "/B_IN")
+		(uuid "45bad98a-0a3a-4e1a-86f0-fa57f92783ca")
+	)
+	(segment
+		(start 135.128 89.407999)
+		(end 139.7 93.979999)
+		(width 0.15)
+		(layer "B.Cu")
+		(net "/B_IN")
+		(uuid "a565d22d-63db-45e2-ac91-d9b6d314129c")
+	)
+	(segment
 		(start 156.4875 137.795)
 		(end 158.4725 137.795)
 		(width 0.15)
@@ -30408,6 +30328,86 @@
 		(layer "F.Cu")
 		(net "/tGIN")
 		(uuid "ef973345-f60e-4885-9612-17826224f880")
+	)
+	(segment
+		(start 130.7275 115.8405)
+		(end 130.727499 114.115501)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "/G_IN")
+		(uuid "2b4159e7-7186-4c0a-abcd-4d6e0f7079d1")
+	)
+	(segment
+		(start 133.095 83.429999)
+		(end 131.962001 83.429999)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "/G_IN")
+		(uuid "32fa6218-aa37-4038-a2ec-a5db51e1f68c")
+	)
+	(segment
+		(start 131.962001 83.429999)
+		(end 131.572 83.82)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "/G_IN")
+		(uuid "39e06a8e-7604-4fa9-8c8e-f3a632e22d9c")
+	)
+	(segment
+		(start 134.62 100.838)
+		(end 134.62 93.979999)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "/G_IN")
+		(uuid "87014d6d-314d-44ba-834c-bbdd03516866")
+	)
+	(segment
+		(start 130.727499 114.115501)
+		(end 131.8775 112.965502)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "/G_IN")
+		(uuid "b329da5e-cb75-4e92-9b9c-6f3d2b1666fb")
+	)
+	(segment
+		(start 131.8775 112.965502)
+		(end 131.8775 103.5805)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "/G_IN")
+		(uuid "d2a9f9b4-73fc-4cae-bc27-aac10643d622")
+	)
+	(segment
+		(start 131.8775 103.5805)
+		(end 134.62 100.838)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "/G_IN")
+		(uuid "eee9f245-77e3-45b3-9876-cb039cab3862")
+	)
+	(via
+		(at 131.572 83.82)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "/G_IN")
+		(uuid "6e5d9764-6bb2-4459-bdbc-23929ac6b6fa")
+	)
+	(segment
+		(start 131.572 83.82)
+		(end 131.572 90.931999)
+		(width 0.15)
+		(layer "B.Cu")
+		(net "/G_IN")
+		(uuid "95f05ef4-1989-4004-b663-0a32091c9bb7")
+	)
+	(segment
+		(start 131.572 90.931999)
+		(end 134.62 93.979999)
+		(width 0.15)
+		(layer "B.Cu")
+		(net "/G_IN")
+		(uuid "9723ec15-228f-4700-a98b-494bf89e4b1f")
 	)
 	(segment
 		(start 168.402 111.5295)
@@ -30626,76 +30626,36 @@
 		(uuid "db5749cc-5db6-4d52-b377-701780be82c3")
 	)
 	(segment
-		(start 129.54 112.903)
-		(end 129.54 93.979999)
-		(width 0.15)
+		(start 92.059 153.289)
+		(end 92.059 158.22)
+		(width 0.2)
 		(layer "F.Cu")
-		(net "/R_IN")
-		(uuid "135200c2-4918-4a5b-ad4d-d782deb9c715")
+		(net "/vccd")
+		(uuid "020d1b85-7cd6-4e86-b24c-70449c7f5c11")
 	)
 	(segment
-		(start 129.54 96.52)
-		(end 129.54 96.68)
-		(width 0.15)
+		(start 92.059 151.743)
+		(end 93 150.802)
+		(width 0.2)
 		(layer "F.Cu")
-		(net "/R_IN")
-		(uuid "6d93c614-6381-4da5-9a7f-f045cf21ba9f")
+		(net "/vccd")
+		(uuid "2ecf3b62-7bb3-483d-93b4-707694cbdc29")
 	)
 	(segment
-		(start 128.3275 114.1155)
-		(end 129.54 112.903)
-		(width 0.15)
+		(start 93 150.802)
+		(end 93 148.7)
+		(width 0.2)
 		(layer "F.Cu")
-		(net "/R_IN")
-		(uuid "80c6ae6d-9f5d-4598-8f46-49674b7d548e")
+		(net "/vccd")
+		(uuid "b35be645-130f-4c00-89c1-1e56f9d38f28")
 	)
 	(segment
-		(start 128.3275 115.877999)
-		(end 128.3275 114.1155)
-		(width 0.15)
+		(start 92.059 153.289)
+		(end 92.059 151.743)
+		(width 0.2)
 		(layer "F.Cu")
-		(net "/R_IN")
-		(uuid "c6cb3c20-00dc-4c08-ae5e-70a991d3dd01")
-	)
-	(segment
-		(start 128.406001 83.429999)
-		(end 128.016 83.82)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "/R_IN")
-		(uuid "e78d8509-3888-4dd3-bd98-8417b903eb10")
-	)
-	(segment
-		(start 129.545 83.429999)
-		(end 128.406001 83.429999)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "/R_IN")
-		(uuid "f82f874b-0e32-4d92-b429-0206eba3a44a")
-	)
-	(via
-		(at 128.016 83.82)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "/R_IN")
-		(uuid "9b7ed111-0b30-428f-91ad-e8d528920ea8")
-	)
-	(segment
-		(start 128.016 92.455999)
-		(end 129.54 93.979999)
-		(width 0.15)
-		(layer "B.Cu")
-		(net "/R_IN")
-		(uuid "530d8c94-02db-47bf-b8ac-5d05e8d76c19")
-	)
-	(segment
-		(start 128.016 83.82)
-		(end 128.016 92.455999)
-		(width 0.15)
-		(layer "B.Cu")
-		(net "/R_IN")
-		(uuid "58510bd6-221f-4bab-b685-c01ea66f7e7a")
+		(net "/vccd")
+		(uuid "f88a5cb4-2c90-46e5-b455-ab9710e3efc7")
 	)
 	(segment
 		(start 104.368 144.5)
@@ -30768,6 +30728,78 @@
 		(layer "F.Cu")
 		(net "/L_AUDIO")
 		(uuid "c2a57995-1783-48f9-b3d1-df83778e1ee3")
+	)
+	(segment
+		(start 129.54 112.903)
+		(end 129.54 93.979999)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "/R_IN")
+		(uuid "135200c2-4918-4a5b-ad4d-d782deb9c715")
+	)
+	(segment
+		(start 129.54 96.52)
+		(end 129.54 96.68)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "/R_IN")
+		(uuid "6d93c614-6381-4da5-9a7f-f045cf21ba9f")
+	)
+	(segment
+		(start 128.3275 114.1155)
+		(end 129.54 112.903)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "/R_IN")
+		(uuid "80c6ae6d-9f5d-4598-8f46-49674b7d548e")
+	)
+	(segment
+		(start 128.3275 115.877999)
+		(end 128.3275 114.1155)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "/R_IN")
+		(uuid "c6cb3c20-00dc-4c08-ae5e-70a991d3dd01")
+	)
+	(segment
+		(start 128.406001 83.429999)
+		(end 128.016 83.82)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "/R_IN")
+		(uuid "e78d8509-3888-4dd3-bd98-8417b903eb10")
+	)
+	(segment
+		(start 129.545 83.429999)
+		(end 128.406001 83.429999)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "/R_IN")
+		(uuid "f82f874b-0e32-4d92-b429-0206eba3a44a")
+	)
+	(via
+		(at 128.016 83.82)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "/R_IN")
+		(uuid "9b7ed111-0b30-428f-91ad-e8d528920ea8")
+	)
+	(segment
+		(start 128.016 92.455999)
+		(end 129.54 93.979999)
+		(width 0.15)
+		(layer "B.Cu")
+		(net "/R_IN")
+		(uuid "530d8c94-02db-47bf-b8ac-5d05e8d76c19")
+	)
+	(segment
+		(start 128.016 83.82)
+		(end 128.016 92.455999)
+		(width 0.15)
+		(layer "B.Cu")
+		(net "/R_IN")
+		(uuid "58510bd6-221f-4bab-b685-c01ea66f7e7a")
 	)
 	(segment
 		(start 154.529 120.68)
@@ -31658,38 +31690,6 @@
 		(uuid "d0aa6a0d-bdcf-4911-b3e5-5395ab8b7086")
 	)
 	(segment
-		(start 92.059 153.289)
-		(end 92.059 158.22)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/vccd")
-		(uuid "020d1b85-7cd6-4e86-b24c-70449c7f5c11")
-	)
-	(segment
-		(start 92.059 151.743)
-		(end 93 150.802)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/vccd")
-		(uuid "2ecf3b62-7bb3-483d-93b4-707694cbdc29")
-	)
-	(segment
-		(start 93 150.802)
-		(end 93 148.7)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/vccd")
-		(uuid "b35be645-130f-4c00-89c1-1e56f9d38f28")
-	)
-	(segment
-		(start 92.059 153.289)
-		(end 92.059 151.743)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/vccd")
-		(uuid "f88a5cb4-2c90-46e5-b455-ab9710e3efc7")
-	)
-	(segment
 		(start 94.149 150.834)
 		(end 94.5 150.483)
 		(width 0.2)
@@ -32258,167 +32258,6 @@
 		(uuid "bae99360-05d4-41f4-965a-8064a4b4d588")
 	)
 	(zone
-		(net "/HDMI_0N")
-		(layer "F.Cu")
-		(hatch none 0.1)
-		(priority 30009)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 159.839999 123.305001) (xy 159.771174 123.287444) (xy 159.711524 123.255247) (xy 159.578267 123.187612)
-				(xy 159.238999 123.38) (xy 159.578267 123.572388) (xy 159.711523 123.504754) (xy 159.778756 123.46917)
-				(xy 159.839998 123.455)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 159.585289 123.191176) (xy 159.711386 123.255177) (xy 159.711577 123.255277) (xy 159.7116 123.255289)
-				(xy 159.711693 123.255338) (xy 159.771174 123.287444) (xy 159.821527 123.300288) (xy 159.828935 123.302178)
-				(xy 159.833051 123.304147) (xy 159.835148 123.305717) (xy 159.839418 123.311978) (xy 159.839579 123.312563)
-				(xy 159.839998 123.315668) (xy 159.839998 123.443369) (xy 159.839106 123.447849) (xy 159.838132 123.450199)
-				(xy 159.833002 123.455949) (xy 159.832375 123.456297) (xy 159.831816 123.456511) (xy 159.831799 123.456529)
-				(xy 159.831771 123.456528) (xy 159.829334 123.457466) (xy 159.77876 123.469167) (xy 159.711663 123.504678)
-				(xy 159.711627 123.504697) (xy 159.711486 123.504771) (xy 159.711344 123.504844) (xy 159.585943 123.568491)
-				(xy 159.581548 123.569723) (xy 159.578088 123.56999) (xy 159.571417 123.568503) (xy 159.25897 123.391325)
-				(xy 159.255513 123.388339) (xy 159.254418 123.386934) (xy 159.252028 123.37836) (xy 159.252039 123.378271)
-				(xy 159.255382 123.371386) (xy 159.25583 123.370938) (xy 159.258323 123.369041) (xy 159.57078 123.191856)
-				(xy 159.575109 123.190423) (xy 159.578559 123.189997)
-			)
-		)
-	)
-	(zone
-		(net "/HDMI_2N")
-		(layer "F.Cu")
-		(hatch none 0.1)
-		(priority 30011)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 157.545546 120.241612) (xy 157.603392 120.321476) (xy 157.616994 120.344863) (xy 157.675955 120.439699)
-				(xy 157.769289 120.550711) (xy 157.965707 120.555707) (xy 157.872842 120.18) (xy 157.849421 120.199344)
-				(xy 157.82348 120.209085) (xy 157.762168 120.204212) (xy 157.687081 120.165252) (xy 157.651612 120.135546)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 157.659822 120.142423) (xy 157.687081 120.165252) (xy 157.687084 120.165255) (xy 157.762166 120.204211)
-				(xy 157.762168 120.204212) (xy 157.82348 120.209085) (xy 157.849421 120.199344) (xy 157.858498 120.191846)
-				(xy 157.867058 120.189221) (xy 157.874969 120.193417) (xy 157.877306 120.198061) (xy 157.962025 120.540813)
-				(xy 157.960684 120.549666) (xy 157.953474 120.554978) (xy 157.950369 120.555316) (xy 157.774555 120.550844)
-				(xy 157.766372 120.547208) (xy 157.765898 120.546677) (xy 157.676496 120.440343) (xy 157.675515 120.438991)
-				(xy 157.617084 120.345007) (xy 157.616906 120.344712) (xy 157.603395 120.321481) (xy 157.603394 120.32148)
-				(xy 157.603392 120.321476) (xy 157.551397 120.249691) (xy 157.549321 120.240982) (xy 157.552599 120.234558)
-				(xy 157.644038 120.143119) (xy 157.65231 120.139693)
-			)
-		)
-	)
-	(zone
-		(net "/HDMI_CP")
-		(layer "F.Cu")
-		(hatch none 0.1)
-		(priority 30003)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 159.84 124.505) (xy 159.771175 124.487443) (xy 159.711525 124.455246) (xy 159.578268 124.387612)
-				(xy 159.239 124.58) (xy 159.578268 124.772388) (xy 159.711525 124.704754) (xy 159.778758 124.66917)
-				(xy 159.84 124.655)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 159.58529 124.391176) (xy 159.711387 124.455176) (xy 159.711578 124.455276) (xy 159.711601 124.455288)
-				(xy 159.711694 124.455337) (xy 159.771175 124.487443) (xy 159.828938 124.502178) (xy 159.833053 124.504146)
-				(xy 159.83515 124.505716) (xy 159.83942 124.511977) (xy 159.839581 124.512562) (xy 159.839689 124.513364)
-				(xy 159.83972 124.513416) (xy 159.839704 124.513476) (xy 159.84 124.515667) (xy 159.84 124.643369)
-				(xy 159.839108 124.647849) (xy 159.838134 124.650199) (xy 159.833004 124.655949) (xy 159.832377 124.656297)
-				(xy 159.829336 124.657466) (xy 159.778762 124.669167) (xy 159.711665 124.704678) (xy 159.711629 124.704697)
-				(xy 159.711488 124.704771) (xy 159.711346 124.704844) (xy 159.585944 124.768491) (xy 159.581549 124.769723)
-				(xy 159.578089 124.76999) (xy 159.571418 124.768503) (xy 159.258971 124.591325) (xy 159.255514 124.588339)
-				(xy 159.254419 124.586934) (xy 159.252029 124.57836) (xy 159.25204 124.578271) (xy 159.255383 124.571386)
-				(xy 159.255828 124.570941) (xy 159.258323 124.569042) (xy 159.355229 124.51409) (xy 159.570781 124.391856)
-				(xy 159.57511 124.390423) (xy 159.57856 124.389997)
-			)
-		)
-	)
-	(zone
-		(net "/HDMI_CN")
-		(layer "F.Cu")
-		(hatch none 0.1)
-		(priority 30004)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 158.74 125.105) (xy 158.671175 125.087443) (xy 158.611525 125.055246) (xy 158.478268 124.987612)
-				(xy 158.139 125.18) (xy 158.478268 125.372388) (xy 158.611525 125.304754) (xy 158.678758 125.26917)
-				(xy 158.74 125.255)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 158.48529 124.991176) (xy 158.611387 125.055176) (xy 158.611578 125.055276) (xy 158.611601 125.055288)
-				(xy 158.611694 125.055337) (xy 158.671175 125.087443) (xy 158.728938 125.102178) (xy 158.733053 125.104146)
-				(xy 158.73515 125.105716) (xy 158.73942 125.111977) (xy 158.739581 125.112562) (xy 158.739689 125.113364)
-				(xy 158.73972 125.113416) (xy 158.739704 125.113476) (xy 158.74 125.115667) (xy 158.74 125.243369)
-				(xy 158.739108 125.247849) (xy 158.738134 125.250199) (xy 158.733004 125.255949) (xy 158.732377 125.256297)
-				(xy 158.729336 125.257466) (xy 158.678762 125.269167) (xy 158.611665 125.304678) (xy 158.611629 125.304697)
-				(xy 158.611488 125.304771) (xy 158.611346 125.304844) (xy 158.485944 125.368491) (xy 158.481549 125.369723)
-				(xy 158.478089 125.36999) (xy 158.471418 125.368503) (xy 158.158971 125.191325) (xy 158.155514 125.188339)
-				(xy 158.154419 125.186934) (xy 158.152029 125.17836) (xy 158.15204 125.178271) (xy 158.155383 125.171386)
-				(xy 158.155828 125.170941) (xy 158.158323 125.169042) (xy 158.255229 125.11409) (xy 158.470781 124.991856)
-				(xy 158.47511 124.990423) (xy 158.47856 124.989997)
-			)
-		)
-	)
-	(zone
 		(net "/HDMI_1N")
 		(layer "F.Cu")
 		(hatch none 0.1)
@@ -32452,244 +32291,6 @@
 				(xy 159.644167 122.267028) (xy 159.638373 122.273856) (xy 159.629448 122.274587) (xy 159.627806 122.273918)
 				(xy 159.264347 122.092642) (xy 159.258473 122.085883) (xy 159.259099 122.07695) (xy 159.265856 122.071077)
 				(xy 159.535339 121.981548)
-			)
-		)
-	)
-	(zone
-		(net "/HDMI_0N")
-		(layer "F.Cu")
-		(hatch none 0.1)
-		(priority 30001)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 158.639999 123.455) (xy 158.708824 123.472557) (xy 158.768474 123.504754) (xy 158.901731 123.572388)
-				(xy 159.240999 123.38) (xy 158.901731 123.187612) (xy 158.768474 123.255246) (xy 158.701241 123.29083)
-				(xy 158.639999 123.305)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 158.908577 123.191494) (xy 159.121357 123.312155) (xy 159.221026 123.368674) (xy 159.224483 123.37166)
-				(xy 159.225578 123.373065) (xy 159.227968 123.38164) (xy 159.227958 123.381724) (xy 159.224613 123.388614)
-				(xy 159.224173 123.389054) (xy 159.223602 123.389488) (xy 159.223577 123.389534) (xy 159.223522 123.389549)
-				(xy 159.221671 123.390959) (xy 158.909216 123.568142) (xy 158.904882 123.569575) (xy 158.901439 123.570001)
-				(xy 158.894707 123.568823) (xy 158.893365 123.568142) (xy 158.768661 123.504848) (xy 158.768506 123.504768)
-				(xy 158.768396 123.50471) (xy 158.768296 123.504657) (xy 158.736508 123.4875) (xy 158.722666 123.480028)
-				(xy 158.708825 123.472557) (xy 158.651061 123.457821) (xy 158.646944 123.455852) (xy 158.644846 123.454281)
-				(xy 158.640572 123.447999) (xy 158.640413 123.447417) (xy 158.640307 123.446633) (xy 158.640277 123.446582)
-				(xy 158.640292 123.44652) (xy 158.639999 123.444334) (xy 158.639999 123.316629) (xy 158.640888 123.312155)
-				(xy 158.641862 123.309803) (xy 158.646999 123.304047) (xy 158.647635 123.303694) (xy 158.650661 123.302532)
-				(xy 158.701241 123.29083) (xy 158.768474 123.255246) (xy 158.894054 123.191506) (xy 158.898448 123.190275)
-				(xy 158.90191 123.190008)
-			)
-		)
-	)
-	(zone
-		(net "/HDMI_2P")
-		(layer "F.Cu")
-		(hatch none 0.1)
-		(priority 30000)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 159.84 119.705) (xy 159.771175 119.687443) (xy 159.711525 119.655246) (xy 159.578268 119.587612)
-				(xy 159.239 119.78) (xy 159.578268 119.972388) (xy 159.711525 119.904754) (xy 159.778758 119.86917)
-				(xy 159.84 119.855)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 159.58529 119.591176) (xy 159.711387 119.655176) (xy 159.711578 119.655276) (xy 159.711601 119.655288)
-				(xy 159.711694 119.655337) (xy 159.771175 119.687443) (xy 159.828938 119.702178) (xy 159.833053 119.704146)
-				(xy 159.83515 119.705716) (xy 159.83942 119.711977) (xy 159.839581 119.712562) (xy 159.839689 119.713364)
-				(xy 159.83972 119.713416) (xy 159.839704 119.713476) (xy 159.84 119.715667) (xy 159.84 119.843369)
-				(xy 159.839108 119.847849) (xy 159.838134 119.850199) (xy 159.833004 119.855949) (xy 159.832377 119.856297)
-				(xy 159.829336 119.857466) (xy 159.778762 119.869167) (xy 159.711665 119.904678) (xy 159.711629 119.904697)
-				(xy 159.711488 119.904771) (xy 159.711346 119.904844) (xy 159.585944 119.968491) (xy 159.581549 119.969723)
-				(xy 159.578089 119.96999) (xy 159.571418 119.968503) (xy 159.258971 119.791325) (xy 159.255514 119.788339)
-				(xy 159.254419 119.786934) (xy 159.252029 119.77836) (xy 159.25204 119.778271) (xy 159.255383 119.771386)
-				(xy 159.255828 119.770941) (xy 159.258323 119.769042) (xy 159.355229 119.71409) (xy 159.570781 119.591856)
-				(xy 159.57511 119.590423) (xy 159.57856 119.589997)
-			)
-		)
-	)
-	(zone
-		(net "/HDMI_2P")
-		(layer "F.Cu")
-		(hatch none 0.1)
-		(priority 30002)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 158.64 119.855) (xy 158.708825 119.872557) (xy 158.768475 119.904754) (xy 158.901732 119.972388)
-				(xy 159.241 119.78) (xy 158.901732 119.587612) (xy 158.768475 119.655246) (xy 158.701242 119.69083)
-				(xy 158.64 119.705)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 158.908578 119.591494) (xy 159.121358 119.712155) (xy 159.221027 119.768674) (xy 159.224484 119.77166)
-				(xy 159.225579 119.773065) (xy 159.227969 119.78164) (xy 159.227959 119.781724) (xy 159.224614 119.788614)
-				(xy 159.224174 119.789054) (xy 159.223603 119.789488) (xy 159.223578 119.789534) (xy 159.223523 119.789549)
-				(xy 159.221672 119.790959) (xy 158.909217 119.968142) (xy 158.904883 119.969575) (xy 158.90144 119.970001)
-				(xy 158.894708 119.968823) (xy 158.893366 119.968142) (xy 158.768662 119.904848) (xy 158.768507 119.904768)
-				(xy 158.768397 119.90471) (xy 158.768297 119.904657) (xy 158.736509 119.8875) (xy 158.722667 119.880028)
-				(xy 158.708826 119.872557) (xy 158.651062 119.857821) (xy 158.646945 119.855852) (xy 158.644847 119.854281)
-				(xy 158.640573 119.847999) (xy 158.640414 119.847417) (xy 158.640308 119.846633) (xy 158.640278 119.846582)
-				(xy 158.640293 119.84652) (xy 158.64 119.844334) (xy 158.64 119.716629) (xy 158.640889 119.712155)
-				(xy 158.641863 119.709803) (xy 158.647 119.704047) (xy 158.647636 119.703694) (xy 158.650662 119.702532)
-				(xy 158.701242 119.69083) (xy 158.768475 119.655246) (xy 158.894055 119.591506) (xy 158.898449 119.590275)
-				(xy 158.901911 119.590008)
-			)
-		)
-	)
-	(zone
-		(net "/HDMI_2N")
-		(layer "F.Cu")
-		(hatch none 0.1)
-		(priority 30007)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 158.74 120.305) (xy 158.671175 120.287443) (xy 158.611525 120.255246) (xy 158.478268 120.187612)
-				(xy 158.139 120.38) (xy 158.478268 120.572388) (xy 158.611525 120.504754) (xy 158.678758 120.46917)
-				(xy 158.74 120.455)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 158.483867 120.190454) (xy 158.484372 120.19071) (xy 158.611387 120.255176) (xy 158.611649 120.255313)
-				(xy 158.671175 120.287443) (xy 158.731192 120.302753) (xy 158.738361 120.308119) (xy 158.74 120.31409)
-				(xy 158.74 120.445697) (xy 158.736573 120.45397) (xy 158.730938 120.457096) (xy 158.678759 120.469169)
-				(xy 158.611601 120.504713) (xy 158.611423 120.504805) (xy 158.48387 120.569544) (xy 158.474942 120.570233)
-				(xy 158.472804 120.569289) (xy 158.156948 120.390178) (xy 158.151441 120.383116) (xy 158.152541 120.374229)
-				(xy 158.156948 120.369822) (xy 158.255229 120.31409) (xy 158.472805 120.190709) (xy 158.481691 120.18961)
-			)
-		)
-	)
-	(zone
-		(net "/HDMI_CN")
-		(layer "F.Cu")
-		(hatch none 0.1)
-		(priority 30006)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 157.54 125.255) (xy 157.608825 125.272557) (xy 157.668475 125.304754) (xy 157.801732 125.372388)
-				(xy 158.141 125.18) (xy 157.801732 124.987612) (xy 157.668475 125.055246) (xy 157.601242 125.09083)
-				(xy 157.54 125.105)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 157.807195 124.99071) (xy 158.123051 125.169822) (xy 158.128558 125.176884) (xy 158.127458 125.185771)
-				(xy 158.123051 125.190178) (xy 157.807195 125.369289) (xy 157.798308 125.370389) (xy 157.796129 125.369544)
-				(xy 157.668612 125.304823) (xy 157.66835 125.304686) (xy 157.636509 125.2875) (xy 157.608825 125.272557)
-				(xy 157.548808 125.257246) (xy 157.541638 125.25188) (xy 157.54 125.245909) (xy 157.54 125.114302)
-				(xy 157.543427 125.106029) (xy 157.549063 125.102903) (xy 157.601242 125.09083) (xy 157.668475 125.055246)
-				(xy 157.79613 124.990454) (xy 157.805057 124.989766)
-			)
-		)
-	)
-	(zone
-		(net "/HDMI_0P")
-		(layer "F.Cu")
-		(hatch none 0.1)
-		(priority 30008)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 158.74 122.705) (xy 158.671175 122.687443) (xy 158.611525 122.655246) (xy 158.478268 122.587612)
-				(xy 158.139 122.78) (xy 158.478268 122.972388) (xy 158.611525 122.904754) (xy 158.678758 122.86917)
-				(xy 158.74 122.855)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 158.48529 122.591176) (xy 158.611387 122.655176) (xy 158.611578 122.655276) (xy 158.611601 122.655288)
-				(xy 158.611694 122.655337) (xy 158.671175 122.687443) (xy 158.728938 122.702178) (xy 158.733053 122.704146)
-				(xy 158.73515 122.705716) (xy 158.73942 122.711977) (xy 158.739581 122.712562) (xy 158.739689 122.713364)
-				(xy 158.73972 122.713416) (xy 158.739704 122.713476) (xy 158.74 122.715667) (xy 158.74 122.843369)
-				(xy 158.739108 122.847849) (xy 158.738134 122.850199) (xy 158.733004 122.855949) (xy 158.732377 122.856297)
-				(xy 158.729336 122.857466) (xy 158.678762 122.869167) (xy 158.611665 122.904678) (xy 158.611629 122.904697)
-				(xy 158.611488 122.904771) (xy 158.611346 122.904844) (xy 158.485944 122.968491) (xy 158.481549 122.969723)
-				(xy 158.478089 122.96999) (xy 158.471418 122.968503) (xy 158.158971 122.791325) (xy 158.155514 122.788339)
-				(xy 158.154419 122.786934) (xy 158.152029 122.77836) (xy 158.15204 122.778271) (xy 158.155383 122.771386)
-				(xy 158.155828 122.770941) (xy 158.158323 122.769042) (xy 158.255229 122.71409) (xy 158.470781 122.591856)
-				(xy 158.47511 122.590423) (xy 158.47856 122.589997)
 			)
 		)
 	)
@@ -32736,6 +32337,369 @@
 		)
 	)
 	(zone
+		(net "/HDMI_2N")
+		(layer "F.Cu")
+		(hatch none 0.1)
+		(priority 30011)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 157.545546 120.241612) (xy 157.603392 120.321476) (xy 157.616994 120.344863) (xy 157.675955 120.439699)
+				(xy 157.769289 120.550711) (xy 157.965707 120.555707) (xy 157.872842 120.18) (xy 157.849421 120.199344)
+				(xy 157.82348 120.209085) (xy 157.762168 120.204212) (xy 157.687081 120.165252) (xy 157.651612 120.135546)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 157.659822 120.142423) (xy 157.687081 120.165252) (xy 157.687084 120.165255) (xy 157.762166 120.204211)
+				(xy 157.762168 120.204212) (xy 157.82348 120.209085) (xy 157.849421 120.199344) (xy 157.858498 120.191846)
+				(xy 157.867058 120.189221) (xy 157.874969 120.193417) (xy 157.877306 120.198061) (xy 157.962025 120.540813)
+				(xy 157.960684 120.549666) (xy 157.953474 120.554978) (xy 157.950369 120.555316) (xy 157.774555 120.550844)
+				(xy 157.766372 120.547208) (xy 157.765898 120.546677) (xy 157.676496 120.440343) (xy 157.675515 120.438991)
+				(xy 157.617084 120.345007) (xy 157.616906 120.344712) (xy 157.603395 120.321481) (xy 157.603394 120.32148)
+				(xy 157.603392 120.321476) (xy 157.551397 120.249691) (xy 157.549321 120.240982) (xy 157.552599 120.234558)
+				(xy 157.644038 120.143119) (xy 157.65231 120.139693)
+			)
+		)
+	)
+	(zone
+		(net "/HDMI_2N")
+		(layer "F.Cu")
+		(hatch none 0.1)
+		(priority 30007)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 158.74 120.305) (xy 158.671175 120.287443) (xy 158.611525 120.255246) (xy 158.478268 120.187612)
+				(xy 158.139 120.38) (xy 158.478268 120.572388) (xy 158.611525 120.504754) (xy 158.678758 120.46917)
+				(xy 158.74 120.455)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 158.483867 120.190454) (xy 158.484372 120.19071) (xy 158.611387 120.255176) (xy 158.611649 120.255313)
+				(xy 158.671175 120.287443) (xy 158.731192 120.302753) (xy 158.738361 120.308119) (xy 158.74 120.31409)
+				(xy 158.74 120.445697) (xy 158.736573 120.45397) (xy 158.730938 120.457096) (xy 158.678759 120.469169)
+				(xy 158.611601 120.504713) (xy 158.611423 120.504805) (xy 158.48387 120.569544) (xy 158.474942 120.570233)
+				(xy 158.472804 120.569289) (xy 158.156948 120.390178) (xy 158.151441 120.383116) (xy 158.152541 120.374229)
+				(xy 158.156948 120.369822) (xy 158.255229 120.31409) (xy 158.472805 120.190709) (xy 158.481691 120.18961)
+			)
+		)
+	)
+	(zone
+		(net "/HDMI_2P")
+		(layer "F.Cu")
+		(hatch none 0.1)
+		(priority 30000)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 159.84 119.705) (xy 159.771175 119.687443) (xy 159.711525 119.655246) (xy 159.578268 119.587612)
+				(xy 159.239 119.78) (xy 159.578268 119.972388) (xy 159.711525 119.904754) (xy 159.778758 119.86917)
+				(xy 159.84 119.855)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 159.58529 119.591176) (xy 159.711387 119.655176) (xy 159.711578 119.655276) (xy 159.711601 119.655288)
+				(xy 159.711694 119.655337) (xy 159.771175 119.687443) (xy 159.828938 119.702178) (xy 159.833053 119.704146)
+				(xy 159.83515 119.705716) (xy 159.83942 119.711977) (xy 159.839581 119.712562) (xy 159.839689 119.713364)
+				(xy 159.83972 119.713416) (xy 159.839704 119.713476) (xy 159.84 119.715667) (xy 159.84 119.843369)
+				(xy 159.839108 119.847849) (xy 159.838134 119.850199) (xy 159.833004 119.855949) (xy 159.832377 119.856297)
+				(xy 159.829336 119.857466) (xy 159.778762 119.869167) (xy 159.711665 119.904678) (xy 159.711629 119.904697)
+				(xy 159.711488 119.904771) (xy 159.711346 119.904844) (xy 159.585944 119.968491) (xy 159.581549 119.969723)
+				(xy 159.578089 119.96999) (xy 159.571418 119.968503) (xy 159.258971 119.791325) (xy 159.255514 119.788339)
+				(xy 159.254419 119.786934) (xy 159.252029 119.77836) (xy 159.25204 119.778271) (xy 159.255383 119.771386)
+				(xy 159.255828 119.770941) (xy 159.258323 119.769042) (xy 159.355229 119.71409) (xy 159.570781 119.591856)
+				(xy 159.57511 119.590423) (xy 159.57856 119.589997)
+			)
+		)
+	)
+	(zone
+		(net "/HDMI_CN")
+		(layer "F.Cu")
+		(hatch none 0.1)
+		(priority 30004)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 158.74 125.105) (xy 158.671175 125.087443) (xy 158.611525 125.055246) (xy 158.478268 124.987612)
+				(xy 158.139 125.18) (xy 158.478268 125.372388) (xy 158.611525 125.304754) (xy 158.678758 125.26917)
+				(xy 158.74 125.255)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 158.48529 124.991176) (xy 158.611387 125.055176) (xy 158.611578 125.055276) (xy 158.611601 125.055288)
+				(xy 158.611694 125.055337) (xy 158.671175 125.087443) (xy 158.728938 125.102178) (xy 158.733053 125.104146)
+				(xy 158.73515 125.105716) (xy 158.73942 125.111977) (xy 158.739581 125.112562) (xy 158.739689 125.113364)
+				(xy 158.73972 125.113416) (xy 158.739704 125.113476) (xy 158.74 125.115667) (xy 158.74 125.243369)
+				(xy 158.739108 125.247849) (xy 158.738134 125.250199) (xy 158.733004 125.255949) (xy 158.732377 125.256297)
+				(xy 158.729336 125.257466) (xy 158.678762 125.269167) (xy 158.611665 125.304678) (xy 158.611629 125.304697)
+				(xy 158.611488 125.304771) (xy 158.611346 125.304844) (xy 158.485944 125.368491) (xy 158.481549 125.369723)
+				(xy 158.478089 125.36999) (xy 158.471418 125.368503) (xy 158.158971 125.191325) (xy 158.155514 125.188339)
+				(xy 158.154419 125.186934) (xy 158.152029 125.17836) (xy 158.15204 125.178271) (xy 158.155383 125.171386)
+				(xy 158.155828 125.170941) (xy 158.158323 125.169042) (xy 158.255229 125.11409) (xy 158.470781 124.991856)
+				(xy 158.47511 124.990423) (xy 158.47856 124.989997)
+			)
+		)
+	)
+	(zone
+		(net "/HDMI_0N")
+		(layer "F.Cu")
+		(hatch none 0.1)
+		(priority 30009)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 159.839999 123.305001) (xy 159.771174 123.287444) (xy 159.711524 123.255247) (xy 159.578267 123.187612)
+				(xy 159.238999 123.38) (xy 159.578267 123.572388) (xy 159.711523 123.504754) (xy 159.778756 123.46917)
+				(xy 159.839998 123.455)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 159.585289 123.191176) (xy 159.711386 123.255177) (xy 159.711577 123.255277) (xy 159.7116 123.255289)
+				(xy 159.711693 123.255338) (xy 159.771174 123.287444) (xy 159.821527 123.300288) (xy 159.828935 123.302178)
+				(xy 159.833051 123.304147) (xy 159.835148 123.305717) (xy 159.839418 123.311978) (xy 159.839579 123.312563)
+				(xy 159.839998 123.315668) (xy 159.839998 123.443369) (xy 159.839106 123.447849) (xy 159.838132 123.450199)
+				(xy 159.833002 123.455949) (xy 159.832375 123.456297) (xy 159.831816 123.456511) (xy 159.831799 123.456529)
+				(xy 159.831771 123.456528) (xy 159.829334 123.457466) (xy 159.77876 123.469167) (xy 159.711663 123.504678)
+				(xy 159.711627 123.504697) (xy 159.711486 123.504771) (xy 159.711344 123.504844) (xy 159.585943 123.568491)
+				(xy 159.581548 123.569723) (xy 159.578088 123.56999) (xy 159.571417 123.568503) (xy 159.25897 123.391325)
+				(xy 159.255513 123.388339) (xy 159.254418 123.386934) (xy 159.252028 123.37836) (xy 159.252039 123.378271)
+				(xy 159.255382 123.371386) (xy 159.25583 123.370938) (xy 159.258323 123.369041) (xy 159.57078 123.191856)
+				(xy 159.575109 123.190423) (xy 159.578559 123.189997)
+			)
+		)
+	)
+	(zone
+		(net "/HDMI_2P")
+		(layer "F.Cu")
+		(hatch none 0.1)
+		(priority 30002)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 158.64 119.855) (xy 158.708825 119.872557) (xy 158.768475 119.904754) (xy 158.901732 119.972388)
+				(xy 159.241 119.78) (xy 158.901732 119.587612) (xy 158.768475 119.655246) (xy 158.701242 119.69083)
+				(xy 158.64 119.705)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 158.908578 119.591494) (xy 159.121358 119.712155) (xy 159.221027 119.768674) (xy 159.224484 119.77166)
+				(xy 159.225579 119.773065) (xy 159.227969 119.78164) (xy 159.227959 119.781724) (xy 159.224614 119.788614)
+				(xy 159.224174 119.789054) (xy 159.223603 119.789488) (xy 159.223578 119.789534) (xy 159.223523 119.789549)
+				(xy 159.221672 119.790959) (xy 158.909217 119.968142) (xy 158.904883 119.969575) (xy 158.90144 119.970001)
+				(xy 158.894708 119.968823) (xy 158.893366 119.968142) (xy 158.768662 119.904848) (xy 158.768507 119.904768)
+				(xy 158.768397 119.90471) (xy 158.768297 119.904657) (xy 158.736509 119.8875) (xy 158.722667 119.880028)
+				(xy 158.708826 119.872557) (xy 158.651062 119.857821) (xy 158.646945 119.855852) (xy 158.644847 119.854281)
+				(xy 158.640573 119.847999) (xy 158.640414 119.847417) (xy 158.640308 119.846633) (xy 158.640278 119.846582)
+				(xy 158.640293 119.84652) (xy 158.64 119.844334) (xy 158.64 119.716629) (xy 158.640889 119.712155)
+				(xy 158.641863 119.709803) (xy 158.647 119.704047) (xy 158.647636 119.703694) (xy 158.650662 119.702532)
+				(xy 158.701242 119.69083) (xy 158.768475 119.655246) (xy 158.894055 119.591506) (xy 158.898449 119.590275)
+				(xy 158.901911 119.590008)
+			)
+		)
+	)
+	(zone
+		(net "/HDMI_0P")
+		(layer "F.Cu")
+		(hatch none 0.1)
+		(priority 30008)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 158.74 122.705) (xy 158.671175 122.687443) (xy 158.611525 122.655246) (xy 158.478268 122.587612)
+				(xy 158.139 122.78) (xy 158.478268 122.972388) (xy 158.611525 122.904754) (xy 158.678758 122.86917)
+				(xy 158.74 122.855)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 158.48529 122.591176) (xy 158.611387 122.655176) (xy 158.611578 122.655276) (xy 158.611601 122.655288)
+				(xy 158.611694 122.655337) (xy 158.671175 122.687443) (xy 158.728938 122.702178) (xy 158.733053 122.704146)
+				(xy 158.73515 122.705716) (xy 158.73942 122.711977) (xy 158.739581 122.712562) (xy 158.739689 122.713364)
+				(xy 158.73972 122.713416) (xy 158.739704 122.713476) (xy 158.74 122.715667) (xy 158.74 122.843369)
+				(xy 158.739108 122.847849) (xy 158.738134 122.850199) (xy 158.733004 122.855949) (xy 158.732377 122.856297)
+				(xy 158.729336 122.857466) (xy 158.678762 122.869167) (xy 158.611665 122.904678) (xy 158.611629 122.904697)
+				(xy 158.611488 122.904771) (xy 158.611346 122.904844) (xy 158.485944 122.968491) (xy 158.481549 122.969723)
+				(xy 158.478089 122.96999) (xy 158.471418 122.968503) (xy 158.158971 122.791325) (xy 158.155514 122.788339)
+				(xy 158.154419 122.786934) (xy 158.152029 122.77836) (xy 158.15204 122.778271) (xy 158.155383 122.771386)
+				(xy 158.155828 122.770941) (xy 158.158323 122.769042) (xy 158.255229 122.71409) (xy 158.470781 122.591856)
+				(xy 158.47511 122.590423) (xy 158.47856 122.589997)
+			)
+		)
+	)
+	(zone
+		(net "/HDMI_0N")
+		(layer "F.Cu")
+		(hatch none 0.1)
+		(priority 30001)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 158.639999 123.455) (xy 158.708824 123.472557) (xy 158.768474 123.504754) (xy 158.901731 123.572388)
+				(xy 159.240999 123.38) (xy 158.901731 123.187612) (xy 158.768474 123.255246) (xy 158.701241 123.29083)
+				(xy 158.639999 123.305)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 158.908577 123.191494) (xy 159.121357 123.312155) (xy 159.221026 123.368674) (xy 159.224483 123.37166)
+				(xy 159.225578 123.373065) (xy 159.227968 123.38164) (xy 159.227958 123.381724) (xy 159.224613 123.388614)
+				(xy 159.224173 123.389054) (xy 159.223602 123.389488) (xy 159.223577 123.389534) (xy 159.223522 123.389549)
+				(xy 159.221671 123.390959) (xy 158.909216 123.568142) (xy 158.904882 123.569575) (xy 158.901439 123.570001)
+				(xy 158.894707 123.568823) (xy 158.893365 123.568142) (xy 158.768661 123.504848) (xy 158.768506 123.504768)
+				(xy 158.768396 123.50471) (xy 158.768296 123.504657) (xy 158.736508 123.4875) (xy 158.722666 123.480028)
+				(xy 158.708825 123.472557) (xy 158.651061 123.457821) (xy 158.646944 123.455852) (xy 158.644846 123.454281)
+				(xy 158.640572 123.447999) (xy 158.640413 123.447417) (xy 158.640307 123.446633) (xy 158.640277 123.446582)
+				(xy 158.640292 123.44652) (xy 158.639999 123.444334) (xy 158.639999 123.316629) (xy 158.640888 123.312155)
+				(xy 158.641862 123.309803) (xy 158.646999 123.304047) (xy 158.647635 123.303694) (xy 158.650661 123.302532)
+				(xy 158.701241 123.29083) (xy 158.768474 123.255246) (xy 158.894054 123.191506) (xy 158.898448 123.190275)
+				(xy 158.90191 123.190008)
+			)
+		)
+	)
+	(zone
+		(net "/HDMI_CP")
+		(layer "F.Cu")
+		(hatch none 0.1)
+		(priority 30003)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 159.84 124.505) (xy 159.771175 124.487443) (xy 159.711525 124.455246) (xy 159.578268 124.387612)
+				(xy 159.239 124.58) (xy 159.578268 124.772388) (xy 159.711525 124.704754) (xy 159.778758 124.66917)
+				(xy 159.84 124.655)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 159.58529 124.391176) (xy 159.711387 124.455176) (xy 159.711578 124.455276) (xy 159.711601 124.455288)
+				(xy 159.711694 124.455337) (xy 159.771175 124.487443) (xy 159.828938 124.502178) (xy 159.833053 124.504146)
+				(xy 159.83515 124.505716) (xy 159.83942 124.511977) (xy 159.839581 124.512562) (xy 159.839689 124.513364)
+				(xy 159.83972 124.513416) (xy 159.839704 124.513476) (xy 159.84 124.515667) (xy 159.84 124.643369)
+				(xy 159.839108 124.647849) (xy 159.838134 124.650199) (xy 159.833004 124.655949) (xy 159.832377 124.656297)
+				(xy 159.829336 124.657466) (xy 159.778762 124.669167) (xy 159.711665 124.704678) (xy 159.711629 124.704697)
+				(xy 159.711488 124.704771) (xy 159.711346 124.704844) (xy 159.585944 124.768491) (xy 159.581549 124.769723)
+				(xy 159.578089 124.76999) (xy 159.571418 124.768503) (xy 159.258971 124.591325) (xy 159.255514 124.588339)
+				(xy 159.254419 124.586934) (xy 159.252029 124.57836) (xy 159.25204 124.578271) (xy 159.255383 124.571386)
+				(xy 159.255828 124.570941) (xy 159.258323 124.569042) (xy 159.355229 124.51409) (xy 159.570781 124.391856)
+				(xy 159.57511 124.390423) (xy 159.57856 124.389997)
+			)
+		)
+	)
+	(zone
 		(net "/HDMI_1N")
 		(layer "F.Cu")
 		(hatch none 0.1)
@@ -32769,6 +32733,42 @@
 				(xy 158.639999 122.134407) (xy 158.643426 122.126134) (xy 158.649883 122.122849) (xy 158.688033 122.116864)
 				(xy 158.724444 122.101127) (xy 158.738485 122.09506) (xy 158.738486 122.095059) (xy 158.738489 122.095058)
 				(xy 158.863862 122.013454) (xy 158.878078 122.003575) (xy 158.886826 122.001669)
+			)
+		)
+	)
+	(zone
+		(net "/HDMI_CN")
+		(layer "F.Cu")
+		(hatch none 0.1)
+		(priority 30006)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 157.54 125.255) (xy 157.608825 125.272557) (xy 157.668475 125.304754) (xy 157.801732 125.372388)
+				(xy 158.141 125.18) (xy 157.801732 124.987612) (xy 157.668475 125.055246) (xy 157.601242 125.09083)
+				(xy 157.54 125.105)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 157.807195 124.99071) (xy 158.123051 125.169822) (xy 158.128558 125.176884) (xy 158.127458 125.185771)
+				(xy 158.123051 125.190178) (xy 157.807195 125.369289) (xy 157.798308 125.370389) (xy 157.796129 125.369544)
+				(xy 157.668612 125.304823) (xy 157.66835 125.304686) (xy 157.636509 125.2875) (xy 157.608825 125.272557)
+				(xy 157.548808 125.257246) (xy 157.541638 125.25188) (xy 157.54 125.245909) (xy 157.54 125.114302)
+				(xy 157.543427 125.106029) (xy 157.549063 125.102903) (xy 157.601242 125.09083) (xy 157.668475 125.055246)
+				(xy 157.79613 124.990454) (xy 157.805057 124.989766)
 			)
 		)
 	)
