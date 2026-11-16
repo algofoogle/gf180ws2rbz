@@ -3,8 +3,8 @@
 (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
 (property "Reference" "J" (at -22.86 25.4 0) (effects (font (size 1.27 1.27))))
 (property "Value" "Raybox Zero Module (RBZM)" (at 0 25.4 0) (effects (font (size 1.27 1.27))))
-(property "Footprint" "Anton:RBZM_Raybox_Zero_Module" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-(property "Description" "Raybox Zero Module interface, two 2x16 headers at 40.64 mm spacing" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Footprint" "Anton:RBZM_Raybox_Zero_Module" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+(property "Description" "Raybox Zero Module interface, two 2x16 headers at 40.64 mm spacing" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 (symbol "RBZM_Raybox_Zero_Module_1_1"
 (text "Left (L)" (at 0 -24.77 0) (effects (font (size 1.27 1.27))))
 (rectangle (start -22.86 22.86) (end 22.86 -22.86) (stroke (width 0.254) (type default)) (fill (type none)))
