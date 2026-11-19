@@ -1,0 +1,13 @@
+pinout,clockwise_degrees,RGB_order,free_wire_crossings,wire_fixed_lead_crossings,tip_to_header_chord_mm
+official,0,BGR,136,119,771.4
+official,0,RGB,147,121,772.9
+official,45,BGR,51,61,647.1
+official,45,RGB,64,62,654.3
+official,90,BGR,32,83,728.8
+official,90,RGB,35,83,732.5
+archived,0,BGR,133,122,765.5
+archived,0,RGB,144,124,766.9
+archived,45,BGR,50,48,641.1
+archived,45,RGB,63,49,648.3
+archived,90,BGR,36,85,722.2
+archived,90,RGB,39,85,725.9

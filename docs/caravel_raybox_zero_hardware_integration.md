@@ -1,5 +1,8 @@
 # Raybox Zero on GF180 Caravel: Hardware Integration, Boot, Clock and Reset Guide
 
+> **RBZM update — 19 November 2026:** The official connector is RBZM-1; consult [the current guide](rbzm/RBZM.md), [migration notes](rbzm/PINOUT_MIGRATION.md) and [QFN-to-RBZM CSV](rbzm/Caravel_to_RBZM.csv). Earlier package-pin explanations below remain chip-level facts, not header-contact assignments. GEN_TEXb (L7) and REG (L5) connect directly to Caravel mode2_gen_tex and reg_outs_enb; the controller handles their opposite logical polarities rather than module-local inverter gates. The archived connector proposal must not be directly mated with RBZM-1 because R1/R15 swap supply and ground.
+
+
 ## Purpose and scope
 
 This note describes how to put the GF180 **Caravel** implementation of Raybox Zero (mux **design 0**) onto a PCB and bring it into a known operating state. It focuses on the differences from the standalone wafer.space 1×0.5 ASIC, especially the extra management-SoC, firmware, pad-multiplexing and reset layers introduced by Caravel.
@@ -397,7 +400,7 @@ The two ASICs implement related Raybox logic, but they are not pin-compatible an
 | Main reset | Direct active-low `RESET_N` | Pin 21 resets Caravel; direct Raybox effect is policy-dependent | Use firmware-assisted reset, or add a deliberate reset policy/inverter for pin 36 |
 | Optional user reset | Not needed for the direct standalone reset | Pin 36 can be active-high `opt_user_reset` after mux configuration | Add pull-down and polarity conversion if sharing an active-low board reset |
 | VGA | RGB222 plus active-low H/V sync | Same logical RGB222 and sync outputs, on different physical pins | Route by logical colour/bit names, not bus-number assumptions |
-| Texture memory | Texture PMOD type 1 wiring includes `TM1QSPI_*` and `GEN_TEXb` | `tex_cs_n`, `tex_sclk`, `tex_io[3:0]`; generated texture selected by `mode2_gen_tex` (`mode[2]`) | `mode2_gen_tex` is active-high; invert a common `GEN_TEXb` control |
+| Texture memory | Texture PMOD type 1 wiring includes `TM1QSPI_*` and `GEN_TEXb` | `tex_cs_n`, `tex_sclk`, `tex_io[3:0]`; generated texture selected by `mode2_gen_tex` (`mode[2]`) | `mode2_gen_tex` is active-high; RBZM-1 wires GEN_TEXb directly and uses controller-firmware polarity adaptation |
 | Control interfaces | `CTRL_SPI_*` and other dedicated mode/debug inputs | Separate `vec_*` and `reg_*` three-wire SPI inputs plus mode/debug pins | Use an adapter/controller mapping; they are not a one-for-one pin rename |
 | Diagnostics | Many direct internal-position/timing outputs | Three firmware-selectable `gpout` pins | Choose useful `gpout` sources in firmware |
 | Pad direction | Fixed by standalone pad ring and design | Caravel pad ownership and direction must be transferred by firmware | Keep external drivers benign until the ready indication |

@@ -63,8 +63,16 @@ An index of the main design sources, hardware references, code hot spots, and ge
 - [KiCad issue #6512](https://gitlab.com/kicad/code/kicad/-/issues/6512) and [issue #19983](https://gitlab.com/kicad/code/kicad/-/issues/19983) — relevant background on multi-unit symbols and shared symbol fields.
 - [KiCanvas](https://kicanvas.org/) · [documentation](https://kicanvas.org/home/) · [source](https://github.com/theacodes/kicanvas) — browser-based viewing of KiCad schematics and boards.
 
+## Official RBZM-1 assets (19 November 2026)
+
+- [RBZM guide](https://chatgpt.com/library?file_id=libfile_5e1980b30e7481918ca825a3f779813e&account_id=personal) and [guide with SVGs](https://chatgpt.com/library?file_id=libfile_24983ca952708191807c247fc694dfac&account_id=personal).
+- [KiCad symbol, Anton.pretty footprint and generator](https://chatgpt.com/library?file_id=libfile_d3df78dd84ec8191b1916ec897b212e3&account_id=personal).
+- [Routing study and viewer](https://chatgpt.com/library?file_id=libfile_beb84d1b82708191ad621bafd85ddfb6&account_id=personal), now defaulting to official RBZM-1; the previous proposal is archived comparison only.
+- The guide and packages include neutral pinout exports, QFN-to-RBZM mapping and migration instructions. Do not directly mate old and new boards: R1/R15 exchange GND and RBZ_VDD.
+
 ## Generated deliverables
 
+- Wafer.space 1×0.5 dedicated-die/bond-pad diagram: [SVG](https://chatgpt.com/library?file_id=libfile_9e7ab0cb0ab4819197b86eae846afd9f&account_id=personal), [PDF](https://chatgpt.com/library?file_id=libfile_dcc86f08a7888191963267d71e7f37a6&account_id=personal), [PNG](https://chatgpt.com/library?file_id=libfile_999cd3f4bfe08191ad6b6c2bb67422ac&account_id=personal), and [GDS-driven generator](https://chatgpt.com/library?file_id=libfile_cee0020df4c8819196305cc6547dc11d&account_id=personal). The portable ZIP also includes local copies under `diagrams/` and `scripts/`.
 - [Caravel/Raybox Zero hardware-integration guide](https://chatgpt.com/library?file_id=libfile_fd14e39fd39881918834e80c9bdd7471&account_id=personal).
 - [KiCad symbol generator (`generate_caravel_raybox_symbol.py`)](https://chatgpt.com/library?file_id=libfile_dbab681bda84819191f1b0f2785c812d&account_id=personal).
 - [Generated KiCad symbol library (`caravel_raybox_zero.kicad_sym`)](https://chatgpt.com/library?file_id=libfile_fa2b6f09b73881919de7e9c6910810e2&account_id=personal) — contains the logical/block-oriented and package-oriented symbols.

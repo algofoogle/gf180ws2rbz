@@ -1,0 +1,65 @@
+pin,name,bank,x_mm,y_mm,direction,function,target
+L1,KEY,L,-21.59,-19.05,NC,Mechanical key position,Both
+L2,GND,L,-19.05,-19.05,Return,Common ground,Both
+L3,DEBUG,L,-21.59,-16.51,In,Debug control,Both
+L4,GND,L,-19.05,-16.51,Return,Common ground,Both
+L5,REG,L,-21.59,-13.97,In,"Registered-output control; WS high true, Caravel low true",Both
+L6,INC_X,L,-19.05,-13.97,In,Demo motion on X,Both
+L7,GEN_TEXb,L,-21.59,-11.43,In,"Generated-texture control; WS low true, Caravel high true",Both
+L8,INC_Y,L,-19.05,-11.43,In,Demo motion on Y,Both
+L9,VBLANK/GPOUT1,L,-21.59,-8.89,Out,Vertical blanking or diagnostic,Both
+L10,HBLANK/GPOUT0,L,-19.05,-8.89,Out,Horizontal blanking or diagnostic,Both
+L11,DIAG/GPOUT2,L,-21.59,-6.35,Out,Diagnostic output,"Both, optional on WS"
+L12,VISIBLE,L,-19.05,-6.35,Out,Active-video indication,"Both, optional"
+L13,GND,L,-21.59,-3.81,Return,Common ground,Both
+L14,RBZ_VDD,L,-19.05,-3.81,Power in,Selectable ASIC supply,Both
+L15,GND,L,-21.59,-1.27,Return,Common ground,Both
+L16,RESET_N,L,-19.05,-1.27,In,"Primary reset, low true",Both
+L17,GND,L,-21.59,1.27,Return,Common ground,Both
+L18,CLK,L,-19.05,1.27,In,System/pixel reference clock,Both
+L19,RBZM_ID,L,-21.59,3.81,Sense,Passive module identification,Both
+L20,RB_READY,L,-19.05,3.81,Out,Module ready indication,"Both, optional on WS"
+L21,RESERVED0,L,-21.59,6.35,—,Reserved contact,Future
+L22,GND,L,-19.05,6.35,Return,Common ground,Both
+L23,GND,L,-21.59,8.89,Return,Common ground,Both
+L24,+5V,L,-19.05,8.89,Power in,Fixed auxiliary rail,Optional
+L25,GND,L,-21.59,11.43,Return,Common ground,Both
+L26,+1V8,L,-19.05,11.43,Power in,Fixed auxiliary rail,Future / optional
+L27,GND,L,-21.59,13.97,Return,Common ground,Both
+L28,+1V2,L,-19.05,13.97,Power in,Fixed auxiliary rail,Future / optional
+L29,RESERVED1,L,-21.59,16.51,—,Reserved contact,Future
+L30,RESERVED2,L,-19.05,16.51,—,Reserved contact,Future
+L31,GND,L,-21.59,19.05,Return,Common ground,Both
+L32,RESERVED3,L,-19.05,19.05,—,Reserved contact,Future
+R1,GND,R,19.05,-19.05,Return,Common ground,Both
+R2,GND,R,21.59,-19.05,Return,Common ground,Both
+R3,RBZM_SPI_SCK,R,19.05,-16.51,In,Shared control SPI clock,Both
+R4,RBZM_SPI_MOSI,R,21.59,-16.51,In,Shared control SPI data,Both
+R5,CTRL_REG_CSb,R,19.05,-13.97,In,WS CTRL or Caravel register SPI select,Both
+R6,VEC_CSb,R,21.59,-13.97,In,Vector SPI select,Caravel
+R7,HK_CSb,R,19.05,-11.43,In,Housekeeping SPI select,Caravel
+R8,HK_SDO,R,21.59,-11.43,Out,Dedicated housekeeping SPI return,Caravel
+R9,TEX_IO3,R,19.05,-8.89,In,Texture read-data bit 3,Both¹
+R10,TEX_IO2,R,21.59,-8.89,In,Texture read-data bit 2,Both
+R11,TEX_IO1,R,19.05,-6.35,In,Texture read-data bit 1,Both
+R12,TEX_IO0,R,21.59,-6.35,Bidir,Texture command data and read-data bit 0,Both
+R13,TEX_SCK,R,19.05,-3.81,Out,Texture flash clock,Both
+R14,TEX_CSb,R,21.59,-3.81,Out,"Texture flash select, low true",Both
+R15,RBZ_VDD,R,19.05,-1.27,Power in,Selectable ASIC supply,Both
+R16,GND,R,21.59,-1.27,Return,Common ground,Both
+R17,BLUE0,R,19.05,1.27,Out,Blue LSB,Both
+R18,BLUE1,R,21.59,1.27,Out,Blue MSB,Both
+R19,GREEN0,R,19.05,3.81,Out,Green LSB,Both
+R20,GREEN1,R,21.59,3.81,Out,Green MSB,Both
+R21,RED0,R,19.05,6.35,Out,Red LSB,Both
+R22,RED1,R,21.59,6.35,Out,Red MSB,Both
+R23,HSYNC_N,R,19.05,8.89,Out,"Horizontal sync, low true",Both
+R24,VSYNC_N,R,21.59,8.89,Out,"Vertical sync, low true",Both
+R25,SER_RX/OPT_URST,R,19.05,11.43,In²,Module UART receive or optional user reset,Caravel / future
+R26,SER_TX,R,21.59,11.43,Out,Module UART transmit,Caravel / future
+R27,RESERVED4,R,19.05,13.97,—,Reserved contact,Future
+R28,GND,R,21.59,13.97,Return,Common ground,Both
+R29,+3V3,R,19.05,16.51,Power in,"Fixed auxiliary rail, e.g. boot flash","Both, as needed"
+R30,GND,R,21.59,16.51,Return,Common ground,Both
+R31,RESERVED5,R,19.05,19.05,—,Reserved contact,Future
+R32,GND,R,21.59,19.05,Return,Common ground,Both

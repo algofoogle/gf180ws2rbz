@@ -1,0 +1,645 @@
+{
+  "revision": "RBZM-1 (2026-11-19)",
+  "pins": [
+    {
+      "pin": "L1",
+      "name": "KEY",
+      "bank": "L",
+      "x_mm": -21.59,
+      "y_mm": -19.05,
+      "direction": "NC",
+      "function": "Mechanical key position",
+      "target": "Both"
+    },
+    {
+      "pin": "L2",
+      "name": "GND",
+      "bank": "L",
+      "x_mm": -19.05,
+      "y_mm": -19.05,
+      "direction": "Return",
+      "function": "Common ground",
+      "target": "Both"
+    },
+    {
+      "pin": "L3",
+      "name": "DEBUG",
+      "bank": "L",
+      "x_mm": -21.59,
+      "y_mm": -16.51,
+      "direction": "In",
+      "function": "Debug control",
+      "target": "Both"
+    },
+    {
+      "pin": "L4",
+      "name": "GND",
+      "bank": "L",
+      "x_mm": -19.05,
+      "y_mm": -16.51,
+      "direction": "Return",
+      "function": "Common ground",
+      "target": "Both"
+    },
+    {
+      "pin": "L5",
+      "name": "REG",
+      "bank": "L",
+      "x_mm": -21.59,
+      "y_mm": -13.97,
+      "direction": "In",
+      "function": "Registered-output control; WS high true, Caravel low true",
+      "target": "Both"
+    },
+    {
+      "pin": "L6",
+      "name": "INC_X",
+      "bank": "L",
+      "x_mm": -19.05,
+      "y_mm": -13.97,
+      "direction": "In",
+      "function": "Demo motion on X",
+      "target": "Both"
+    },
+    {
+      "pin": "L7",
+      "name": "GEN_TEXb",
+      "bank": "L",
+      "x_mm": -21.59,
+      "y_mm": -11.43,
+      "direction": "In",
+      "function": "Generated-texture control; WS low true, Caravel high true",
+      "target": "Both"
+    },
+    {
+      "pin": "L8",
+      "name": "INC_Y",
+      "bank": "L",
+      "x_mm": -19.05,
+      "y_mm": -11.43,
+      "direction": "In",
+      "function": "Demo motion on Y",
+      "target": "Both"
+    },
+    {
+      "pin": "L9",
+      "name": "VBLANK/GPOUT1",
+      "bank": "L",
+      "x_mm": -21.59,
+      "y_mm": -8.89,
+      "direction": "Out",
+      "function": "Vertical blanking or diagnostic",
+      "target": "Both"
+    },
+    {
+      "pin": "L10",
+      "name": "HBLANK/GPOUT0",
+      "bank": "L",
+      "x_mm": -19.05,
+      "y_mm": -8.89,
+      "direction": "Out",
+      "function": "Horizontal blanking or diagnostic",
+      "target": "Both"
+    },
+    {
+      "pin": "L11",
+      "name": "DIAG/GPOUT2",
+      "bank": "L",
+      "x_mm": -21.59,
+      "y_mm": -6.35,
+      "direction": "Out",
+      "function": "Diagnostic output",
+      "target": "Both, optional on WS"
+    },
+    {
+      "pin": "L12",
+      "name": "VISIBLE",
+      "bank": "L",
+      "x_mm": -19.05,
+      "y_mm": -6.35,
+      "direction": "Out",
+      "function": "Active-video indication",
+      "target": "Both, optional"
+    },
+    {
+      "pin": "L13",
+      "name": "GND",
+      "bank": "L",
+      "x_mm": -21.59,
+      "y_mm": -3.81,
+      "direction": "Return",
+      "function": "Common ground",
+      "target": "Both"
+    },
+    {
+      "pin": "L14",
+      "name": "RBZ_VDD",
+      "bank": "L",
+      "x_mm": -19.05,
+      "y_mm": -3.81,
+      "direction": "Power in",
+      "function": "Selectable ASIC supply",
+      "target": "Both"
+    },
+    {
+      "pin": "L15",
+      "name": "GND",
+      "bank": "L",
+      "x_mm": -21.59,
+      "y_mm": -1.27,
+      "direction": "Return",
+      "function": "Common ground",
+      "target": "Both"
+    },
+    {
+      "pin": "L16",
+      "name": "RESET_N",
+      "bank": "L",
+      "x_mm": -19.05,
+      "y_mm": -1.27,
+      "direction": "In",
+      "function": "Primary reset, low true",
+      "target": "Both"
+    },
+    {
+      "pin": "L17",
+      "name": "GND",
+      "bank": "L",
+      "x_mm": -21.59,
+      "y_mm": 1.27,
+      "direction": "Return",
+      "function": "Common ground",
+      "target": "Both"
+    },
+    {
+      "pin": "L18",
+      "name": "CLK",
+      "bank": "L",
+      "x_mm": -19.05,
+      "y_mm": 1.27,
+      "direction": "In",
+      "function": "System/pixel reference clock",
+      "target": "Both"
+    },
+    {
+      "pin": "L19",
+      "name": "RBZM_ID",
+      "bank": "L",
+      "x_mm": -21.59,
+      "y_mm": 3.81,
+      "direction": "Sense",
+      "function": "Passive module identification",
+      "target": "Both"
+    },
+    {
+      "pin": "L20",
+      "name": "RB_READY",
+      "bank": "L",
+      "x_mm": -19.05,
+      "y_mm": 3.81,
+      "direction": "Out",
+      "function": "Module ready indication",
+      "target": "Both, optional on WS"
+    },
+    {
+      "pin": "L21",
+      "name": "RESERVED0",
+      "bank": "L",
+      "x_mm": -21.59,
+      "y_mm": 6.35,
+      "direction": "\u2014",
+      "function": "Reserved contact",
+      "target": "Future"
+    },
+    {
+      "pin": "L22",
+      "name": "GND",
+      "bank": "L",
+      "x_mm": -19.05,
+      "y_mm": 6.35,
+      "direction": "Return",
+      "function": "Common ground",
+      "target": "Both"
+    },
+    {
+      "pin": "L23",
+      "name": "GND",
+      "bank": "L",
+      "x_mm": -21.59,
+      "y_mm": 8.89,
+      "direction": "Return",
+      "function": "Common ground",
+      "target": "Both"
+    },
+    {
+      "pin": "L24",
+      "name": "+5V",
+      "bank": "L",
+      "x_mm": -19.05,
+      "y_mm": 8.89,
+      "direction": "Power in",
+      "function": "Fixed auxiliary rail",
+      "target": "Optional"
+    },
+    {
+      "pin": "L25",
+      "name": "GND",
+      "bank": "L",
+      "x_mm": -21.59,
+      "y_mm": 11.43,
+      "direction": "Return",
+      "function": "Common ground",
+      "target": "Both"
+    },
+    {
+      "pin": "L26",
+      "name": "+1V8",
+      "bank": "L",
+      "x_mm": -19.05,
+      "y_mm": 11.43,
+      "direction": "Power in",
+      "function": "Fixed auxiliary rail",
+      "target": "Future / optional"
+    },
+    {
+      "pin": "L27",
+      "name": "GND",
+      "bank": "L",
+      "x_mm": -21.59,
+      "y_mm": 13.97,
+      "direction": "Return",
+      "function": "Common ground",
+      "target": "Both"
+    },
+    {
+      "pin": "L28",
+      "name": "+1V2",
+      "bank": "L",
+      "x_mm": -19.05,
+      "y_mm": 13.97,
+      "direction": "Power in",
+      "function": "Fixed auxiliary rail",
+      "target": "Future / optional"
+    },
+    {
+      "pin": "L29",
+      "name": "RESERVED1",
+      "bank": "L",
+      "x_mm": -21.59,
+      "y_mm": 16.51,
+      "direction": "\u2014",
+      "function": "Reserved contact",
+      "target": "Future"
+    },
+    {
+      "pin": "L30",
+      "name": "RESERVED2",
+      "bank": "L",
+      "x_mm": -19.05,
+      "y_mm": 16.51,
+      "direction": "\u2014",
+      "function": "Reserved contact",
+      "target": "Future"
+    },
+    {
+      "pin": "L31",
+      "name": "GND",
+      "bank": "L",
+      "x_mm": -21.59,
+      "y_mm": 19.05,
+      "direction": "Return",
+      "function": "Common ground",
+      "target": "Both"
+    },
+    {
+      "pin": "L32",
+      "name": "RESERVED3",
+      "bank": "L",
+      "x_mm": -19.05,
+      "y_mm": 19.05,
+      "direction": "\u2014",
+      "function": "Reserved contact",
+      "target": "Future"
+    },
+    {
+      "pin": "R1",
+      "name": "GND",
+      "bank": "R",
+      "x_mm": 19.05,
+      "y_mm": -19.05,
+      "direction": "Return",
+      "function": "Common ground",
+      "target": "Both"
+    },
+    {
+      "pin": "R2",
+      "name": "GND",
+      "bank": "R",
+      "x_mm": 21.59,
+      "y_mm": -19.05,
+      "direction": "Return",
+      "function": "Common ground",
+      "target": "Both"
+    },
+    {
+      "pin": "R3",
+      "name": "RBZM_SPI_SCK",
+      "bank": "R",
+      "x_mm": 19.05,
+      "y_mm": -16.51,
+      "direction": "In",
+      "function": "Shared control SPI clock",
+      "target": "Both"
+    },
+    {
+      "pin": "R4",
+      "name": "RBZM_SPI_MOSI",
+      "bank": "R",
+      "x_mm": 21.59,
+      "y_mm": -16.51,
+      "direction": "In",
+      "function": "Shared control SPI data",
+      "target": "Both"
+    },
+    {
+      "pin": "R5",
+      "name": "CTRL_REG_CSb",
+      "bank": "R",
+      "x_mm": 19.05,
+      "y_mm": -13.97,
+      "direction": "In",
+      "function": "WS CTRL or Caravel register SPI select",
+      "target": "Both"
+    },
+    {
+      "pin": "R6",
+      "name": "VEC_CSb",
+      "bank": "R",
+      "x_mm": 21.59,
+      "y_mm": -13.97,
+      "direction": "In",
+      "function": "Vector SPI select",
+      "target": "Caravel"
+    },
+    {
+      "pin": "R7",
+      "name": "HK_CSb",
+      "bank": "R",
+      "x_mm": 19.05,
+      "y_mm": -11.43,
+      "direction": "In",
+      "function": "Housekeeping SPI select",
+      "target": "Caravel"
+    },
+    {
+      "pin": "R8",
+      "name": "HK_SDO",
+      "bank": "R",
+      "x_mm": 21.59,
+      "y_mm": -11.43,
+      "direction": "Out",
+      "function": "Dedicated housekeeping SPI return",
+      "target": "Caravel"
+    },
+    {
+      "pin": "R9",
+      "name": "TEX_IO3",
+      "bank": "R",
+      "x_mm": 19.05,
+      "y_mm": -8.89,
+      "direction": "In",
+      "function": "Texture read-data bit 3",
+      "target": "Both\u00b9"
+    },
+    {
+      "pin": "R10",
+      "name": "TEX_IO2",
+      "bank": "R",
+      "x_mm": 21.59,
+      "y_mm": -8.89,
+      "direction": "In",
+      "function": "Texture read-data bit 2",
+      "target": "Both"
+    },
+    {
+      "pin": "R11",
+      "name": "TEX_IO1",
+      "bank": "R",
+      "x_mm": 19.05,
+      "y_mm": -6.35,
+      "direction": "In",
+      "function": "Texture read-data bit 1",
+      "target": "Both"
+    },
+    {
+      "pin": "R12",
+      "name": "TEX_IO0",
+      "bank": "R",
+      "x_mm": 21.59,
+      "y_mm": -6.35,
+      "direction": "Bidir",
+      "function": "Texture command data and read-data bit 0",
+      "target": "Both"
+    },
+    {
+      "pin": "R13",
+      "name": "TEX_SCK",
+      "bank": "R",
+      "x_mm": 19.05,
+      "y_mm": -3.81,
+      "direction": "Out",
+      "function": "Texture flash clock",
+      "target": "Both"
+    },
+    {
+      "pin": "R14",
+      "name": "TEX_CSb",
+      "bank": "R",
+      "x_mm": 21.59,
+      "y_mm": -3.81,
+      "direction": "Out",
+      "function": "Texture flash select, low true",
+      "target": "Both"
+    },
+    {
+      "pin": "R15",
+      "name": "RBZ_VDD",
+      "bank": "R",
+      "x_mm": 19.05,
+      "y_mm": -1.27,
+      "direction": "Power in",
+      "function": "Selectable ASIC supply",
+      "target": "Both"
+    },
+    {
+      "pin": "R16",
+      "name": "GND",
+      "bank": "R",
+      "x_mm": 21.59,
+      "y_mm": -1.27,
+      "direction": "Return",
+      "function": "Common ground",
+      "target": "Both"
+    },
+    {
+      "pin": "R17",
+      "name": "BLUE0",
+      "bank": "R",
+      "x_mm": 19.05,
+      "y_mm": 1.27,
+      "direction": "Out",
+      "function": "Blue LSB",
+      "target": "Both"
+    },
+    {
+      "pin": "R18",
+      "name": "BLUE1",
+      "bank": "R",
+      "x_mm": 21.59,
+      "y_mm": 1.27,
+      "direction": "Out",
+      "function": "Blue MSB",
+      "target": "Both"
+    },
+    {
+      "pin": "R19",
+      "name": "GREEN0",
+      "bank": "R",
+      "x_mm": 19.05,
+      "y_mm": 3.81,
+      "direction": "Out",
+      "function": "Green LSB",
+      "target": "Both"
+    },
+    {
+      "pin": "R20",
+      "name": "GREEN1",
+      "bank": "R",
+      "x_mm": 21.59,
+      "y_mm": 3.81,
+      "direction": "Out",
+      "function": "Green MSB",
+      "target": "Both"
+    },
+    {
+      "pin": "R21",
+      "name": "RED0",
+      "bank": "R",
+      "x_mm": 19.05,
+      "y_mm": 6.35,
+      "direction": "Out",
+      "function": "Red LSB",
+      "target": "Both"
+    },
+    {
+      "pin": "R22",
+      "name": "RED1",
+      "bank": "R",
+      "x_mm": 21.59,
+      "y_mm": 6.35,
+      "direction": "Out",
+      "function": "Red MSB",
+      "target": "Both"
+    },
+    {
+      "pin": "R23",
+      "name": "HSYNC_N",
+      "bank": "R",
+      "x_mm": 19.05,
+      "y_mm": 8.89,
+      "direction": "Out",
+      "function": "Horizontal sync, low true",
+      "target": "Both"
+    },
+    {
+      "pin": "R24",
+      "name": "VSYNC_N",
+      "bank": "R",
+      "x_mm": 21.59,
+      "y_mm": 8.89,
+      "direction": "Out",
+      "function": "Vertical sync, low true",
+      "target": "Both"
+    },
+    {
+      "pin": "R25",
+      "name": "SER_RX/OPT_URST",
+      "bank": "R",
+      "x_mm": 19.05,
+      "y_mm": 11.43,
+      "direction": "In\u00b2",
+      "function": "Module UART receive or optional user reset",
+      "target": "Caravel / future"
+    },
+    {
+      "pin": "R26",
+      "name": "SER_TX",
+      "bank": "R",
+      "x_mm": 21.59,
+      "y_mm": 11.43,
+      "direction": "Out",
+      "function": "Module UART transmit",
+      "target": "Caravel / future"
+    },
+    {
+      "pin": "R27",
+      "name": "RESERVED4",
+      "bank": "R",
+      "x_mm": 19.05,
+      "y_mm": 13.97,
+      "direction": "\u2014",
+      "function": "Reserved contact",
+      "target": "Future"
+    },
+    {
+      "pin": "R28",
+      "name": "GND",
+      "bank": "R",
+      "x_mm": 21.59,
+      "y_mm": 13.97,
+      "direction": "Return",
+      "function": "Common ground",
+      "target": "Both"
+    },
+    {
+      "pin": "R29",
+      "name": "+3V3",
+      "bank": "R",
+      "x_mm": 19.05,
+      "y_mm": 16.51,
+      "direction": "Power in",
+      "function": "Fixed auxiliary rail, e.g. boot flash",
+      "target": "Both, as needed"
+    },
+    {
+      "pin": "R30",
+      "name": "GND",
+      "bank": "R",
+      "x_mm": 21.59,
+      "y_mm": 16.51,
+      "direction": "Return",
+      "function": "Common ground",
+      "target": "Both"
+    },
+    {
+      "pin": "R31",
+      "name": "RESERVED5",
+      "bank": "R",
+      "x_mm": 19.05,
+      "y_mm": 19.05,
+      "direction": "\u2014",
+      "function": "Reserved contact",
+      "target": "Future"
+    },
+    {
+      "pin": "R32",
+      "name": "GND",
+      "bank": "R",
+      "x_mm": 21.59,
+      "y_mm": 19.05,
+      "direction": "Return",
+      "function": "Common ground",
+      "target": "Both"
+    }
+  ]
+}

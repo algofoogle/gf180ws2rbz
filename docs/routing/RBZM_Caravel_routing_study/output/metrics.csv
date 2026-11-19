@@ -1,0 +1,7 @@
+clockwise_degrees,header_colour_order,straight_crossing_pairs,tip_to_header_chord_mm,body_transit_edges,wire_fixed_lead_crossings
+0,BGR,136,771.4,0,119
+0,RGB,147,772.9,0,121
+45,BGR,51,647.1,1,61
+45,RGB,64,654.3,1,62
+90,BGR,32,728.8,4,83
+90,RGB,35,732.5,4,83

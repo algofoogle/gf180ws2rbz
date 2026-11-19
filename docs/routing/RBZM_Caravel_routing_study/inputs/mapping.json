@@ -1,0 +1,1546 @@
+{
+  "qfn": {
+    "1": {
+      "xy": [
+        -4.45,
+        -3.75
+      ],
+      "size": [
+        0.85,
+        0.25
+      ],
+      "name": "vssa2",
+      "electrical": "power_in"
+    },
+    "2": {
+      "xy": [
+        -4.45,
+        -3.25
+      ],
+      "size": [
+        0.85,
+        0.25
+      ],
+      "name": "mprj_io[25]",
+      "electrical": "bidirectional"
+    },
+    "3": {
+      "xy": [
+        -4.45,
+        -2.75
+      ],
+      "size": [
+        0.85,
+        0.25
+      ],
+      "name": "mprj_io[26]",
+      "electrical": "bidirectional"
+    },
+    "4": {
+      "xy": [
+        -4.45,
+        -2.25
+      ],
+      "size": [
+        0.85,
+        0.25
+      ],
+      "name": "mprj_io[27]",
+      "electrical": "bidirectional"
+    },
+    "5": {
+      "xy": [
+        -4.45,
+        -1.75
+      ],
+      "size": [
+        0.85,
+        0.25
+      ],
+      "name": "mprj_io[28]",
+      "electrical": "bidirectional"
+    },
+    "6": {
+      "xy": [
+        -4.45,
+        -1.25
+      ],
+      "size": [
+        0.85,
+        0.25
+      ],
+      "name": "mprj_io[29]",
+      "electrical": "bidirectional"
+    },
+    "7": {
+      "xy": [
+        -4.45,
+        -0.75
+      ],
+      "size": [
+        0.85,
+        0.25
+      ],
+      "name": "mprj_io[30]",
+      "electrical": "bidirectional"
+    },
+    "8": {
+      "xy": [
+        -4.45,
+        -0.25
+      ],
+      "size": [
+        0.85,
+        0.25
+      ],
+      "name": "mprj_io[31]",
+      "electrical": "bidirectional"
+    },
+    "9": {
+      "xy": [
+        -4.45,
+        0.25
+      ],
+      "size": [
+        0.85,
+        0.25
+      ],
+      "name": "vdda2",
+      "electrical": "power_in"
+    },
+    "10": {
+      "xy": [
+        -4.45,
+        0.75
+      ],
+      "size": [
+        0.85,
+        0.25
+      ],
+      "name": "vssd2",
+      "electrical": "power_in"
+    },
+    "11": {
+      "xy": [
+        -4.45,
+        1.25
+      ],
+      "size": [
+        0.85,
+        0.25
+      ],
+      "name": "mprj_io[32]",
+      "electrical": "bidirectional"
+    },
+    "12": {
+      "xy": [
+        -4.45,
+        1.75
+      ],
+      "size": [
+        0.85,
+        0.25
+      ],
+      "name": "mprj_io[33]",
+      "electrical": "bidirectional"
+    },
+    "13": {
+      "xy": [
+        -4.45,
+        2.25
+      ],
+      "size": [
+        0.85,
+        0.25
+      ],
+      "name": "mprj_io[34]",
+      "electrical": "bidirectional"
+    },
+    "14": {
+      "xy": [
+        -4.45,
+        2.75
+      ],
+      "size": [
+        0.85,
+        0.25
+      ],
+      "name": "mprj_io[35]",
+      "electrical": "bidirectional"
+    },
+    "15": {
+      "xy": [
+        -4.45,
+        3.25
+      ],
+      "size": [
+        0.85,
+        0.25
+      ],
+      "name": "mprj_io[36]",
+      "electrical": "bidirectional"
+    },
+    "16": {
+      "xy": [
+        -4.45,
+        3.75
+      ],
+      "size": [
+        0.85,
+        0.25
+      ],
+      "name": "mprj_io[37]",
+      "electrical": "bidirectional"
+    },
+    "17": {
+      "xy": [
+        -3.75,
+        4.45
+      ],
+      "size": [
+        0.25,
+        0.85
+      ],
+      "name": "vddio",
+      "electrical": "power_in"
+    },
+    "18": {
+      "xy": [
+        -3.25,
+        4.45
+      ],
+      "size": [
+        0.25,
+        0.85
+      ],
+      "name": "vccd",
+      "electrical": "power_in"
+    },
+    "19": {
+      "xy": [
+        -2.75,
+        4.45
+      ],
+      "size": [
+        0.25,
+        0.85
+      ],
+      "name": "N/C",
+      "electrical": "no_connect"
+    },
+    "20": {
+      "xy": [
+        -2.25,
+        4.45
+      ],
+      "size": [
+        0.25,
+        0.85
+      ],
+      "name": "vssa",
+      "electrical": "power_in"
+    },
+    "21": {
+      "xy": [
+        -1.75,
+        4.45
+      ],
+      "size": [
+        0.25,
+        0.85
+      ],
+      "name": "resetb",
+      "electrical": "input"
+    },
+    "22": {
+      "xy": [
+        -1.25,
+        4.45
+      ],
+      "size": [
+        0.25,
+        0.85
+      ],
+      "name": "clock",
+      "electrical": "input"
+    },
+    "23": {
+      "xy": [
+        -0.75,
+        4.45
+      ],
+      "size": [
+        0.25,
+        0.85
+      ],
+      "name": "vssd",
+      "electrical": "power_in"
+    },
+    "24": {
+      "xy": [
+        -0.25,
+        4.45
+      ],
+      "size": [
+        0.25,
+        0.85
+      ],
+      "name": "flash_csb",
+      "electrical": "output"
+    },
+    "25": {
+      "xy": [
+        0.25,
+        4.45
+      ],
+      "size": [
+        0.25,
+        0.85
+      ],
+      "name": "flash_clk",
+      "electrical": "output"
+    },
+    "26": {
+      "xy": [
+        0.75,
+        4.45
+      ],
+      "size": [
+        0.25,
+        0.85
+      ],
+      "name": "flash_io0",
+      "electrical": "bidirectional"
+    },
+    "27": {
+      "xy": [
+        1.25,
+        4.45
+      ],
+      "size": [
+        0.25,
+        0.85
+      ],
+      "name": "flash_io1",
+      "electrical": "bidirectional"
+    },
+    "28": {
+      "xy": [
+        1.75,
+        4.45
+      ],
+      "size": [
+        0.25,
+        0.85
+      ],
+      "name": "gpio",
+      "electrical": "bidirectional"
+    },
+    "29": {
+      "xy": [
+        2.25,
+        4.45
+      ],
+      "size": [
+        0.25,
+        0.85
+      ],
+      "name": "vssio",
+      "electrical": "power_in"
+    },
+    "30": {
+      "xy": [
+        2.75,
+        4.45
+      ],
+      "size": [
+        0.25,
+        0.85
+      ],
+      "name": "vdda",
+      "electrical": "power_in"
+    },
+    "31": {
+      "xy": [
+        3.25,
+        4.45
+      ],
+      "size": [
+        0.25,
+        0.85
+      ],
+      "name": "mprj_io[0]_JTAG",
+      "electrical": "bidirectional"
+    },
+    "32": {
+      "xy": [
+        3.75,
+        4.45
+      ],
+      "size": [
+        0.25,
+        0.85
+      ],
+      "name": "mprj_io[1]_SDO",
+      "electrical": "bidirectional"
+    },
+    "33": {
+      "xy": [
+        4.45,
+        3.75
+      ],
+      "size": [
+        0.85,
+        0.25
+      ],
+      "name": "mprj_io[2]_SDI",
+      "electrical": "bidirectional"
+    },
+    "34": {
+      "xy": [
+        4.45,
+        3.25
+      ],
+      "size": [
+        0.85,
+        0.25
+      ],
+      "name": "mprj_io[3]_CSB",
+      "electrical": "bidirectional"
+    },
+    "35": {
+      "xy": [
+        4.45,
+        2.75
+      ],
+      "size": [
+        0.85,
+        0.25
+      ],
+      "name": "mprj_io[4]_SCK",
+      "electrical": "bidirectional"
+    },
+    "36": {
+      "xy": [
+        4.45,
+        2.25
+      ],
+      "size": [
+        0.85,
+        0.25
+      ],
+      "name": "mprj_io[5]_ser_rx",
+      "electrical": "bidirectional"
+    },
+    "37": {
+      "xy": [
+        4.45,
+        1.75
+      ],
+      "size": [
+        0.85,
+        0.25
+      ],
+      "name": "mprj_io[6]_ser_tx",
+      "electrical": "bidirectional"
+    },
+    "38": {
+      "xy": [
+        4.45,
+        1.25
+      ],
+      "size": [
+        0.85,
+        0.25
+      ],
+      "name": "vssa1",
+      "electrical": "power_in"
+    },
+    "39": {
+      "xy": [
+        4.45,
+        0.75
+      ],
+      "size": [
+        0.85,
+        0.25
+      ],
+      "name": "vssd1",
+      "electrical": "power_in"
+    },
+    "40": {
+      "xy": [
+        4.45,
+        0.25
+      ],
+      "size": [
+        0.85,
+        0.25
+      ],
+      "name": "vdda1",
+      "electrical": "power_in"
+    },
+    "41": {
+      "xy": [
+        4.45,
+        -0.25
+      ],
+      "size": [
+        0.85,
+        0.25
+      ],
+      "name": "mprj_io[7]",
+      "electrical": "bidirectional"
+    },
+    "42": {
+      "xy": [
+        4.45,
+        -0.75
+      ],
+      "size": [
+        0.85,
+        0.25
+      ],
+      "name": "mprj_io[8]",
+      "electrical": "bidirectional"
+    },
+    "43": {
+      "xy": [
+        4.45,
+        -1.25
+      ],
+      "size": [
+        0.85,
+        0.25
+      ],
+      "name": "mprj_io[9]",
+      "electrical": "bidirectional"
+    },
+    "44": {
+      "xy": [
+        4.45,
+        -1.75
+      ],
+      "size": [
+        0.85,
+        0.25
+      ],
+      "name": "mprj_io[10]",
+      "electrical": "bidirectional"
+    },
+    "45": {
+      "xy": [
+        4.45,
+        -2.25
+      ],
+      "size": [
+        0.85,
+        0.25
+      ],
+      "name": "mprj_io[11]",
+      "electrical": "bidirectional"
+    },
+    "46": {
+      "xy": [
+        4.45,
+        -2.75
+      ],
+      "size": [
+        0.85,
+        0.25
+      ],
+      "name": "mprj_io[12]",
+      "electrical": "bidirectional"
+    },
+    "47": {
+      "xy": [
+        4.45,
+        -3.25
+      ],
+      "size": [
+        0.85,
+        0.25
+      ],
+      "name": "vdda1",
+      "electrical": "power_in"
+    },
+    "48": {
+      "xy": [
+        4.45,
+        -3.75
+      ],
+      "size": [
+        0.85,
+        0.25
+      ],
+      "name": "mprj_io[13]",
+      "electrical": "bidirectional"
+    },
+    "49": {
+      "xy": [
+        3.75,
+        -4.45
+      ],
+      "size": [
+        0.25,
+        0.85
+      ],
+      "name": "vccd1",
+      "electrical": "power_in"
+    },
+    "50": {
+      "xy": [
+        3.25,
+        -4.45
+      ],
+      "size": [
+        0.25,
+        0.85
+      ],
+      "name": "mprj_io[14]",
+      "electrical": "bidirectional"
+    },
+    "51": {
+      "xy": [
+        2.75,
+        -4.45
+      ],
+      "size": [
+        0.25,
+        0.85
+      ],
+      "name": "mprj_io[15]",
+      "electrical": "bidirectional"
+    },
+    "52": {
+      "xy": [
+        2.25,
+        -4.45
+      ],
+      "size": [
+        0.25,
+        0.85
+      ],
+      "name": "vssa1",
+      "electrical": "power_in"
+    },
+    "53": {
+      "xy": [
+        1.75,
+        -4.45
+      ],
+      "size": [
+        0.25,
+        0.85
+      ],
+      "name": "mprj_io[16]",
+      "electrical": "bidirectional"
+    },
+    "54": {
+      "xy": [
+        1.25,
+        -4.45
+      ],
+      "size": [
+        0.25,
+        0.85
+      ],
+      "name": "mprj_io[17]",
+      "electrical": "bidirectional"
+    },
+    "55": {
+      "xy": [
+        0.75,
+        -4.45
+      ],
+      "size": [
+        0.25,
+        0.85
+      ],
+      "name": "mprj_io[18]",
+      "electrical": "bidirectional"
+    },
+    "56": {
+      "xy": [
+        0.25,
+        -4.45
+      ],
+      "size": [
+        0.25,
+        0.85
+      ],
+      "name": "vssio",
+      "electrical": "power_in"
+    },
+    "57": {
+      "xy": [
+        -0.25,
+        -4.45
+      ],
+      "size": [
+        0.25,
+        0.85
+      ],
+      "name": "mprj_io[19]",
+      "electrical": "bidirectional"
+    },
+    "58": {
+      "xy": [
+        -0.75,
+        -4.45
+      ],
+      "size": [
+        0.25,
+        0.85
+      ],
+      "name": "mprj_io[20]",
+      "electrical": "bidirectional"
+    },
+    "59": {
+      "xy": [
+        -1.25,
+        -4.45
+      ],
+      "size": [
+        0.25,
+        0.85
+      ],
+      "name": "mprj_io[21]",
+      "electrical": "bidirectional"
+    },
+    "60": {
+      "xy": [
+        -1.75,
+        -4.45
+      ],
+      "size": [
+        0.25,
+        0.85
+      ],
+      "name": "mprj_io[22]",
+      "electrical": "bidirectional"
+    },
+    "61": {
+      "xy": [
+        -2.25,
+        -4.45
+      ],
+      "size": [
+        0.25,
+        0.85
+      ],
+      "name": "mprj_io[23]",
+      "electrical": "bidirectional"
+    },
+    "62": {
+      "xy": [
+        -2.75,
+        -4.45
+      ],
+      "size": [
+        0.25,
+        0.85
+      ],
+      "name": "mprj_io[24]",
+      "electrical": "bidirectional"
+    },
+    "63": {
+      "xy": [
+        -3.25,
+        -4.45
+      ],
+      "size": [
+        0.25,
+        0.85
+      ],
+      "name": "vccd2",
+      "electrical": "power_in"
+    },
+    "64": {
+      "xy": [
+        -3.75,
+        -4.45
+      ],
+      "size": [
+        0.25,
+        0.85
+      ],
+      "name": "vddio",
+      "electrical": "power_in"
+    },
+    "65": {
+      "xy": [
+        0.0,
+        0.0
+      ],
+      "size": [
+        7.65,
+        7.65
+      ],
+      "name": "ThermalPad",
+      "electrical": "power_in"
+    }
+  },
+  "headers": [
+    {
+      "pin": "L1",
+      "name": "KEY",
+      "xy": [
+        -21.59,
+        -19.05
+      ]
+    },
+    {
+      "pin": "L2",
+      "name": "GND",
+      "xy": [
+        -19.05,
+        -19.05
+      ]
+    },
+    {
+      "pin": "L3",
+      "name": "DEBUG",
+      "xy": [
+        -21.59,
+        -16.51
+      ]
+    },
+    {
+      "pin": "L4",
+      "name": "GND",
+      "xy": [
+        -19.05,
+        -16.51
+      ]
+    },
+    {
+      "pin": "L5",
+      "name": "REG",
+      "xy": [
+        -21.59,
+        -13.97
+      ]
+    },
+    {
+      "pin": "L6",
+      "name": "INC_X",
+      "xy": [
+        -19.05,
+        -13.97
+      ]
+    },
+    {
+      "pin": "L7",
+      "name": "GEN_TEXb",
+      "xy": [
+        -21.59,
+        -11.43
+      ]
+    },
+    {
+      "pin": "L8",
+      "name": "INC_Y",
+      "xy": [
+        -19.05,
+        -11.43
+      ]
+    },
+    {
+      "pin": "L9",
+      "name": "VBLANK/GPOUT1",
+      "xy": [
+        -21.59,
+        -8.89
+      ]
+    },
+    {
+      "pin": "L10",
+      "name": "HBLANK/GPOUT0",
+      "xy": [
+        -19.05,
+        -8.89
+      ]
+    },
+    {
+      "pin": "L11",
+      "name": "DIAG/GPOUT2",
+      "xy": [
+        -21.59,
+        -6.35
+      ]
+    },
+    {
+      "pin": "L12",
+      "name": "VISIBLE",
+      "xy": [
+        -19.05,
+        -6.35
+      ]
+    },
+    {
+      "pin": "L13",
+      "name": "GND",
+      "xy": [
+        -21.59,
+        -3.81
+      ]
+    },
+    {
+      "pin": "L14",
+      "name": "RBZ_VDD",
+      "xy": [
+        -19.05,
+        -3.81
+      ]
+    },
+    {
+      "pin": "L15",
+      "name": "GND",
+      "xy": [
+        -21.59,
+        -1.27
+      ]
+    },
+    {
+      "pin": "L16",
+      "name": "RESET_N",
+      "xy": [
+        -19.05,
+        -1.27
+      ]
+    },
+    {
+      "pin": "L17",
+      "name": "GND",
+      "xy": [
+        -21.59,
+        1.27
+      ]
+    },
+    {
+      "pin": "L18",
+      "name": "CLK",
+      "xy": [
+        -19.05,
+        1.27
+      ]
+    },
+    {
+      "pin": "L19",
+      "name": "RBZM_ID",
+      "xy": [
+        -21.59,
+        3.81
+      ]
+    },
+    {
+      "pin": "L20",
+      "name": "RB_READY",
+      "xy": [
+        -19.05,
+        3.81
+      ]
+    },
+    {
+      "pin": "L21",
+      "name": "RESERVED0",
+      "xy": [
+        -21.59,
+        6.35
+      ]
+    },
+    {
+      "pin": "L22",
+      "name": "GND",
+      "xy": [
+        -19.05,
+        6.35
+      ]
+    },
+    {
+      "pin": "L23",
+      "name": "GND",
+      "xy": [
+        -21.59,
+        8.89
+      ]
+    },
+    {
+      "pin": "L24",
+      "name": "+5V",
+      "xy": [
+        -19.05,
+        8.89
+      ]
+    },
+    {
+      "pin": "L25",
+      "name": "GND",
+      "xy": [
+        -21.59,
+        11.43
+      ]
+    },
+    {
+      "pin": "L26",
+      "name": "+1V8",
+      "xy": [
+        -19.05,
+        11.43
+      ]
+    },
+    {
+      "pin": "L27",
+      "name": "GND",
+      "xy": [
+        -21.59,
+        13.97
+      ]
+    },
+    {
+      "pin": "L28",
+      "name": "+1V2",
+      "xy": [
+        -19.05,
+        13.97
+      ]
+    },
+    {
+      "pin": "L29",
+      "name": "RESERVED1",
+      "xy": [
+        -21.59,
+        16.51
+      ]
+    },
+    {
+      "pin": "L30",
+      "name": "RESERVED2",
+      "xy": [
+        -19.05,
+        16.51
+      ]
+    },
+    {
+      "pin": "L31",
+      "name": "GND",
+      "xy": [
+        -21.59,
+        19.05
+      ]
+    },
+    {
+      "pin": "L32",
+      "name": "RESERVED3",
+      "xy": [
+        -19.05,
+        19.05
+      ]
+    },
+    {
+      "pin": "R1",
+      "name": "GND",
+      "xy": [
+        19.05,
+        -19.05
+      ]
+    },
+    {
+      "pin": "R2",
+      "name": "GND",
+      "xy": [
+        21.59,
+        -19.05
+      ]
+    },
+    {
+      "pin": "R3",
+      "name": "RBZM_SPI_SCK",
+      "xy": [
+        19.05,
+        -16.51
+      ]
+    },
+    {
+      "pin": "R4",
+      "name": "RBZM_SPI_MOSI",
+      "xy": [
+        21.59,
+        -16.51
+      ]
+    },
+    {
+      "pin": "R5",
+      "name": "CTRL_REG_CSb",
+      "xy": [
+        19.05,
+        -13.97
+      ]
+    },
+    {
+      "pin": "R6",
+      "name": "VEC_CSb",
+      "xy": [
+        21.59,
+        -13.97
+      ]
+    },
+    {
+      "pin": "R7",
+      "name": "HK_CSb",
+      "xy": [
+        19.05,
+        -11.43
+      ]
+    },
+    {
+      "pin": "R8",
+      "name": "HK_SDO",
+      "xy": [
+        21.59,
+        -11.43
+      ]
+    },
+    {
+      "pin": "R9",
+      "name": "TEX_IO3",
+      "xy": [
+        19.05,
+        -8.89
+      ]
+    },
+    {
+      "pin": "R10",
+      "name": "TEX_IO2",
+      "xy": [
+        21.59,
+        -8.89
+      ]
+    },
+    {
+      "pin": "R11",
+      "name": "TEX_IO1",
+      "xy": [
+        19.05,
+        -6.35
+      ]
+    },
+    {
+      "pin": "R12",
+      "name": "TEX_IO0",
+      "xy": [
+        21.59,
+        -6.35
+      ]
+    },
+    {
+      "pin": "R13",
+      "name": "TEX_SCK",
+      "xy": [
+        19.05,
+        -3.81
+      ]
+    },
+    {
+      "pin": "R14",
+      "name": "TEX_CSb",
+      "xy": [
+        21.59,
+        -3.81
+      ]
+    },
+    {
+      "pin": "R15",
+      "name": "RBZ_VDD",
+      "xy": [
+        19.05,
+        -1.27
+      ]
+    },
+    {
+      "pin": "R16",
+      "name": "GND",
+      "xy": [
+        21.59,
+        -1.27
+      ]
+    },
+    {
+      "pin": "R17",
+      "name": "BLUE0",
+      "xy": [
+        19.05,
+        1.27
+      ]
+    },
+    {
+      "pin": "R18",
+      "name": "BLUE1",
+      "xy": [
+        21.59,
+        1.27
+      ]
+    },
+    {
+      "pin": "R19",
+      "name": "GREEN0",
+      "xy": [
+        19.05,
+        3.81
+      ]
+    },
+    {
+      "pin": "R20",
+      "name": "GREEN1",
+      "xy": [
+        21.59,
+        3.81
+      ]
+    },
+    {
+      "pin": "R21",
+      "name": "RED0",
+      "xy": [
+        19.05,
+        6.35
+      ]
+    },
+    {
+      "pin": "R22",
+      "name": "RED1",
+      "xy": [
+        21.59,
+        6.35
+      ]
+    },
+    {
+      "pin": "R23",
+      "name": "HSYNC_N",
+      "xy": [
+        19.05,
+        8.89
+      ]
+    },
+    {
+      "pin": "R24",
+      "name": "VSYNC_N",
+      "xy": [
+        21.59,
+        8.89
+      ]
+    },
+    {
+      "pin": "R25",
+      "name": "SER_RX/OPT_URST",
+      "xy": [
+        19.05,
+        11.43
+      ]
+    },
+    {
+      "pin": "R26",
+      "name": "SER_TX",
+      "xy": [
+        21.59,
+        11.43
+      ]
+    },
+    {
+      "pin": "R27",
+      "name": "RESERVED4",
+      "xy": [
+        19.05,
+        13.97
+      ]
+    },
+    {
+      "pin": "R28",
+      "name": "GND",
+      "xy": [
+        21.59,
+        13.97
+      ]
+    },
+    {
+      "pin": "R29",
+      "name": "+3V3",
+      "xy": [
+        19.05,
+        16.51
+      ]
+    },
+    {
+      "pin": "R30",
+      "name": "GND",
+      "xy": [
+        21.59,
+        16.51
+      ]
+    },
+    {
+      "pin": "R31",
+      "name": "RESERVED5",
+      "xy": [
+        19.05,
+        19.05
+      ]
+    },
+    {
+      "pin": "R32",
+      "name": "GND",
+      "xy": [
+        21.59,
+        19.05
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "net": "DEBUG",
+      "header": "L3",
+      "qfn": 5,
+      "group": "controls"
+    },
+    {
+      "net": "DEBUG",
+      "header": "L3",
+      "qfn": 6,
+      "group": "controls"
+    },
+    {
+      "net": "DEBUG",
+      "header": "L3",
+      "qfn": 7,
+      "group": "controls"
+    },
+    {
+      "net": "INC_X",
+      "header": "L6",
+      "qfn": 11,
+      "group": "controls"
+    },
+    {
+      "net": "INC_Y",
+      "header": "L8",
+      "qfn": 12,
+      "group": "controls"
+    },
+    {
+      "net": "GEN_TEXb",
+      "header": "L7",
+      "qfn": 13,
+      "group": "controls"
+    },
+    {
+      "net": "REG",
+      "header": "L5",
+      "qfn": 8,
+      "group": "controls"
+    },
+    {
+      "net": "HBLANK/GPOUT0",
+      "header": "L10",
+      "qfn": 14,
+      "group": "blanking"
+    },
+    {
+      "net": "VBLANK/GPOUT1",
+      "header": "L9",
+      "qfn": 15,
+      "group": "blanking"
+    },
+    {
+      "net": "DIAG/GPOUT2",
+      "header": "L11",
+      "qfn": 16,
+      "group": "blanking"
+    },
+    {
+      "net": "CLK",
+      "header": "L18",
+      "qfn": 22,
+      "group": "clock_reset"
+    },
+    {
+      "net": "RESET_N",
+      "header": "L16",
+      "qfn": 21,
+      "group": "clock_reset"
+    },
+    {
+      "net": "RB_READY",
+      "header": "L20",
+      "qfn": 28,
+      "group": "service"
+    },
+    {
+      "net": "CTRL_REG_CSb",
+      "header": "R5",
+      "qfn": 2,
+      "group": "control_spi"
+    },
+    {
+      "net": "VEC_CSb",
+      "header": "R6",
+      "qfn": 60,
+      "group": "control_spi"
+    },
+    {
+      "net": "RBZM_SPI_MOSI",
+      "header": "R4",
+      "qfn": 4,
+      "group": "control_spi"
+    },
+    {
+      "net": "RBZM_SPI_MOSI",
+      "header": "R4",
+      "qfn": 62,
+      "group": "control_spi"
+    },
+    {
+      "net": "RBZM_SPI_MOSI",
+      "header": "R4",
+      "qfn": 33,
+      "group": "control_spi"
+    },
+    {
+      "net": "RBZM_SPI_SCK",
+      "header": "R3",
+      "qfn": 3,
+      "group": "control_spi"
+    },
+    {
+      "net": "RBZM_SPI_SCK",
+      "header": "R3",
+      "qfn": 61,
+      "group": "control_spi"
+    },
+    {
+      "net": "RBZM_SPI_SCK",
+      "header": "R3",
+      "qfn": 35,
+      "group": "control_spi"
+    },
+    {
+      "net": "HK_SDO",
+      "header": "R8",
+      "qfn": 32,
+      "group": "service"
+    },
+    {
+      "net": "HK_CSb",
+      "header": "R7",
+      "qfn": 34,
+      "group": "service"
+    },
+    {
+      "net": "SER_TX",
+      "header": "R26",
+      "qfn": 37,
+      "group": "service"
+    },
+    {
+      "net": "SER_RX/OPT_URST",
+      "header": "R25",
+      "qfn": 36,
+      "group": "service"
+    },
+    {
+      "net": "TEX_CSb",
+      "header": "R14",
+      "qfn": 53,
+      "group": "texture"
+    },
+    {
+      "net": "TEX_SCK",
+      "header": "R13",
+      "qfn": 54,
+      "group": "texture"
+    },
+    {
+      "net": "TEX_IO0",
+      "header": "R12",
+      "qfn": 55,
+      "group": "texture"
+    },
+    {
+      "net": "TEX_IO1",
+      "header": "R11",
+      "qfn": 57,
+      "group": "texture"
+    },
+    {
+      "net": "TEX_IO2",
+      "header": "R10",
+      "qfn": 58,
+      "group": "texture"
+    },
+    {
+      "net": "TEX_IO3",
+      "header": "R9",
+      "qfn": 59,
+      "group": "texture"
+    },
+    {
+      "net": "HSYNC_N",
+      "header": "R23",
+      "qfn": 42,
+      "group": "video"
+    },
+    {
+      "net": "VSYNC_N",
+      "header": "R24",
+      "qfn": 43,
+      "group": "video"
+    },
+    {
+      "net": "RED0",
+      "header": "R21",
+      "qfn": 44,
+      "group": "video"
+    },
+    {
+      "net": "RED1",
+      "header": "R22",
+      "qfn": 45,
+      "group": "video"
+    },
+    {
+      "net": "GREEN0",
+      "header": "R19",
+      "qfn": 46,
+      "group": "video"
+    },
+    {
+      "net": "GREEN1",
+      "header": "R20",
+      "qfn": 48,
+      "group": "video"
+    },
+    {
+      "net": "BLUE0",
+      "header": "R17",
+      "qfn": 50,
+      "group": "video"
+    },
+    {
+      "net": "BLUE1",
+      "header": "R18",
+      "qfn": 51,
+      "group": "video"
+    }
+  ],
+  "body_mm": 9,
+  "board_mm": 50,
+  "strip_spacing_mm": 40.64,
+  "sources": {
+    "qfn": "https://github.com/efabless/caravel_board/blob/main/hardware/breakout/caravel-M.2-card-QFN/caravel-M.2-card-QFN.kicad_pcb",
+    "pin_names": "https://github.com/efabless/caravel_board/blob/main/hardware/breakout/caravel-M.2-card-QFN/caravel-M.2-card-QFN.kicad_sch",
+    "rtl": "https://github.com/algofoogle/algofoogle-multi-caravel/blob/9871f786967d514317c7a2e1e2b2107cce685c2d/verilog/rtl/user_project_wrapper.v",
+    "rbzm": "Official RBZM-1 / generate_rbzm.py adopted 2026-11-19",
+    "change": "User authorized direct GEN_TEXb and REG wires without inline inverters; electrical polarity interpretation deferred to system firmware/interface revision."
+  },
+  "_pinout": "official",
+  "pinout_revision": "RBZM-1 (2026-11-19)"
+}

@@ -1,6 +1,6 @@
 (footprint "RBZM_Raybox_Zero_Module" (version 20240108) (generator "rbzm")
 (layer "F.Cu")
-(descr "Two 2x16 2.54 mm through-hole strips, 40.64 mm between strip centers")
+(descr "Two 2x16 2.54 mm through-hole strips, 40.64 mm between strip centers; RBZM-1 (2026-11-19)")
 (attr through_hole)
 (property "Reference" "REF**" (at 0 -22 0) (layer "F.SilkS") (effects (font (size 1.27 1.27))))
 (property "Value" "RBZM_Raybox_Zero_Module" (at 0 22 0) (layer "F.Fab") (effects (font (size 1.27 1.27))))

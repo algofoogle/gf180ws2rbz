@@ -1,0 +1,66 @@
+Caravel_QFN_pin,Caravel_name,RBZM_contacts,RBZM_names,note
+1,vssa2,L2;L4;L13;L15;L17;L22;L23;L25;L27;L31;R1;R2;R16;R28;R30;R32,GND,Common ground; connect exposed pad 65
+2,mprj_io[25],R5,CTRL_REG_CSb,Direct signal connection
+3,mprj_io[26],R3,RBZM_SPI_SCK,Direct signal connection
+4,mprj_io[27],R4,RBZM_SPI_MOSI,Direct signal connection
+5,mprj_io[28],L3,DEBUG,Direct signal connection
+6,mprj_io[29],L3,DEBUG,Direct signal connection
+7,mprj_io[30],L3,DEBUG,Direct signal connection
+8,mprj_io[31],L5,REG,"Direct signal connection; polarity handled by module-type-aware controller, no inline inverter"
+9,vdda2,L14;R15,RBZ_VDD,"Named supply domain, tied to common RBZ_VDD in this module plan"
+10,vssd2,L2;L4;L13;L15;L17;L22;L23;L25;L27;L31;R1;R2;R16;R28;R30;R32,GND,Common ground; connect exposed pad 65
+11,mprj_io[32],L6,INC_X,Direct signal connection
+12,mprj_io[33],L8,INC_Y,Direct signal connection
+13,mprj_io[34],L7,GEN_TEXb,"Direct signal connection; polarity handled by module-type-aware controller, no inline inverter"
+14,mprj_io[35],L10,HBLANK/GPOUT0,Direct signal connection
+15,mprj_io[36],L9,VBLANK/GPOUT1,Direct signal connection
+16,mprj_io[37],L11,DIAG/GPOUT2,Direct signal connection
+17,vddio,L14;R15,RBZ_VDD,"Named supply domain, tied to common RBZ_VDD in this module plan"
+18,vccd,L14;R15,RBZ_VDD,"Named supply domain, tied to common RBZ_VDD in this module plan"
+19,N/C,,,Physical no-connect
+20,vssa,L2;L4;L13;L15;L17;L22;L23;L25;L27;L31;R1;R2;R16;R28;R30;R32,GND,Common ground; connect exposed pad 65
+21,resetb,L16,RESET_N,Direct signal connection
+22,clock,L18,CLK,Direct signal connection
+23,vssd,L2;L4;L13;L15;L17;L22;L23;L25;L27;L31;R1;R2;R16;R28;R30;R32,GND,Common ground; connect exposed pad 65
+24,flash_csb,,,Local boot-flash circuit and level adaptation; not an RBZM contact
+25,flash_clk,,,Local boot-flash circuit and level adaptation; not an RBZM contact
+26,flash_io0,,,Local boot-flash circuit and level adaptation; not an RBZM contact
+27,flash_io1,,,Local boot-flash circuit and level adaptation; not an RBZM contact
+28,gpio,L20,RB_READY,Direct signal connection
+29,vssio,L2;L4;L13;L15;L17;L22;L23;L25;L27;L31;R1;R2;R16;R28;R30;R32,GND,Common ground; connect exposed pad 65
+30,vdda,L14;R15,RBZ_VDD,"Named supply domain, tied to common RBZ_VDD in this module plan"
+31,mprj_io[0]_JTAG,,,Local diagnostic/test access only; not an RBZM contact
+32,mprj_io[1]_SDO,R8,HK_SDO,Direct signal connection
+33,mprj_io[2]_SDI,R4,RBZM_SPI_MOSI,Direct signal connection
+34,mprj_io[3]_CSB,R7,HK_CSb,Direct signal connection
+35,mprj_io[4]_SCK,R3,RBZM_SPI_SCK,Direct signal connection
+36,mprj_io[5]_ser_rx,R25,SER_RX/OPT_URST,Direct signal connection
+37,mprj_io[6]_ser_tx,R26,SER_TX,Direct signal connection
+38,vssa1,L2;L4;L13;L15;L17;L22;L23;L25;L27;L31;R1;R2;R16;R28;R30;R32,GND,Common ground; connect exposed pad 65
+39,vssd1,L2;L4;L13;L15;L17;L22;L23;L25;L27;L31;R1;R2;R16;R28;R30;R32,GND,Common ground; connect exposed pad 65
+40,vdda1,L14;R15,RBZ_VDD,"Named supply domain, tied to common RBZ_VDD in this module plan"
+41,mprj_io[7],,,Local diagnostic/test access only; not an RBZM contact
+42,mprj_io[8],R23,HSYNC_N,Direct signal connection
+43,mprj_io[9],R24,VSYNC_N,Direct signal connection
+44,mprj_io[10],R21,RED0,Direct signal connection
+45,mprj_io[11],R22,RED1,Direct signal connection
+46,mprj_io[12],R19,GREEN0,Direct signal connection
+47,vdda1,L14;R15,RBZ_VDD,"Named supply domain, tied to common RBZ_VDD in this module plan"
+48,mprj_io[13],R20,GREEN1,Direct signal connection
+49,vccd1,L14;R15,RBZ_VDD,"Named supply domain, tied to common RBZ_VDD in this module plan"
+50,mprj_io[14],R17,BLUE0,Direct signal connection
+51,mprj_io[15],R18,BLUE1,Direct signal connection
+52,vssa1,L2;L4;L13;L15;L17;L22;L23;L25;L27;L31;R1;R2;R16;R28;R30;R32,GND,Common ground; connect exposed pad 65
+53,mprj_io[16],R14,TEX_CSb,Direct signal connection
+54,mprj_io[17],R13,TEX_SCK,Direct signal connection
+55,mprj_io[18],R12,TEX_IO0,Direct signal connection
+56,vssio,L2;L4;L13;L15;L17;L22;L23;L25;L27;L31;R1;R2;R16;R28;R30;R32,GND,Common ground; connect exposed pad 65
+57,mprj_io[19],R11,TEX_IO1,Direct signal connection
+58,mprj_io[20],R10,TEX_IO2,Direct signal connection
+59,mprj_io[21],R9,TEX_IO3,Direct signal connection
+60,mprj_io[22],R6,VEC_CSb,Direct signal connection
+61,mprj_io[23],R3,RBZM_SPI_SCK,Direct signal connection
+62,mprj_io[24],R4,RBZM_SPI_MOSI,Direct signal connection
+63,vccd2,L14;R15,RBZ_VDD,"Named supply domain, tied to common RBZ_VDD in this module plan"
+64,vddio,L14;R15,RBZ_VDD,"Named supply domain, tied to common RBZ_VDD in this module plan"
+65,ThermalPad,L2;L4;L13;L15;L17;L22;L23;L25;L27;L31;R1;R2;R16;R28;R30;R32,GND,Common ground; connect exposed pad 65

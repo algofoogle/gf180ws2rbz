@@ -1,0 +1,726 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1420" viewBox="-43 -32.5 86 67.8">
+<style>text{font-family:Arial,sans-serif} .halo{paint-order:stroke;stroke:white;stroke-width:.16px;stroke-linejoin:round} .wire{fill:none;stroke-width:.075;opacity:.72} .wire:hover{stroke-width:.23;opacity:1} .hidden{display:none}</style>
+<rect x="-43" y="-32.5" width="86" height="67.8" fill="#fff"/>
+<text x="0.0000" y="-30.5000" font-size="1.02" text-anchor="middle" fill="#273448" font-weight="700" >RBZM–CARAVEL / PHYSICAL CONNECTION STUDY</text>
+<text x="0.0000" y="-28.8000" font-size="0.85" text-anchor="middle" fill="#273448" font-weight="400" >45° clockwise · Official RBZM-1 · B–G–R baseline</text>
+<text x="0.0000" y="-27.4000" font-size="0.61" text-anchor="middle" fill="#273448" font-weight="400" >Top view • fixed leads extend 5 mm beyond each body edge • route from their tips</text>
+<rect x="-25" y="-25" width="50" height="50" rx="1" fill="#f8fbfc" stroke="#718394" stroke-width=".15"/>
+<path d="M-20 -25V25 M-25 -20H25" stroke="#dce5ea" stroke-width=".025"/>
+<path d="M-15 -25V25 M-25 -15H25" stroke="#dce5ea" stroke-width=".025"/>
+<path d="M-10 -25V25 M-25 -10H25" stroke="#dce5ea" stroke-width=".025"/>
+<path d="M-5 -25V25 M-25 -5H25" stroke="#dce5ea" stroke-width=".025"/>
+<path d="M0 -25V25 M-25 0H25" stroke="#dce5ea" stroke-width=".025"/>
+<path d="M5 -25V25 M-25 5H25" stroke="#dce5ea" stroke-width=".025"/>
+<path d="M10 -25V25 M-25 10H25" stroke="#dce5ea" stroke-width=".025"/>
+<path d="M15 -25V25 M-25 15H25" stroke="#dce5ea" stroke-width=".025"/>
+<path d="M20 -25V25 M-25 20H25" stroke="#dce5ea" stroke-width=".025"/>
+<rect x="-23.36" y="-20.82" width="6.08" height="41.64" fill="#e9edf0" stroke="#a7b2bc" stroke-dasharray=".5 .4" stroke-width=".06"/>
+<rect x="17.28" y="-20.82" width="6.08" height="41.64" fill="#e9edf0" stroke="#a7b2bc" stroke-dasharray=".5 .4" stroke-width=".06"/>
+<g transform="rotate(45)"><rect x="-4.5" y="-4.5" width="9" height="9" fill="#d7e0e8" stroke="#526478" stroke-width=".10"/><rect x="-3.825" y="-3.825" width="7.65" height="7.65" fill="#bdc9d4" stroke="#526478" stroke-width=".03"/><circle cx="-3.75" cy="-3.75" r=".26" fill="#293a4d"/></g>
+<path class="extension" d="M-0.49497474683058407 -5.79827560572969 L-4.065863991822649 -9.369164850721754" fill="none" stroke="#aeb9c4" stroke-width=".055"><title>QFN 1 → local: fixed 5 mm extension</title></path>
+<circle cx="-4.065863991822649" cy="-9.369164850721754" r=".075" fill="#aeb9c4"/>
+<path class="wire extension" data-net="CTRL_REG_CSb" data-group="control_spi" d="M-0.8485281374238576 -5.444722215136416 L-4.419417382415922 -9.015611460128481" fill="none" stroke="#087d70" stroke-width=".055"><title>QFN 2 → R5: fixed 5 mm extension</title></path>
+<circle cx="-4.419417382415922" cy="-9.015611460128481" r=".075" fill="#087d70"/>
+<path class="wire extension" data-net="RBZM_SPI_SCK" data-group="control_spi" d="M-1.2020815280171315 -5.091168824543143 L-4.772970773009196 -8.662058069535206" fill="none" stroke="#087d70" stroke-width=".055"><title>QFN 3 → R3: fixed 5 mm extension</title></path>
+<circle cx="-4.772970773009196" cy="-8.662058069535206" r=".075" fill="#087d70"/>
+<path class="wire extension" data-net="RBZM_SPI_MOSI" data-group="control_spi" d="M-1.555634918610405 -4.737615433949869 L-5.12652416360247 -8.308504678941933" fill="none" stroke="#087d70" stroke-width=".055"><title>QFN 4 → R4: fixed 5 mm extension</title></path>
+<circle cx="-5.12652416360247" cy="-8.308504678941933" r=".075" fill="#087d70"/>
+<path class="wire extension" data-net="DEBUG" data-group="controls" d="M-1.909188309203679 -4.384062043356595 L-5.480077554195743 -7.954951288348659" fill="none" stroke="#a145aa" stroke-width=".055"><title>QFN 5 → L3: fixed 5 mm extension</title></path>
+<circle cx="-5.480077554195743" cy="-7.954951288348659" r=".075" fill="#a145aa"/>
+<path class="wire extension" data-net="DEBUG" data-group="controls" d="M-2.2627416997969525 -4.030508652763321 L-5.833630944789017 -7.601397897755385" fill="none" stroke="#a145aa" stroke-width=".055"><title>QFN 6 → L3: fixed 5 mm extension</title></path>
+<circle cx="-5.833630944789017" cy="-7.601397897755385" r=".075" fill="#a145aa"/>
+<path class="wire extension" data-net="DEBUG" data-group="controls" d="M-2.6162950903902265 -3.676955262170047 L-6.187184335382291 -7.247844507162111" fill="none" stroke="#a145aa" stroke-width=".055"><title>QFN 7 → L3: fixed 5 mm extension</title></path>
+<circle cx="-6.187184335382291" cy="-7.247844507162111" r=".075" fill="#a145aa"/>
+<path class="wire extension" data-net="REG" data-group="controls" d="M-2.9698484809835 -3.3234018715767735 L-6.540737725975565 -6.894291116568837" fill="none" stroke="#a145aa" stroke-width=".055"><title>QFN 8 → L5: fixed 5 mm extension</title></path>
+<circle cx="-6.540737725975565" cy="-6.894291116568837" r=".075" fill="#a145aa"/>
+<path class="extension" d="M-3.323401871576774 -2.9698484809834995 L-6.894291116568838 -6.540737725975564" fill="none" stroke="#aeb9c4" stroke-width=".055"><title>QFN 9 → local: fixed 5 mm extension</title></path>
+<circle cx="-6.894291116568838" cy="-6.540737725975564" r=".075" fill="#aeb9c4"/>
+<path class="extension" d="M-3.6769552621700474 -2.616295090390226 L-7.247844507162112 -6.18718433538229" fill="none" stroke="#aeb9c4" stroke-width=".055"><title>QFN 10 → local: fixed 5 mm extension</title></path>
+<circle cx="-7.247844507162112" cy="-6.18718433538229" r=".075" fill="#aeb9c4"/>
+<path class="wire extension" data-net="INC_X" data-group="controls" d="M-4.030508652763321 -2.262741699796952 L-7.601397897755386 -5.833630944789016" fill="none" stroke="#a145aa" stroke-width=".055"><title>QFN 11 → L6: fixed 5 mm extension</title></path>
+<circle cx="-7.601397897755386" cy="-5.833630944789016" r=".075" fill="#a145aa"/>
+<path class="wire extension" data-net="INC_Y" data-group="controls" d="M-4.384062043356595 -1.9091883092036783 L-7.95495128834866 -5.480077554195742" fill="none" stroke="#a145aa" stroke-width=".055"><title>QFN 12 → L8: fixed 5 mm extension</title></path>
+<circle cx="-7.95495128834866" cy="-5.480077554195742" r=".075" fill="#a145aa"/>
+<path class="wire extension" data-net="GEN_TEXb" data-group="controls" d="M-4.737615433949869 -1.5556349186104044 L-8.308504678941933 -5.126524163602468" fill="none" stroke="#a145aa" stroke-width=".055"><title>QFN 13 → L7: fixed 5 mm extension</title></path>
+<circle cx="-8.308504678941933" cy="-5.126524163602468" r=".075" fill="#a145aa"/>
+<path class="wire extension" data-net="HBLANK/GPOUT0" data-group="blanking" d="M-5.091168824543143 -1.2020815280171306 L-8.662058069535206 -4.772970773009195" fill="none" stroke="#a06a00" stroke-width=".055"><title>QFN 14 → L10: fixed 5 mm extension</title></path>
+<circle cx="-8.662058069535206" cy="-4.772970773009195" r=".075" fill="#a06a00"/>
+<path class="wire extension" data-net="VBLANK/GPOUT1" data-group="blanking" d="M-5.444722215136416 -0.8485281374238567 L-9.015611460128481 -4.41941738241592" fill="none" stroke="#a06a00" stroke-width=".055"><title>QFN 15 → L9: fixed 5 mm extension</title></path>
+<circle cx="-9.015611460128481" cy="-4.41941738241592" r=".075" fill="#a06a00"/>
+<path class="wire extension" data-net="DIAG/GPOUT2" data-group="blanking" d="M-5.79827560572969 -0.4949747468305832 L-9.369164850721754 -4.065863991822647" fill="none" stroke="#a06a00" stroke-width=".055"><title>QFN 16 → L11: fixed 5 mm extension</title></path>
+<circle cx="-9.369164850721754" cy="-4.065863991822647" r=".075" fill="#a06a00"/>
+<path class="extension" d="M-5.79827560572969 0.49497474683058407 L-9.369164850721754 4.065863991822649" fill="none" stroke="#aeb9c4" stroke-width=".055"><title>QFN 17 → local: fixed 5 mm extension</title></path>
+<circle cx="-9.369164850721754" cy="4.065863991822649" r=".075" fill="#aeb9c4"/>
+<path class="extension" d="M-5.444722215136416 0.8485281374238576 L-9.015611460128481 4.419417382415922" fill="none" stroke="#aeb9c4" stroke-width=".055"><title>QFN 18 → local: fixed 5 mm extension</title></path>
+<circle cx="-9.015611460128481" cy="4.419417382415922" r=".075" fill="#aeb9c4"/>
+<path class="extension" d="M-5.091168824543143 1.2020815280171315 L-8.662058069535206 4.772970773009196" fill="none" stroke="#aeb9c4" stroke-width=".055"><title>QFN 19 → local: fixed 5 mm extension</title></path>
+<circle cx="-8.662058069535206" cy="4.772970773009196" r=".075" fill="#aeb9c4"/>
+<path class="extension" d="M-4.737615433949869 1.555634918610405 L-8.308504678941933 5.12652416360247" fill="none" stroke="#aeb9c4" stroke-width=".055"><title>QFN 20 → local: fixed 5 mm extension</title></path>
+<circle cx="-8.308504678941933" cy="5.12652416360247" r=".075" fill="#aeb9c4"/>
+<path class="wire extension" data-net="RESET_N" data-group="clock_reset" d="M-4.384062043356595 1.909188309203679 L-7.954951288348659 5.480077554195743" fill="none" stroke="#b22735" stroke-width=".055"><title>QFN 21 → L16: fixed 5 mm extension</title></path>
+<circle cx="-7.954951288348659" cy="5.480077554195743" r=".075" fill="#b22735"/>
+<path class="wire extension" data-net="CLK" data-group="clock_reset" d="M-4.030508652763321 2.2627416997969525 L-7.601397897755385 5.833630944789017" fill="none" stroke="#b22735" stroke-width=".055"><title>QFN 22 → L18: fixed 5 mm extension</title></path>
+<circle cx="-7.601397897755385" cy="5.833630944789017" r=".075" fill="#b22735"/>
+<path class="extension" d="M-3.676955262170047 2.6162950903902265 L-7.247844507162111 6.187184335382291" fill="none" stroke="#aeb9c4" stroke-width=".055"><title>QFN 23 → local: fixed 5 mm extension</title></path>
+<circle cx="-7.247844507162111" cy="6.187184335382291" r=".075" fill="#aeb9c4"/>
+<path class="extension" d="M-3.3234018715767735 2.9698484809835 L-6.894291116568837 6.540737725975565" fill="none" stroke="#aeb9c4" stroke-width=".055"><title>QFN 24 → local: fixed 5 mm extension</title></path>
+<circle cx="-6.894291116568837" cy="6.540737725975565" r=".075" fill="#aeb9c4"/>
+<path class="extension" d="M-2.9698484809834995 3.323401871576774 L-6.540737725975564 6.894291116568838" fill="none" stroke="#aeb9c4" stroke-width=".055"><title>QFN 25 → local: fixed 5 mm extension</title></path>
+<circle cx="-6.540737725975564" cy="6.894291116568838" r=".075" fill="#aeb9c4"/>
+<path class="extension" d="M-2.616295090390226 3.6769552621700474 L-6.18718433538229 7.247844507162112" fill="none" stroke="#aeb9c4" stroke-width=".055"><title>QFN 26 → local: fixed 5 mm extension</title></path>
+<circle cx="-6.18718433538229" cy="7.247844507162112" r=".075" fill="#aeb9c4"/>
+<path class="extension" d="M-2.262741699796952 4.030508652763321 L-5.833630944789016 7.601397897755386" fill="none" stroke="#aeb9c4" stroke-width=".055"><title>QFN 27 → local: fixed 5 mm extension</title></path>
+<circle cx="-5.833630944789016" cy="7.601397897755386" r=".075" fill="#aeb9c4"/>
+<path class="wire extension" data-net="RB_READY" data-group="service" d="M-1.9091883092036783 4.384062043356595 L-5.480077554195742 7.95495128834866" fill="none" stroke="#6e5bc6" stroke-width=".055"><title>QFN 28 → L20: fixed 5 mm extension</title></path>
+<circle cx="-5.480077554195742" cy="7.95495128834866" r=".075" fill="#6e5bc6"/>
+<path class="extension" d="M-1.5556349186104044 4.737615433949869 L-5.126524163602468 8.308504678941933" fill="none" stroke="#aeb9c4" stroke-width=".055"><title>QFN 29 → local: fixed 5 mm extension</title></path>
+<circle cx="-5.126524163602468" cy="8.308504678941933" r=".075" fill="#aeb9c4"/>
+<path class="extension" d="M-1.2020815280171306 5.091168824543143 L-4.772970773009195 8.662058069535206" fill="none" stroke="#aeb9c4" stroke-width=".055"><title>QFN 30 → local: fixed 5 mm extension</title></path>
+<circle cx="-4.772970773009195" cy="8.662058069535206" r=".075" fill="#aeb9c4"/>
+<path class="extension" d="M-0.8485281374238567 5.444722215136416 L-4.41941738241592 9.015611460128481" fill="none" stroke="#aeb9c4" stroke-width=".055"><title>QFN 31 → local: fixed 5 mm extension</title></path>
+<circle cx="-4.41941738241592" cy="9.015611460128481" r=".075" fill="#aeb9c4"/>
+<path class="wire extension" data-net="HK_SDO" data-group="service" d="M-0.4949747468305832 5.79827560572969 L-4.065863991822647 9.369164850721754" fill="none" stroke="#6e5bc6" stroke-width=".055"><title>QFN 32 → R8: fixed 5 mm extension</title></path>
+<circle cx="-4.065863991822647" cy="9.369164850721754" r=".075" fill="#6e5bc6"/>
+<path class="wire extension" data-net="RBZM_SPI_MOSI" data-group="control_spi" d="M0.49497474683058407 5.79827560572969 L4.065863991822649 9.369164850721754" fill="none" stroke="#087d70" stroke-width=".055"><title>QFN 33 → R4: fixed 5 mm extension</title></path>
+<circle cx="4.065863991822649" cy="9.369164850721754" r=".075" fill="#087d70"/>
+<path class="wire extension" data-net="HK_CSb" data-group="service" d="M0.8485281374238576 5.444722215136416 L4.419417382415922 9.015611460128481" fill="none" stroke="#6e5bc6" stroke-width=".055"><title>QFN 34 → R7: fixed 5 mm extension</title></path>
+<circle cx="4.419417382415922" cy="9.015611460128481" r=".075" fill="#6e5bc6"/>
+<path class="wire extension" data-net="RBZM_SPI_SCK" data-group="control_spi" d="M1.2020815280171315 5.091168824543143 L4.772970773009196 8.662058069535206" fill="none" stroke="#087d70" stroke-width=".055"><title>QFN 35 → R3: fixed 5 mm extension</title></path>
+<circle cx="4.772970773009196" cy="8.662058069535206" r=".075" fill="#087d70"/>
+<path class="wire extension" data-net="SER_RX/OPT_URST" data-group="service" d="M1.555634918610405 4.737615433949869 L5.12652416360247 8.308504678941933" fill="none" stroke="#6e5bc6" stroke-width=".055"><title>QFN 36 → R25: fixed 5 mm extension</title></path>
+<circle cx="5.12652416360247" cy="8.308504678941933" r=".075" fill="#6e5bc6"/>
+<path class="wire extension" data-net="SER_TX" data-group="service" d="M1.909188309203679 4.384062043356595 L5.480077554195743 7.954951288348659" fill="none" stroke="#6e5bc6" stroke-width=".055"><title>QFN 37 → R26: fixed 5 mm extension</title></path>
+<circle cx="5.480077554195743" cy="7.954951288348659" r=".075" fill="#6e5bc6"/>
+<path class="extension" d="M2.2627416997969525 4.030508652763321 L5.833630944789017 7.601397897755385" fill="none" stroke="#aeb9c4" stroke-width=".055"><title>QFN 38 → local: fixed 5 mm extension</title></path>
+<circle cx="5.833630944789017" cy="7.601397897755385" r=".075" fill="#aeb9c4"/>
+<path class="extension" d="M2.6162950903902265 3.676955262170047 L6.187184335382291 7.247844507162111" fill="none" stroke="#aeb9c4" stroke-width=".055"><title>QFN 39 → local: fixed 5 mm extension</title></path>
+<circle cx="6.187184335382291" cy="7.247844507162111" r=".075" fill="#aeb9c4"/>
+<path class="extension" d="M2.9698484809835 3.3234018715767735 L6.540737725975565 6.894291116568837" fill="none" stroke="#aeb9c4" stroke-width=".055"><title>QFN 40 → local: fixed 5 mm extension</title></path>
+<circle cx="6.540737725975565" cy="6.894291116568837" r=".075" fill="#aeb9c4"/>
+<path class="extension" d="M3.323401871576774 2.9698484809834995 L6.894291116568838 6.540737725975564" fill="none" stroke="#aeb9c4" stroke-width=".055"><title>QFN 41 → local: fixed 5 mm extension</title></path>
+<circle cx="6.894291116568838" cy="6.540737725975564" r=".075" fill="#aeb9c4"/>
+<path class="wire extension" data-net="HSYNC_N" data-group="video" d="M3.6769552621700474 2.616295090390226 L7.247844507162112 6.18718433538229" fill="none" stroke="#d27116" stroke-width=".055"><title>QFN 42 → R23: fixed 5 mm extension</title></path>
+<circle cx="7.247844507162112" cy="6.18718433538229" r=".075" fill="#d27116"/>
+<path class="wire extension" data-net="VSYNC_N" data-group="video" d="M4.030508652763321 2.262741699796952 L7.601397897755386 5.833630944789016" fill="none" stroke="#d27116" stroke-width=".055"><title>QFN 43 → R24: fixed 5 mm extension</title></path>
+<circle cx="7.601397897755386" cy="5.833630944789016" r=".075" fill="#d27116"/>
+<path class="wire extension" data-net="RED0" data-group="video" d="M4.384062043356595 1.9091883092036783 L7.95495128834866 5.480077554195742" fill="none" stroke="#d27116" stroke-width=".055"><title>QFN 44 → R21: fixed 5 mm extension</title></path>
+<circle cx="7.95495128834866" cy="5.480077554195742" r=".075" fill="#d27116"/>
+<path class="wire extension" data-net="RED1" data-group="video" d="M4.737615433949869 1.5556349186104044 L8.308504678941933 5.126524163602468" fill="none" stroke="#d27116" stroke-width=".055"><title>QFN 45 → R22: fixed 5 mm extension</title></path>
+<circle cx="8.308504678941933" cy="5.126524163602468" r=".075" fill="#d27116"/>
+<path class="wire extension" data-net="GREEN0" data-group="video" d="M5.091168824543143 1.2020815280171306 L8.662058069535206 4.772970773009195" fill="none" stroke="#d27116" stroke-width=".055"><title>QFN 46 → R19: fixed 5 mm extension</title></path>
+<circle cx="8.662058069535206" cy="4.772970773009195" r=".075" fill="#d27116"/>
+<path class="extension" d="M5.444722215136416 0.8485281374238567 L9.015611460128481 4.41941738241592" fill="none" stroke="#aeb9c4" stroke-width=".055"><title>QFN 47 → local: fixed 5 mm extension</title></path>
+<circle cx="9.015611460128481" cy="4.41941738241592" r=".075" fill="#aeb9c4"/>
+<path class="wire extension" data-net="GREEN1" data-group="video" d="M5.79827560572969 0.4949747468305832 L9.369164850721754 4.065863991822647" fill="none" stroke="#d27116" stroke-width=".055"><title>QFN 48 → R20: fixed 5 mm extension</title></path>
+<circle cx="9.369164850721754" cy="4.065863991822647" r=".075" fill="#d27116"/>
+<path class="extension" d="M5.79827560572969 -0.49497474683058407 L9.369164850721754 -4.065863991822649" fill="none" stroke="#aeb9c4" stroke-width=".055"><title>QFN 49 → local: fixed 5 mm extension</title></path>
+<circle cx="9.369164850721754" cy="-4.065863991822649" r=".075" fill="#aeb9c4"/>
+<path class="wire extension" data-net="BLUE0" data-group="video" d="M5.444722215136416 -0.8485281374238576 L9.015611460128481 -4.419417382415922" fill="none" stroke="#d27116" stroke-width=".055"><title>QFN 50 → R17: fixed 5 mm extension</title></path>
+<circle cx="9.015611460128481" cy="-4.419417382415922" r=".075" fill="#d27116"/>
+<path class="wire extension" data-net="BLUE1" data-group="video" d="M5.091168824543143 -1.2020815280171315 L8.662058069535206 -4.772970773009196" fill="none" stroke="#d27116" stroke-width=".055"><title>QFN 51 → R18: fixed 5 mm extension</title></path>
+<circle cx="8.662058069535206" cy="-4.772970773009196" r=".075" fill="#d27116"/>
+<path class="extension" d="M4.737615433949869 -1.555634918610405 L8.308504678941933 -5.12652416360247" fill="none" stroke="#aeb9c4" stroke-width=".055"><title>QFN 52 → local: fixed 5 mm extension</title></path>
+<circle cx="8.308504678941933" cy="-5.12652416360247" r=".075" fill="#aeb9c4"/>
+<path class="wire extension" data-net="TEX_CSb" data-group="texture" d="M4.384062043356595 -1.909188309203679 L7.954951288348659 -5.480077554195743" fill="none" stroke="#146dd1" stroke-width=".055"><title>QFN 53 → R14: fixed 5 mm extension</title></path>
+<circle cx="7.954951288348659" cy="-5.480077554195743" r=".075" fill="#146dd1"/>
+<path class="wire extension" data-net="TEX_SCK" data-group="texture" d="M4.030508652763321 -2.2627416997969525 L7.601397897755385 -5.833630944789017" fill="none" stroke="#146dd1" stroke-width=".055"><title>QFN 54 → R13: fixed 5 mm extension</title></path>
+<circle cx="7.601397897755385" cy="-5.833630944789017" r=".075" fill="#146dd1"/>
+<path class="wire extension" data-net="TEX_IO0" data-group="texture" d="M3.676955262170047 -2.6162950903902265 L7.247844507162111 -6.187184335382291" fill="none" stroke="#146dd1" stroke-width=".055"><title>QFN 55 → R12: fixed 5 mm extension</title></path>
+<circle cx="7.247844507162111" cy="-6.187184335382291" r=".075" fill="#146dd1"/>
+<path class="extension" d="M3.3234018715767735 -2.9698484809835 L6.894291116568837 -6.540737725975565" fill="none" stroke="#aeb9c4" stroke-width=".055"><title>QFN 56 → local: fixed 5 mm extension</title></path>
+<circle cx="6.894291116568837" cy="-6.540737725975565" r=".075" fill="#aeb9c4"/>
+<path class="wire extension" data-net="TEX_IO1" data-group="texture" d="M2.9698484809834995 -3.323401871576774 L6.540737725975564 -6.894291116568838" fill="none" stroke="#146dd1" stroke-width=".055"><title>QFN 57 → R11: fixed 5 mm extension</title></path>
+<circle cx="6.540737725975564" cy="-6.894291116568838" r=".075" fill="#146dd1"/>
+<path class="wire extension" data-net="TEX_IO2" data-group="texture" d="M2.616295090390226 -3.6769552621700474 L6.18718433538229 -7.247844507162112" fill="none" stroke="#146dd1" stroke-width=".055"><title>QFN 58 → R10: fixed 5 mm extension</title></path>
+<circle cx="6.18718433538229" cy="-7.247844507162112" r=".075" fill="#146dd1"/>
+<path class="wire extension" data-net="TEX_IO3" data-group="texture" d="M2.262741699796952 -4.030508652763321 L5.833630944789016 -7.601397897755386" fill="none" stroke="#146dd1" stroke-width=".055"><title>QFN 59 → R9: fixed 5 mm extension</title></path>
+<circle cx="5.833630944789016" cy="-7.601397897755386" r=".075" fill="#146dd1"/>
+<path class="wire extension" data-net="VEC_CSb" data-group="control_spi" d="M1.9091883092036783 -4.384062043356595 L5.480077554195742 -7.95495128834866" fill="none" stroke="#087d70" stroke-width=".055"><title>QFN 60 → R6: fixed 5 mm extension</title></path>
+<circle cx="5.480077554195742" cy="-7.95495128834866" r=".075" fill="#087d70"/>
+<path class="wire extension" data-net="RBZM_SPI_SCK" data-group="control_spi" d="M1.5556349186104044 -4.737615433949869 L5.126524163602468 -8.308504678941933" fill="none" stroke="#087d70" stroke-width=".055"><title>QFN 61 → R3: fixed 5 mm extension</title></path>
+<circle cx="5.126524163602468" cy="-8.308504678941933" r=".075" fill="#087d70"/>
+<path class="wire extension" data-net="RBZM_SPI_MOSI" data-group="control_spi" d="M1.2020815280171306 -5.091168824543143 L4.772970773009195 -8.662058069535206" fill="none" stroke="#087d70" stroke-width=".055"><title>QFN 62 → R4: fixed 5 mm extension</title></path>
+<circle cx="4.772970773009195" cy="-8.662058069535206" r=".075" fill="#087d70"/>
+<path class="extension" d="M0.8485281374238567 -5.444722215136416 L4.41941738241592 -9.015611460128481" fill="none" stroke="#aeb9c4" stroke-width=".055"><title>QFN 63 → local: fixed 5 mm extension</title></path>
+<circle cx="4.41941738241592" cy="-9.015611460128481" r=".075" fill="#aeb9c4"/>
+<path class="extension" d="M0.4949747468305832 -5.79827560572969 L4.065863991822647 -9.369164850721754" fill="none" stroke="#aeb9c4" stroke-width=".055"><title>QFN 64 → local: fixed 5 mm extension</title></path>
+<circle cx="4.065863991822647" cy="-9.369164850721754" r=".075" fill="#aeb9c4"/>
+<g transform="rotate(45)"><path d="M4.5 -4.15V-5.05 M9.5 -4.15V-5.05 M4.5 -4.9H9.5" stroke="#526478" stroke-width=".045" fill="none"/><text x="7.0000" y="-5.1300" font-size="0.43" text-anchor="middle" fill="#273448" font-weight="400" >5 mm</text></g>
+<path class="wire" data-net="DEBUG" data-group="controls" d="M -5.480077554195743 -7.954951288348659 L -6.382939795176038 -8.857813529328954 C -10.252349399377302 -12.727223133530218 -18.85391422968093 -16.51 -21.59 -16.51" stroke="#a145aa"><title>QFN 5 → L3: DEBUG</title></path>
+<path class="wire" data-net="DEBUG" data-group="controls" d="M -5.833630944789017 -7.601397897755385 L -6.729557602049148 -8.497324555015515 C -10.569243276021137 -12.337010228987504 -18.874932222309567 -16.51 -21.59 -16.51" stroke="#a145aa"><title>QFN 6 → L3: DEBUG</title></path>
+<path class="wire" data-net="DEBUG" data-group="controls" d="M -6.187184335382291 -7.247844507162111 L -7.0768100567902685 -8.13747022857009 C -10.889491719967316 -11.950151891747137 -18.894026941461906 -16.51 -21.59 -16.51" stroke="#a145aa"><title>QFN 7 → L3: DEBUG</title></path>
+<path class="wire" data-net="INC_X" data-group="controls" d="M -7.601397897755386 -5.833630944789016 L -8.296605729393077 -6.528838776426708 C -11.276067864983183 -9.508300912016814 -16.943202119635682 -13.97 -19.05 -13.97" stroke="#a145aa"><title>QFN 11 → L6: INC_X</title></path>
+<path class="wire" data-net="INC_Y" data-group="controls" d="M -7.95495128834866 -5.480077554195742 L -8.578111880340206 -6.103238146187287 C -11.406539005086396 -8.931665270933477 -17.05 -11.43 -19.05 -11.43" stroke="#a145aa"><title>QFN 12 → L8: INC_Y</title></path>
+<path class="wire" data-net="GEN_TEXb" data-group="controls" d="M -8.308504678941933 -5.126524163602468 L -9.03618813875064 -5.854207623411176 C -12.154831537930814 -8.97285102259135 -19.384786104337035 -11.43 -21.59 -11.43" stroke="#a145aa"><title>QFN 13 → L7: GEN_TEXb</title></path>
+<path class="wire" data-net="REG" data-group="controls" d="M -6.540737725975565 -6.894291116568837 L -7.363864435801478 -7.71741782639475 C -10.89155033505539 -11.245103725648661 -19.095549378741396 -13.97 -21.59 -13.97" stroke="#a145aa"><title>QFN 8 → L5: REG</title></path>
+<path class="wire" data-net="HBLANK/GPOUT0" data-group="blanking" d="M -8.662058069535206 -4.772970773009195 L -9.227743494484445 -5.338656197958433 C -12.056170619230635 -8.167083322704624 -17.05 -8.89 -19.05 -8.89" stroke="#a06a00"><title>QFN 14 → L10: HBLANK/GPOUT0</title></path>
+<path class="wire" data-net="VBLANK/GPOUT1" data-group="blanking" d="M -9.015611460128481 -4.41941738241592 L -9.676178127790518 -5.079984050077957 C -12.50717813205639 -7.91098405434383 -19.588180699444457 -8.89 -21.59 -8.89" stroke="#a06a00"><title>QFN 15 → L9: VBLANK/GPOUT1</title></path>
+<path class="wire" data-net="DIAG/GPOUT2" data-group="blanking" d="M -9.369164850721754 -4.065863991822647 L -9.984540279360022 -4.6812394204609165 C -12.812967404106212 -7.509666545207106 -19.59 -6.35 -21.59 -6.35" stroke="#a06a00"><title>QFN 16 → L11: DIAG/GPOUT2</title></path>
+<path class="wire" data-net="CLK" data-group="clock_reset" d="M -7.601397897755385 5.833630944789017 L -8.211437390628266 6.443670437661898 C -11.039864515374456 9.272097562408089 -17.05 1.27 -19.05 1.27" stroke="#b22735"><title>QFN 22 → L18: CLK</title></path>
+<path class="wire" data-net="RESET_N" data-group="clock_reset" d="M -7.954951288348659 5.480077554195743 L -8.597777819855297 6.122904085702381 C -11.426204944601487 8.951331210448572 -17.05 -1.27 -19.05 -1.27" stroke="#b22735"><title>QFN 21 → L16: RESET_N</title></path>
+<path class="wire" data-net="RB_READY" data-group="service" d="M -5.480077554195742 7.95495128834866 L -6.182389714208238 8.657263448361157 C -9.192298971404648 11.667172705557567 -16.921672753480255 3.81 -19.05 3.81" stroke="#6e5bc6"><title>QFN 28 → L20: RB_READY</title></path>
+<path class="wire" data-net="CTRL_REG_CSb" data-group="control_spi" d="M -4.419417382415922 -9.015611460128481 L -5.606696127817119 -10.202890205529677 C -10.695033608107963 -15.29122768582052 15.452002062720675 -13.97 19.05 -13.97" stroke="#087d70"><title>QFN 2 → R5: CTRL_REG_CSb</title></path>
+<path class="wire" data-net="VEC_CSb" data-group="control_spi" d="M 5.480077554195742 -7.95495128834866 L 6.331247637036268 -8.806121371189185 C 9.97911942063852 -12.453993154791437 19.010565124915782 -13.97 21.59 -13.97" stroke="#087d70"><title>QFN 60 → R6: VEC_CSb</title></path>
+<path class="wire" data-net="RBZM_SPI_MOSI" data-group="control_spi" d="M -5.12652416360247 -8.308504678941933 L -6.50983219609919 -9.691812711438653 C -12.438295192513703 -15.620275707853164 17.397943613221777 -16.51 21.59 -16.51" stroke="#087d70"><title>QFN 4 → R4: RBZM_SPI_MOSI</title></path>
+<path class="wire" data-net="RBZM_SPI_MOSI" data-group="control_spi" d="M 4.772970773009195 -8.662058069535206 L 5.6915493097632694 -9.58063660628928 C 9.628314467280727 -13.51740176380674 18.80628666118048 -16.51 21.59 -16.51" stroke="#087d70"><title>QFN 62 → R4: RBZM_SPI_MOSI</title></path>
+<path class="wire" data-net="RBZM_SPI_MOSI" data-group="control_spi" d="M 4.065863991822649 9.369164850721754 L 5.612869151704034 10.916170010603139 C 12.242891265481397 17.546192124380504 16.90186640393126 -16.51 21.59 -16.51" stroke="#087d70"><title>QFN 33 → R4: RBZM_SPI_MOSI</title></path>
+<path class="wire" data-net="RBZM_SPI_SCK" data-group="control_spi" d="M -4.772970773009196 -8.662058069535206 L -6.014483606627607 -9.903570903153616 C -11.335252893563652 -15.22434019008966 15.287647956078413 -16.51 19.05 -16.51" stroke="#087d70"><title>QFN 3 → R3: RBZM_SPI_SCK</title></path>
+<path class="wire" data-net="RBZM_SPI_SCK" data-group="control_spi" d="M 5.126524163602468 -8.308504678941933 L 5.926375947951796 -9.108356463291262 C 9.354312166591773 -12.53629268193124 16.626083054324702 -16.51 19.05 -16.51" stroke="#087d70"><title>QFN 61 → R3: RBZM_SPI_SCK</title></path>
+<path class="wire" data-net="RBZM_SPI_SCK" data-group="control_spi" d="M 4.772970773009196 8.662058069535206 L 6.2053784921872195 10.09446578871323 C 12.344268717235888 16.2333560137619 14.709149092908277 -16.51 19.05 -16.51" stroke="#087d70"><title>QFN 35 → R3: RBZM_SPI_SCK</title></path>
+<path class="wire" data-net="HK_SDO" data-group="service" d="M -4.065863991822647 9.369164850721754 L -5.7006514729202005 11.003952331819308 C -12.706883534766856 18.010184393665966 16.635845798501624 -11.43 21.59 -11.43" stroke="#6e5bc6"><title>QFN 32 → R8: HK_SDO</title></path>
+<path class="wire" data-net="HK_CSb" data-group="service" d="M 4.419417382415922 9.015611460128481 L 5.663840377416337 10.260034455128896 C 10.997081784560972 15.59327586227353 15.278828835303145 -11.43 19.05 -11.43" stroke="#6e5bc6"><title>QFN 34 → R7: HK_CSb</title></path>
+<path class="wire" data-net="SER_TX" data-group="service" d="M 5.480077554195743 7.954951288348659 L 6.29581871023578 8.770692444388695 C 9.791852236121649 12.266725970274564 19.117930986590586 11.43 21.59 11.43" stroke="#6e5bc6"><title>QFN 37 → R26: SER_TX</title></path>
+<path class="wire" data-net="SER_RX/OPT_URST" data-group="service" d="M 5.12652416360247 8.308504678941933 L 5.8328080551043415 9.014788570443804 C 8.859739018683788 12.041719534023251 16.909636589469443 11.43 19.05 11.43" stroke="#6e5bc6"><title>QFN 36 → R25: SER_RX/OPT_URST</title></path>
+<path class="wire" data-net="TEX_CSb" data-group="texture" d="M 7.954951288348659 -5.480077554195743 L 8.634895473848488 -6.160021739695573 C 11.54894198313347 -9.074068248980556 19.5294579525916 -3.81 21.59 -3.81" stroke="#146dd1"><title>QFN 53 → R14: TEX_CSb</title></path>
+<path class="wire" data-net="TEX_SCK" data-group="texture" d="M 7.601397897755385 -5.833630944789017 L 8.176859149383814 -6.409092196417445 C 11.005286274130004 -9.237519321163635 17.05 -3.81 19.05 -3.81" stroke="#146dd1"><title>QFN 54 → R13: TEX_SCK</title></path>
+<path class="wire" data-net="TEX_IO0" data-group="texture" d="M 7.247844507162111 -6.187184335382291 L 7.957790727764343 -6.897130555984523 C 11.000417387488195 -9.939757215708374 19.43853805629029 -6.35 21.59 -6.35" stroke="#146dd1"><title>QFN 55 → R12: TEX_IO0</title></path>
+<path class="wire" data-net="TEX_IO1" data-group="texture" d="M 6.540737725975564 -6.894291116568838 L 7.160500457895427 -7.514053848488701 C 9.988927582641617 -10.342480973234892 17.05 -6.35 19.05 -6.35" stroke="#146dd1"><title>QFN 57 → R11: TEX_IO1</title></path>
+<path class="wire" data-net="TEX_IO2" data-group="texture" d="M 6.18718433538229 -7.247844507162112 L 6.953905498778139 -8.01456567055796 C 10.239853341903203 -11.300513513683025 19.266483997500956 -8.89 21.59 -8.89" stroke="#146dd1"><title>QFN 58 → R10: TEX_IO2</title></path>
+<path class="wire" data-net="TEX_IO3" data-group="texture" d="M 5.833630944789016 -7.601397897755386 L 6.490909896707109 -8.25867684967348 C 9.319337021453299 -11.08710397441967 17.05 -8.89 19.05 -8.89" stroke="#146dd1"><title>QFN 59 → R9: TEX_IO3</title></path>
+<path class="wire" data-net="HSYNC_N" data-group="video" d="M 7.247844507162112 6.18718433538229 L 7.847144442624619 6.786484270844797 C 10.67557156737081 9.614911395590987 17.05 8.89 19.05 8.89" stroke="#d27116"><title>QFN 42 → R23: HSYNC_N</title></path>
+<path class="wire" data-net="VSYNC_N" data-group="video" d="M 7.601397897755386 5.833630944789016 L 8.310132567721944 6.542365614755574 C 11.34756686757862 9.579799914612249 19.44220960916273 8.89 21.59 8.89" stroke="#d27116"><title>QFN 43 → R24: VSYNC_N</title></path>
+<path class="wire" data-net="RED0" data-group="video" d="M 7.95495128834866 5.480077554195742 L 8.520636713297899 6.04576297914498 C 11.349063838044088 8.87419010389117 17.05 6.35 19.05 6.35" stroke="#d27116"><title>QFN 44 → R21: RED0</title></path>
+<path class="wire" data-net="RED1" data-group="video" d="M 8.308504678941933 5.126524163602468 L 8.96868857541288 5.786708060073416 C 11.798048131716943 8.616067616377478 19.589340671322436 6.35 21.59 6.35" stroke="#d27116"><title>QFN 45 → R22: RED1</title></path>
+<path class="wire" data-net="GREEN0" data-group="video" d="M 8.662058069535206 4.772970773009195 L 9.227743494484445 5.338656197958433 C 12.056170619230635 8.167083322704624 17.05 3.81 19.05 3.81" stroke="#d27116"><title>QFN 46 → R19: GREEN0</title></path>
+<path class="wire" data-net="GREEN1" data-group="video" d="M 9.369164850721754 4.065863991822647 L 9.97419789231036 4.670897033411252 C 12.802625017056549 7.4993241581574415 19.59 3.81 21.59 3.81" stroke="#d27116"><title>QFN 48 → R20: GREEN1</title></path>
+<path class="wire" data-net="BLUE0" data-group="video" d="M 9.015611460128481 -4.419417382415922 L 9.586569547578936 -4.990375469866377 C 12.414996672325126 -7.818802594612567 17.05 1.27 19.05 1.27" stroke="#d27116"><title>QFN 50 → R17: BLUE0</title></path>
+<path class="wire" data-net="BLUE1" data-group="video" d="M 8.662058069535206 -4.772970773009196 L 9.368415264505455 -5.479327967979445 C 12.395660385806519 -8.506573089280508 19.449414446414124 1.27 21.59 1.27" stroke="#d27116"><title>QFN 51 → R18: BLUE1</title></path>
+<rect x="-4.875" y="-3.875" width="0.85" height="0.25" transform="rotate(45)" fill="#64748b" stroke="white" stroke-width=".015"><title>QFN 1: vssa2</title></rect>
+<text x="-1.0607" y="-6.3640" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">1</text>
+<rect x="-4.875" y="-3.375" width="0.85" height="0.25" transform="rotate(45)" fill="#087d70" stroke="white" stroke-width=".015"><title>QFN 2: mprj_io[25]</title></rect>
+<text x="-1.4142" y="-6.0104" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">2</text>
+<rect x="-4.875" y="-2.875" width="0.85" height="0.25" transform="rotate(45)" fill="#087d70" stroke="white" stroke-width=".015"><title>QFN 3: mprj_io[26]</title></rect>
+<text x="-1.7678" y="-5.6569" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">3</text>
+<rect x="-4.875" y="-2.375" width="0.85" height="0.25" transform="rotate(45)" fill="#087d70" stroke="white" stroke-width=".015"><title>QFN 4: mprj_io[27]</title></rect>
+<text x="-2.1213" y="-5.3033" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">4</text>
+<rect x="-4.875" y="-1.875" width="0.85" height="0.25" transform="rotate(45)" fill="#a145aa" stroke="white" stroke-width=".015"><title>QFN 5: mprj_io[28]</title></rect>
+<text x="-2.4749" y="-4.9497" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">5</text>
+<rect x="-4.875" y="-1.375" width="0.85" height="0.25" transform="rotate(45)" fill="#a145aa" stroke="white" stroke-width=".015"><title>QFN 6: mprj_io[29]</title></rect>
+<text x="-2.8284" y="-4.5962" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">6</text>
+<rect x="-4.875" y="-0.875" width="0.85" height="0.25" transform="rotate(45)" fill="#a145aa" stroke="white" stroke-width=".015"><title>QFN 7: mprj_io[30]</title></rect>
+<text x="-3.1820" y="-4.2426" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">7</text>
+<rect x="-4.875" y="-0.375" width="0.85" height="0.25" transform="rotate(45)" fill="#a145aa" stroke="white" stroke-width=".015"><title>QFN 8: mprj_io[31]</title></rect>
+<text x="-3.5355" y="-3.8891" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">8</text>
+<rect x="-4.875" y="0.125" width="0.85" height="0.25" transform="rotate(45)" fill="#64748b" stroke="white" stroke-width=".015"><title>QFN 9: vdda2</title></rect>
+<text x="-3.8891" y="-3.5355" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">9</text>
+<rect x="-4.875" y="0.625" width="0.85" height="0.25" transform="rotate(45)" fill="#64748b" stroke="white" stroke-width=".015"><title>QFN 10: vssd2</title></rect>
+<text x="-4.2426" y="-3.1820" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">10</text>
+<rect x="-4.875" y="1.125" width="0.85" height="0.25" transform="rotate(45)" fill="#a145aa" stroke="white" stroke-width=".015"><title>QFN 11: mprj_io[32]</title></rect>
+<text x="-4.5962" y="-2.8284" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">11</text>
+<rect x="-4.875" y="1.625" width="0.85" height="0.25" transform="rotate(45)" fill="#a145aa" stroke="white" stroke-width=".015"><title>QFN 12: mprj_io[33]</title></rect>
+<text x="-4.9497" y="-2.4749" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">12</text>
+<rect x="-4.875" y="2.125" width="0.85" height="0.25" transform="rotate(45)" fill="#a145aa" stroke="white" stroke-width=".015"><title>QFN 13: mprj_io[34]</title></rect>
+<text x="-5.3033" y="-2.1213" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">13</text>
+<rect x="-4.875" y="2.625" width="0.85" height="0.25" transform="rotate(45)" fill="#a06a00" stroke="white" stroke-width=".015"><title>QFN 14: mprj_io[35]</title></rect>
+<text x="-5.6569" y="-1.7678" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">14</text>
+<rect x="-4.875" y="3.125" width="0.85" height="0.25" transform="rotate(45)" fill="#a06a00" stroke="white" stroke-width=".015"><title>QFN 15: mprj_io[36]</title></rect>
+<text x="-6.0104" y="-1.4142" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">15</text>
+<rect x="-4.875" y="3.625" width="0.85" height="0.25" transform="rotate(45)" fill="#a06a00" stroke="white" stroke-width=".015"><title>QFN 16: mprj_io[37]</title></rect>
+<text x="-6.3640" y="-1.0607" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">16</text>
+<rect x="-3.875" y="4.025" width="0.25" height="0.85" transform="rotate(45)" fill="#64748b" stroke="white" stroke-width=".015"><title>QFN 17: vddio</title></rect>
+<text x="-6.3640" y="1.0607" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">17</text>
+<rect x="-3.375" y="4.025" width="0.25" height="0.85" transform="rotate(45)" fill="#64748b" stroke="white" stroke-width=".015"><title>QFN 18: vccd</title></rect>
+<text x="-6.0104" y="1.4142" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">18</text>
+<rect x="-2.875" y="4.025" width="0.25" height="0.85" transform="rotate(45)" fill="#64748b" stroke="white" stroke-width=".015"><title>QFN 19: N/C</title></rect>
+<text x="-5.6569" y="1.7678" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">19</text>
+<rect x="-2.375" y="4.025" width="0.25" height="0.85" transform="rotate(45)" fill="#64748b" stroke="white" stroke-width=".015"><title>QFN 20: vssa</title></rect>
+<text x="-5.3033" y="2.1213" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">20</text>
+<rect x="-1.875" y="4.025" width="0.25" height="0.85" transform="rotate(45)" fill="#b22735" stroke="white" stroke-width=".015"><title>QFN 21: resetb</title></rect>
+<text x="-4.9497" y="2.4749" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">21</text>
+<rect x="-1.375" y="4.025" width="0.25" height="0.85" transform="rotate(45)" fill="#b22735" stroke="white" stroke-width=".015"><title>QFN 22: clock</title></rect>
+<text x="-4.5962" y="2.8284" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">22</text>
+<rect x="-0.875" y="4.025" width="0.25" height="0.85" transform="rotate(45)" fill="#64748b" stroke="white" stroke-width=".015"><title>QFN 23: vssd</title></rect>
+<text x="-4.2426" y="3.1820" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">23</text>
+<rect x="-0.375" y="4.025" width="0.25" height="0.85" transform="rotate(45)" fill="#64748b" stroke="white" stroke-width=".015"><title>QFN 24: flash_csb</title></rect>
+<text x="-3.8891" y="3.5355" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">24</text>
+<rect x="0.125" y="4.025" width="0.25" height="0.85" transform="rotate(45)" fill="#64748b" stroke="white" stroke-width=".015"><title>QFN 25: flash_clk</title></rect>
+<text x="-3.5355" y="3.8891" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">25</text>
+<rect x="0.625" y="4.025" width="0.25" height="0.85" transform="rotate(45)" fill="#64748b" stroke="white" stroke-width=".015"><title>QFN 26: flash_io0</title></rect>
+<text x="-3.1820" y="4.2426" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">26</text>
+<rect x="1.125" y="4.025" width="0.25" height="0.85" transform="rotate(45)" fill="#64748b" stroke="white" stroke-width=".015"><title>QFN 27: flash_io1</title></rect>
+<text x="-2.8284" y="4.5962" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">27</text>
+<rect x="1.625" y="4.025" width="0.25" height="0.85" transform="rotate(45)" fill="#6e5bc6" stroke="white" stroke-width=".015"><title>QFN 28: gpio</title></rect>
+<text x="-2.4749" y="4.9497" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">28</text>
+<rect x="2.125" y="4.025" width="0.25" height="0.85" transform="rotate(45)" fill="#64748b" stroke="white" stroke-width=".015"><title>QFN 29: vssio</title></rect>
+<text x="-2.1213" y="5.3033" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">29</text>
+<rect x="2.625" y="4.025" width="0.25" height="0.85" transform="rotate(45)" fill="#64748b" stroke="white" stroke-width=".015"><title>QFN 30: vdda</title></rect>
+<text x="-1.7678" y="5.6569" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">30</text>
+<rect x="3.125" y="4.025" width="0.25" height="0.85" transform="rotate(45)" fill="#64748b" stroke="white" stroke-width=".015"><title>QFN 31: mprj_io[0]_JTAG</title></rect>
+<text x="-1.4142" y="6.0104" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">31</text>
+<rect x="3.625" y="4.025" width="0.25" height="0.85" transform="rotate(45)" fill="#6e5bc6" stroke="white" stroke-width=".015"><title>QFN 32: mprj_io[1]_SDO</title></rect>
+<text x="-1.0607" y="6.3640" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">32</text>
+<rect x="4.025" y="3.625" width="0.85" height="0.25" transform="rotate(45)" fill="#087d70" stroke="white" stroke-width=".015"><title>QFN 33: mprj_io[2]_SDI</title></rect>
+<text x="1.0607" y="6.3640" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">33</text>
+<rect x="4.025" y="3.125" width="0.85" height="0.25" transform="rotate(45)" fill="#6e5bc6" stroke="white" stroke-width=".015"><title>QFN 34: mprj_io[3]_CSB</title></rect>
+<text x="1.4142" y="6.0104" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">34</text>
+<rect x="4.025" y="2.625" width="0.85" height="0.25" transform="rotate(45)" fill="#087d70" stroke="white" stroke-width=".015"><title>QFN 35: mprj_io[4]_SCK</title></rect>
+<text x="1.7678" y="5.6569" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">35</text>
+<rect x="4.025" y="2.125" width="0.85" height="0.25" transform="rotate(45)" fill="#6e5bc6" stroke="white" stroke-width=".015"><title>QFN 36: mprj_io[5]_ser_rx</title></rect>
+<text x="2.1213" y="5.3033" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">36</text>
+<rect x="4.025" y="1.625" width="0.85" height="0.25" transform="rotate(45)" fill="#6e5bc6" stroke="white" stroke-width=".015"><title>QFN 37: mprj_io[6]_ser_tx</title></rect>
+<text x="2.4749" y="4.9497" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">37</text>
+<rect x="4.025" y="1.125" width="0.85" height="0.25" transform="rotate(45)" fill="#64748b" stroke="white" stroke-width=".015"><title>QFN 38: vssa1</title></rect>
+<text x="2.8284" y="4.5962" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">38</text>
+<rect x="4.025" y="0.625" width="0.85" height="0.25" transform="rotate(45)" fill="#64748b" stroke="white" stroke-width=".015"><title>QFN 39: vssd1</title></rect>
+<text x="3.1820" y="4.2426" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">39</text>
+<rect x="4.025" y="0.125" width="0.85" height="0.25" transform="rotate(45)" fill="#64748b" stroke="white" stroke-width=".015"><title>QFN 40: vdda1</title></rect>
+<text x="3.5355" y="3.8891" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">40</text>
+<rect x="4.025" y="-0.375" width="0.85" height="0.25" transform="rotate(45)" fill="#64748b" stroke="white" stroke-width=".015"><title>QFN 41: mprj_io[7]</title></rect>
+<text x="3.8891" y="3.5355" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">41</text>
+<rect x="4.025" y="-0.875" width="0.85" height="0.25" transform="rotate(45)" fill="#d27116" stroke="white" stroke-width=".015"><title>QFN 42: mprj_io[8]</title></rect>
+<text x="4.2426" y="3.1820" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">42</text>
+<rect x="4.025" y="-1.375" width="0.85" height="0.25" transform="rotate(45)" fill="#d27116" stroke="white" stroke-width=".015"><title>QFN 43: mprj_io[9]</title></rect>
+<text x="4.5962" y="2.8284" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">43</text>
+<rect x="4.025" y="-1.875" width="0.85" height="0.25" transform="rotate(45)" fill="#d27116" stroke="white" stroke-width=".015"><title>QFN 44: mprj_io[10]</title></rect>
+<text x="4.9497" y="2.4749" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">44</text>
+<rect x="4.025" y="-2.375" width="0.85" height="0.25" transform="rotate(45)" fill="#d27116" stroke="white" stroke-width=".015"><title>QFN 45: mprj_io[11]</title></rect>
+<text x="5.3033" y="2.1213" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">45</text>
+<rect x="4.025" y="-2.875" width="0.85" height="0.25" transform="rotate(45)" fill="#d27116" stroke="white" stroke-width=".015"><title>QFN 46: mprj_io[12]</title></rect>
+<text x="5.6569" y="1.7678" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">46</text>
+<rect x="4.025" y="-3.375" width="0.85" height="0.25" transform="rotate(45)" fill="#64748b" stroke="white" stroke-width=".015"><title>QFN 47: vdda1</title></rect>
+<text x="6.0104" y="1.4142" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">47</text>
+<rect x="4.025" y="-3.875" width="0.85" height="0.25" transform="rotate(45)" fill="#d27116" stroke="white" stroke-width=".015"><title>QFN 48: mprj_io[13]</title></rect>
+<text x="6.3640" y="1.0607" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">48</text>
+<rect x="3.625" y="-4.875" width="0.25" height="0.85" transform="rotate(45)" fill="#64748b" stroke="white" stroke-width=".015"><title>QFN 49: vccd1</title></rect>
+<text x="6.3640" y="-1.0607" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">49</text>
+<rect x="3.125" y="-4.875" width="0.25" height="0.85" transform="rotate(45)" fill="#d27116" stroke="white" stroke-width=".015"><title>QFN 50: mprj_io[14]</title></rect>
+<text x="6.0104" y="-1.4142" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">50</text>
+<rect x="2.625" y="-4.875" width="0.25" height="0.85" transform="rotate(45)" fill="#d27116" stroke="white" stroke-width=".015"><title>QFN 51: mprj_io[15]</title></rect>
+<text x="5.6569" y="-1.7678" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">51</text>
+<rect x="2.125" y="-4.875" width="0.25" height="0.85" transform="rotate(45)" fill="#64748b" stroke="white" stroke-width=".015"><title>QFN 52: vssa1</title></rect>
+<text x="5.3033" y="-2.1213" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">52</text>
+<rect x="1.625" y="-4.875" width="0.25" height="0.85" transform="rotate(45)" fill="#146dd1" stroke="white" stroke-width=".015"><title>QFN 53: mprj_io[16]</title></rect>
+<text x="4.9497" y="-2.4749" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">53</text>
+<rect x="1.125" y="-4.875" width="0.25" height="0.85" transform="rotate(45)" fill="#146dd1" stroke="white" stroke-width=".015"><title>QFN 54: mprj_io[17]</title></rect>
+<text x="4.5962" y="-2.8284" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">54</text>
+<rect x="0.625" y="-4.875" width="0.25" height="0.85" transform="rotate(45)" fill="#146dd1" stroke="white" stroke-width=".015"><title>QFN 55: mprj_io[18]</title></rect>
+<text x="4.2426" y="-3.1820" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">55</text>
+<rect x="0.125" y="-4.875" width="0.25" height="0.85" transform="rotate(45)" fill="#64748b" stroke="white" stroke-width=".015"><title>QFN 56: vssio</title></rect>
+<text x="3.8891" y="-3.5355" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">56</text>
+<rect x="-0.375" y="-4.875" width="0.25" height="0.85" transform="rotate(45)" fill="#146dd1" stroke="white" stroke-width=".015"><title>QFN 57: mprj_io[19]</title></rect>
+<text x="3.5355" y="-3.8891" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">57</text>
+<rect x="-0.875" y="-4.875" width="0.25" height="0.85" transform="rotate(45)" fill="#146dd1" stroke="white" stroke-width=".015"><title>QFN 58: mprj_io[20]</title></rect>
+<text x="3.1820" y="-4.2426" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">58</text>
+<rect x="-1.375" y="-4.875" width="0.25" height="0.85" transform="rotate(45)" fill="#146dd1" stroke="white" stroke-width=".015"><title>QFN 59: mprj_io[21]</title></rect>
+<text x="2.8284" y="-4.5962" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">59</text>
+<rect x="-1.875" y="-4.875" width="0.25" height="0.85" transform="rotate(45)" fill="#087d70" stroke="white" stroke-width=".015"><title>QFN 60: mprj_io[22]</title></rect>
+<text x="2.4749" y="-4.9497" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">60</text>
+<rect x="-2.375" y="-4.875" width="0.25" height="0.85" transform="rotate(45)" fill="#087d70" stroke="white" stroke-width=".015"><title>QFN 61: mprj_io[23]</title></rect>
+<text x="2.1213" y="-5.3033" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">61</text>
+<rect x="-2.875" y="-4.875" width="0.25" height="0.85" transform="rotate(45)" fill="#087d70" stroke="white" stroke-width=".015"><title>QFN 62: mprj_io[24]</title></rect>
+<text x="1.7678" y="-5.6569" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">62</text>
+<rect x="-3.375" y="-4.875" width="0.25" height="0.85" transform="rotate(45)" fill="#64748b" stroke="white" stroke-width=".015"><title>QFN 63: vccd2</title></rect>
+<text x="1.4142" y="-6.0104" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">63</text>
+<rect x="-3.875" y="-4.875" width="0.25" height="0.85" transform="rotate(45)" fill="#64748b" stroke="white" stroke-width=".015"><title>QFN 64: vddio</title></rect>
+<text x="1.0607" y="-6.3640" font-size="0.37" text-anchor="middle" fill="#273448" font-weight="400" class="halo" dominant-baseline="central">64</text>
+<text x="0.0000" y="-0.4500" font-size="0.9" text-anchor="middle" fill="#273448" font-weight="700" >GFMPW1</text>
+<text x="0.0000" y="0.5500" font-size="0.65" text-anchor="middle" fill="#273448" font-weight="400" >9 × 9 mm</text>
+<text x="0.0000" y="1.4000" font-size="0.5" text-anchor="middle" fill="#273448" font-weight="400" >EP65 = GND</text>
+<g><title>L1: KEY — no direct signal connection in this view</title>
+<rect x="-22.44" y="-19.900000000000002" width="1.7" height="1.7" rx="0" fill="#fff" stroke="#61788a" stroke-width=".10"/>
+<text x="-21.5900" y="-18.8800" font-size="0.43" text-anchor="middle" fill="#61788a" font-weight="700" >L1</text>
+<path d="M-22.44 -19.05 L-25.65 -19.6" fill="none" stroke="#61788a" stroke-width=".035" opacity=".6"/>
+<text x="-25.9000" y="-19.4800" font-size="0.54" text-anchor="end" fill="#61788a" font-weight="400" class="halo">L1  KEY</text>
+</g>
+<g><title>L2: GND — no direct signal connection in this view</title>
+<rect x="-19.900000000000002" y="-19.900000000000002" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#305eaf" stroke-width=".10"/>
+<text x="-19.0500" y="-18.8800" font-size="0.43" text-anchor="middle" fill="#305eaf" font-weight="700" >L2</text>
+<path d="M-19.900000000000002 -19.05 L-25.65 -18.67" fill="none" stroke="#305eaf" stroke-width=".035" opacity=".6"/>
+<text x="-25.9000" y="-18.5500" font-size="0.54" text-anchor="end" fill="#305eaf" font-weight="700" class="halo">L2  GND</text>
+</g>
+<g class="net-target header-target" data-net="DEBUG" data-group="controls"><title>L3: DEBUG</title>
+<rect x="-22.44" y="-17.360000000000003" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#a145aa" stroke-width=".10"/>
+<text x="-21.5900" y="-16.3400" font-size="0.43" text-anchor="middle" fill="#a145aa" font-weight="700" >L3</text>
+<path d="M-22.44 -16.51 L-25.65 -17.060000000000002" fill="none" stroke="#a145aa" stroke-width=".035" opacity=".6"/>
+<text x="-25.9000" y="-16.9400" font-size="0.54" text-anchor="end" fill="#a145aa" font-weight="400" class="halo">L3  DEBUG</text>
+</g>
+<g><title>L4: GND — no direct signal connection in this view</title>
+<rect x="-19.900000000000002" y="-17.360000000000003" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#305eaf" stroke-width=".10"/>
+<text x="-19.0500" y="-16.3400" font-size="0.43" text-anchor="middle" fill="#305eaf" font-weight="700" >L4</text>
+<path d="M-19.900000000000002 -16.51 L-25.65 -16.130000000000003" fill="none" stroke="#305eaf" stroke-width=".035" opacity=".6"/>
+<text x="-25.9000" y="-16.0100" font-size="0.54" text-anchor="end" fill="#305eaf" font-weight="700" class="halo">L4  GND</text>
+</g>
+<g class="net-target header-target" data-net="REG" data-group="controls"><title>L5: REG</title>
+<rect x="-22.44" y="-14.82" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#a145aa" stroke-width=".10"/>
+<text x="-21.5900" y="-13.8000" font-size="0.43" text-anchor="middle" fill="#a145aa" font-weight="700" >L5</text>
+<path d="M-22.44 -13.97 L-25.65 -14.52" fill="none" stroke="#a145aa" stroke-width=".035" opacity=".6"/>
+<text x="-25.9000" y="-14.4000" font-size="0.54" text-anchor="end" fill="#a145aa" font-weight="400" class="halo">L5  REG</text>
+</g>
+<g class="net-target header-target" data-net="INC_X" data-group="controls"><title>L6: INC_X</title>
+<rect x="-19.900000000000002" y="-14.82" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#a145aa" stroke-width=".10"/>
+<text x="-19.0500" y="-13.8000" font-size="0.43" text-anchor="middle" fill="#a145aa" font-weight="700" >L6</text>
+<path d="M-19.900000000000002 -13.97 L-25.65 -13.59" fill="none" stroke="#a145aa" stroke-width=".035" opacity=".6"/>
+<text x="-25.9000" y="-13.4700" font-size="0.54" text-anchor="end" fill="#a145aa" font-weight="400" class="halo">L6  INC_X</text>
+</g>
+<g class="net-target header-target" data-net="GEN_TEXb" data-group="controls"><title>L7: GEN_TEXb</title>
+<rect x="-22.44" y="-12.28" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#a145aa" stroke-width=".10"/>
+<text x="-21.5900" y="-11.2600" font-size="0.43" text-anchor="middle" fill="#a145aa" font-weight="700" >L7</text>
+<path d="M-22.44 -11.43 L-25.65 -11.979999999999999" fill="none" stroke="#a145aa" stroke-width=".035" opacity=".6"/>
+<text x="-25.9000" y="-11.8600" font-size="0.54" text-anchor="end" fill="#a145aa" font-weight="400" class="halo">L7  GEN_TEXb</text>
+</g>
+<g class="net-target header-target" data-net="INC_Y" data-group="controls"><title>L8: INC_Y</title>
+<rect x="-19.900000000000002" y="-12.28" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#a145aa" stroke-width=".10"/>
+<text x="-19.0500" y="-11.2600" font-size="0.43" text-anchor="middle" fill="#a145aa" font-weight="700" >L8</text>
+<path d="M-19.900000000000002 -11.43 L-25.65 -11.049999999999999" fill="none" stroke="#a145aa" stroke-width=".035" opacity=".6"/>
+<text x="-25.9000" y="-10.9300" font-size="0.54" text-anchor="end" fill="#a145aa" font-weight="400" class="halo">L8  INC_Y</text>
+</g>
+<g class="net-target header-target" data-net="VBLANK/GPOUT1" data-group="blanking"><title>L9: VBLANK/GPOUT1</title>
+<rect x="-22.44" y="-9.74" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#a06a00" stroke-width=".10"/>
+<text x="-21.5900" y="-8.7200" font-size="0.43" text-anchor="middle" fill="#a06a00" font-weight="700" >L9</text>
+<path d="M-22.44 -8.89 L-25.65 -9.44" fill="none" stroke="#a06a00" stroke-width=".035" opacity=".6"/>
+<text x="-25.9000" y="-9.3200" font-size="0.54" text-anchor="end" fill="#a06a00" font-weight="400" class="halo">L9  VBLANK/GPOUT1</text>
+</g>
+<g class="net-target header-target" data-net="HBLANK/GPOUT0" data-group="blanking"><title>L10: HBLANK/GPOUT0</title>
+<rect x="-19.900000000000002" y="-9.74" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#a06a00" stroke-width=".10"/>
+<text x="-19.0500" y="-8.7200" font-size="0.43" text-anchor="middle" fill="#a06a00" font-weight="700" >L10</text>
+<path d="M-19.900000000000002 -8.89 L-25.65 -8.51" fill="none" stroke="#a06a00" stroke-width=".035" opacity=".6"/>
+<text x="-25.9000" y="-8.3900" font-size="0.54" text-anchor="end" fill="#a06a00" font-weight="400" class="halo">L10  HBLANK/GPOUT0</text>
+</g>
+<g class="net-target header-target" data-net="DIAG/GPOUT2" data-group="blanking"><title>L11: DIAG/GPOUT2</title>
+<rect x="-22.44" y="-7.199999999999999" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#a06a00" stroke-width=".10"/>
+<text x="-21.5900" y="-6.1800" font-size="0.43" text-anchor="middle" fill="#a06a00" font-weight="700" >L11</text>
+<path d="M-22.44 -6.35 L-25.65 -6.8999999999999995" fill="none" stroke="#a06a00" stroke-width=".035" opacity=".6"/>
+<text x="-25.9000" y="-6.7800" font-size="0.54" text-anchor="end" fill="#a06a00" font-weight="400" class="halo">L11  DIAG/GPOUT2</text>
+</g>
+<g><title>L12: VISIBLE — no direct signal connection in this view</title>
+<rect x="-19.900000000000002" y="-7.199999999999999" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#61788a" stroke-width=".10"/>
+<text x="-19.0500" y="-6.1800" font-size="0.43" text-anchor="middle" fill="#61788a" font-weight="700" >L12</text>
+<path d="M-19.900000000000002 -6.35 L-25.65 -5.97" fill="none" stroke="#61788a" stroke-width=".035" opacity=".6"/>
+<text x="-25.9000" y="-5.8500" font-size="0.54" text-anchor="end" fill="#61788a" font-weight="400" class="halo">L12  VISIBLE</text>
+</g>
+<g><title>L13: GND — no direct signal connection in this view</title>
+<rect x="-22.44" y="-4.66" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#305eaf" stroke-width=".10"/>
+<text x="-21.5900" y="-3.6400" font-size="0.43" text-anchor="middle" fill="#305eaf" font-weight="700" >L13</text>
+<path d="M-22.44 -3.81 L-25.65 -4.36" fill="none" stroke="#305eaf" stroke-width=".035" opacity=".6"/>
+<text x="-25.9000" y="-4.2400" font-size="0.54" text-anchor="end" fill="#305eaf" font-weight="700" class="halo">L13  GND</text>
+</g>
+<g><title>L14: RBZ_VDD — no direct signal connection in this view</title>
+<rect x="-19.900000000000002" y="-4.66" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#cc2233" stroke-width=".10"/>
+<text x="-19.0500" y="-3.6400" font-size="0.43" text-anchor="middle" fill="#cc2233" font-weight="700" >L14</text>
+<path d="M-19.900000000000002 -3.81 L-25.65 -3.43" fill="none" stroke="#cc2233" stroke-width=".035" opacity=".6"/>
+<text x="-25.9000" y="-3.3100" font-size="0.54" text-anchor="end" fill="#cc2233" font-weight="700" class="halo">L14  RBZ_VDD</text>
+</g>
+<g><title>L15: GND — no direct signal connection in this view</title>
+<rect x="-22.44" y="-2.12" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#305eaf" stroke-width=".10"/>
+<text x="-21.5900" y="-1.1000" font-size="0.43" text-anchor="middle" fill="#305eaf" font-weight="700" >L15</text>
+<path d="M-22.44 -1.27 L-25.65 -1.8199999999999998" fill="none" stroke="#305eaf" stroke-width=".035" opacity=".6"/>
+<text x="-25.9000" y="-1.7000" font-size="0.54" text-anchor="end" fill="#305eaf" font-weight="700" class="halo">L15  GND</text>
+</g>
+<g class="net-target header-target" data-net="RESET_N" data-group="clock_reset"><title>L16: RESET_N</title>
+<rect x="-19.900000000000002" y="-2.12" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#b22735" stroke-width=".10"/>
+<text x="-19.0500" y="-1.1000" font-size="0.43" text-anchor="middle" fill="#b22735" font-weight="700" >L16</text>
+<path d="M-19.900000000000002 -1.27 L-25.65 -0.89" fill="none" stroke="#b22735" stroke-width=".035" opacity=".6"/>
+<text x="-25.9000" y="-0.7700" font-size="0.54" text-anchor="end" fill="#b22735" font-weight="400" class="halo">L16  RESET_N</text>
+</g>
+<g><title>L17: GND — no direct signal connection in this view</title>
+<rect x="-22.44" y="0.42000000000000004" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#305eaf" stroke-width=".10"/>
+<text x="-21.5900" y="1.4400" font-size="0.43" text-anchor="middle" fill="#305eaf" font-weight="700" >L17</text>
+<path d="M-22.44 1.27 L-25.65 0.7200000000000001" fill="none" stroke="#305eaf" stroke-width=".035" opacity=".6"/>
+<text x="-25.9000" y="0.8400" font-size="0.54" text-anchor="end" fill="#305eaf" font-weight="700" class="halo">L17  GND</text>
+</g>
+<g class="net-target header-target" data-net="CLK" data-group="clock_reset"><title>L18: CLK</title>
+<rect x="-19.900000000000002" y="0.42000000000000004" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#b22735" stroke-width=".10"/>
+<text x="-19.0500" y="1.4400" font-size="0.43" text-anchor="middle" fill="#b22735" font-weight="700" >L18</text>
+<path d="M-19.900000000000002 1.27 L-25.65 1.65" fill="none" stroke="#b22735" stroke-width=".035" opacity=".6"/>
+<text x="-25.9000" y="1.7700" font-size="0.54" text-anchor="end" fill="#b22735" font-weight="400" class="halo">L18  CLK</text>
+</g>
+<g><title>L19: RBZM_ID — no direct signal connection in this view</title>
+<rect x="-22.44" y="2.96" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#61788a" stroke-width=".10"/>
+<text x="-21.5900" y="3.9800" font-size="0.43" text-anchor="middle" fill="#61788a" font-weight="700" >L19</text>
+<path d="M-22.44 3.81 L-25.65 3.26" fill="none" stroke="#61788a" stroke-width=".035" opacity=".6"/>
+<text x="-25.9000" y="3.3800" font-size="0.54" text-anchor="end" fill="#61788a" font-weight="400" class="halo">L19  RBZM_ID</text>
+</g>
+<g class="net-target header-target" data-net="RB_READY" data-group="service"><title>L20: RB_READY</title>
+<rect x="-19.900000000000002" y="2.96" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#6e5bc6" stroke-width=".10"/>
+<text x="-19.0500" y="3.9800" font-size="0.43" text-anchor="middle" fill="#6e5bc6" font-weight="700" >L20</text>
+<path d="M-19.900000000000002 3.81 L-25.65 4.19" fill="none" stroke="#6e5bc6" stroke-width=".035" opacity=".6"/>
+<text x="-25.9000" y="4.3100" font-size="0.54" text-anchor="end" fill="#6e5bc6" font-weight="400" class="halo">L20  RB_READY</text>
+</g>
+<g><title>L21: RESERVED0 — no direct signal connection in this view</title>
+<rect x="-22.44" y="5.5" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#61788a" stroke-width=".10"/>
+<text x="-21.5900" y="6.5200" font-size="0.43" text-anchor="middle" fill="#61788a" font-weight="700" >L21</text>
+<path d="M-22.44 6.35 L-25.65 5.8" fill="none" stroke="#61788a" stroke-width=".035" opacity=".6"/>
+<text x="-25.9000" y="5.9200" font-size="0.54" text-anchor="end" fill="#61788a" font-weight="400" class="halo">L21  RESERVED0</text>
+</g>
+<g><title>L22: GND — no direct signal connection in this view</title>
+<rect x="-19.900000000000002" y="5.5" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#305eaf" stroke-width=".10"/>
+<text x="-19.0500" y="6.5200" font-size="0.43" text-anchor="middle" fill="#305eaf" font-weight="700" >L22</text>
+<path d="M-19.900000000000002 6.35 L-25.65 6.7299999999999995" fill="none" stroke="#305eaf" stroke-width=".035" opacity=".6"/>
+<text x="-25.9000" y="6.8500" font-size="0.54" text-anchor="end" fill="#305eaf" font-weight="700" class="halo">L22  GND</text>
+</g>
+<g><title>L23: GND — no direct signal connection in this view</title>
+<rect x="-22.44" y="8.040000000000001" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#305eaf" stroke-width=".10"/>
+<text x="-21.5900" y="9.0600" font-size="0.43" text-anchor="middle" fill="#305eaf" font-weight="700" >L23</text>
+<path d="M-22.44 8.89 L-25.65 8.340000000000002" fill="none" stroke="#305eaf" stroke-width=".035" opacity=".6"/>
+<text x="-25.9000" y="8.4600" font-size="0.54" text-anchor="end" fill="#305eaf" font-weight="700" class="halo">L23  GND</text>
+</g>
+<g><title>L24: +5V — no direct signal connection in this view</title>
+<rect x="-19.900000000000002" y="8.040000000000001" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#cc2233" stroke-width=".10"/>
+<text x="-19.0500" y="9.0600" font-size="0.43" text-anchor="middle" fill="#cc2233" font-weight="700" >L24</text>
+<path d="M-19.900000000000002 8.89 L-25.65 9.270000000000001" fill="none" stroke="#cc2233" stroke-width=".035" opacity=".6"/>
+<text x="-25.9000" y="9.3900" font-size="0.54" text-anchor="end" fill="#cc2233" font-weight="400" class="halo">L24  +5V</text>
+</g>
+<g><title>L25: GND — no direct signal connection in this view</title>
+<rect x="-22.44" y="10.58" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#305eaf" stroke-width=".10"/>
+<text x="-21.5900" y="11.6000" font-size="0.43" text-anchor="middle" fill="#305eaf" font-weight="700" >L25</text>
+<path d="M-22.44 11.43 L-25.65 10.88" fill="none" stroke="#305eaf" stroke-width=".035" opacity=".6"/>
+<text x="-25.9000" y="11.0000" font-size="0.54" text-anchor="end" fill="#305eaf" font-weight="700" class="halo">L25  GND</text>
+</g>
+<g><title>L26: +1V8 — no direct signal connection in this view</title>
+<rect x="-19.900000000000002" y="10.58" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#cc2233" stroke-width=".10"/>
+<text x="-19.0500" y="11.6000" font-size="0.43" text-anchor="middle" fill="#cc2233" font-weight="700" >L26</text>
+<path d="M-19.900000000000002 11.43 L-25.65 11.81" fill="none" stroke="#cc2233" stroke-width=".035" opacity=".6"/>
+<text x="-25.9000" y="11.9300" font-size="0.54" text-anchor="end" fill="#cc2233" font-weight="400" class="halo">L26  +1V8</text>
+</g>
+<g><title>L27: GND — no direct signal connection in this view</title>
+<rect x="-22.44" y="13.120000000000001" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#305eaf" stroke-width=".10"/>
+<text x="-21.5900" y="14.1400" font-size="0.43" text-anchor="middle" fill="#305eaf" font-weight="700" >L27</text>
+<path d="M-22.44 13.97 L-25.65 13.420000000000002" fill="none" stroke="#305eaf" stroke-width=".035" opacity=".6"/>
+<text x="-25.9000" y="13.5400" font-size="0.54" text-anchor="end" fill="#305eaf" font-weight="700" class="halo">L27  GND</text>
+</g>
+<g><title>L28: +1V2 — no direct signal connection in this view</title>
+<rect x="-19.900000000000002" y="13.120000000000001" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#cc2233" stroke-width=".10"/>
+<text x="-19.0500" y="14.1400" font-size="0.43" text-anchor="middle" fill="#cc2233" font-weight="700" >L28</text>
+<path d="M-19.900000000000002 13.97 L-25.65 14.350000000000001" fill="none" stroke="#cc2233" stroke-width=".035" opacity=".6"/>
+<text x="-25.9000" y="14.4700" font-size="0.54" text-anchor="end" fill="#cc2233" font-weight="400" class="halo">L28  +1V2</text>
+</g>
+<g><title>L29: RESERVED1 — no direct signal connection in this view</title>
+<rect x="-22.44" y="15.660000000000002" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#61788a" stroke-width=".10"/>
+<text x="-21.5900" y="16.6800" font-size="0.43" text-anchor="middle" fill="#61788a" font-weight="700" >L29</text>
+<path d="M-22.44 16.51 L-25.65 15.960000000000003" fill="none" stroke="#61788a" stroke-width=".035" opacity=".6"/>
+<text x="-25.9000" y="16.0800" font-size="0.54" text-anchor="end" fill="#61788a" font-weight="400" class="halo">L29  RESERVED1</text>
+</g>
+<g><title>L30: RESERVED2 — no direct signal connection in this view</title>
+<rect x="-19.900000000000002" y="15.660000000000002" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#61788a" stroke-width=".10"/>
+<text x="-19.0500" y="16.6800" font-size="0.43" text-anchor="middle" fill="#61788a" font-weight="700" >L30</text>
+<path d="M-19.900000000000002 16.51 L-25.65 16.89" fill="none" stroke="#61788a" stroke-width=".035" opacity=".6"/>
+<text x="-25.9000" y="17.0100" font-size="0.54" text-anchor="end" fill="#61788a" font-weight="400" class="halo">L30  RESERVED2</text>
+</g>
+<g><title>L31: GND — no direct signal connection in this view</title>
+<rect x="-22.44" y="18.2" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#305eaf" stroke-width=".10"/>
+<text x="-21.5900" y="19.2200" font-size="0.43" text-anchor="middle" fill="#305eaf" font-weight="700" >L31</text>
+<path d="M-22.44 19.05 L-25.65 18.5" fill="none" stroke="#305eaf" stroke-width=".035" opacity=".6"/>
+<text x="-25.9000" y="18.6200" font-size="0.54" text-anchor="end" fill="#305eaf" font-weight="700" class="halo">L31  GND</text>
+</g>
+<g><title>L32: RESERVED3 — no direct signal connection in this view</title>
+<rect x="-19.900000000000002" y="18.2" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#61788a" stroke-width=".10"/>
+<text x="-19.0500" y="19.2200" font-size="0.43" text-anchor="middle" fill="#61788a" font-weight="700" >L32</text>
+<path d="M-19.900000000000002 19.05 L-25.65 19.43" fill="none" stroke="#61788a" stroke-width=".035" opacity=".6"/>
+<text x="-25.9000" y="19.5500" font-size="0.54" text-anchor="end" fill="#61788a" font-weight="400" class="halo">L32  RESERVED3</text>
+</g>
+<g><title>R1: GND — no direct signal connection in this view</title>
+<rect x="18.2" y="-19.900000000000002" width="1.7" height="1.7" rx="0" fill="#fff" stroke="#305eaf" stroke-width=".10"/>
+<text x="19.0500" y="-18.8800" font-size="0.43" text-anchor="middle" fill="#305eaf" font-weight="700" >R1</text>
+<path d="M19.900000000000002 -19.05 L25.65 -19.6" fill="none" stroke="#305eaf" stroke-width=".035" opacity=".6"/>
+<text x="25.9000" y="-19.4800" font-size="0.54" text-anchor="start" fill="#305eaf" font-weight="700" class="halo">R1  GND</text>
+</g>
+<g><title>R2: GND — no direct signal connection in this view</title>
+<rect x="20.74" y="-19.900000000000002" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#305eaf" stroke-width=".10"/>
+<text x="21.5900" y="-18.8800" font-size="0.43" text-anchor="middle" fill="#305eaf" font-weight="700" >R2</text>
+<path d="M22.44 -19.05 L25.65 -18.67" fill="none" stroke="#305eaf" stroke-width=".035" opacity=".6"/>
+<text x="25.9000" y="-18.5500" font-size="0.54" text-anchor="start" fill="#305eaf" font-weight="700" class="halo">R2  GND</text>
+</g>
+<g class="net-target header-target" data-net="RBZM_SPI_SCK" data-group="control_spi"><title>R3: RBZM_SPI_SCK</title>
+<rect x="18.2" y="-17.360000000000003" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#087d70" stroke-width=".10"/>
+<text x="19.0500" y="-16.3400" font-size="0.43" text-anchor="middle" fill="#087d70" font-weight="700" >R3</text>
+<path d="M19.900000000000002 -16.51 L25.65 -17.060000000000002" fill="none" stroke="#087d70" stroke-width=".035" opacity=".6"/>
+<text x="25.9000" y="-16.9400" font-size="0.54" text-anchor="start" fill="#087d70" font-weight="400" class="halo">R3  RBZM_SPI_SCK</text>
+</g>
+<g class="net-target header-target" data-net="RBZM_SPI_MOSI" data-group="control_spi"><title>R4: RBZM_SPI_MOSI</title>
+<rect x="20.74" y="-17.360000000000003" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#087d70" stroke-width=".10"/>
+<text x="21.5900" y="-16.3400" font-size="0.43" text-anchor="middle" fill="#087d70" font-weight="700" >R4</text>
+<path d="M22.44 -16.51 L25.65 -16.130000000000003" fill="none" stroke="#087d70" stroke-width=".035" opacity=".6"/>
+<text x="25.9000" y="-16.0100" font-size="0.54" text-anchor="start" fill="#087d70" font-weight="400" class="halo">R4  RBZM_SPI_MOSI</text>
+</g>
+<g class="net-target header-target" data-net="CTRL_REG_CSb" data-group="control_spi"><title>R5: CTRL_REG_CSb</title>
+<rect x="18.2" y="-14.82" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#087d70" stroke-width=".10"/>
+<text x="19.0500" y="-13.8000" font-size="0.43" text-anchor="middle" fill="#087d70" font-weight="700" >R5</text>
+<path d="M19.900000000000002 -13.97 L25.65 -14.52" fill="none" stroke="#087d70" stroke-width=".035" opacity=".6"/>
+<text x="25.9000" y="-14.4000" font-size="0.54" text-anchor="start" fill="#087d70" font-weight="400" class="halo">R5  CTRL_REG_CSb</text>
+</g>
+<g class="net-target header-target" data-net="VEC_CSb" data-group="control_spi"><title>R6: VEC_CSb</title>
+<rect x="20.74" y="-14.82" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#087d70" stroke-width=".10"/>
+<text x="21.5900" y="-13.8000" font-size="0.43" text-anchor="middle" fill="#087d70" font-weight="700" >R6</text>
+<path d="M22.44 -13.97 L25.65 -13.59" fill="none" stroke="#087d70" stroke-width=".035" opacity=".6"/>
+<text x="25.9000" y="-13.4700" font-size="0.54" text-anchor="start" fill="#087d70" font-weight="400" class="halo">R6  VEC_CSb</text>
+</g>
+<g class="net-target header-target" data-net="HK_CSb" data-group="service"><title>R7: HK_CSb</title>
+<rect x="18.2" y="-12.28" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#6e5bc6" stroke-width=".10"/>
+<text x="19.0500" y="-11.2600" font-size="0.43" text-anchor="middle" fill="#6e5bc6" font-weight="700" >R7</text>
+<path d="M19.900000000000002 -11.43 L25.65 -11.979999999999999" fill="none" stroke="#6e5bc6" stroke-width=".035" opacity=".6"/>
+<text x="25.9000" y="-11.8600" font-size="0.54" text-anchor="start" fill="#6e5bc6" font-weight="400" class="halo">R7  HK_CSb</text>
+</g>
+<g class="net-target header-target" data-net="HK_SDO" data-group="service"><title>R8: HK_SDO</title>
+<rect x="20.74" y="-12.28" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#6e5bc6" stroke-width=".10"/>
+<text x="21.5900" y="-11.2600" font-size="0.43" text-anchor="middle" fill="#6e5bc6" font-weight="700" >R8</text>
+<path d="M22.44 -11.43 L25.65 -11.049999999999999" fill="none" stroke="#6e5bc6" stroke-width=".035" opacity=".6"/>
+<text x="25.9000" y="-10.9300" font-size="0.54" text-anchor="start" fill="#6e5bc6" font-weight="400" class="halo">R8  HK_SDO</text>
+</g>
+<g class="net-target header-target" data-net="TEX_IO3" data-group="texture"><title>R9: TEX_IO3</title>
+<rect x="18.2" y="-9.74" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#146dd1" stroke-width=".10"/>
+<text x="19.0500" y="-8.7200" font-size="0.43" text-anchor="middle" fill="#146dd1" font-weight="700" >R9</text>
+<path d="M19.900000000000002 -8.89 L25.65 -9.44" fill="none" stroke="#146dd1" stroke-width=".035" opacity=".6"/>
+<text x="25.9000" y="-9.3200" font-size="0.54" text-anchor="start" fill="#146dd1" font-weight="400" class="halo">R9  TEX_IO3</text>
+</g>
+<g class="net-target header-target" data-net="TEX_IO2" data-group="texture"><title>R10: TEX_IO2</title>
+<rect x="20.74" y="-9.74" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#146dd1" stroke-width=".10"/>
+<text x="21.5900" y="-8.7200" font-size="0.43" text-anchor="middle" fill="#146dd1" font-weight="700" >R10</text>
+<path d="M22.44 -8.89 L25.65 -8.51" fill="none" stroke="#146dd1" stroke-width=".035" opacity=".6"/>
+<text x="25.9000" y="-8.3900" font-size="0.54" text-anchor="start" fill="#146dd1" font-weight="400" class="halo">R10  TEX_IO2</text>
+</g>
+<g class="net-target header-target" data-net="TEX_IO1" data-group="texture"><title>R11: TEX_IO1</title>
+<rect x="18.2" y="-7.199999999999999" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#146dd1" stroke-width=".10"/>
+<text x="19.0500" y="-6.1800" font-size="0.43" text-anchor="middle" fill="#146dd1" font-weight="700" >R11</text>
+<path d="M19.900000000000002 -6.35 L25.65 -6.8999999999999995" fill="none" stroke="#146dd1" stroke-width=".035" opacity=".6"/>
+<text x="25.9000" y="-6.7800" font-size="0.54" text-anchor="start" fill="#146dd1" font-weight="400" class="halo">R11  TEX_IO1</text>
+</g>
+<g class="net-target header-target" data-net="TEX_IO0" data-group="texture"><title>R12: TEX_IO0</title>
+<rect x="20.74" y="-7.199999999999999" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#146dd1" stroke-width=".10"/>
+<text x="21.5900" y="-6.1800" font-size="0.43" text-anchor="middle" fill="#146dd1" font-weight="700" >R12</text>
+<path d="M22.44 -6.35 L25.65 -5.97" fill="none" stroke="#146dd1" stroke-width=".035" opacity=".6"/>
+<text x="25.9000" y="-5.8500" font-size="0.54" text-anchor="start" fill="#146dd1" font-weight="400" class="halo">R12  TEX_IO0</text>
+</g>
+<g class="net-target header-target" data-net="TEX_SCK" data-group="texture"><title>R13: TEX_SCK</title>
+<rect x="18.2" y="-4.66" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#146dd1" stroke-width=".10"/>
+<text x="19.0500" y="-3.6400" font-size="0.43" text-anchor="middle" fill="#146dd1" font-weight="700" >R13</text>
+<path d="M19.900000000000002 -3.81 L25.65 -4.36" fill="none" stroke="#146dd1" stroke-width=".035" opacity=".6"/>
+<text x="25.9000" y="-4.2400" font-size="0.54" text-anchor="start" fill="#146dd1" font-weight="400" class="halo">R13  TEX_SCK</text>
+</g>
+<g class="net-target header-target" data-net="TEX_CSb" data-group="texture"><title>R14: TEX_CSb</title>
+<rect x="20.74" y="-4.66" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#146dd1" stroke-width=".10"/>
+<text x="21.5900" y="-3.6400" font-size="0.43" text-anchor="middle" fill="#146dd1" font-weight="700" >R14</text>
+<path d="M22.44 -3.81 L25.65 -3.43" fill="none" stroke="#146dd1" stroke-width=".035" opacity=".6"/>
+<text x="25.9000" y="-3.3100" font-size="0.54" text-anchor="start" fill="#146dd1" font-weight="400" class="halo">R14  TEX_CSb</text>
+</g>
+<g><title>R15: RBZ_VDD — no direct signal connection in this view</title>
+<rect x="18.2" y="-2.12" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#cc2233" stroke-width=".10"/>
+<text x="19.0500" y="-1.1000" font-size="0.43" text-anchor="middle" fill="#cc2233" font-weight="700" >R15</text>
+<path d="M19.900000000000002 -1.27 L25.65 -1.8199999999999998" fill="none" stroke="#cc2233" stroke-width=".035" opacity=".6"/>
+<text x="25.9000" y="-1.7000" font-size="0.54" text-anchor="start" fill="#cc2233" font-weight="700" class="halo">R15  RBZ_VDD</text>
+</g>
+<g><title>R16: GND — no direct signal connection in this view</title>
+<rect x="20.74" y="-2.12" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#305eaf" stroke-width=".10"/>
+<text x="21.5900" y="-1.1000" font-size="0.43" text-anchor="middle" fill="#305eaf" font-weight="700" >R16</text>
+<path d="M22.44 -1.27 L25.65 -0.89" fill="none" stroke="#305eaf" stroke-width=".035" opacity=".6"/>
+<text x="25.9000" y="-0.7700" font-size="0.54" text-anchor="start" fill="#305eaf" font-weight="700" class="halo">R16  GND</text>
+</g>
+<g class="net-target header-target" data-net="BLUE0" data-group="video"><title>R17: BLUE0</title>
+<rect x="18.2" y="0.42000000000000004" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#d27116" stroke-width=".10"/>
+<text x="19.0500" y="1.4400" font-size="0.43" text-anchor="middle" fill="#d27116" font-weight="700" >R17</text>
+<path d="M19.900000000000002 1.27 L25.65 0.7200000000000001" fill="none" stroke="#d27116" stroke-width=".035" opacity=".6"/>
+<text x="25.9000" y="0.8400" font-size="0.54" text-anchor="start" fill="#d27116" font-weight="400" class="halo">R17  BLUE0</text>
+</g>
+<g class="net-target header-target" data-net="BLUE1" data-group="video"><title>R18: BLUE1</title>
+<rect x="20.74" y="0.42000000000000004" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#d27116" stroke-width=".10"/>
+<text x="21.5900" y="1.4400" font-size="0.43" text-anchor="middle" fill="#d27116" font-weight="700" >R18</text>
+<path d="M22.44 1.27 L25.65 1.65" fill="none" stroke="#d27116" stroke-width=".035" opacity=".6"/>
+<text x="25.9000" y="1.7700" font-size="0.54" text-anchor="start" fill="#d27116" font-weight="400" class="halo">R18  BLUE1</text>
+</g>
+<g class="net-target header-target" data-net="GREEN0" data-group="video"><title>R19: GREEN0</title>
+<rect x="18.2" y="2.96" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#d27116" stroke-width=".10"/>
+<text x="19.0500" y="3.9800" font-size="0.43" text-anchor="middle" fill="#d27116" font-weight="700" >R19</text>
+<path d="M19.900000000000002 3.81 L25.65 3.26" fill="none" stroke="#d27116" stroke-width=".035" opacity=".6"/>
+<text x="25.9000" y="3.3800" font-size="0.54" text-anchor="start" fill="#d27116" font-weight="400" class="halo">R19  GREEN0</text>
+</g>
+<g class="net-target header-target" data-net="GREEN1" data-group="video"><title>R20: GREEN1</title>
+<rect x="20.74" y="2.96" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#d27116" stroke-width=".10"/>
+<text x="21.5900" y="3.9800" font-size="0.43" text-anchor="middle" fill="#d27116" font-weight="700" >R20</text>
+<path d="M22.44 3.81 L25.65 4.19" fill="none" stroke="#d27116" stroke-width=".035" opacity=".6"/>
+<text x="25.9000" y="4.3100" font-size="0.54" text-anchor="start" fill="#d27116" font-weight="400" class="halo">R20  GREEN1</text>
+</g>
+<g class="net-target header-target" data-net="RED0" data-group="video"><title>R21: RED0</title>
+<rect x="18.2" y="5.5" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#d27116" stroke-width=".10"/>
+<text x="19.0500" y="6.5200" font-size="0.43" text-anchor="middle" fill="#d27116" font-weight="700" >R21</text>
+<path d="M19.900000000000002 6.35 L25.65 5.8" fill="none" stroke="#d27116" stroke-width=".035" opacity=".6"/>
+<text x="25.9000" y="5.9200" font-size="0.54" text-anchor="start" fill="#d27116" font-weight="400" class="halo">R21  RED0</text>
+</g>
+<g class="net-target header-target" data-net="RED1" data-group="video"><title>R22: RED1</title>
+<rect x="20.74" y="5.5" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#d27116" stroke-width=".10"/>
+<text x="21.5900" y="6.5200" font-size="0.43" text-anchor="middle" fill="#d27116" font-weight="700" >R22</text>
+<path d="M22.44 6.35 L25.65 6.7299999999999995" fill="none" stroke="#d27116" stroke-width=".035" opacity=".6"/>
+<text x="25.9000" y="6.8500" font-size="0.54" text-anchor="start" fill="#d27116" font-weight="400" class="halo">R22  RED1</text>
+</g>
+<g class="net-target header-target" data-net="HSYNC_N" data-group="video"><title>R23: HSYNC_N</title>
+<rect x="18.2" y="8.040000000000001" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#d27116" stroke-width=".10"/>
+<text x="19.0500" y="9.0600" font-size="0.43" text-anchor="middle" fill="#d27116" font-weight="700" >R23</text>
+<path d="M19.900000000000002 8.89 L25.65 8.340000000000002" fill="none" stroke="#d27116" stroke-width=".035" opacity=".6"/>
+<text x="25.9000" y="8.4600" font-size="0.54" text-anchor="start" fill="#d27116" font-weight="400" class="halo">R23  HSYNC_N</text>
+</g>
+<g class="net-target header-target" data-net="VSYNC_N" data-group="video"><title>R24: VSYNC_N</title>
+<rect x="20.74" y="8.040000000000001" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#d27116" stroke-width=".10"/>
+<text x="21.5900" y="9.0600" font-size="0.43" text-anchor="middle" fill="#d27116" font-weight="700" >R24</text>
+<path d="M22.44 8.89 L25.65 9.270000000000001" fill="none" stroke="#d27116" stroke-width=".035" opacity=".6"/>
+<text x="25.9000" y="9.3900" font-size="0.54" text-anchor="start" fill="#d27116" font-weight="400" class="halo">R24  VSYNC_N</text>
+</g>
+<g class="net-target header-target" data-net="SER_RX/OPT_URST" data-group="service"><title>R25: SER_RX/OPT_URST</title>
+<rect x="18.2" y="10.58" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#6e5bc6" stroke-width=".10"/>
+<text x="19.0500" y="11.6000" font-size="0.43" text-anchor="middle" fill="#6e5bc6" font-weight="700" >R25</text>
+<path d="M19.900000000000002 11.43 L25.65 10.88" fill="none" stroke="#6e5bc6" stroke-width=".035" opacity=".6"/>
+<text x="25.9000" y="11.0000" font-size="0.54" text-anchor="start" fill="#6e5bc6" font-weight="400" class="halo">R25  SER_RX/OPT_URST</text>
+</g>
+<g class="net-target header-target" data-net="SER_TX" data-group="service"><title>R26: SER_TX</title>
+<rect x="20.74" y="10.58" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#6e5bc6" stroke-width=".10"/>
+<text x="21.5900" y="11.6000" font-size="0.43" text-anchor="middle" fill="#6e5bc6" font-weight="700" >R26</text>
+<path d="M22.44 11.43 L25.65 11.81" fill="none" stroke="#6e5bc6" stroke-width=".035" opacity=".6"/>
+<text x="25.9000" y="11.9300" font-size="0.54" text-anchor="start" fill="#6e5bc6" font-weight="400" class="halo">R26  SER_TX</text>
+</g>
+<g><title>R27: RESERVED4 — no direct signal connection in this view</title>
+<rect x="18.2" y="13.120000000000001" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#61788a" stroke-width=".10"/>
+<text x="19.0500" y="14.1400" font-size="0.43" text-anchor="middle" fill="#61788a" font-weight="700" >R27</text>
+<path d="M19.900000000000002 13.97 L25.65 13.420000000000002" fill="none" stroke="#61788a" stroke-width=".035" opacity=".6"/>
+<text x="25.9000" y="13.5400" font-size="0.54" text-anchor="start" fill="#61788a" font-weight="400" class="halo">R27  RESERVED4</text>
+</g>
+<g><title>R28: GND — no direct signal connection in this view</title>
+<rect x="20.74" y="13.120000000000001" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#305eaf" stroke-width=".10"/>
+<text x="21.5900" y="14.1400" font-size="0.43" text-anchor="middle" fill="#305eaf" font-weight="700" >R28</text>
+<path d="M22.44 13.97 L25.65 14.350000000000001" fill="none" stroke="#305eaf" stroke-width=".035" opacity=".6"/>
+<text x="25.9000" y="14.4700" font-size="0.54" text-anchor="start" fill="#305eaf" font-weight="700" class="halo">R28  GND</text>
+</g>
+<g><title>R29: +3V3 — no direct signal connection in this view</title>
+<rect x="18.2" y="15.660000000000002" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#cc2233" stroke-width=".10"/>
+<text x="19.0500" y="16.6800" font-size="0.43" text-anchor="middle" fill="#cc2233" font-weight="700" >R29</text>
+<path d="M19.900000000000002 16.51 L25.65 15.960000000000003" fill="none" stroke="#cc2233" stroke-width=".035" opacity=".6"/>
+<text x="25.9000" y="16.0800" font-size="0.54" text-anchor="start" fill="#cc2233" font-weight="400" class="halo">R29  +3V3</text>
+</g>
+<g><title>R30: GND — no direct signal connection in this view</title>
+<rect x="20.74" y="15.660000000000002" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#305eaf" stroke-width=".10"/>
+<text x="21.5900" y="16.6800" font-size="0.43" text-anchor="middle" fill="#305eaf" font-weight="700" >R30</text>
+<path d="M22.44 16.51 L25.65 16.89" fill="none" stroke="#305eaf" stroke-width=".035" opacity=".6"/>
+<text x="25.9000" y="17.0100" font-size="0.54" text-anchor="start" fill="#305eaf" font-weight="700" class="halo">R30  GND</text>
+</g>
+<g><title>R31: RESERVED5 — no direct signal connection in this view</title>
+<rect x="18.2" y="18.2" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#61788a" stroke-width=".10"/>
+<text x="19.0500" y="19.2200" font-size="0.43" text-anchor="middle" fill="#61788a" font-weight="700" >R31</text>
+<path d="M19.900000000000002 19.05 L25.65 18.5" fill="none" stroke="#61788a" stroke-width=".035" opacity=".6"/>
+<text x="25.9000" y="18.6200" font-size="0.54" text-anchor="start" fill="#61788a" font-weight="400" class="halo">R31  RESERVED5</text>
+</g>
+<g><title>R32: GND — no direct signal connection in this view</title>
+<rect x="20.74" y="18.2" width="1.7" height="1.7" rx="0.4" fill="#fff" stroke="#305eaf" stroke-width=".10"/>
+<text x="21.5900" y="19.2200" font-size="0.43" text-anchor="middle" fill="#305eaf" font-weight="700" >R32</text>
+<path d="M22.44 19.05 L25.65 19.43" fill="none" stroke="#305eaf" stroke-width=".035" opacity=".6"/>
+<text x="25.9000" y="19.5500" font-size="0.54" text-anchor="start" fill="#305eaf" font-weight="700" class="halo">R32  GND</text>
+</g>
+<text x="-20.3200" y="-23.3500" font-size="0.72" text-anchor="middle" fill="#273448" font-weight="700" >LEFT · L</text>
+<text x="20.3200" y="-23.3500" font-size="0.72" text-anchor="middle" fill="#273448" font-weight="700" >RIGHT · R</text>
+<path d="M-20.32 22V23.2H20.32V22" fill="none" stroke="#536779" stroke-width=".06"/>
+<text x="0.0000" y="22.9500" font-size="0.62" text-anchor="middle" fill="#273448" font-weight="400" >40.64 mm between strip centres</text>
+<path d="M-5 24.05H5 M-5 23.8V24.3 M5 23.8V24.3" stroke="#263a50" stroke-width=".12"/>
+<text x="0.0000" y="24.8500" font-size="0.5" text-anchor="middle" fill="#273448" font-weight="400" >10 mm scale</text>
+<text x="0.0000" y="27.0000" font-size="0.64" text-anchor="middle" fill="#273448" font-weight="400" >Tip-to-header chords: 51 wire/wire crossings; 61 wire/fixed-lead crossings; 647.1 mm</text>
+<text x="0.0000" y="28.2500" font-size="0.57" text-anchor="middle" fill="#273448" font-weight="400" >Free-wire counts exclude same-net fan-outs and power. Fixed-lead checks include all 64 peripheral leads.</text>
+<text x="0.0000" y="29.3500" font-size="0.57" text-anchor="middle" fill="#273448" font-weight="400" >Curves aid viewing only; metrics always use straight tip-to-header chords. No routing or clearance claim.</text>
+<path d="M-32.0 31.1h1.6" stroke="#a145aa" stroke-width=".15"/>
+<text x="-30.0000" y="31.3000" font-size="0.58" text-anchor="start" fill="#273448" font-weight="400" >Demo / debug</text>
+<path d="M-14.5 31.1h1.6" stroke="#a06a00" stroke-width=".15"/>
+<text x="-12.5000" y="31.3000" font-size="0.58" text-anchor="start" fill="#273448" font-weight="400" >Blanking / diagnostics</text>
+<path d="M3.0 31.1h1.6" stroke="#b22735" stroke-width=".15"/>
+<text x="5.0000" y="31.3000" font-size="0.58" text-anchor="start" fill="#273448" font-weight="400" >Clock / reset</text>
+<path d="M20.5 31.1h1.6" stroke="#087d70" stroke-width=".15"/>
+<text x="22.5000" y="31.3000" font-size="0.58" text-anchor="start" fill="#273448" font-weight="400" >Shared control SPI</text>
+<path d="M-32.0 32.5h1.6" stroke="#146dd1" stroke-width=".15"/>
+<text x="-30.0000" y="32.7000" font-size="0.58" text-anchor="start" fill="#273448" font-weight="400" >Texture QSPI</text>
+<path d="M-14.5 32.5h1.6" stroke="#d27116" stroke-width=".15"/>
+<text x="-12.5000" y="32.7000" font-size="0.58" text-anchor="start" fill="#273448" font-weight="400" >RGB / sync</text>
+<path d="M3.0 32.5h1.6" stroke="#6e5bc6" stroke-width=".15"/>
+<text x="5.0000" y="32.7000" font-size="0.58" text-anchor="start" fill="#273448" font-weight="400" >Caravel service</text>
+</svg>

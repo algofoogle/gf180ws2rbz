@@ -1,6 +1,8 @@
 # Raybox Zero Module (RBZM)
 
-Draft for review · 16 November 2026
+**Official pinout: RBZM-1 · Adopted 19 November 2026**
+
+This supersedes the 16 November proposal. The old proposal is archived, not interchangeable with this revision. In particular, **R1 is now GND and R15 is RBZ_VDD**. See [PINOUT_MIGRATION.md](PINOUT_MIGRATION.md) before updating an existing design.
 
 RBZM is the pluggable interface for the Raybox Zero (RBZ) devkit. It lets one baseboard exercise different RBZ implementations with the same clock, controls, texture flash and video circuitry. Throughout this guide, **WS** means **WS-ASIC**, the dedicated Raybox Zero implementation from the wafer.space Run 2 shuttle. RBZM is a prototyping interface. Every RBZM module, including RBZM-WS, is a prototype. The dedicated WS ASIC itself is the intended production part and can be integrated directly into reduced-BOM production boards.
 
@@ -27,7 +29,7 @@ The 50 × 50 mm RBZM-WS carrier plugs into sockets near the south-west quadrant 
 
 ![Dimensioned RBZM physical interface, top view](diagrams/physical-interface.svg)
 
-Arrowheads show signal direction relative to the module. Red labels mark supplies and blue labels mark ground. The passive ID, key and reserved contacts have no arrows. [Original KiCad footprint export](diagrams/footprint.svg)
+Arrowheads show signal direction relative to the module. Red labels mark supplies and blue labels mark ground. The passive ID, key and reserved contacts have no arrows. [KiCad footprint export](diagrams/footprint.svg)
 
 Two parallel 2×16 through-hole strips on 2.54 mm pitch are separated by **40.64 mm centre-to-centre**. The same spacing applies from L1 to R1. The row-1-to-row-16 span is 38.10 mm. With nominal 5.08 mm-wide strip bodies, the pair occupies 45.72 × 40.64 mm and fits centred within the target 50 × 50 mm module. Verify the actual connector bodies, stack height and underside clearance, particularly over the optional baseboard QFN and passives.
 
@@ -49,20 +51,20 @@ Directions are from the module’s perspective. Targets describe typical use. Op
 | L2 | `GND` | Return | Common ground | Both |
 | L3 | `DEBUG` | In | Debug control | Both |
 | L4 | `GND` | Return | Common ground | Both |
-| L5 | `INC_X` | In | Demo motion on X | Both |
-| L6 | `INC_Y` | In | Demo motion on Y | Both |
-| L7 | `GEN_TEXb` | In | Generated-texture select, low true | Both |
-| L8 | `REG` | In | Registered-output select, high true | Both |
-| L9 | `HBLANK/GPOUT0` | Out | Horizontal blanking or diagnostic | Both |
-| L10 | `VBLANK/GPOUT1` | Out | Vertical blanking or diagnostic | Both |
+| L5 | `REG` | In | Registered-output control; WS high true, Caravel low true | Both |
+| L6 | `INC_X` | In | Demo motion on X | Both |
+| L7 | `GEN_TEXb` | In | Generated-texture control; WS low true, Caravel high true | Both |
+| L8 | `INC_Y` | In | Demo motion on Y | Both |
+| L9 | `VBLANK/GPOUT1` | Out | Vertical blanking or diagnostic | Both |
+| L10 | `HBLANK/GPOUT0` | Out | Horizontal blanking or diagnostic | Both |
 | L11 | `DIAG/GPOUT2` | Out | Diagnostic output | Both, optional on WS |
 | L12 | `VISIBLE` | Out | Active-video indication | Both, optional |
 | L13 | `GND` | Return | Common ground | Both |
 | L14 | `RBZ_VDD` | Power in | Selectable ASIC supply | Both |
 | L15 | `GND` | Return | Common ground | Both |
-| L16 | `CLK` | In | System/pixel reference clock | Both |
+| L16 | `RESET_N` | In | Primary reset, low true | Both |
 | L17 | `GND` | Return | Common ground | Both |
-| L18 | `RESET_N` | In | Primary reset, low true | Both |
+| L18 | `CLK` | In | System/pixel reference clock | Both |
 | L19 | `RBZM_ID` | Sense | Passive module identification | Both |
 | L20 | `RB_READY` | Out | Module ready indication | Both, optional on WS |
 | L21 | `RESERVED0` | — | Reserved contact | Future |
@@ -84,21 +86,21 @@ Directions are from the module’s perspective. Targets describe typical use. Op
 
 | Pin | Name | Direction | Function | Target |
 |---|---|---|---|---|
-| R1 | `RBZ_VDD` | Power in | Selectable ASIC supply | Both |
+| R1 | `GND` | Return | Common ground | Both |
 | R2 | `GND` | Return | Common ground | Both |
-| R3 | `CTRL_REG_CSb` | In | WS CTRL or Caravel register SPI select | Both |
-| R4 | `VEC_CSb` | In | Vector SPI select | Caravel |
-| R5 | `RBZM_SPI_MOSI` | In | Shared control SPI data | Both |
-| R6 | `RBZM_SPI_SCK` | In | Shared control SPI clock | Both |
-| R7 | `HK_SDO` | Out | Dedicated housekeeping SPI return | Caravel |
-| R8 | `HK_CSb` | In | Housekeeping SPI select | Caravel |
+| R3 | `RBZM_SPI_SCK` | In | Shared control SPI clock | Both |
+| R4 | `RBZM_SPI_MOSI` | In | Shared control SPI data | Both |
+| R5 | `CTRL_REG_CSb` | In | WS CTRL or Caravel register SPI select | Both |
+| R6 | `VEC_CSb` | In | Vector SPI select | Caravel |
+| R7 | `HK_CSb` | In | Housekeeping SPI select | Caravel |
+| R8 | `HK_SDO` | Out | Dedicated housekeeping SPI return | Caravel |
 | R9 | `TEX_IO3` | In | Texture read-data bit 3 | Both¹ |
 | R10 | `TEX_IO2` | In | Texture read-data bit 2 | Both |
 | R11 | `TEX_IO1` | In | Texture read-data bit 1 | Both |
 | R12 | `TEX_IO0` | Bidir | Texture command data and read-data bit 0 | Both |
 | R13 | `TEX_SCK` | Out | Texture flash clock | Both |
 | R14 | `TEX_CSb` | Out | Texture flash select, low true | Both |
-| R15 | `GND` | Return | Common ground | Both |
+| R15 | `RBZ_VDD` | Power in | Selectable ASIC supply | Both |
 | R16 | `GND` | Return | Common ground | Both |
 | R17 | `BLUE0` | Out | Blue LSB | Both |
 | R18 | `BLUE1` | Out | Blue MSB | Both |
@@ -106,10 +108,10 @@ Directions are from the module’s perspective. Targets describe typical use. Op
 | R20 | `GREEN1` | Out | Green MSB | Both |
 | R21 | `RED0` | Out | Red LSB | Both |
 | R22 | `RED1` | Out | Red MSB | Both |
-| R23 | `VSYNC_N` | Out | Vertical sync, low true | Both |
-| R24 | `HSYNC_N` | Out | Horizontal sync, low true | Both |
-| R25 | `SER_TX` | Out | Module UART transmit | Caravel / future |
-| R26 | `SER_RX/OPT_URST` | In² | Module UART receive or optional user reset | Caravel / future |
+| R23 | `HSYNC_N` | Out | Horizontal sync, low true | Both |
+| R24 | `VSYNC_N` | Out | Vertical sync, low true | Both |
+| R25 | `SER_RX/OPT_URST` | In² | Module UART receive or optional user reset | Caravel / future |
+| R26 | `SER_TX` | Out | Module UART transmit | Caravel / future |
 | R27 | `RESERVED4` | — | Reserved contact | Future |
 | R28 | `GND` | Return | Common ground | Both |
 | R29 | `+3V3` | Power in | Fixed auxiliary rail, e.g. boot flash | Both, as needed |
@@ -119,7 +121,7 @@ Directions are from the module’s perspective. Targets describe typical use. Op
 
 ¹ Both pinouts expose IO3. The present Caravel RBZ implementation does not meaningfully consume that bit internally.
 
-² R26 is an input in the intended UART RX and optional-reset modes. On GFMPW1 it is a multiplexed Caravel pad. Treat it as potentially driven during startup or in another pad mode and verify ownership before driving it.
+² R25 is an input in the intended UART RX and optional-reset modes. On GFMPW1 it is a multiplexed Caravel pad. Treat it as potentially driven during startup or in another pad mode and verify ownership before driving it.
 
 ## Signal definitions
 
@@ -133,13 +135,13 @@ Pins: L1.
 
 Common reference and distributed return contacts. Connect them to ground planes on both boards and preserve the nearby return paths for `CLK`, texture SPI and video.
 
-Pins: L2, L4, L13, L15, L17, L22, L23, L25, L27, L31, R2, R15, R16, R28, R30, R32.
+Pins: L2, L4, L13, L15, L17, L22, L23, L25, L27, L31, R1, R2, R16, R28, R30, R32.
 
 **`RBZ_VDD`**
 
 Two contacts for the same selectable ASIC supply. Nominally 5 V (optional whole-chip 3.3 V operation is an uncharacterized experiment). On GFMPW1 feed the seven named positive domains at the same voltage, with individual links if domain measurements are desired. Provide local decoupling. Keep this net independently selectable from the fixed rails and provide a supply-current measurement point.
 
-Pins: L14, R1.
+Pins: L14, R15.
 
 **`+5V`, `+1V8`, `+1V2`, `+3V3`**
 
@@ -149,15 +151,15 @@ Pins: L24, L26, L28, R29.
 
 **`CLK`**
 
-Baseboard clock to the WS clock pad or GFMPW1 system-clock pin. Use a clean LVCMOS clock with adequate high-level margin for the receiving pad and a short return path via L15. A 3.3 V oscillator is the working plan for nominal 5 V GF180 operation. Verify its output swing under load and avoid driving an unpowered module.
+Baseboard clock to the WS clock pad or GFMPW1 system-clock pin. Use a clean LVCMOS clock with adequate high-level margin for the receiving pad and a short return path via L17. A 3.3 V oscillator is the working plan for nominal 5 V GF180 operation. Verify its output swing under load and avoid driving an unpowered module.
 
-Pins: L16.
+Pins: L18.
 
 **`RESET_N`**
 
 Direct active-low reset on WS. On Caravel it asserts package `RESETb`, which resets management. Caravel firmware and mux configuration determine propagation to RBZ, and startup must explicitly establish the user-design reset state. Reset does not make the RBZ texture outputs Hi-Z.
 
-Pins: L18.
+Pins: L16.
 
 **`RBZM_ID`**
 
@@ -181,23 +183,23 @@ Pins: L3.
 
 Demo motion controls, mapped to WS `DEC_X` and `DEC_Y` and Caravel `mode0_inc_px` and `mode1_inc_py`.
 
-Pins: L5, L6.
+Pins: L6, L8.
 
 **`GEN_TEXb`**
 
-Following the polarity used by the WS-ASIC, and assuming texture-PMOD type is strapped high (type 1), bringing `GEN_TEXb` low will enable simple on-chip generated textures instead of texture data being used from the Textures QSPI interface (though the interface may continue to drive QSPI reads that are otherwise unused). For RBZM-Caravel, invert `GEN_TEXb` on the module in order to have it drive `mode2_gen_tex` high when generated textures are desired. Set a deterministic startup level before either X033 firmware or Caravel firmware takes control.
+With WS texture-PMOD type strapped high (type 1), low enables simple generated textures rather than external texture data; the flash interface may continue issuing unused reads. **RBZM-Caravel connects this pin directly to `mode2_gen_tex`, where high enables generated textures. There is no inline inverter.** The CH32X033/controller must choose the drive polarity from the module type: WS low, Caravel high. The retained `b` suffix describes the WS convention, not universal polarity across modules. Set the desired startup mode with a module-appropriate bias before firmware takes control.
 
 Pins: L7.
 
 **`REG`**
 
-When pulled high, `REG` selects registered outputs (instead of direct combinatorial outputs). This follows WS-ASIC polarity, but for Caravel needs inversion into `reg_outs_enb`. Set a deterministic startup level before either X033 firmware or Caravel firmware takes control.
+On WS, high selects registered outputs instead of direct combinatorial outputs. **RBZM-Caravel connects this pin directly to `reg_outs_enb`, where low selects registered outputs. There is no inline inverter.** The CH32X033/controller must invert its logical registered-output request for Caravel, based on module type. Set a deterministic module-appropriate startup level before firmware takes control.
 
-Pins: L8.
+Pins: L5.
 
 **`HBLANK/GPOUT0`, `VBLANK/GPOUT1`, `DIAG/GPOUT2`, and `VISIBLE`**
 
-WS provides fixed `HBLANK` and `VBLANK`. Caravel `GPOUT0` and `GPOUT1` should use selector 0 for the corresponding signals in normal operation. `GPOUT2` can expose another diagnostic, including texture `IO0` output-enable state with selector 12. WS may route a diagnostic such as `VPOS[9]` or leave L11 open. Where fitted, `VISIBLE` is active high and may be derived as NOR(`HBLANK`, `VBLANK`). A [TI SN74LVC1G02](https://www.ti.com/product/SN74LVC1G02) implements this in one gate. Power it from `+3V3` for a 3.3 V output. Its inputs accept up to 5.5 V and require at least 2.0 V for a high at that supply. Add local decoupling and check the receiver's high threshold. Align its latency to RGB and treat it as valid only while L9/L10 carry blanking. `VBLANK` rising can also serve as an X033 frame interrupt.
+WS provides fixed `HBLANK` and `VBLANK`. Caravel `GPOUT0` (HBLANK, L10) and `GPOUT1` (VBLANK, L9) should use selector 0 for the corresponding signals in normal operation. `GPOUT2` can expose another diagnostic, including texture `IO0` output-enable state with selector 12. WS may route a diagnostic such as `VPOS[9]` or leave L11 open. Where fitted, `VISIBLE` is active high and may be derived as NOR(`HBLANK`, `VBLANK`). A [TI SN74LVC1G02](https://www.ti.com/product/SN74LVC1G02) implements this in one gate. Power it from `+3V3` for a 3.3 V output. Its inputs accept up to 5.5 V and require at least 2.0 V for a high at that supply. Add local decoupling and check the receiver's high threshold. Align its latency to RGB and treat it as valid only while `VBLANK/GPOUT1` (L9) and `HBLANK/GPOUT0` (L10) carry blanking. `VBLANK` rising can also serve as an X033 frame interrupt.
 
 Pins: L9–L12.
 
@@ -227,7 +229,7 @@ Pins: R17–R24.
 
 **`SER_TX` and `SER_RX/OPT_URST`**
 
-UART directions are relative to the module. On Caravel, `SER_TX` is management TX and `SER_RX/OPT_URST` can be RX or the optional active-high user-design reset if firmware has configured the pad and mux accordingly. Optional user reset is not the power-on reset route. Confirm the boot-time pad state before the X033 drives `SER_RX/OPT_URST`. WS can leave both open and future modules can implement UART here.
+UART directions are relative to the module: `SER_TX` is R26 and `SER_RX/OPT_URST` is R25. On Caravel, `SER_TX` is management TX and `SER_RX/OPT_URST` can be RX or the optional active-high user-design reset if firmware has configured the pad and mux accordingly. Optional user reset is not the power-on reset route. Confirm the boot-time pad state before the X033 drives `SER_RX/OPT_URST`. WS can leave both open and future modules can implement UART here.
 
 Pins: R25, R26.
 
@@ -255,7 +257,7 @@ A pull defines the logic level a receiver sees when no active driver sets it. Pu
 | `RB_READY`, optional blanking/diagnostics, `VISIBLE` | Pull down `RB_READY` to give a defined not-ready state. For other signals, fit a safe idle bias at the receiver only if used, especially on interrupt inputs. | Drive the signal if implemented. Otherwise leave it open. |
 | `HK_SDO`, `SER_TX` | Bias UART RX high if monitored with no driver. Bias housekeeping return only if sampled while undriven. | Leave optional outputs open when unused. |
 | `CTRL_REG_CSb`, `VEC_CSb`, `HK_CSb` | Provide inactive-high defaults through MCU reset. Reference pulls to the receiving domain or isolate the drivers and pulls while that domain is off. | Add local inactive-high pulls for independently used or isolated slave inputs where needed. |
-| `DEBUG`, `INC_X`, `INC_Y`, `GEN_TEXb`, `REG` | Define your startup mode. Typically idle debug and motion low, choose generated versus external texture deliberately, and use a reset supervisor or equivalent if a timed reset is required. | Strap ASIC-only modes locally and bias any inputs created by local inversion or isolation. Set the downstream defaults for the actual ASIC polarity. |
+| `DEBUG`, `INC_X`, `INC_Y`, `GEN_TEXb`, `REG` | Define your startup mode. Typically idle debug and motion low, choose generated versus external texture deliberately, and use a reset supervisor or equivalent if a timed reset is required. | Strap ASIC-only modes locally and bias any isolated or otherwise undriven inputs. GEN_TEXb/REG are directly wired on Caravel, so choose module-specific startup levels and controller polarity. |
 | `RESET_N` | Provide an inactive-high pull referenced to the module’s reset domain where suitable for the selected source. Use a jumper to select RC power-on reset, a supervisor output for testing, or an X033 GPIO. Design for clean edges and predictable behaviour while the MCU boots. | Keep any separate module-local reset defined while isolated. Verify module input threshold and reset pulse width. |
 | `RBZM_ID` | Proposed 47 kΩ pull-down and ADC sense. | Caravel open. WS proposed 4.7 kΩ to `+3V3`. |
 | `SER_RX/OPT_URST` | Use high impedance until the module's startup pad function is known. UART idle-high and active-high reset idle-low require different treatment. | Set the mode-specific idle state locally if needed and verify pad ownership before applying a pull or drive. |
@@ -284,9 +286,13 @@ Also account for series damping at clock sources, translator output-enable bias,
 
 ## KiCad and related sources
 
-The two-unit symbol is `RBZM_Raybox_Zero_Module` in `RBZM.kicad_sym`. Units A and B share one reference and one footprint. The assigned footprint is `Anton:RBZM_Raybox_Zero_Module` in `Anton.pretty`. The KiCad package includes `generate_rbzm.py` for regenerating both. The SVGs were exported with `kicad-cli sym export svg` (one per unit) and `kicad-cli fp export svg` (the footprint). The dimensioned physical view uses the generated KiCad geometry and pin names, with an illustrative QFN placement. The exploded view is a separate orthographic drawing. The KiCad exports retain their original viewBox and use a 900 px intrinsic width with proportional height. Markdown viewers can still scale them to fit the available column. Open the SVG directly for zoomable detail.
+The two-unit symbol is `RBZM_Raybox_Zero_Module` in `RBZM.kicad_sym`. Units A and B share one reference and one footprint. The RBZM-1 revision is identified in the symbol unit captions and footprint description. The assigned footprint is `Anton:RBZM_Raybox_Zero_Module` in `Anton.pretty`. The KiCad package includes `generate_rbzm.py` for regenerating both. The SVGs were exported with `kicad-cli sym export svg` (one per unit) and `kicad-cli fp export svg` (the footprint). The dimensioned physical view is regenerated by `generate_rbzm_diagrams.py` from `RBZM_pinout.json`, with an illustrative QFN placement. The same script invokes `kicad-cli` for the three KiCad SVG exports; `exploded-stack.svg` is unchanged because it has no signal assignments. The exploded view is a separate orthographic drawing. The KiCad exports retain their original viewBox and use a 900 px intrinsic width with proportional height. Markdown viewers can still scale them to fit the available column. Open the SVG directly for zoomable detail.
 
 - [RBZM KiCad package](https://chatgpt.com/library?file_id=libfile_d3df78dd84ec8191b1916ec897b212e3&account_id=personal)
 - [Detailed WS vs Caravel pin comparison](https://chatgpt.com/library?file_id=libfile_5bbe4c5b75988191a9923a6ad7d5eb07&account_id=personal)
 - [Dedicated WS ASIC project](https://github.com/algofoogle/gf180ws2-raybox-zero)
 - [GFMPW1 design mux](https://github.com/algofoogle/algofoogle-multi-caravel/blob/9871f786967d514317c7a2e1e2b2107cce685c2d/verilog/rtl/mux/top_design_mux.v)
+
+## Revision and migration assets
+
+The official assignments are also available as `RBZM_pinout.json` and `RBZM_pinout.csv`. The complete QFN-to-interface map is `Caravel_to_RBZM.csv`; package pin numbers are distinct from Caravel `io[*]` indices. See [PINOUT_MIGRATION.md](PINOUT_MIGRATION.md) for all 19 changes and the KiCad update procedure. Archives are explicitly labelled superseded.
