@@ -10492,7 +10492,7 @@
 		)
 		(uuid "4ba46d4a-37f3-45f7-8cef-a456892e8de4")
 	)
-	(label "M_vdda"
+	(label "M_vdda2"
 		(at -1.27 105.41 0)
 		(effects
 			(font
